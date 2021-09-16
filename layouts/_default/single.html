@@ -1,13 +1,16 @@
 {{ define "main" }}
 
     {{ if eq .Type "entry" }}
+
         {{ $id := .Params.id }}
+        {{ $salutation := .Params.salutation | default "" }}
+        
         {{ $categories := .Params.categories }}
         {{ $location := .Params.location }}
         {{ $countries := .Params.countries }}
         {{ $regions := .Params.regions }}
-        {{ $firstname := .Params.firstname }}
-        {{ $lastname := .Params.lastname }}
+        {{ $firstname := .Params.first_name }}
+        {{ $lastname := .Params.last_name }}
         {{ $credentials := .Params.credentials }}
         {{ $job_title := .Params.job_title }}
 
@@ -35,20 +38,28 @@
         {{ $descriptionVisibility := 1 }}
         {{ $svg := 2 }}
 
-        {{ $titleCard := printf "%s%s%s%s%s" $firstname " " $lastname " " $credentials }}
-        {{ $noName := true }}
-        {{ if and ( eq $firstname "") ( eq $lastname "") ( eq $credentials "") }}
-            {{ $titleCard := printf "%s" "company" $company }}
-            {{ $noName := false }}
+        {{ $scratch := newScratch }}
+        {{ if ne $salutation "" }}
+            {{ $scratch.Set "salutation" (printf "%s " .Params.salutation) }}
+        {{ else }}
+            {{ $scratch.Set "salutation" "" }}
         {{ end }}
+        
+        {{ $salutation := $scratch.Get "salutation" }}
 
         {{ if .Site.Params.debug }}
             <span class="badge rounded-pill bg-dark">single.html</span>
         {{ end }}
 
+        {{ $titleCard := printf "%s%s%s%s%s%s" $salutation $firstname " " $lastname " " $credentials }}
+        {{ $noName := true }}
+        {{ if and ( eq $firstname "") ( eq $lastname "") ( eq $credentials "") }}
+            {{ $titleCard := printf "%s" "company" $company }}
+            {{ $noName := false }}
+        {{ end }}
         
         {{ partial "svg-term.html" . }}
-        <div class="container">
+        <div class="container pt-4">
             <div class="row">
                 <div class="col">
                     <div class="d-flex justify-content-between">
