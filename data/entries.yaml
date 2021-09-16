@@ -4,58 +4,72 @@ categories:
       category_name: Psychotherapists - Licensed
       description: Psychologists, Clinical Social Workers, Marriage and Family Counselors, and Psychiatrists
       priority: 1
+      icon: user-md-solid.svg
     - id: 2
       category_name: Medical Professionals
       description: Medical Doctors
       priority: 2
+      icon: user-md-solid.svg
     - id: 11
       category_name: Psychotherapists - Unlicensed
       description: Life and Personal Coaching, Interns, Therapists-in-training
       priority: 3
+      icon: user-md-solid.svg
     - id: 3
       category_name: Body Workers
       description: Chiropractors, Massage Therapists, Childbirth Educators, Sex Educators, Herbalists, Nutritionists, and more
       priority: 4
+      icon: hammer-solid.svg
     - id: 6
       category_name: Business Professionals
       description: Planners, Consultants and Organizers
       priority: 5
+      icon: briefcase-solid.svg
     - id: 4
       category_name: Legal Professionals
       description: Lawyers / Attorneys, Private Investigators
       priority: 6
+      icon: balance-scale-solid.svg
     - id: 5
       category_name: Financial Advisors
       description: Includes Stockbrokers, Accountants and other Financial Advisors
       priority: 7
+      icon: coins-solid.svg
     - id: 10
       category_name: Computer Professionals
       description: Web developers, network admins, DBs, graphic artists, and more!
       priority: 8
+      icon: desktop-solid.svg
     - id: 7
       category_name: Educators
       description: Speakers, Lecturers, Researchers, and Writers on Bisexuality
       priority: 9
+      icon: user-graduate-solid.svg
     - id: 12
       category_name: Pastoral and Religious
       description: Reverends, Rabbis, Priestesses, Pastoral Counselors...
       priority: 10
+      icon: place-of-worship-solid.svg
     - id: 8
       category_name: Performers
       description: Singers and more
       priority: 11
+      icon: theater-masks-solid.svg
     - id: 14
       category_name: Photographers
       description: People who take really cool pics! :D
       priority: 12
+      icon: camera-solid.svg
     - id: 13
       category_name: Travel Agents
       description: Book that flight, resort, or cruise!
       priority: 13
+      icon: suitcase-rolling-solid.svg
     - id: 15
       category_name: Event Spaces
       description: Places that are welcoming for bisexual people to host and attend events
       priority: 14
+      icon: ticket-alt-solid.svg
 locations:
     - id: 35
       display: CA-BC (British Columbia)
