@@ -1,9 +1,9 @@
-baseURL = "https://lucid-bohr-d6eb22.netlify.app/"
+baseURL = "/"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "BiZone"
 #theme = "bizone"
-paginate = 8
+paginate = 10
 timeout = 200000
 
 [outputFormats.JSON]
