@@ -1,0 +1,53 @@
+.categ-nav {
+    //@extend %dev;
+    margin-bottom: 1rem;
+    justify-self: stretch;
+    &--grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: .7rem;
+        @include media-breakpoint-up(md) { 
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        }
+    }
+    svg {
+        width: 3rem;
+        height: 3rem;
+        @extend .mx-auto;
+        @extend .mb-4;
+        color: lighten($pink, 40%);
+    }
+    a {
+        text-decoration: none;
+        &::after {
+            position: absolute;
+            inset: 0;
+            content: "";
+            //@extend %dev; 
+        }
+    }
+    &--card {
+        min-height: 7rem;
+        padding: 1.5rem 1rem;
+        @extend %shadow;
+        border-radius: 5px;
+        background: $white;
+        position: relative;
+        height: 100%;
+        max-width: 20rem;
+        margin: 0 auto;
+    }
+    &--counter {
+        position: absolute;
+        top: .5rem;
+        right: .5rem;
+        padding: .2rem .5rem;
+        color: $white;
+        color: $primary;
+        background: lighten($primary, 55%);
+        border-radius: 10px;
+        font-size: 80%;
+
+    }
+}

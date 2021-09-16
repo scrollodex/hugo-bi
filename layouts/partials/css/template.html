@@ -1,0 +1,12 @@
+{{/*
+{{ $css := resources.Get .scss | resources.ExecuteAsTemplate .scss . | resources.ToCSS (dict "targetPath" .targetPath) | resources.PostCSS (dict "config" .conf "noMap" false) }}
+*/}}
+{{ $css := resources.Get .scss | resources.ExecuteAsTemplate .scss . | resources.ToCSS (dict "targetPath" .targetPath) | resources.PostCSS (dict "config" .conf "noMap" false) | resources.Minify }}
+
+{{ $customCSS := $css.Content | resources.FromString .targetPath | resources.Fingerprint "sha512" }}
+
+<link rel="stylesheet" href="{{ $customCSS.Permalink }}" integrity="{{ $customCSS.Data.Integrity }}">
+
+
+
+

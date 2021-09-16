@@ -1,0 +1,45 @@
+{{ $currentPage := . }}
+<footer class="footer bg-blue text-light mt-3">
+	<div class="container-fluid footer--rights py-4">
+		<div class="row">
+			<div class="col text-center">
+				<ul class="list-inline py-2 mb-3">
+					{{ range .Site.Menus.main }}
+						<li class='list-inline-item'>
+							<a href="{{ .URL | relLangURL }}" class=''>
+								{{ .Pre }}
+								{{ if eq .Name "-" }}&nbsp;{{ else }}{{ .Name }}{{ end }}
+								{{ .Post }}
+							</a>								
+						</li>
+					{{ end }}
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col text-center">
+				<p>
+					All listed services are non-sexual. The professionals listed here should not receive requests for sexual services.
+					<br>
+					<small>
+						© BIZONE {{ dateFormat "2006" now }} All Rights Resereved
+					</small>
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+{{/*
+*/}}
+{{ if .Site.IsServer }}
+	<div class="sow"></div>
+{{ end }}
+
+<div id="back-to-top" class="back-to-top">
+	<a href="#" class="d-flex justify-content-center align-items-center">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon" fill="currentColor">
+			<path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"/>
+		</svg>
+	</a>
+</div>

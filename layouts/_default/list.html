@@ -1,0 +1,305 @@
+{{ define "main" }}
+	{{ $alphabeticaly := 1 }}
+	{{ $list := 0 }}
+	{{ $countries := 0 }}
+	{{ $scratch := newScratch }}
+	{{ if eq .Type "countries" }}
+		{{ $scratch.Set "link" .Page.Title }}
+	{{ else if eq .Type "categories" }}
+		{{ $scratch.Set "link" .Page.Permalink }}
+	{{ end }}
+	{{ $link := $scratch.Get "link" }}
+
+	{{ if .Site.Params.debug }}
+		<span class="badge rounded-pill bg-dark">list.html</span>
+	{{ end }}
+
+	
+	{{/*
+		{{ $scratch := newScratch }}
+		<ul>
+			{{ range $index, $item := .Pages }}
+			
+			<li>
+				item
+				{{ $title :=  $item.Title }}
+				{{ range $.Site.Data.entries.categories }}
+				{{ if eq .category_name $title }}
+				{{ $title }} - {{ .priority }}
+				{{ $item := dict "title" $title }}
+				
+				{{ $scratch.Add "item" $item }}
+					
+				{{ end }}
+				{{ end }}
+			</li>
+			{{ end }}
+		</ul>
+		
+		{{ $newCateg := $scratch.Get "newCateg" }}
+		
+		test ouput {{ $newCateg }}
+		<ol>
+			
+			{{ range $newCateg }}
+			<li>
+				{{ . }}
+			</li>
+			{{ end }}
+		</ol>
+		
+		<hr>
+	*/}}
+	
+	{{ $navVersion := 2 }}
+	{{ if eq $navVersion 2 }}
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h1>{{ markdownify .Title }}</h1>
+					<div class="wysiwyg">
+						{{ markdownify .Params.intro }}
+					</div>
+				</div>
+			</div>
+			{{ partial "categ-nav.html" . }}
+		</div>
+	{{ else }}
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h1>{{ markdownify .Title }}</h1>
+					<div class="wysiwyg py-4">
+						{{ markdownify .Params.intro }}
+					</div>
+
+					{{ $taxo := "categories" }}
+					<ul class="list-inline">
+					{{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+						{{ range .Pages.ByWeight }}
+
+						<li class="mb-3">
+							<a href="{{ .RelPermalink }}" class="btn btn-outline-secondary position-relative">
+								{{ .Title }}
+								<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+									{{ len .Pages }}
+									<span class="visually-hidden">items</span>
+								</span>
+							</a>
+								
+							{{ if .Site.Params.debug }}
+							- {{ .Params.weight }} - {{ len .Pages }} </li>	
+							{{ end }}
+						{{ end }}
+					{{ end }}
+					</ul>
+					
+					{{/*
+						TAXONOMIES LIST
+						the first list navigation with counter pills 	
+						<hr>
+						<ul class="list-inline">
+							{{ range .Data.Terms.Alphabetical }}					
+								<li class="list-inline-item mb-3 me-3">
+									<a
+										{{ if eq $link "Countries" }}
+											href="#{{ urlize .Page.Title }}"
+										{{ else }}
+											href="{{ .Page.Permalink }}"
+										{{ end }}
+										class="btn btn-primary position-relative">
+										{{ upper  .Page.Title }}
+										<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+											{{ .Count }}
+											<span class="visually-hidden">items</span>
+										</span>
+									</a>
+								</li>
+							{{ end }}
+						</ul>
+					*/}}
+					
+					{{ if $countries }}
+						{{/*
+							TERMS LIST CATEGORIES
+							second line navigation for Categories
+						*/}}
+						{{ if eq $link "Countries" }}
+							<ul class="list-inline">
+								{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+									{{ $series_name := $name }}
+									{{ $series_path := (printf "/categories/%s" (urlize $name)) }}
+									{{ $series_page := $.Site.GetPage $series_path }}
+									{{ range .Pages.ByWeight }}
+										{{ .Title }}
+									{{ end }}
+									<li class="list-inline-item mb-2">
+										{{ if $series_page }}
+											{{ $series_name = $series_page.Title }}
+										{{ end }}
+
+										<a href="/categories/{{ $name }}" class="btn btn-outline-primary">{{ upper $name }}</a>
+									</li>
+								{{ end }}
+							</ul>
+							<hr>
+						{{ else }}
+							{{ if $alphabeticaly }}
+								{{/*
+									TERMS LIST COUNTRIES ordered by weight
+									second line navigation - visible on CATEGORIES
+								*/}}
+								{{ $taxo := "countries" }}
+								<ul class="list-inline">
+									{{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+									{{ range $name, $taxonomy := .Pages.ByWeight }}
+										{{ $series_name := $name }}
+										{{ $series_path := (printf "/countries/%s" (urlize $name)) }}
+										{{ $series_page := $.Site.GetPage $series_path }}
+
+										
+										
+										<li class="list-inline-item mb-2">
+											{{ if $series_page }}
+												{{ $series_name = $series_page.Title }}
+											{{ end }}
+											<a href="#{{ urlize $name }}" class="btn btn-outline-primary">{{ upper .Title }}</a>
+										</li>
+										{{ range .Pages.GroupByParam "regions" }}
+											{{ $name := .Key }}
+												
+											{{ range .Pages }}
+												{{ $scratch.Set "country" .Params.countries }}
+											{{ end }}
+											{{ $country := $scratch.Get "country" }}
+
+											{{ if .Key }}
+												<li class="list-inline-item mb-2">
+													<a href="#{{ urlize $name }}" class="btn btn-outline-primary">
+														{{ $country }} - {{ $name }}
+													</a>
+												</li>
+											{{ end }}
+										{{ end }}
+									{{ end }}
+									{{ end }}
+								</ul>
+								<hr>
+							{{ else }}
+								{{/*
+									TERMS LIST COUNTRIES alphabetically ordered
+									second line navigation - visible on CATEGORIES
+								*/}}
+								<ul class="list-inline">
+									{{ range $name, $taxonomy := .Site.Taxonomies.countries }}
+										{{ $series_name := $name }}
+										{{ $series_path := (printf "/countries/%s" (urlize $name)) }}
+										{{ $series_page := $.Site.GetPage $series_path }}
+										
+										<li class="list-inline-item mb-2">
+											{{ if $series_page }}
+												{{ $series_name = $series_page.Title }}
+											{{ end }}
+											<a href="#{{ urlize $name }}" class="btn btn-outline-primary">{{ upper $name }}</a>
+										</li>
+										{{ range .Pages.GroupByParam "regions" }}
+											{{ $name := .Key }}
+											
+											{{ range .Pages }}
+												{{ $scratch.Set "country" .Params.countries }}
+											{{ end }}
+											{{ $country := $scratch.Get "country" }}
+
+											{{ if .Key }}
+												<li class="list-inline-item">
+													<a href="#{{ urlize $name }}" class="btn btn-outline-primary">
+														{{ $country }} - {{ $name }}
+													</a>
+												</li>
+											{{ end }}
+										{{ end }}
+									{{ end }}
+								</ul>
+								<hr>
+							{{ end }}
+						{{ end }}
+					{{ end }}
+
+
+					{{ if $list }}
+						{{/*
+							TERMS LIST REGIONS alphabetically ordered
+							second line navigation - visible on CATEGORIES
+						*/}}
+						<ul class="list-unstyled">
+							{{ range $name, $taxonomy := .Site.Taxonomies.countries }}
+								{{ $series_name := $name }}
+
+								{{ $series_path := (printf "/countries/%s" (urlize $name)) }}
+								{{ $series_page := $.Site.GetPage $series_path }}
+								<li>
+									
+									
+									{{/*
+										{{ $series_name }} - {{ $series_path }} 
+										{{ range $series_page }}
+											{{ . }}
+										{{ end }}
+									*/}}
+									{{ if $series_page }}
+										{{ $series_name = $series_page.Title }}
+									{{ end }}
+									<h2 id="{{ urlize $name }}">
+										{{ upper  $name }} - 
+									</h2>
+									{{/*
+										<ul>
+											{{ range $taxonomy.Pages }}
+												{{ partial "entry-card.html" . }}
+											{{ end }}
+										</ul>
+									*/}}
+									{{ range .Pages.GroupByParam "regions" }}
+										{{ if .Key }}
+											{{ range .Pages }}
+												{{ $scratch.Set "country" .Params.countries }}
+												{{ $scratch.Set "title" .Title }}
+											{{ end }}
+											{{ $country := $scratch.Get "country" }}
+											{{ $title := $scratch.Get "title" }}
+											<h4  id="{{ urlize .Key }}">{{ $country }} - {{ .Key }} </h4>
+										{{ end }}
+										<ul class="list-unstyled">
+											{{ range .Pages }}
+												{{ partial "entry-card.html" . }}
+											{{ end }}
+										</ul>
+									{{ end }}
+								</li>
+							{{ end }}
+						</ul>
+					{{ end }}
+					
+					{{/*
+						<ul>
+							{{ range $key, $taxonomy := .Site.Taxonomies.countries }}
+								<li>
+									<a href="/countries/{{ $key }}">
+										<h2>
+											{{ $key }}
+		
+											{{ range .Pages }}
+												{{ . }}
+											{{ end }}
+										</h2>
+									</a>
+								</li>
+							{{ end }}
+						</ul>
+					*/}}
+					{{ .Content }}
+				</div>
+			</div>
+		</div>
+	{{ end }}
+{{ end }}

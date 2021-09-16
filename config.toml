@@ -1,0 +1,52 @@
+baseURL = "https://lucid-bohr-d6eb22.netlify.app/"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "BiZone"
+#theme = "bizone"
+paginate = 8
+timeout = 200000
+
+[outputFormats.JSON]
+	MediaType              = "application/json"
+	BaseName               = "index"
+	IsHTML                 = false
+	IsPlainText            = true
+	noUgly                 = false
+	Rel                    = "alternate"
+
+[outputs]
+page = [ "HTML" ]
+home = [ "HTML", "RSS" ]
+section = [ "HTML", "RSS" ]
+taxonomy = [ "HTML", "RSS", "JSON" ]
+term = [ "HTML", "RSS", "JSON" ]
+
+  home = ["HTML"]
+  page = ["HTML"]
+  section = ["HTML"]
+  term = ["HTML", "JSON"]
+
+[params]
+lazyload = 1
+debug = 0
+wysiwyg = 0
+branding = 3
+vue = 0
+
+
+[taxonomies]
+	category = "categories"
+	country = "countries"
+	region = "regions"
+
+[markup]
+	[markup.tableOfContents]
+		endLevel = 3
+		ordered = false
+		startLevel = 2
+	[markup.goldmark.renderer]
+		unsafe= true
+
+[module]
+[[module.imports]]
+path = "github.com/scrollodex/hugo-modules"

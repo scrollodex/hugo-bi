@@ -1,0 +1,46 @@
+{{ $id := urlize (.Get "id") }}
+{{ $title := urlize (.Get "title") }}
+{{ $q := .Get "q" }}
+{{ $open := .Get "open" | default false }}
+
+<div class="accordion-item">
+    <h3 class="accordion-header" id="heading{{ $id }}">
+        <button
+            class="
+                accordion-button
+                {{ if $open }}
+                {{ else }}
+                collapsed
+                {{ end }}
+            "
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse{{ $id }}"
+            aria-controls="collapse{{ $id }}"
+            {{ if $open }}
+            aria-expanded="true"
+            {{ else }}  
+            aria-expanded="false"
+            {{ end }}
+            >
+                {{ $q }}
+        </button>
+    </h3>
+    <div
+        id="collapse{{ $id }}"
+        class="
+            accordion-collapse
+            {{ if $open }}
+                show
+            {{ else }}
+                collapse
+            {{ end }}
+        "
+        aria-labelledby="heading{{ $id }}"
+        data-bs-parent="#accordion{{ $title }}">
+        
+        <div class="accordion-body">
+            {{ markdownify .Inner }}
+        </div>
+    </div>
+</div>

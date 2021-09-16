@@ -1,0 +1,35 @@
+[
+    {{- range $index, $e := .Pages -}}
+    {{- $short_desc := jsonify ( markdownify .Params.short_desc ) -}}
+    {{- $description := jsonify ( markdownify .Params.description ) -}}
+    {{- if $index -}}, {{- end -}}
+    {
+        "id": "{{ .Params.id }}",
+        "name": "{{ .Title }}",
+        "salutation": "{{ .Params.salutation }}",
+        "first_name": "{{ .Params.first_name }}",
+        "last_name": "{{ .Params.last_name }}",
+        "credentials": "{{ .Params.credentials }}",
+        "job_title": "{{ .Params.job_title }}",
+        "company": "{{ .Params.company | default ( printf "%s%s" .Params.first_name "'s company" ) }}",
+        "rating": 5.5,
+        "short_desc": {{ $short_desc }},
+        {{/*
+        */}}
+        "phone" : "{{ .Params.phone }}",
+        "fax" : "{{ .Params.fax }}",
+        "address" : "{{ .Params.address }}",
+        "email" : "{{ .Params.email }}",
+        "email2" : "{{ .Params.email2 }}",
+        "website" : "{{ .Params.website }}",
+        "website2" : "{{ .Params.website2 }}",
+        "fees" : "{{ .Params.fees }}",
+        {{/*
+        */}}
+        "description" : {{ $description }},
+        "keywords": ["{{ .Params.categories }}"],
+        "location": "{{ .Params.location }}",
+        "country": "{{ .Params.countries }}",
+        "regions": "{{ .Params.regions }}"
+    }{{ end }}
+]

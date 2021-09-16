@@ -1,0 +1,205 @@
+.entry-card {
+    //@extend %dev;
+    //content-visibility: auto;
+    max-width: 65rem;
+    margin: 0 auto;
+    text-align: left;
+    .card {
+        border-color: white;
+        @extend %shadow;
+    }
+    &--title a {
+        text-decoration: none;
+        color: $black;
+    }
+    &--jobTitle {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        max-width: 10rem;
+        display: block;
+        @include media-breakpoint-up(md) {
+            max-width: initial;
+            
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+    &--initial {
+        //@extend %dev;
+        @extend .d-flex;
+        --bg: #{$primary};
+        --fg: white;
+        $percentageBg: 35%;
+        $percentageFg: 0%;
+
+        span {
+            display: block;
+            width: 3rem;
+            height: 3rem;
+            line-height: 3rem;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+            background: var(--bg, #{$primary});
+            color: var(--fg, #fff);
+            border-radius: 50%;
+        }
+        &__a {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 13);
+            $fg: adjust-hue(darken($primary, $percentageFg), 13);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__b {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 26);
+            $fg: adjust-hue(darken($primary, $percentageFg), 26);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__c {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 39);
+            $fg: adjust-hue(darken($primary, $percentageFg), 39);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__d {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 52);
+            $fg: adjust-hue(darken($primary, $percentageFg), 52);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__e {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 65);
+            $fg: adjust-hue(darken($primary, $percentageFg), 65);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__f {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 78);
+            $fg: adjust-hue(darken($primary, $percentageFg), 78);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__g {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 91);
+            $fg: adjust-hue(darken($primary, $percentageFg), 91);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__h {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 104);
+            $fg: adjust-hue(darken($primary, $percentageFg), 104);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__i {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 117);
+            $fg: adjust-hue(darken($primary, $percentageFg), 117);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__j {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 130);
+            $fg: adjust-hue(darken($primary, $percentageFg), 130);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__k {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 143);
+            $fg: adjust-hue(darken($primary, $percentageFg), 143);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__l {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 156);
+            $fg: adjust-hue(darken($primary, $percentageFg), 156);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__m {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 169);
+            $fg: adjust-hue(darken($primary, $percentageFg), 169);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__n {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 182);
+            $fg: adjust-hue(darken($primary, $percentageFg), 182);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__o {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 195);
+            $fg: adjust-hue(darken($primary, $percentageFg), 195);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__p {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 208);
+            $fg: adjust-hue(darken($primary, $percentageFg), 208);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__q {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 221);
+            $fg: adjust-hue(darken($primary, $percentageFg), 221);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__r {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 234);
+            $fg: adjust-hue(darken($primary, $percentageFg), 234);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__s {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 247);
+            $fg: adjust-hue(darken($primary, $percentageFg), 247);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__t {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 260);
+            $fg: adjust-hue(darken($primary, $percentageFg), 260);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__u {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 273);
+            $fg: adjust-hue(darken($primary, $percentageFg), 273);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__v {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 286);
+            $fg: adjust-hue(darken($primary, $percentageFg), 286);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__w {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 299);
+            $fg: adjust-hue(darken($primary, $percentageFg), 299);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__x {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 312);
+            $fg: adjust-hue(darken($primary, $percentageFg), 312);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__y {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 325);
+            $fg: adjust-hue(darken($primary, $percentageFg), 325);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+        &__z {
+            $bg: adjust-hue(lighten($primary, $percentageBg), 338);
+            $fg: adjust-hue(darken($primary, $percentageFg), 338);
+            --bg: #{$bg};
+            --fg: #{$fg};
+        }
+    }
+}

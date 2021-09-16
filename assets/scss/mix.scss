@@ -1,0 +1,20 @@
+%dev {
+	border: 1px solid red !important;
+	* {
+		border: 1px solid red !important;
+	}
+}
+%b {
+	border: 1px solid purple !important;
+}
+%bb {
+	border: 1px solid blue !important;
+}
+%br {
+	border: 1px solid red !important;
+}
+
+
+%shadow {
+	box-shadow: 0 6px 12px rgba($primary, .05);
+}

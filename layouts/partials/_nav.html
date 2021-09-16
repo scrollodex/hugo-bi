@@ -1,0 +1,146 @@
+{{ $navCategory := 1}}
+{{ $navCountry := 0}}
+{{ $currentPage := . }}
+
+<nav class="navbar navbar-dark xbg-dark xfixed-top navbar-expand-lg">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="/">
+			{{ if eq .Site.Params.branding 5 }}
+				{{ partial "svg/logo5.svg" . }}
+			{{ else if eq .Site.Params.branding 4 }}
+				{{ partial "svg/logo4.svg" . }}
+			{{ else if eq .Site.Params.branding 3 }}
+				{{ partial "svg/logo3.svg" . }}
+			{{ else if eq .Site.Params.branding 2 }}
+				{{ partial "svg/logo2.svg" . }}
+			{{ else if eq .Site.Params.branding 1 }}
+				{{ partial "svg/logo1.svg" . }}
+			{{ else if eq .Site.Params.branding 0 }}
+				{{ .Site.Title }}
+			{{ else }}
+				SampleLogo
+			{{ end }}
+		</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+			<div class="offcanvas-header">
+			<h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+			<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+				<ul class="navbar-nav xjustify-content-end xflex-grow-1 pe-3">
+					{{/*
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+					*/}}
+					{{ if $navCategory }}
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="categOffcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Categories
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="categOffcanvasNavbarDropdown">
+								{{ $taxo := "categories" }}
+								{{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+								{{ range .Pages.ByWeight }}
+									<li>
+										<a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ .Permalink }}">
+											{{ .Title }} <span class="badge rounded-pill bg-secondary ms-3">{{ len .Pages }}</span>
+										</a>
+									</li>	
+								{{ end }}
+								{{ end }}
+								<li>
+								<hr class="dropdown-divider">
+								</li>
+								<li><a class="dropdown-item" href="/categories/">All categories</a></li>
+							</ul>
+						</li>
+					{{ end }}
+					{{ if $navCountry }}	
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="countriesOffcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Countries
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="countriesOffcanvasNavbarDropdown">
+								{{ range $key, $taxonomy := .Site.Taxonomies.countries }}
+									<li>
+										<a class="dropdown-item" href="/countries/{{ $key }}/">
+											{{ $path :=  printf  "/countries/%s" $key  }}
+											{{ with $.Site.GetPage $path }}
+												{{ .Title | default $key }}
+											{{ end }}
+										</a>
+									</li>
+								{{ end }}
+								<li>
+								<hr class="dropdown-divider">
+								</li>
+								<li><a class="dropdown-item" href="/countries/">All countries</a></li>
+							</ul>
+						</li>
+					{{ end }}
+				</ul>
+
+				<ul class="navbar-nav navbar--main pe-3 ms-auto me-0 navbar-nav--s">
+					{{ range .Site.Menus.main }}
+						{{ if .HasChildren }}
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="{{ .URL | relLangURL }}" id="{{ urlize .Name }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									{{ .Pre }}
+									{{ if eq .Name "-" }}&nbsp;{{ else }}{{ .Name }}{{ end }}
+									{{ .Post }}
+								</a>
+								 <ul class="dropdown-menu" aria-labelledby="{{ urlize .Name }}">
+								{{ range .Children }}
+									<li><a class="dropdown-item" href="{{ .URL | relLangURL }}">
+										{{ .Pre }}
+										{{ if eq .Name "-" }}&nbsp;{{ else }}{{ .Name }}{{ end }}
+										{{ .Post }}
+									</a></li>
+								{{ end }}
+								</ul>
+							</li>
+						{{ else }}
+							<li class='nav-item'>
+								<a href="{{ .URL | relLangURL }}" class='nav-link {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}'>
+									{{ .Pre }}
+									{{ if eq .Name "-" }}&nbsp;{{ else }}{{ .Name }}{{ end }}
+									{{ .Post }}
+								</a>
+							</li>
+						{{ end }}
+					{{ end }}
+					<li class='nav-item'>
+						<a href="/submit/" class="nav-link btn btn-success m0-auto me-2">
+							Submit a listing
+						</a>
+					</li>
+				</ul>
+
+
+
+				{{ $search := 0}}
+				{{ if $search }}
+					<form class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-primary d-flex align-items-center" type="submit">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search me-2" viewBox="0 0 16 16">
+								<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+							</svg>SEARCH
+						</button>
+					</form>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+</nav>
+
+{{ if or (not .IsHome) ( eq .Type "entry") }}
+	{{ partial "_breadcrumbs.html" . }}
+{{ end }}

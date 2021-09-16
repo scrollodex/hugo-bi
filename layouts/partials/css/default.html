@@ -1,0 +1,6 @@
+{{ $amp := $.Scratch.Get "site" }}
+{{ $scss := "scss/pg/default/default.scss" }}
+{{ $conf := "assets/scss/pg/default/postcss.config.js" }}
+{{ $targetPath := "css/_default.css" }}
+
+{{ partial "css/template.html" (dict "scss" "scss/pg/default/default.scss" "conf" "assets/scss/pg/default/postcss.config.js" "targetPath" "css/_default.css") }}

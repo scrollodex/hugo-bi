@@ -1,0 +1,6 @@
+{{ $title := .Get "title" }}
+<div class="faq mb-4">
+    <div class="accordion" id="accordion{{ $title }}">
+        {{ .Inner }}
+    </div>
+</div>

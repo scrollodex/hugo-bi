@@ -1,0 +1,18 @@
+{
+	"name": "bizone",
+	"version": "1.0.0",
+	"directories": {
+		"example": "example"
+	},
+	"dependencies": {
+		"@fullhuman/postcss-purgecss": "^1.3.0",
+		"autoprefixer": "^9.7.6",
+		"postcss-cli": "^6.1.3",
+		"@popperjs/core": "^2.9.2",
+		"fs-extra": "^8.1.0",
+		"js-yaml": "^3.14.1",
+		"prompts": "^2.4.1",
+		"toml": "^3.0.0",
+		"yargs": "^13.3.2"
+	}
+}

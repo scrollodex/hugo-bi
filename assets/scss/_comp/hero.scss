@@ -1,0 +1,30 @@
+.hero {
+    //@extend %dev;
+    @extend .d-flex;
+    @extend .justify-content-center;
+    @extend .flex-column;
+    text-align: center;
+    background-image: url("/img/bg1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: $white;
+    min-height: 32vh;
+    @include media-breakpoint-up(md) {
+        min-height: 45vh;
+        
+    }
+    h1, h2 {
+        font-size: 1.8rem;
+        max-width: 40rem;
+        @extend .mx-auto;
+        //background: $primary;
+        color: #ff2696;
+        color: #ff2696;
+        font-weight: bold;
+        @include media-breakpoint-up(md) { 
+            font-size: 4rem;
+            max-width: 40rem;
+        }
+    }
+}

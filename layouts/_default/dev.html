@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+<div class="container py-4">
+	<h2>Only for dev team</h2>
+	<div class="row">
+		{{ .Content }}
+		<div class="col-12">
+			<h2>live + prod + dev + </h2>
+			<table class="table table-striped table-hover">
+				<thead>
+					<tr>
+						<th scope="col">psd</th>
+						<th scope="col">Layout</th>
+						<th scope="col">Dev</th>
+						<th scope="col">Prod</th>
+					</tr>
+				</thead>
+				<tbody>
+					{{ range where .Site.Pages "Type" "!=" "artworks" }}
+					{{ partial "_dev.html" . }}
+					{{ end }}
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-1 blue text-center flex-fill p-4">blue</div>
+		<div class="col-1 indigo text-center flex-fill p-4">indigo</div>
+		<div class="col-1 purple text-center flex-fill p-4">purple</div>
+		<div class="col-1 pink text-center flex-fill p-4">pink</div>
+		<div class="col-1 red text-center flex-fill p-4">red</div>
+		<div class="col-1 orange text-center flex-fill p-4">orange</div>
+		<div class="col-1 yellow text-center flex-fill p-4">yellow</div>
+		<div class="col-1 green text-center flex-fill p-4">green</div>
+		<div class="col-1 teal text-center flex-fill p-4">teal</div>
+		<div class="col-1 cyan text-center flex-fill p-4">cyan</div>
+	</div>
+</div>
+{{ end }}

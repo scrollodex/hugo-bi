@@ -1,0 +1,38 @@
+#[[menu.main]]
+#name = "Home"
+#identifier = "home"
+#post = ""
+#pre = ""
+#url = "/"
+#weight = 1
+[[menu.main]]
+name = "About"
+identifier = "about"
+post = ""
+pre = ""
+url = "/about/"
+weight = 2
+[[menu.main]]
+name = "Credits"
+identifier = "credits"
+post = ""
+pre = ""
+url = "/credits/"
+weight = 4
+#[[menu.main]]
+#name = "Contact"
+#identifier = "contact"
+#post = ""
+#pre = ""
+#url = "/contact/"
+#weight = 5
+[[menu.main]]
+name = "Disclaimer"
+identifier = "disclaimer"
+post = ""
+pre = ""
+url = "/disclaimer/"
+weight = 6
+
+
+

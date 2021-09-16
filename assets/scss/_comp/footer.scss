@@ -1,0 +1,11 @@
+.footer {
+    //@extend %dev;
+    //content-visibility: auto;
+    background: darken($blue, 20%);
+    border-top: 5px solid $primary;
+    a {
+        color: $white;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}

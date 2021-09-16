@@ -1,0 +1,10 @@
+{{ define "main" }}
+[
+{{ range $index, $e := .Pages }}
+    {{ if $index }}, {{ end }}
+    {
+        "name": "{{ .Title }}"
+    }
+{{ end }}
+]
+{{end}}

@@ -1,0 +1,71 @@
+// V01 Ill
+$white-100: #FFFFFF;
+$pink-100: #DA0071;
+$pink-200: #AA0071;
+$blue-100: #0045D0;
+
+// V02
+$white-100: #FFFFFF;
+$pink-100: #ff2696;
+$pink-200: #b6037a;
+$blue-100: #073692;
+
+// V03
+$white-100: #FFFFFF;
+$pink-100: #9BA1FF;
+$pink-200: #777ffd;
+$blue-100: rgba(#0AF8FF, .2);
+
+.logo__v1 {
+    --white-100: #{$white-100};
+    --pink-100: #{$pink-100};
+    --pink-200: #{$pink-200};
+    --blue-100: #{$blue-100};
+}
+.logo__v2 {
+    --col1: #FFFFFF;
+    --col2: #9BA1FF;
+    --col2: #003fbe;
+    --col3: #FDB0FE;
+    --col3: #b6037a;
+    --col4: #0AF8FF;
+    --col4: #ff2696;
+}
+
+
+
+
+.logo__v1 {
+    height: 46px;
+}
+.logo__v2 {
+    height: 25px;
+}
+.logo__v3 {
+    height: 30px;
+}
+.logo__v4 {
+    height: 30px;
+    @include media-breakpoint-up(md) {
+        height: 25px;
+    }
+}
+.logo__v5 {
+    height: 30px;
+    @include media-breakpoint-up(md) {
+        height: 43px;
+    }
+}
+
+.navbar {
+    //@extend %dev;
+    .navbar-brand {
+        svg {
+            width: auto;
+        }
+    } 
+    background: darken($blue, 20%);
+    .offcanvas {
+        background: darken($blue, 20%);
+    }
+}

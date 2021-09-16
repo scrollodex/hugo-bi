@@ -1,0 +1,40 @@
+// .footer, .entry-card {
+//     content-visibility: auto;
+//     border: none;
+// }
+@import "../mix";
+@import "navbar";
+@import "hero";
+@import "term-nav/term-nav";
+@import "faq";
+@import "categ-nav";
+@import "entry-card";
+@import "footer";
+@import "back-to-top";
+
+.breadcrumb {
+    font-size: 80%;
+}
+
+
+
+body {
+    background: rgba( $primary, .04 );
+}
+
+.xcateg-nav {
+    @extend %dev;
+}
+
+.homeContent {
+    > *:nth-child(n+2) {
+        @extend .px-4;
+        max-width: 60rem;
+        margin-left: auto ;
+        margin-right: auto ;
+        //@extend %dev;
+    }
+    > ul:nth-child(n+2) {
+        padding-left: 1rem;
+    }
+}

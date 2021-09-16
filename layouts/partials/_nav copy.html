@@ -1,0 +1,170 @@
+{{/* HTML
+<div class="navbar-collapse collapse show offcanvas offcanvas-end offcanvas-backdrop fade"></div>
+<div class="collapsing"></div>
+*/}}
+
+{{ $currentPage := . }}
+
+<header class='header'>
+	<nav class="navbar navbar-light bg-light navbar-expand-lg">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="/">
+				{{/*
+					{{ partial "svg/logo.svg" . }}
+				*/}}
+				BIZONE
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="menu">
+				<span class="navbar-toggler-icon" aria-hidden="true"></span>
+			</button>
+			<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+				<div class="offcanvas-header">
+					<p class="offcanvas-title" id="offcanvasNavbarLabel">MENU</p>
+					<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body d-flex flex-column flex-md-row">
+					<ul class="navbar-nav navbar--main pe-0 pe-md-3 me-0 me-md-auto navbar-nav--s">
+						
+
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle" id="categories" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Categories</a>
+							<ul class="dropdown-menu" aria-labelledby="categories">
+							{{ range $key, $taxonomy := .Site.Taxonomies.categories }}
+								<li class="nav-item dropdown">
+									<a class="dropdown-item" href="/categories/{{ $key }}/">
+										{{ $path :=  printf  "/categories/%s" $key  }}
+										{{ with $.Site.GetPage $path }}
+											{{ .Title | default $key }}
+										{{ end }}
+									</a>
+								</li>
+								{{ end }}
+								<li class="nav-item dropdown">
+									<a class="dropdown-item" href="/categories/">
+										All categories
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle" id="countries" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Countries</a>
+							<ul class="dropdown-menu" aria-labelledby="countries">
+								{{ range $key, $taxonomy := .Site.Taxonomies.countries }}
+								<li class="nav-item dropdown">
+									<a class="dropdown-item" href="/countries/{{ $key }}/">
+										{{ $path :=  printf  "/countries/%s" $key  }}
+										{{ with $.Site.GetPage $path }}
+											{{ .Title | default $key }}
+										{{ end }}
+									</a>
+								</li>
+								{{ end }}
+								<li class="nav-item dropdown">
+									<a class="dropdown-item" href="/countries/">
+										All countries
+									</a>
+								</li>
+							</ul>
+						</li>
+						{{ range .Site.Menus.main }}
+							{{ if .HasChildren }}
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="{{ .URL | relLangURL }}" id="{{ urlize .Name }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										{{ .Pre }}
+										{{ if eq .Name "-" }}&nbsp;{{ else }}{{ .Name }}{{ end }}
+										{{ .Post }}
+									</a>
+									 <ul class="dropdown-menu" aria-labelledby="{{ urlize .Name }}">
+									{{ range .Children }}
+										<li><a class="dropdown-item" href="{{ .URL | relLangURL }}">
+											{{ .Pre }}
+											{{ if eq .Name "-" }}&nbsp;{{ else }}{{ .Name }}{{ end }}
+											{{ .Post }}
+										</a></li>
+									{{ end }}
+									</ul>
+								</li>
+							{{ else }}
+								<li class='nav-item'>
+									<a href="{{ .URL | relLangURL }}" class='nav-link nav-link--svg {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}'>
+										{{ .Pre }}
+										{{ if eq .Name "-" }}&nbsp;{{ else }}{{ .Name }}{{ end }}
+										{{ .Post }}
+									</a>
+								</li>
+							{{ end }}
+						{{ end }}
+						
+
+						
+						{{/*
+							{{ range $key, $taxonomy := .Site.Taxonomies.countries }}
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="/categories/" id="{{ urlize $key }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										{{ $key }}
+									</a>
+	
+									<ul class="dropdown-menu" aria-labelledby="{{ urlize $key }}">
+									{{ range $taxonomy.Pages }}
+										<li>
+											<a class="dropdown-item" href="{{ .Permalink }}">
+												{{ . }}
+											</a>
+										</li>
+									{{ end }}
+									</ul>
+								</li>
+							{{ end }}
+						*/}}
+					</ul>
+					<ul class="navbar-nav justify-content-end mt-auto">
+						{{ range .Site.Menus.secondary }}
+							{{ if .HasChildren }}
+								<li class="nav-item dropdown d-block d-md-none">
+									<a class="nav-link dropdown-toggle" href="{{ .URL | relLangURL }}" id="{{ urlize .Name }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										{{ .Pre }}
+										{{ if eq .Name "-" }}&nbsp;{{ else }}{{ .Name }}{{ end }}
+										{{ .Post }}
+									</a>
+									 <ul class="dropdown-menu" aria-labelledby="{{ urlize .Name }}">
+									{{ range .Children }}
+										<li><a class="dropdown-item" href="{{ .URL | relLangURL }}">
+											{{ .Pre }}
+											{{ if eq .Name "-" }}&nbsp;{{ else }}{{ .Name }}{{ end }}
+											{{ .Post }}
+										</a></li>
+									{{ end }}
+									</ul>
+								</li>
+							{{ else }}
+								<li class='nav-item d-block d-md-none'>
+									<a href="{{ .URL | relLangURL }}" class='nav-link {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}'>
+										{{ .Pre }}
+										{{ if eq .Name "-" }}&nbsp;{{ else }}{{ .Name }}{{ end }}
+										{{ .Post }}
+									</a>
+								</li>
+							{{ end }}
+						{{ end }}
+						
+						{{/*
+							categories	
+						*/}}					
+					</ul>
+					<form class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-primary" type="submit">Search</button>
+					</form>
+					<ul class="navbar-nav ms-2 me-0 mb-2 mb-lg-0">
+						<li class="nav-item">
+						  <a class="xnav-link btn btn-primary btn-lg" href="/contact/">Submit listing</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+</header>
+{{ if not .IsHome }}
+	{{ partial "_breadcrumbs.html" . }}
+{{ end }}

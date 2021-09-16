@@ -1,0 +1,18 @@
+.term-nav {
+    //@extend %dev;
+    margin-bottom: 1rem;
+    h1 {
+        font-size: 1.4rem;
+    }
+    &--block {
+        max-width: 65rem;
+        background: white;
+        border-radius: 10px; 
+        @extend .mx-auto;
+        @extend %shadow;
+    }
+    &--link {
+        font-size: .95rem;
+        text-decoration: none;
+    }
+}

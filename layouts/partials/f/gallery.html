@@ -1,0 +1,29 @@
+{{ $img := .image }}
+{{ $title := .title }}
+{{ $sourceImage := strings.TrimPrefix "/uploads/" $img }}
+	{{ range .context.Site.Pages }}
+		{{ with .Resources.Match $sourceImage }}
+			{{ range . }}
+				{{/* bg color: #150485*/}}
+				{{ $imageXL := .Resize "300x center q60"}}
+				{{ $imageL := .Resize "300x center q60"}}
+				{{ $imageM := .Resize "600x center q60"}}
+				
+				{{ $imageWEBPXL := .Resize "300x webp center q100"}}
+				{{ $imageWEBPL := .Resize "300x webp center q100"}}
+				{{ $imageWEBPM := .Resize "600x webp center q60" }}
+				<picture>
+					<source srcset="{{ $imageWEBPXL.RelPermalink }}" type="image/webp" media="(min-width: 1200px)">
+					<source srcset="{{ $imageWEBPL.RelPermalink }}" type="image/webp" media="(min-width: 600px)">
+					<source srcset="{{ $imageWEBPM.RelPermalink }}" type="image/webp" media="(max-width: 500px)">
+					
+					<source srcset="{{ $imageXL.RelPermalink }}" media="(min-width: 1200px)">
+					<source srcset="{{ $imageL.RelPermalink }}" media="(min-width: 600px)">
+					<source srcset="{{ $imageM.RelPermalink }}" media="(max-width: 500px)">
+					
+					<img class="lazyload img-fluid" loading="lazy" src="{{ $imageL.RelPermalink }}" alt="{{ $title }}" width="{{ $imageL.Width }}" height="{{ $imageL.Height }}">
+					<noscript><img src='{{ $imageL.RelPermalink }}' alt="{{ $title }}" width="{{ $imageL.Width }}" height="{{ $imageL.Height }}"></noscript>
+				</picture>
+			{{ end }}
+		{{ end }}
+	{{ end }}

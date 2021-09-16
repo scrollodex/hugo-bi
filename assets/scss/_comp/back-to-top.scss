@@ -1,0 +1,51 @@
+$enableBackToTopAutoHide: true;
+html {
+	scroll-behavior: smooth;
+}
+
+.icon {
+    // remove for menu icons
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+	display: inline-block;
+}
+
+.back-to-top {
+	//@extend %dev;
+	//--svg-bg: transparent;
+	//--svg-primary: #{$primary};
+	//--svg-secondary: white;
+	//--svg-negative: white;
+
+	position: fixed;
+	right: 10px;
+	z-index: 3;
+	a {
+		display: block;
+		background: $primary;
+		border-radius: 50%;
+		// padding: 1em;
+		width: 2rem;
+		height: 2rem;
+
+		color: $white;
+		&:hover {
+			color: $white;
+		}
+	}
+}
+
+@if ($enableBackToTopAutoHide) {
+	.back-to-top {
+		bottom: -3.6em;
+		transition: bottom 0.3s ease-in-out;
+		&.show {
+			bottom: 10px;
+		}
+	}
+} @else {
+	.back-to-top {
+		bottom: 0;
+	}
+}

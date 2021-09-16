@@ -1,0 +1,57 @@
+<tr>
+	<td>
+		{{/*
+			{{ $.Site.Params.forestryEdit }}artworks-vera-vera-md/
+			<hr>
+		{{ $.Site.Params.forestryEdit }}{{ replace .File.Path "&#92;" "-" }}
+			<br>
+		*/}}
+		<a href="{{ .Permalink }}">{{ .RelPermalink }}</a>
+		<br>
+		{{ with .File }}
+		<small class="mt-2">{{ .Path }}</small>
+		{{ end }}
+	</td>
+	<td>
+		{{ .Type }}{{ if .Layout }} / {{ .Layout }}{{ end }}
+	</td>
+	<td>
+		{{ if .Params.header }}
+			<small>
+				{{ .Params.header }} 
+			</small>
+		{{ else }}
+			<span class="badge bg-danger">false</span>
+		{{ end }}
+		<br>
+		{{ if ne .Params.meta_description "" }}
+			<small>
+			{{ .Params.meta_description }} 
+			</small>
+		{{ else }}
+			<span class="badge bg-danger">false</span>
+		{{ end }}
+
+	</td>
+	<td>
+	</td>
+	<td>
+		{{ if ne .Title "" }}
+			{{ if gt ( len .Title ) 30 }}
+				<span class="badge bg-secondary">{{ len .Title }}</span>
+			{{ else if gt ( len .Title ) 60 }}
+				60 - <span class="badge bg-success">{{ len .Title }}</span>
+			{{ else }}
+				<span class="badge bg-warning">{{ len .Title }}</span>
+			{{ end }}
+			<small>
+			- {{ .Title }}
+			</small>
+		{{ else }}
+			<span class="badge bg-danger">false</span>
+		{{ end }}
+	</td>
+	<td>
+		{{ .ReadingTime }}
+	</td>
+</tr>

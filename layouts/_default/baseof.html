@@ -1,0 +1,83 @@
+{{ $type := .Page.Type }}
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ .Title }}</title>
+	
+	{{ block "og" . }}
+	{{ $og_description := .Params.meta_description | default (plainify .Description) }}
+	{{ $og_locale := .Site.Language }}
+	{{ $og_type := .Type }}
+	{{ $og_title := .Title }}
+	{{ $og_siteName := .Site.Title }}
+
+	<meta name="description" content="{{ $og_description }}">
+	<meta property="og:locale" content="{{ $og_locale }}" />
+	<meta property="og:type" content="{{ $og_type }}" />
+	<meta property="og:title" content="{{ $og_title }}" />
+	<meta property="og:description" content="{{ $og_description }}"/>
+	<meta property="og:url" content="{{ .Permalink }}" />
+	<meta property="og:site_name" content="{{ $og_siteName }}" />
+	{{ end }}
+	{{/*
+		font-family: 'Glory', sans-serif;
+		font-family: 'Roboto', sans-serif;
+	*/}}
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Urbanist:wght@100;400&display=swap" rel="stylesheet">
+
+
+	{{ range .AlternativeOutputFormats -}}
+		<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+	{{ end -}}
+	
+	{{ block "css" . }}
+		{{ partial "css/default.html" . }}
+	{{ end }}
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js"></script>
+</head>
+{{ $bodyClass := .Params.body | default "body-class" }}
+
+{{/*
+<body class="home entries entry category"></body>
+*/}}
+
+<body class="{{ $bodyClass }} type_{{ .Type }} layout_{{ .Layout }} kind_{{ .Kind }}">
+	
+	{{ if .Site.Params.vue }}
+	{{ if .AlternativeOutputFormats }}
+		<p>
+			{{ .Kind }}
+			<ul>
+				{{ range .AlternativeOutputFormats -}}
+				<li>
+					<a href="{{ .Permalink | safeURL }}" target="_blank"> {{ .MediaType.Type }} </a>
+				</li>
+				{{ end -}}
+			</ul>
+		</p>
+	{{ end }}
+	{{ end }}
+
+
+	{{ block "nav" . }}
+		{{ partial "partials/_nav.html" . }}
+	{{ end }}
+	{{ block "hero" . }}{{ end }}
+	{{ if .Site.Params.debug }}
+		<span class="badge rounded-pill bg-dark ms-2">{{ .Kind }} - {{ .Type }}</span>
+	{{ end }}
+	{{ block "main" . }}
+		{{ .Content }}
+	{{ end }}
+	
+	{{ partial "partials/_footer.html" . }}
+	{{ block "scripts" . }}
+		{{ partial "partials/_js.html" . }}
+	{{ end }}
+</body>
+</html>

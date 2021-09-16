@@ -1,0 +1,24 @@
+
+    <div class="xrow categ-nav--grid mt-4">
+        {{ $taxo := "categories" }}
+        {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+        {{ range .Pages.ByWeight }}
+            <div class="xcol-6 xcol-md-3 categ-nav py-2 text-center">
+                <div class="categ-nav--card d-flex justify-content-center flex-column">
+                    {{ $path := printf "%s/%s" "svg/icons" (.Params.icon | default "bookmark-regular.svg") }}
+                    {{ partial $path . }}
+                    <a href="{{ .RelPermalink }}" class="d-flex justify-content-center">
+                        {{ .Title }}
+                    </a>
+                    
+                    <span class="categ-nav--counter">
+                        {{ len .Pages }}
+                        <span class="visually-hidden">items</span>
+                    </span>
+                </div>
+            </div>
+            {{/*
+            */}}
+        {{ end }}
+        {{ end }}
+    </div>
