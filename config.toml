@@ -16,15 +16,11 @@ timeout = 200000
 
 [outputs]
 page = [ "HTML" ]
-home = [ "HTML", "RSS" ]
-section = [ "HTML", "RSS" ]
+home = [ "HTML" ]
+section = [ "HTML" ]
 taxonomy = [ "HTML", "RSS", "JSON" ]
-term = [ "HTML", "RSS", "JSON" ]
+term = [ "HTML" ]
 
-  home = ["HTML"]
-  page = ["HTML"]
-  section = ["HTML"]
-  term = ["HTML", "JSON"]
 
 [params]
 lazyload = 1
