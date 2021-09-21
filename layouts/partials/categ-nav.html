@@ -1,23 +1,34 @@
 
-    <div class="xrow categ-nav--grid mt-4">
-        {{ $taxo := "categories" }}
-        {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
-            {{ range $index, $key := .Data.Terms.ByCount }}
-                <div class="xcol-6 xcol-md-3 categ-nav py-2 text-center">
-                    <div class="categ-nav--card d-flex justify-content-center flex-column">
-                    {{ with ($.Site.GetPage (printf "/%s" (.Term))) }}
-                        {{ $path := printf "%s/%s" "svg/icons" (.Params.icon | default "bookmark-regular.svg") }}    
-                        {{ partial $path . }}
-                        <a href="{{ .RelPermalink }}" class="d-flex justify-content-center">
-                            {{ .Title }}
-                        </a>
-                        <span class="categ-nav--counter">
-                            {{ len .Pages }}
-                            <span class="visually-hidden">items</span>
-                        </span>
+<div class="xrow categ-nav--grid mt-4">
+    {{ $taxo := "categories" }}
+    {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+    {{ range $index, $key := .Data.Terms.ByCount }}
+        <div class="xcol-6 xcol-md-3 categ-nav py-2 text-center">
+            <div class="categ-nav--card d-flex justify-content-center flex-column">
+                {{ with ($.Site.GetPage (printf "/%s" (.Term))) }}
+                    {{ $scratch := newScratch }}
+                    {{ $title  := .Title }}
+                    {{ range $.Site.Data.entries.categories }}
+                        {{ if eq $title .category_name }}
+                            {{ $scratch.Set "icon" .icon }}
+                        {{ end }}
                     {{ end }}
-                    </div>
+                    {{ $icon := $scratch.Get "icon" }}
+                    {{/*
+                        {{ $icon }}
+                    */}}
+                    {{ $path := printf "%s/%s" "svg/icons" ($icon | default "bookmark-regular.svg") }}    
+                    {{ partial $path . }}
+                    <a href="{{ .RelPermalink }}" class="d-flex justify-content-center">
+                        {{ .Title }}
+                    </a>
+                    <span class="categ-nav--counter">
+                        {{ len .Pages }}
+                        <span class="visually-hidden">items</span>
+                    </span>
+                {{ end }}
                 </div>
-            {{ end }}
+            </div>
         {{ end }}
-    </div>
+    {{ end }}
+</div>
