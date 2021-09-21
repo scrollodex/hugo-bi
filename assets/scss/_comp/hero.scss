@@ -9,11 +9,10 @@
     background-position: center center;
     background-repeat: no-repeat;
     color: $white;
-    min-height: 32vh;
-    @include media-breakpoint-up(md) {
-        min-height: 45vh;
-        
-    }
+    min-height: 30vh;
+    //@include media-breakpoint-up(md) {
+    //    min-height: 45vh;
+    //}
     h1, h2 {
         font-size: 1.8rem;
         max-width: 40rem;
@@ -23,7 +22,7 @@
         color: #ff2696;
         font-weight: bold;
         @include media-breakpoint-up(md) { 
-            font-size: 4rem;
+            font-size: 3.5rem;
             max-width: 40rem;
         }
     }

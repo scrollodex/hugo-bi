@@ -38,3 +38,11 @@ body {
         padding-left: 1rem;
     }
 }
+
+.card-single {
+    //@extend %dev;
+    @extend .pt-3;
+    @extend %shadow;
+    background: white;
+    border-radius: 5px;
+}

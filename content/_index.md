@@ -1,16 +1,16 @@
 +++
 date = "2021-01-01T01:01:01+01:01"
 body = "home"
-header = "BiZone"
-meta_description = "BiZone"
-title = "BiZone"
+header = "Bisexuality-Aware Professionals Directory"
+meta_description = "Bisexuality-Aware Professionals Directory"
+title = "Bisexuality-Aware Professionals Directory"
 
 +++
 
 {{< hero >}}
 
 # The Bisexuality-Aware Professionals Directory
-Is a listing of professionals who are sensitive to the unique needs of bisexual clientele.
+A listing of professionals who are sensitive to the unique needs of bisexual clientele
 
 {{</ hero >}}
 
