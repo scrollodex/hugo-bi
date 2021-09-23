@@ -15,6 +15,8 @@ The members of BiZone.org, who provided a host site for this directory.
 
 Tom Limoncelli, bi activist and old friend, who provided advice and technical assistance on numerous aspects of the project.
 
+Michael Litzky, who's data-entry and other help keeps the site going!
+
 Emmett Pickerel, partner extraordinaire, who set up the database for the site.
 
 The many bisexuality-aware professionals who provide services to our community and who agreed to be listed in this directory.
