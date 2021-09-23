@@ -12,6 +12,7 @@ I would like to thank the following people and organizations who helped tremendo
 
 - The creators of the [Kink Aware Professionals List](http://www.bannon.com/kap/) and [Poly Friendly Professionals List](http://www.polychromatic.com/pfp/), which provided the inspiration for this site.
 - The members of [BiZone.org](http://www.bizone.org/), who provided a host site for this directory.
+- Michael Litzky, who's data-entry and other help keeps the site going!
 - [Tom Limoncelli](http://whatexit.org/tal/), bi activist and old friend, who provided advice and technical assistance on numerous aspects of the project.
 - Emmett Pickerel, partner extraordinaire, who set up the database for the site.
 - The many [bisexuality-aware professionals](https://www.bizone.org/bap/locate.html) who provide services to our community and who agreed to be listed in this directory.
