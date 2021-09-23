@@ -19,7 +19,7 @@
         @extend .mx-auto;
         //background: $primary;
         color: #ff2696;
-        color: #ff2696;
+        color: $hero-heading;
         font-weight: bold;
         @include media-breakpoint-up(md) { 
             font-size: 3.5rem;

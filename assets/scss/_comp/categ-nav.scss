@@ -16,7 +16,7 @@
         height: 3rem;
         @extend .mx-auto;
         @extend .mb-4;
-        color: lighten($pink, 40%);
+        color: $categ-nav-svg;
     }
     a {
         text-decoration: none;
