@@ -1,5 +1,8 @@
 # SOLOPX
 
+[BI deploy here](https://hugo-bi.pages.dev/)
+[POLY deploy here](https://hugo-poly.pages.dev/)
+
 ## ho to build
 
 1. run "npm i"
