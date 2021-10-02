@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en"
 defaultContentLanguage = "en"
-title = "BiZone"
+title = "Bisexuality-Aware Professionals Directory"
 #theme = "bizone"
 paginate = 10
 timeout = 200000

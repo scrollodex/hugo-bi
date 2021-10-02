@@ -7,7 +7,8 @@
 
 1. run "npm i"
 2. run "node hugo.js"
-3. forc deploy run  "hugo --minify"
+3. Force deploy run  "hugo --minify"
+3. Run locally: hugo --minify server -w -D
 
 
 ## Use icons from Font Awsome 
@@ -90,7 +91,3 @@ Flags:
 ## Author
 
 [kidsil](https://github.com/kidsil)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

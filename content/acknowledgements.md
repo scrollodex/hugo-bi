@@ -19,7 +19,4 @@ I would like to thank the following people and organizations who helped tremendo
  
 Thanks very much to all of these folks!
 
-
-To contact the directory coordinator, email Geri Weitzman, PhD at: geriweitzman@gmail.com
-
-Return to the main page
+Directory coordinator,<br>Geri Weitzman, PhD<br>geriweitzman@gmail.com

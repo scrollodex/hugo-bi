@@ -29,7 +29,7 @@ title = "Submit"
 
 {{< faq_item title="faq" open=true id="q1" q="What if I meet only 1 or 2 of the above criteria, but am really very bi-friendly? Can I still sign up to be listed in the directory?" >}}
 
-Not yet. What you should do first is to **educate yourself further** about the specific issues and concerns of the bisexual community, so that you are more qualified to meet its needs. Read some **books or articles** on bisexuality, go to some **events or workshops** on bisexuality - and then come back and sign up! If you aren't sure where to find such resources, contact Geri at bap@whatexit.org and she'll be happy to make some suggestions.
+Not yet. What you should do first is to **educate yourself further** about the specific issues and concerns of the bisexual community, so that you are more qualified to meet its needs. Read some **books or articles** on bisexuality, go to some **events or workshops** on bisexuality - and then come back and sign up! If you aren't sure where to find such resources, contact Geri at geriweitzman@gmail.com and she'll be happy to make some suggestions.
 
 {{</ faq_item >}}
 
@@ -126,7 +126,7 @@ This directory does not accept listings which involve sexual services, given the
 
 The maintainers of this directory reserve the right to remove or refuse any directory listing for any reason.
 
-To use the Bisexuality-Aware Professionals Directory, go to www.bizone.org/bap
+To use the Bisexuality-Aware Professionals Directory, go to [www.bizone.org](https://www.bizone.org)
 
 To contact the directory coordinator, email Geri Weitzman, PhD at: geriweitzman@gmail.com
 
