@@ -30,11 +30,6 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Urbanist:wght@100;400&display=swap" rel="stylesheet">
 
-
-	{{ range .AlternativeOutputFormats -}}
-		<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
-	{{ end -}}
-	
 	{{ block "css" . }}
 		{{ partial "css/default.html" . }}
 	{{ end }}
