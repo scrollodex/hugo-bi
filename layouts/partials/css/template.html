@@ -5,7 +5,7 @@
 
 {{ $customCSS := $css.Content | resources.FromString .targetPath }}
 
-<link rel="stylesheet" href="{{ $customCSS.Permalink }}" integrity="{{ $customCSS.Data.Integrity }}">
+<link rel="stylesheet" href="{{ $customCSS.Permalink }}">
 
 
 
