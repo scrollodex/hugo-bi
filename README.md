@@ -10,6 +10,17 @@
 3. Force deploy run  "hugo --minify"
 3. Run locally: hugo --minify server -w -D
 
+## Updating CSS
+
+hugo-poly/layouts must be an exact copy of hugo-bi/layouts
+
+My workflow:
+1. update bizone repo and push
+2. on Poly run
+   - hugo mod get -u
+   - hugo mod vendor
+3. Copy the folder locally in order to optimize css with "@fullhuman/postcss-purgecss":
+
 
 ## Use icons from Font Awsome 
 
