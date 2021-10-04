@@ -1,8 +1,3 @@
-{{ $entry_resources := "../assets/js/entry.js" }}
-{{ $entry := resources.Get $entry_resources | resources.Minify  }}
-<script src="{{ $entry.Permalink }}"></script>
-
-
 {{ $backToTop_resources := "../assets/js/back-to-top.js" }}
 {{ $backToTop := resources.Get $backToTop_resources | resources.Minify | resources.Fingerprint "sha512" }}
 <script src="{{ $backToTop.Permalink }}" integrity="{{ $backToTop.Data.Integrity }}"></script>
