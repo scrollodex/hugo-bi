@@ -8375,4 +8375,33 @@ entries:
         countries: US
         regions: NY
         lastUpdate: 0000-00-00
+    - path: 358_larissa-hul-galasek
+      fields:
+        title: Larissa Hul-Galasek MA, LMFT - Psychotherapists - Licensed from US-CA
+        id: 358
+        salutation: ""
+        first_name: Larissa
+        last_name: Hul-Galasek
+        credentials: MA, LMFT
+        job_title: Psychotherapist
+        company: ""
+        short_desc: |-
+            LGH Consulting
+
+
+            MA in Counseling Psychology with a specialization in Expressive Arts Therapy. LMFT126063
+        phone: 707-572-6541
+        fax: ""
+        address: 665 F St. Ste C Arcata, CA 95521 USA. Providing telehealth to residents of CA
+        email: lhgcounseling@protonmail.com
+        email2: ""
+        website: http://www.lhgcounseling.com/
+        website2: ""
+        fees: Please visit my website for current fee and insurance information.
+        description: I provide LGBTQIAP+ affirming expressive arts and nature based therapy. I identify as bi/pan and am committed to showing up for the community. I especially appreciate working with people who are looking for something different in their therapy experience and are wanting to explore in creative ways including through movement, art making, writing, and music. In sessions, I tend to offer immediate suggestions to deepen your process in order to make new insights into patterns and influences. I have experience working with people who have chronic pain/illness and/or cancer diagnoses as well as offering support to loved ones. I also recognize and incorporate the impact that social injustices and the severity of climate catastrophe has on mental and physical well-being.
+        categories: Psychotherapists - Licensed
+        location: US-CA (California)
+        countries: US
+        regions: CA
+        lastUpdate: 0000-00-00
 
