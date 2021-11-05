@@ -6941,25 +6941,25 @@ entries:
         lastUpdate: 0000-00-00
     - path: 306_kailey-hockridge
       fields:
-        title: Kailey Hockridge - Psychotherapists - Licensed from US-CA
+        title: Kailey Hockridge LPCC - Psychotherapists - Licensed from US-CA
         id: 306
         salutation: ""
         first_name: Kailey
         last_name: Hockridge
-        credentials: ""
-        job_title: ""
+        credentials: LPCC
+        job_title: Psychotherapist in California
         company: ""
         short_desc: |-
             Associate Professional Clinical Counselor at Through the Woods Therapy Center
 
 
-            Degrees: M.A. in Psychological Counseling, Ed.M. in Mental Health Counseling from Teachers College, Columbia University. License: Associate Professional Clinical Counselor (CA APCC #3689)
-        phone: 213-212-3093
+            Degrees: M.A. in Psychological Counseling, Ed.M. in Mental Health Counseling from Teachers College, Columbia University. License: LPCC #10288
+        phone: 213-536-9462
         fax: ""
         address: 660 S. Figueroa St., Ste. 1710, Los Angeles, CA 90017 - Currently offering telehealth appointments
-        email: kailey@throughthewoodstherapy.com
+        email: http://www.kaileyhockridgetherapy.com/
         email2: ""
-        website: https://www.throughthewoodstherapy.com/
+        website: kailey@kaileyhockridgetherapy.com
         website2: ""
         fees: Please contact me to discuss fees
         description: |-
