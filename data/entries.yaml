@@ -8404,4 +8404,29 @@ entries:
         countries: US
         regions: CA
         lastUpdate: 0000-00-00
+    - path: 359_jeffrey-lee-helms
+      fields:
+        title: Jeffrey Lee Helms PsyD - Psychotherapists - Licensed from US-GA
+        id: 359
+        salutation: ""
+        first_name: Jeffrey Lee
+        last_name: Helms
+        credentials: PsyD
+        job_title: Licensed Psychologist
+        company: ""
+        short_desc: 'Licensed as a psychologist in Georgia (PSY2719) and Hawaii (PSY 1246) and am authorized to practice interjurisdictional telepsychology by PSYPACT (APIT Mobility Number: 4820). APIT allows me to see patients virtually in over half of the states/jurisdictions in the U.S. See my webpage for more information.'
+        phone: 678-523-9301
+        fax: ""
+        address: My practice is completely virtual. I do not see patients in-person.
+        email: drjeffhelms@gmail.com
+        email2: ""
+        website: https://www.drjeffhelms.com/
+        website2: ""
+        fees: Please contact me for fee information
+        description: I am an openly bisexual, licensed psychologist. I have a virtual practice where I provide individual therapy for adults. Please see my website for jurisdictions where I am licensed/authorized to practice. The website also includes information about my areas of practice (e.g., LGB folkx, work with other healthcare and mental healthcare professionals) and professional publications. My office accepts some insurances and self-pay. Please contact for more information.
+        categories: Psychotherapists - Licensed
+        location: US-GA (Georgia)
+        countries: US
+        regions: GA
+        lastUpdate: 0000-00-00
 
