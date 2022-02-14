@@ -1,15 +1,15 @@
 {{ $backToTop_resources := "../assets/js/back-to-top.js" }}
 {{ $backToTop := resources.Get $backToTop_resources | resources.Minify | resources.Fingerprint "sha512" }}
-<script src="{{ $backToTop.Permalink }}" integrity="{{ $backToTop.Data.Integrity }}"></script>
+<script src="{{ $backToTop.RelPermalink }}" integrity="{{ $backToTop.Data.Integrity }}"></script>
 
 
 {{ $popper_resources := "../assets/js/popper.min.js" }}
 {{ $popper := resources.Get $popper_resources | resources.Fingerprint "sha512" }}
-<script src="{{ $popper.Permalink }}" integrity="{{ $popper.Data.Integrity }}"></script>
+<script src="{{ $popper.RelPermalink }}" integrity="{{ $popper.Data.Integrity }}"></script>
 
 {{ $bootstrap_resources := "../assets/js/bootstrap/bootstrap.esm.js" }}
 {{ $bootstrap := resources.Get $bootstrap_resources | js.Build "../assets/js/bootstrap.js" | resources.Minify | resources.Fingerprint "sha512" }}
-<script src="{{ $bootstrap.Permalink }}" integrity="{{ $bootstrap.Data.Integrity }}"></script>
+<script src="{{ $bootstrap.RelPermalink }}" integrity="{{ $bootstrap.Data.Integrity }}"></script>
 
 
 <script>
