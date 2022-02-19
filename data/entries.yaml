@@ -8388,4 +8388,29 @@ entries:
         countries: US
         regions: HI
         lastUpdate: 0000-00-00
+    - path: 361_amanda-earle
+      fields:
+        title: Amanda Earle MA, LAC, LPC - Psychotherapists - Licensed from US-CO
+        id: 361
+        salutation: ""
+        first_name: Amanda
+        last_name: Earle
+        credentials: MA, LAC, LPC
+        job_title: Mental Health and Addictions
+        company: ""
+        short_desc: Master of Arts in Clinical Mental Health Counseling (University of Colorado Denver),  Licensed Professional Counselor (LPC.0015465, Colorado), Licensed Addictions Counselor (ACD.0001239, Colorado); Nationally Certified Counselor (NCC)
+        phone: 720-987-0897
+        fax: ""
+        address: 827 Grant St., Denver, CO 80203, United States
+        email: amanda@livingstorytherapy.com
+        email2: ""
+        website: http://www.livingstorytherapy.com/
+        website2: ""
+        fees: My fee is $145 per session. I can provide superbills for out-of-network insurance reimbursement.
+        description: 'Trauma-informed Narrative therapist in downtown Denver and online via video telehealth. I consider myself an active and collaborative clinician. My counseling approach is creative and engaging, and will often incorporate metaphor, storytelling, experiential exercises, skill-building, and an emphasis on Harm Reduction for addressing concerns with substances and sexual health. I routinely seek out consultation and training to improve the awareness, knowledge, and skills needed to effectively serve the communities I am passionate about: the LGBTQ+ community; individuals who are Polyamorous or practice non-monogamy; members of the Kink and BDSM communities; and people who use substances. At this time, I am providing individual therapy to adults only (age 18+).'
+        categories: Psychotherapists - Licensed
+        location: US-CO (Colorado)
+        countries: US
+        regions: CO
+        lastUpdate: 0000-00-00
 
