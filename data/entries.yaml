@@ -1,244 +1,501 @@
 ---
 categories:
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
     - id: 1
-      category_name: Psychotherapists - Licensed
-      description: Psychologists, Clinical Social Workers, Marriage and Family Counselors, and Psychiatrists
-      priority: 1
-      icon: user-md-solid.svg
-    - id: 2
-      category_name: Medical Professionals
-      description: Medical Doctors
-      priority: 2
-      icon: user-md-solid.svg
-    - id: 11
-      category_name: Psychotherapists - Unlicensed
-      description: Life and Personal Coaching, Interns, Therapists-in-training
-      priority: 3
-      icon: user-md-solid.svg
-    - id: 3
       category_name: Body Workers
-      description: Chiropractors, Massage Therapists, Childbirth Educators, Sex Educators, Herbalists, Nutritionists, and more
-      priority: 4
-      icon: hammer-solid.svg
-    - id: 6
+      description: Description Missing
+      priority: 1
+      icon: ""
+    - id: 2
       category_name: Business Professionals
-      description: Planners, Consultants and Organizers
-      priority: 5
-      icon: briefcase-solid.svg
-    - id: 4
-      category_name: Legal Professionals
-      description: Lawyers / Attorneys, Private Investigators
-      priority: 6
-      icon: balance-scale-solid.svg
-    - id: 5
-      category_name: Financial Advisors
-      description: Includes Stockbrokers, Accountants and other Financial Advisors
-      priority: 7
-      icon: coins-solid.svg
-    - id: 10
+      description: Description Missing
+      priority: 2
+      icon: ""
+    - id: 3
       category_name: Computer Professionals
-      description: Web developers, network admins, DBs, graphic artists, and more!
-      priority: 8
-      icon: desktop-solid.svg
-    - id: 7
+      description: Description Missing
+      priority: 3
+      icon: ""
+    - id: 4
       category_name: Educators
-      description: Speakers, Lecturers, Researchers, and Writers on Bisexuality
-      priority: 9
-      icon: user-graduate-solid.svg
-    - id: 12
-      category_name: Pastoral and Religious
-      description: Reverends, Rabbis, Priestesses, Pastoral Counselors...
-      priority: 10
-      icon: place-of-worship-solid.svg
-    - id: 8
-      category_name: Performers
-      description: Singers and more
-      priority: 11
-      icon: theater-masks-solid.svg
-    - id: 14
-      category_name: Photographers
-      description: People who take really cool pics! :D
-      priority: 12
-      icon: camera-solid.svg
-    - id: 13
-      category_name: Travel Agents
-      description: Book that flight, resort, or cruise!
-      priority: 13
-      icon: suitcase-rolling-solid.svg
-    - id: 15
+      description: Description Missing
+      priority: 4
+      icon: ""
+    - id: 5
       category_name: Event Spaces
-      description: Places that are welcoming for bisexual people to host and attend events
+      description: Description Missing
+      priority: 5
+      icon: ""
+    - id: 6
+      category_name: Financial Advisors
+      description: Description Missing
+      priority: 6
+      icon: ""
+    - id: 7
+      category_name: Legal Professionals
+      description: Description Missing
+      priority: 7
+      icon: ""
+    - id: 8
+      category_name: Medical Professionals
+      description: Description Missing
+      priority: 8
+      icon: ""
+    - id: 9
+      category_name: Pastoral and Religious
+      description: Description Missing
+      priority: 9
+      icon: ""
+    - id: 10
+      category_name: Performers
+      description: Description Missing
+      priority: 10
+      icon: ""
+    - id: 11
+      category_name: Photographers
+      description: Description Missing
+      priority: 11
+      icon: ""
+    - id: 12
+      category_name: Psychotherapists - Licensed
+      description: Description Missing
+      priority: 12
+      icon: ""
+    - id: 13
+      category_name: Psychotherapists - Unlicensed
+      description: Description Missing
+      priority: 13
+      icon: ""
+    - id: 14
+      category_name: Travel Agents
+      description: Description Missing
       priority: 14
-      icon: ticket-alt-solid.svg
+      icon: ""
 locations:
-    - id: 35
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 1
       display: CA-BC (British Columbia)
       country_code: CA
       region: BC
-    - id: 43
+    - id: 2
       display: CA-Manitoba
       country_code: CA
       region: Manitoba
-    - id: 32
+    - id: 3
       display: CA-Ontario
       country_code: CA
       region: Ontario
-    - id: 23
-      display: CA-Toronto
-      country_code: CA
-      region: Toronto
-    - id: 33
+    - id: 4
+      display: International
+      country_code: International
+      region: ""
+    - id: 5
       display: NL-All (The Netherlands)
       country_code: NL
       region: All
-    - id: 36
+    - id: 6
       display: UK-All (United Kingdom)
       country_code: UK
       region: All
-    - id: 17
+    - id: 7
       display: US-AL (Alabama)
       country_code: US
       region: AL
-    - id: 29
+    - id: 9
       display: US-All (Nationwide)
       country_code: US
       region: All
-    - id: 22
+    - id: 8
       display: US-AZ (Arizona)
       country_code: US
       region: AZ
-    - id: 4
+    - id: 10
       display: US-CA (California)
       country_code: US
       region: CA
-    - id: 6
+    - id: 11
       display: US-CO (Colorado)
       country_code: US
       region: CO
-    - id: 41
+    - id: 12
       display: US-CT (Connecticut)
       country_code: US
       region: CT
-    - id: 40
+    - id: 13
       display: US-DC (District of Columbia)
       country_code: US
       region: DC
-    - id: 5
+    - id: 14
       display: US-FL (Florida)
       country_code: US
       region: FL
-    - id: 7
+    - id: 15
       display: US-GA (Georgia)
       country_code: US
       region: GA
-    - id: 8
+    - id: 16
       display: US-HI (Hawaii)
       country_code: US
       region: HI
-    - id: 42
+    - id: 17
       display: US-ID (Idaho)
       country_code: US
       region: ID
-    - id: 27
+    - id: 18
       display: US-IL (Illinois)
       country_code: US
       region: IL
-    - id: 25
+    - id: 19
       display: US-IN (Indiana)
       country_code: US
       region: IN
-    - id: 45
+    - id: 20
       display: US-KS (Kansas)
       country_code: US
       region: KS
-    - id: 9
+    - id: 21
       display: US-MA (Massachusetts)
       country_code: US
       region: MA
-    - id: 16
+    - id: 22
       display: US-MD (Maryland)
       country_code: US
       region: MD
-    - id: 34
+    - id: 23
       display: US-MN (Minnesota)
       country_code: US
       region: MN
-    - id: 10
+    - id: 24
       display: US-MO (Missouri)
       country_code: US
       region: MO
-    - id: 24
+    - id: 25
       display: US-NC (North Carolina)
       country_code: US
       region: NC
-    - id: 21
+    - id: 26
       display: US-NE (Nebraska)
       country_code: US
       region: NE
-    - id: 11
+    - id: 27
       display: US-NH (New Hampshire)
       country_code: US
       region: NH
-    - id: 19
+    - id: 28
       display: US-NJ (New Jersey)
       country_code: US
       region: NJ
-    - id: 26
+    - id: 29
       display: US-NM (New Mexico)
       country_code: US
       region: NM
-    - id: 12
+    - id: 30
       display: US-NY (New York)
       country_code: US
       region: NY
-    - id: 20
+    - id: 31
       display: US-OH (Ohio)
       country_code: US
       region: OH
-    - id: 44
+    - id: 32
       display: US-OK (Oklahoma)
       country_code: US
       region: OK
-    - id: 28
+    - id: 33
       display: US-OR (Oregon)
       country_code: US
       region: OR
-    - id: 13
+    - id: 34
       display: US-PA (Pennsylvania)
       country_code: US
       region: PA
-    - id: 31
+    - id: 35
       display: US-SC (South Carolina)
       country_code: US
       region: SC
-    - id: 18
-      display: US-TN (Tennessee)
-      country_code: US
-      region: TN
-    - id: 15
+    - id: 36
       display: US-TX (Texas)
       country_code: US
       region: TX
-    - id: 39
+    - id: 37
       display: US-VA (Virginia)
       country_code: US
       region: VA
-    - id: 37
+    - id: 38
       display: US-VT (Vermont)
       country_code: US
       region: VT
-    - id: 14
+    - id: 39
       display: US-WA (Washington)
       country_code: US
       region: WA
-    - id: 38
+    - id: 40
       display: US-WI (Wisconsin)
       country_code: US
       region: WI
-    - id: 30
-      display: International
-      country_code: ZZ
-      region: International
 entries:
     - path: 2_susan-s-hardy
       fields:
@@ -629,7 +886,11 @@ entries:
         website: ""
         website2: ""
         fees: My regular rates are $150 an hour for civil work, and $175 for criminal work, although most criminal matters are offered a flat rate which is generally more cost effective.
-        description: "I am an Attorney in Seattle Washington, where I mainly practice Criminal Defense, however, I also provide various services for those in the alternative sexuality communities, including\nDissolution and Civil Partnership Agreements, preparation of Wills and other civil matters. I also hold low cost legal clinics where I offer Durable Powers of Attorney and Health Care Directives at discounted rates.  \n\nI have been involved as a presenter at several conferences, both national and International, including the National Conference on Bisexuality and Gender held last year in Vancouver, BC and The Conference of Gender and Sexuality at Evergreen University, Olympia, Washington."
+        description: |-
+            I am an Attorney in Seattle Washington, where I mainly practice Criminal Defense, however, I also provide various services for those in the alternative sexuality communities, including
+            Dissolution and Civil Partnership Agreements, preparation of Wills and other civil matters. I also hold low cost legal clinics where I offer Durable Powers of Attorney and Health Care Directives at discounted rates.
+
+            I have been involved as a presenter at several conferences, both national and International, including the National Conference on Bisexuality and Gender held last year in Vancouver, BC and The Conference of Gender and Sexuality at Evergreen University, Olympia, Washington.
         categories: Legal Professionals
         location: US-WA (Washington)
         countries: US
@@ -938,7 +1199,40 @@ entries:
         website: ""
         website2: ""
         fees: Contact me for more information.
-        description: "Mine is a general psychotherapy practice in which I pay special\nattention to alternate sex and gender concerns, and to people living\nlifestyles involving those concerns. I work with adult individuals and\ncouples of all identities and orientations in the leather, fetish, and\ntransgender communities, and have taught, spoken, and/or published\nwidely in those areas. I also work with anxiety, depression, shame,\nguilt, trust difficulties, damaged self-esteem, and inner children, any\nof which may be concerns for people who have been characterized as\noutsiders in society. Sex and gender issues frequently affect\nsignificant others, including romantic and erotic partners, parents,\nsilblings, children, friends, colleagues, and business associates, and I\nhave experience working with them as well. I am a member of the\nCalifornia Association of Marriage and Family Therapists, the Society\nfor the Scientific Study of Sexuality, the American Academy of Clinical\nSexologists, the Harry Benjamin International Gender Dysphoria\nAssociation, and the International Foundation for Gender Education, and\nI am a once and future member of the National Leather Association. \n\n\n\n\n\nPublications include:\n<ul type=\"circle\">\n<li>Consensual Sadomasochism: How to Talk About It and How to Do It Safely (with Sybil Holiday). Daedalus Publishing Company.</li>\n<li>Bodywise (with Joseph Heller). Wingbow Press</li>\n<li>The Psychic Healing Book (with Amy Wallace). Wingbow Press.</li>\n<li>The Rocky Horror Picture Show Book. Hawthorn Publishing.</li>\n</ul>\n\n\n\nI do not have a website or url, but some of my writings, mostly from 1988 - 1996, can be found at <a href=\"http://www.sexuality.org/wh.html\">http://www.sexuality.org/wh.html</a>. Further questions? Please write."
+        description: |-
+            Mine is a general psychotherapy practice in which I pay special
+            attention to alternate sex and gender concerns, and to people living
+            lifestyles involving those concerns. I work with adult individuals and
+            couples of all identities and orientations in the leather, fetish, and
+            transgender communities, and have taught, spoken, and/or published
+            widely in those areas. I also work with anxiety, depression, shame,
+            guilt, trust difficulties, damaged self-esteem, and inner children, any
+            of which may be concerns for people who have been characterized as
+            outsiders in society. Sex and gender issues frequently affect
+            significant others, including romantic and erotic partners, parents,
+            silblings, children, friends, colleagues, and business associates, and I
+            have experience working with them as well. I am a member of the
+            California Association of Marriage and Family Therapists, the Society
+            for the Scientific Study of Sexuality, the American Academy of Clinical
+            Sexologists, the Harry Benjamin International Gender Dysphoria
+            Association, and the International Foundation for Gender Education, and
+            I am a once and future member of the National Leather Association.
+
+
+
+
+
+            Publications include:
+            <ul type="circle">
+            <li>Consensual Sadomasochism: How to Talk About It and How to Do It Safely (with Sybil Holiday). Daedalus Publishing Company.</li>
+            <li>Bodywise (with Joseph Heller). Wingbow Press</li>
+            <li>The Psychic Healing Book (with Amy Wallace). Wingbow Press.</li>
+            <li>The Rocky Horror Picture Show Book. Hawthorn Publishing.</li>
+            </ul>
+
+
+
+            I do not have a website or url, but some of my writings, mostly from 1988 - 1996, can be found at <a href="http://www.sexuality.org/wh.html">http://www.sexuality.org/wh.html</a>. Further questions? Please write.
         categories: Psychotherapists - Licensed
         location: US-CA (California)
         countries: US
@@ -1164,7 +1458,10 @@ entries:
         credentials: ""
         job_title: MSM
         company: ""
-        short_desc: "Body-centered Psychotherapist (with a heart-centered, psychospiritual orientation). \n\nAlso a Writer and Workshop Leader/Speaker"
+        short_desc: |-
+            Body-centered Psychotherapist (with a heart-centered, psychospiritual orientation).
+
+            Also a Writer and Workshop Leader/Speaker
         phone: (617)965-7846
         fax: ""
         address: 3 Central Avenue, Newton, MA  02460  USA
@@ -1294,7 +1591,44 @@ entries:
         website: ""
         website2: ""
         fees: $95 for individual therapy or consultation, $105 for couples work, $125 for first two meetings for gender evaluations; then regular fees apply to subsequent meetings.
-        description: "Clinical Social Worker; personal and corporate coach with Arena Group Coaching & Consulting; consultant; producer of the longest-running and largest psychology-in-film series in the\nnation, <a href=\"http://www.psychologygoestothemovies.org\">http://www.psychologygoestothemovies.org</a>, and teacher of film and pop culture theory. Also, disability activist, currently Chair of the City of Cambridge Commission for People with Disabilities.\n\n\n\n \n\nAs a therapist, I provide individual, couple and family psychotherapy to people of all ages, cultures and nationalities; of all gender and sexual expressions; and to people with disabilities of any kind. My current case load includes Asian, African-American, and West Indian\nclients as well as European and Celtic descendants; and includes bi and gay men, lesbians and bi women, poly individuals and couples, cross-dressers and those in the BDSM D/S scene (see below)\nI work in English. I understand West Indian. My secondary office is fully accessible, but I do not have ASL or TTY.   I will work with any level of trouble or \"mental illness,\" including people diagnosed with Bipolar Disorder, psychotic illnesses, Aspergers (autism), epilepsy, etc. I also provide consultation of all kinds in psychiatry and therapy issues, second opinions, diagnostic aid, etc.  I work as covering senior clinician for many Cambridge therapists when they are away.\nSome special areas of experience include: ADD & ADHD; Evaluating and supporting people (including children and adolescents) with gender concerns, cross-dressing, and those seeking\ncomplete gender realignment or correction (I  am an approved provider in this speciality).\nI work with artists, actors, performers, writers, poets, and other creatives. I do pre-marital counseling upon request for couples with differences in race, class or  culture; or for couples in which one partner has a significant disability.\n\n\n\n\n\nAs a coach, I work with *anyone who has a goal* they are determined\nand committed to achieve. I coach physicians; I coach for ICI, a program for\nwomen with disabilities seeking employment or career development; I coach\nnovelists, screenwriters, contruction workers, nurses, etc.  The Arena\nMethod® is used by coaches in my firm and has proven very dynamic -- it\nteaches clients *how to want something* in the way that ensures getting it.\nFees for coaching are structured differently from most professional\nfees, but are roughly similar to therapy costs overall.  Clients contract\ninitially for 90 days, usually including one 30-minute phone meeting per week\n(clients may be in any part of the world) and weekly structured tasks.\nDifferent service packages provide additional supports according to each\nplan. For the client, coaching requires guts and is a more strenuous course\nthan being in therapy; it also works faster to structure current goals.\n\n\n\n\n\nVitae of publications available upon request."
+        description: |-
+            Clinical Social Worker; personal and corporate coach with Arena Group Coaching & Consulting; consultant; producer of the longest-running and largest psychology-in-film series in the
+            nation, <a href="http://www.psychologygoestothemovies.org">http://www.psychologygoestothemovies.org</a>, and teacher of film and pop culture theory. Also, disability activist, currently Chair of the City of Cambridge Commission for People with Disabilities.
+
+
+
+
+
+            As a therapist, I provide individual, couple and family psychotherapy to people of all ages, cultures and nationalities; of all gender and sexual expressions; and to people with disabilities of any kind. My current case load includes Asian, African-American, and West Indian
+            clients as well as European and Celtic descendants; and includes bi and gay men, lesbians and bi women, poly individuals and couples, cross-dressers and those in the BDSM D/S scene (see below)
+            I work in English. I understand West Indian. My secondary office is fully accessible, but I do not have ASL or TTY.   I will work with any level of trouble or "mental illness," including people diagnosed with Bipolar Disorder, psychotic illnesses, Aspergers (autism), epilepsy, etc. I also provide consultation of all kinds in psychiatry and therapy issues, second opinions, diagnostic aid, etc.  I work as covering senior clinician for many Cambridge therapists when they are away.
+            Some special areas of experience include: ADD & ADHD; Evaluating and supporting people (including children and adolescents) with gender concerns, cross-dressing, and those seeking
+            complete gender realignment or correction (I  am an approved provider in this speciality).
+            I work with artists, actors, performers, writers, poets, and other creatives. I do pre-marital counseling upon request for couples with differences in race, class or  culture; or for couples in which one partner has a significant disability.
+
+
+
+
+
+            As a coach, I work with *anyone who has a goal* they are determined
+            and committed to achieve. I coach physicians; I coach for ICI, a program for
+            women with disabilities seeking employment or career development; I coach
+            novelists, screenwriters, contruction workers, nurses, etc.  The Arena
+            Method® is used by coaches in my firm and has proven very dynamic -- it
+            teaches clients *how to want something* in the way that ensures getting it.
+            Fees for coaching are structured differently from most professional
+            fees, but are roughly similar to therapy costs overall.  Clients contract
+            initially for 90 days, usually including one 30-minute phone meeting per week
+            (clients may be in any part of the world) and weekly structured tasks.
+            Different service packages provide additional supports according to each
+            plan. For the client, coaching requires guts and is a more strenuous course
+            than being in therapy; it also works faster to structure current goals.
+
+
+
+
+
+            Vitae of publications available upon request.
         categories: Psychotherapists - Licensed
         location: US-MA (Massachusetts)
         countries: US
@@ -1379,7 +1713,46 @@ entries:
         website: ""
         website2: ""
         fees: $80 per 50 minute session - negotiable
-        description: "I offer caring, compassionate support for a process that allows you to go\ndeep effectively and manageably. In a relationship of safety, we will\ndraw on physical, emotional, and intellectual awareness to assist growth\nand change. Through using various modalities such as meditation,\nvisualization, movement, and creative expression, personal knowing and\nexpansion is enhanced.\n\n\n\n    \n\nI have worked extensively with people healing from trauma, including\nchild sexual and physical abuse, and with those exploring creativity,\nsexuality, body and health issues, and spirituality. I bring a\nsensitivity to and awareness of questions of sexual and gender\norientation. General areas of focus include self-esteem, image,\nassertiveness, and communication skills.\n\n\n\n\n\nWhat is Craniosacral Work? It is a hands-on meditative process that\nbrings about change gently and non-intrusively. Craniosacral treatments\nprovide energy balancing that supports our innate ability to heal. Coming\nout of osteopathic medicine, it involves gentle holding and light touch\non the head, face, and tailbone. People report a deep sense of\nrelaxation, calm, groundedness, and/or centeredness from treatments.\nCraniosacral techniques can be used in conjuncture with the\npsychotherapeutic process, where appropriate, as one method of supporting\ninternal change. The client is fully clothed for the session.\n\n\n\n\n\nPublications (full publication CV available upon request): My Breasts, My\nChoice: A Photographic & Narrative Journey, exploring peoples experience\nof breast and chest surgery through photography and storytelling."
+        description: |-
+            I offer caring, compassionate support for a process that allows you to go
+            deep effectively and manageably. In a relationship of safety, we will
+            draw on physical, emotional, and intellectual awareness to assist growth
+            and change. Through using various modalities such as meditation,
+            visualization, movement, and creative expression, personal knowing and
+            expansion is enhanced.
+
+
+
+
+
+            I have worked extensively with people healing from trauma, including
+            child sexual and physical abuse, and with those exploring creativity,
+            sexuality, body and health issues, and spirituality. I bring a
+            sensitivity to and awareness of questions of sexual and gender
+            orientation. General areas of focus include self-esteem, image,
+            assertiveness, and communication skills.
+
+
+
+
+
+            What is Craniosacral Work? It is a hands-on meditative process that
+            brings about change gently and non-intrusively. Craniosacral treatments
+            provide energy balancing that supports our innate ability to heal. Coming
+            out of osteopathic medicine, it involves gentle holding and light touch
+            on the head, face, and tailbone. People report a deep sense of
+            relaxation, calm, groundedness, and/or centeredness from treatments.
+            Craniosacral techniques can be used in conjuncture with the
+            psychotherapeutic process, where appropriate, as one method of supporting
+            internal change. The client is fully clothed for the session.
+
+
+
+
+
+            Publications (full publication CV available upon request): My Breasts, My
+            Choice: A Photographic & Narrative Journey, exploring peoples experience
+            of breast and chest surgery through photography and storytelling.
         categories: Psychotherapists - Licensed
         location: CA-Ontario
         countries: CA
@@ -1818,7 +2191,20 @@ entries:
         website: http://globalvisions.org/cl/elkin
         website2: ""
         fees: 'Indivduals:  Usually $100/1 hr. session  with sliding scales up to %50 off.  Groups:  Usually $20/ 1 hr session with sliding scale up to %50 off.'
-        description: "I am a Spiritual Gestalt and Expressive Arts psychotherapist. I speak and write French and English. I serve all age groups, but mostly adults (21-70) dealing with issues of\nself-esteem, confidence, anger management, addictions, sexual dysfunction, and communication.\nI serve all populations, that are Normal Neurotics,  regardless of age, sex, sexual preference. While my practice does not emphasize bisexual concerns, I always welcome\nand have particular sensitivity to bisexual issues, along with issues of monogamy, fidelity and\npolyamory.\n\n\n\n \n\nI am a founding member of Gestalt Institute of Washington, D.C.\nI have organized numerous workshops in Transpersonal Gestalt & Expressive Arts\nPsychotherapies. I have also organized several workshops with theme: Gay, Straight or Otherwise."
+        description: |-
+            I am a Spiritual Gestalt and Expressive Arts psychotherapist. I speak and write French and English. I serve all age groups, but mostly adults (21-70) dealing with issues of
+            self-esteem, confidence, anger management, addictions, sexual dysfunction, and communication.
+            I serve all populations, that are Normal Neurotics,  regardless of age, sex, sexual preference. While my practice does not emphasize bisexual concerns, I always welcome
+            and have particular sensitivity to bisexual issues, along with issues of monogamy, fidelity and
+            polyamory.
+
+
+
+
+
+            I am a founding member of Gestalt Institute of Washington, D.C.
+            I have organized numerous workshops in Transpersonal Gestalt & Expressive Arts
+            Psychotherapies. I have also organized several workshops with theme: Gay, Straight or Otherwise.
         categories: Psychotherapists - Licensed
         location: US-HI (Hawaii)
         countries: US
@@ -1843,7 +2229,41 @@ entries:
         website: www.healingheartpower.com
         website2: ""
         fees: Contact me for more information.
-        description: "I am the founder of the Boston Area\nSexuality and Spirituality Network, a staff writer for Spirituality and\nSexuality magazine, and author of LIVING WITH VISION: RECLAIMING THE POWER OF\nTHE HEART (Knowledge Systems, 1989) and HEALING THE WAR BETWEEN THE GENDERS\n(Forthcoming).  I have led workshops nationally and internationally and\npublic speak on a wide variety of subjects including gender and identity,\ngender reconciliation, heart-centered healing and social evolution.\n\n\n\n\n\nI have practiced heart-centered, body-centered, psychospiritual therapy for\nnearly two decades in the Boston Area.  I founded the Institute for\nEmotional-Kinesthetic Psychotherapy in 1990.  My interests include trauma\nwork, integrating sexuality and spirituality, mentoring the souls journey\nand creating healing community.  I have worked with gay, lesbian, bisexual\nand transgendered people for most all of my years in practice, as well as\nmembers of various sexual subcultures.\n\n\n\n  \n\nMy Degrees:  I hold a Masters Degree in Organization Development from the\nSloan School, MIT.  I studied Psychobiology at Yale in the late 70s, prior\nto the availability of body psychotherapy training in any university setting.\n I have been a pioneer in the field of somatic psychology, helping found the\nfirst state professional association  in Massachusetts in 1989, helping found\nthe Somatics Community within the Association for Humanistic Psychology while\nserving on the AHP Board, and through establishing a 3 year apprenticeship\ntraining program in Emotional-Kinesthetic Psychotherapy (EKP)--the method I\ndeveloped and have practiced since 1985.  My school certified body-centered\npsychotherapists who completed the 1000+ hour program."
+        description: |-
+            I am the founder of the Boston Area
+            Sexuality and Spirituality Network, a staff writer for Spirituality and
+            Sexuality magazine, and author of LIVING WITH VISION: RECLAIMING THE POWER OF
+            THE HEART (Knowledge Systems, 1989) and HEALING THE WAR BETWEEN THE GENDERS
+            (Forthcoming).  I have led workshops nationally and internationally and
+            public speak on a wide variety of subjects including gender and identity,
+            gender reconciliation, heart-centered healing and social evolution.
+
+
+
+
+
+            I have practiced heart-centered, body-centered, psychospiritual therapy for
+            nearly two decades in the Boston Area.  I founded the Institute for
+            Emotional-Kinesthetic Psychotherapy in 1990.  My interests include trauma
+            work, integrating sexuality and spirituality, mentoring the souls journey
+            and creating healing community.  I have worked with gay, lesbian, bisexual
+            and transgendered people for most all of my years in practice, as well as
+            members of various sexual subcultures.
+
+
+
+
+
+            My Degrees:  I hold a Masters Degree in Organization Development from the
+            Sloan School, MIT.  I studied Psychobiology at Yale in the late 70s, prior
+            to the availability of body psychotherapy training in any university setting.
+             I have been a pioneer in the field of somatic psychology, helping found the
+            first state professional association  in Massachusetts in 1989, helping found
+            the Somatics Community within the Association for Humanistic Psychology while
+            serving on the AHP Board, and through establishing a 3 year apprenticeship
+            training program in Emotional-Kinesthetic Psychotherapy (EKP)--the method I
+            developed and have practiced since 1985.  My school certified body-centered
+            psychotherapists who completed the 1000+ hour program.
         categories: Educators
         location: US-MA (Massachusetts)
         countries: US
@@ -1897,7 +2317,27 @@ entries:
         website: http://www.lorainehutchins.com
         website2: ""
         fees: contact me for more info on fees
-        description: "I work as a sex coach and sex educator, particularly with women,\nolder people, fat people, lesbian/gay/bisexual/transgender and intersex\npeople, and those living with disabilities.  I work with a wide range of\ncommunities including those in intentional spiritual communities or\npractices, those identifying as polyamorous (loving more than one, openly\n& honestly) and those with BDSM/leather affinities.  My sex coaching\nservices -- patterned after Dodson (<a href=\"http://www.bettydodson.com\">www.bettydodson.com</a>) and Kramer (<a href=\"http://www.erospirit.org\">www.erospirit.org</a>) -- help you improve your self-pleasuring capacity and\nuse that capacity to empower your whole life.\n\n\n\n  \n\nI also offer a variety of speechs and workshops (see website) and am available for guest teaching\nand guest lecturing.  My self-published doctoral dissertation on\ncontempoary U.S. sacred sexualities is available through my website,\nwhich also includes other samples of my writings, including the\nmuch-beloved 1991 anthology, Bi Any Other Name: Bisexual People Speak\nOut, named one of the top 100 queer books of the last century, which I\nco-edited with Lani Ka-ahumanu."
+        description: |-
+            I work as a sex coach and sex educator, particularly with women,
+            older people, fat people, lesbian/gay/bisexual/transgender and intersex
+            people, and those living with disabilities.  I work with a wide range of
+            communities including those in intentional spiritual communities or
+            practices, those identifying as polyamorous (loving more than one, openly
+            & honestly) and those with BDSM/leather affinities.  My sex coaching
+            services -- patterned after Dodson (<a href="http://www.bettydodson.com">www.bettydodson.com</a>) and Kramer (<a href="http://www.erospirit.org">www.erospirit.org</a>) -- help you improve your self-pleasuring capacity and
+            use that capacity to empower your whole life.
+
+
+
+
+
+            I also offer a variety of speechs and workshops (see website) and am available for guest teaching
+            and guest lecturing.  My self-published doctoral dissertation on
+            contempoary U.S. sacred sexualities is available through my website,
+            which also includes other samples of my writings, including the
+            much-beloved 1991 anthology, Bi Any Other Name: Bisexual People Speak
+            Out, named one of the top 100 queer books of the last century, which I
+            co-edited with Lani Ka-ahumanu.
         categories: Body Workers
         location: US-MD (Maryland)
         countries: US
@@ -1922,7 +2362,24 @@ entries:
         website: http://www.lorainehutchins.com
         website2: ""
         fees: contact me for more info on fees
-        description: "I offer a variety of speechs and workshops (see website) and am available for guest teaching\nand guest lecturing.  My self-published doctoral dissertation on contempoary U.S. sacred sexualities is available through my website, which also includes other samples of my writings, including the much-beloved 1991 anthology, Bi Any Other Name: Bisexual People Speak\nOut, named one of the top 100 queer books of the last century, which I\nco-edited with Lani Ka-ahumanu.\n\n\n\n \n\nI also work as a sex coach and sex educator, particularly with women,\nolder people, fat people, lesbian/gay/bisexual/transgender and intersex\npeople, and those living with disabilities.  I work with a wide range of\ncommunities including those in intentional spiritual communities or\npractices, those identifying as polyamorous (loving more than one, openly\n& honestly) and those with BDSM/leather affinities.  My sex coaching\nservices -- patterned after Dodson (<a href=\"http://www.bettydodson.com\">www.bettydodson.com</a>) and Kramer (<a href=\"http://www.erospirit.org\">www.erospirit.org</a>) -- help you improve your self-pleasuring capacity and\nuse that capacity to empower your whole life."
+        description: |-
+            I offer a variety of speechs and workshops (see website) and am available for guest teaching
+            and guest lecturing.  My self-published doctoral dissertation on contempoary U.S. sacred sexualities is available through my website, which also includes other samples of my writings, including the much-beloved 1991 anthology, Bi Any Other Name: Bisexual People Speak
+            Out, named one of the top 100 queer books of the last century, which I
+            co-edited with Lani Ka-ahumanu.
+
+
+
+
+
+            I also work as a sex coach and sex educator, particularly with women,
+            older people, fat people, lesbian/gay/bisexual/transgender and intersex
+            people, and those living with disabilities.  I work with a wide range of
+            communities including those in intentional spiritual communities or
+            practices, those identifying as polyamorous (loving more than one, openly
+            & honestly) and those with BDSM/leather affinities.  My sex coaching
+            services -- patterned after Dodson (<a href="http://www.bettydodson.com">www.bettydodson.com</a>) and Kramer (<a href="http://www.erospirit.org">www.erospirit.org</a>) -- help you improve your self-pleasuring capacity and
+            use that capacity to empower your whole life.
         categories: Educators
         location: US-MD (Maryland)
         countries: US
@@ -1947,7 +2404,60 @@ entries:
         website: http://www.choicesconsulting.com
         website2: ""
         fees: $33-80, most insurances okay
-        description: "Arlene Istar Lev CSW-R, CASAC is a social worker, educator,\n      and activist with twenty years experience addressing the\n      unique health care needs of lesbian, gay, bisexual, and\n      transgendered people.  She is the founder of Choices\n      Counseling and Consulting in Albany, New York, providing\n      family therapy for LGBT people. She is also on the adjunct\n      faculties of S.U.N.Y. Albany, School of Social Welfare, and\n      Vermont College of the Union Institute and University, where\n      she teaches both in traditional classroom settings, as well\n      as web-based education. Additionally, Arlene is the Project\n      Manager for Rainbow Access Initiative, a training program on\n      LGBT issues for therapists, funded through a NYS Department\n      of Health Grant. Arlene has been working with transgendered,\n      transsexual, and other gender variant people for the past 15\n      years.\n\n\n\n\n\nArlenes expertise is in issues related to sexual and gender\n      identity issues, as well as trauma recovery, addictions, and\n      parenting in alternative families. Arlene works within a\n      feminist family systems and empowerment modality and is\n      trained in numerous psychotherapeutic and psychospiritual\n      arts. She has published numerous articles on issues of\n      domestic violence and sexual assault in the LGBT community,\n      and family therapy approaches to working with family members\n      of those who are gender variant. She maintains a column on\n      LGBT parenting issues at www.LesbiaNation.com, and a Dear\n      Ari advice column at \n<a href=\"http://www.ProudParenting.com\">www.ProudParenting.com</a>.\n\n\n\n  \n\n      Arlene is a member of the National Association of Social\n      Workers, and the Harry Benjamin International Gender\n      Dysphoria Association, as well as an advisory board member of\n      the Lesbian and Gay Family Building Project. She is the\n      former  Chair of the National Association of Social Workers\n      [N.A.S.W.], New York State Chapter, Lesbian and Gay Issues\n      Committee (1986-1994).\n\n\n\n\n\nAdditionally, Arlene has 5 articles coming out in queer journals, one\nchapter, and two books currently in press. one called Transgender\nEmergence: Counseling Gender Variant People and their Families, and the\nother called How Queer! LGBT Parenting."
+        description: |-
+            Arlene Istar Lev CSW-R, CASAC is a social worker, educator,
+                  and activist with twenty years experience addressing the
+                  unique health care needs of lesbian, gay, bisexual, and
+                  transgendered people.  She is the founder of Choices
+                  Counseling and Consulting in Albany, New York, providing
+                  family therapy for LGBT people. She is also on the adjunct
+                  faculties of S.U.N.Y. Albany, School of Social Welfare, and
+                  Vermont College of the Union Institute and University, where
+                  she teaches both in traditional classroom settings, as well
+                  as web-based education. Additionally, Arlene is the Project
+                  Manager for Rainbow Access Initiative, a training program on
+                  LGBT issues for therapists, funded through a NYS Department
+                  of Health Grant. Arlene has been working with transgendered,
+                  transsexual, and other gender variant people for the past 15
+                  years.
+
+
+
+
+
+            Arlenes expertise is in issues related to sexual and gender
+                  identity issues, as well as trauma recovery, addictions, and
+                  parenting in alternative families. Arlene works within a
+                  feminist family systems and empowerment modality and is
+                  trained in numerous psychotherapeutic and psychospiritual
+                  arts. She has published numerous articles on issues of
+                  domestic violence and sexual assault in the LGBT community,
+                  and family therapy approaches to working with family members
+                  of those who are gender variant. She maintains a column on
+                  LGBT parenting issues at www.LesbiaNation.com, and a Dear
+                  Ari advice column at
+            <a href="http://www.ProudParenting.com">www.ProudParenting.com</a>.
+
+
+
+
+
+                  Arlene is a member of the National Association of Social
+                  Workers, and the Harry Benjamin International Gender
+                  Dysphoria Association, as well as an advisory board member of
+                  the Lesbian and Gay Family Building Project. She is the
+                  former  Chair of the National Association of Social Workers
+                  [N.A.S.W.], New York State Chapter, Lesbian and Gay Issues
+                  Committee (1986-1994).
+
+
+
+
+
+            Additionally, Arlene has 5 articles coming out in queer journals, one
+            chapter, and two books currently in press. one called Transgender
+            Emergence: Counseling Gender Variant People and their Families, and the
+            other called How Queer! LGBT Parenting.
         categories: Psychotherapists - Licensed
         location: US-NY (New York)
         countries: US
@@ -2013,7 +2523,27 @@ entries:
         website: http://www.lorainehutchins.com
         website2: ""
         fees: contact me for more info on fees
-        description: "I work as a sex coach and sex educator, particularly with women,\nolder people, fat people, lesbian/gay/bisexual/transgender and intersex\npeople, and those living with disabilities.  I work with a wide range of\ncommunities including those in intentional spiritual communities or\npractices, those identifying as polyamorous (loving more than one, openly\n& honestly) and those with BDSM/leather affinities.  My sex coaching\nservices -- patterned after Dodson (<a href=\"http://www.bettydodson.com\">www.bettydodson.com</a>) and Kramer (<a href=\"http://www.erospirit.org\">www.erospirit.org</a>) -- help you improve your self-pleasuring capacity and\nuse that capacity to empower your whole life.\n\n\n\n  \n\nI also offer a variety of speechs and workshops (see website) and am available for guest teaching\nand guest lecturing.  My self-published doctoral dissertation on\ncontempoary U.S. sacred sexualities is available through my website,\nwhich also includes other samples of my writings, including the\nmuch-beloved 1991 anthology, Bi Any Other Name: Bisexual People Speak\nOut, named one of the top 100 queer books of the last century, which I\nco-edited with Lani Ka-ahumanu."
+        description: |-
+            I work as a sex coach and sex educator, particularly with women,
+            older people, fat people, lesbian/gay/bisexual/transgender and intersex
+            people, and those living with disabilities.  I work with a wide range of
+            communities including those in intentional spiritual communities or
+            practices, those identifying as polyamorous (loving more than one, openly
+            & honestly) and those with BDSM/leather affinities.  My sex coaching
+            services -- patterned after Dodson (<a href="http://www.bettydodson.com">www.bettydodson.com</a>) and Kramer (<a href="http://www.erospirit.org">www.erospirit.org</a>) -- help you improve your self-pleasuring capacity and
+            use that capacity to empower your whole life.
+
+
+
+
+
+            I also offer a variety of speechs and workshops (see website) and am available for guest teaching
+            and guest lecturing.  My self-published doctoral dissertation on
+            contempoary U.S. sacred sexualities is available through my website,
+            which also includes other samples of my writings, including the
+            much-beloved 1991 anthology, Bi Any Other Name: Bisexual People Speak
+            Out, named one of the top 100 queer books of the last century, which I
+            co-edited with Lani Ka-ahumanu.
         categories: Psychotherapists - Unlicensed
         location: US-MD (Maryland)
         countries: US
@@ -2225,7 +2755,44 @@ entries:
         website: ""
         website2: ""
         fees: $95 for individual therapy or consultation, $105 for couples work, $125 for first two meetings for gender evaluations; then regular fees apply to subsequent meetings.
-        description: "Clinical Social Worker; personal and corporate coach with Arena Group Coaching & Consulting; consultant; producer of the longest-running and largest psychology-in-film series in the\nnation, <a href=\"http://www.psychologygoestothemovies.org\">http://www.psychologygoestothemovies.org</a>, and teacher of film and pop culture theory. Also, disability activist, currently Chair of the City of Cambridge Commission for People with Disabilities.\n\n\n\n \n\nAs a therapist, I provide individual, couple and family psychotherapy to people of all ages, cultures and nationalities; of all gender and sexual expressions; and to people with disabilities of any kind. My current case load includes Asian, African-American, and West Indian\nclients as well as European and Celtic descendants; and includes bi and gay men, lesbians and bi women, poly individuals and couples, cross-dressers and those in the BDSM D/S scene (see below)\nI work in English. I understand West Indian. My secondary office is fully accessible, but I do not have ASL or TTY.   I will work with any level of trouble of mental illness, including people diagnosed with Bipolar Disorder, psychotic illnesses, Aspergers (autism), epilepsy, etc. I also provide consultation of all kinds in psychiatry and therapy issues, second opinions, diagnostic aid, etc.  I work as covering senior clinician for many Cambridge therapists when they are away.\nSome special areas of experience include: ADD & ADHD; Evaluating and supporting people (including children and adolescents) with gender concerns, cross-dressing, and those seeking\ncomplete gender realignment or correction (I  am an approved provider in this speciality).\nI work with artists, actors, performers, writers, poets, and other creatives. I do pre-marital counseling upon request for couples with differences in race, class or  culture; or for couples in which one partner has a significant disability.\n\n\n\n\n\nAs a coach, I work with *anyone who has a goal* they are determined\nand committed to achieve. I coach physicians; I coach for ICI, a program for\nwomen with disabilities seeking employment or career development; I coach\nnovelists, screenwriters, contruction workers, nurses, etc.  The Arena\nMethod® is used by coaches in my firm and has proven very dynamic -- it\nteaches clients *how to want something* in the way that ensures getting it.\nFees for coaching are structured differently from most professional\nfees, but are roughly similar to therapy costs overall.  Clients contract\ninitially for 90 days, usually including one 30-minute phone meeting per week\n(clients may be in any part of the world) and weekly structured tasks.\nDifferent service packages provide additional supports according to each\nplan. For the client, coaching requires guts and is a more strenuous course\nthan being in therapy; it also works faster to structure current goals.\n\n\n\n\n\nVitae of publications available upon request."
+        description: |-
+            Clinical Social Worker; personal and corporate coach with Arena Group Coaching & Consulting; consultant; producer of the longest-running and largest psychology-in-film series in the
+            nation, <a href="http://www.psychologygoestothemovies.org">http://www.psychologygoestothemovies.org</a>, and teacher of film and pop culture theory. Also, disability activist, currently Chair of the City of Cambridge Commission for People with Disabilities.
+
+
+
+
+
+            As a therapist, I provide individual, couple and family psychotherapy to people of all ages, cultures and nationalities; of all gender and sexual expressions; and to people with disabilities of any kind. My current case load includes Asian, African-American, and West Indian
+            clients as well as European and Celtic descendants; and includes bi and gay men, lesbians and bi women, poly individuals and couples, cross-dressers and those in the BDSM D/S scene (see below)
+            I work in English. I understand West Indian. My secondary office is fully accessible, but I do not have ASL or TTY.   I will work with any level of trouble of mental illness, including people diagnosed with Bipolar Disorder, psychotic illnesses, Aspergers (autism), epilepsy, etc. I also provide consultation of all kinds in psychiatry and therapy issues, second opinions, diagnostic aid, etc.  I work as covering senior clinician for many Cambridge therapists when they are away.
+            Some special areas of experience include: ADD & ADHD; Evaluating and supporting people (including children and adolescents) with gender concerns, cross-dressing, and those seeking
+            complete gender realignment or correction (I  am an approved provider in this speciality).
+            I work with artists, actors, performers, writers, poets, and other creatives. I do pre-marital counseling upon request for couples with differences in race, class or  culture; or for couples in which one partner has a significant disability.
+
+
+
+
+
+            As a coach, I work with *anyone who has a goal* they are determined
+            and committed to achieve. I coach physicians; I coach for ICI, a program for
+            women with disabilities seeking employment or career development; I coach
+            novelists, screenwriters, contruction workers, nurses, etc.  The Arena
+            Method® is used by coaches in my firm and has proven very dynamic -- it
+            teaches clients *how to want something* in the way that ensures getting it.
+            Fees for coaching are structured differently from most professional
+            fees, but are roughly similar to therapy costs overall.  Clients contract
+            initially for 90 days, usually including one 30-minute phone meeting per week
+            (clients may be in any part of the world) and weekly structured tasks.
+            Different service packages provide additional supports according to each
+            plan. For the client, coaching requires guts and is a more strenuous course
+            than being in therapy; it also works faster to structure current goals.
+
+
+
+
+
+            Vitae of publications available upon request.
         categories: Psychotherapists - Unlicensed
         location: US-MA (Massachusetts)
         countries: US
@@ -2291,7 +2858,24 @@ entries:
         website: http://www.lorainehutchins.com
         website2: ""
         fees: contact me for more info on fees
-        description: "I offer a variety of speechs and workshops (see website) and am available for guest teaching\nand guest lecturing.  My self-published doctoral dissertation on contempoary U.S. sacred sexualities is available through my website, which also includes other samples of my writings, including the much-beloved 1991 anthology, Bi Any Other Name: Bisexual People Speak\nOut, named one of the top 100 queer books of the last century, which I\nco-edited with Lani Ka-ahumanu.\n\n\n\n \n\nI also work as a sex coach and sex educator, particularly with women,\nolder people, fat people, lesbian/gay/bisexual/transgender and intersex\npeople, and those living with disabilities.  I work with a wide range of\ncommunities including those in intentional spiritual communities or\npractices, those identifying as polyamorous (loving more than one, openly\n& honestly) and those with BDSM/leather affinities.  My sex coaching\nservices -- patterned after Dodson (<a href=\"http://www.bettydodson.com\">www.bettydodson.com</a>) and Kramer (<a href=\"http://www.erospirit.org\">www.erospirit.org</a>) -- help you improve your self-pleasuring capacity and\nuse that capacity to empower your whole life."
+        description: |-
+            I offer a variety of speechs and workshops (see website) and am available for guest teaching
+            and guest lecturing.  My self-published doctoral dissertation on contempoary U.S. sacred sexualities is available through my website, which also includes other samples of my writings, including the much-beloved 1991 anthology, Bi Any Other Name: Bisexual People Speak
+            Out, named one of the top 100 queer books of the last century, which I
+            co-edited with Lani Ka-ahumanu.
+
+
+
+
+
+            I also work as a sex coach and sex educator, particularly with women,
+            older people, fat people, lesbian/gay/bisexual/transgender and intersex
+            people, and those living with disabilities.  I work with a wide range of
+            communities including those in intentional spiritual communities or
+            practices, those identifying as polyamorous (loving more than one, openly
+            & honestly) and those with BDSM/leather affinities.  My sex coaching
+            services -- patterned after Dodson (<a href="http://www.bettydodson.com">www.bettydodson.com</a>) and Kramer (<a href="http://www.erospirit.org">www.erospirit.org</a>) -- help you improve your self-pleasuring capacity and
+            use that capacity to empower your whole life.
         categories: Educators
         location: US-All (Nationwide)
         countries: US
@@ -2316,7 +2900,55 @@ entries:
         website: http://www.numenor.org/~gdw/psychologist
         website2: ""
         fees: See below
-        description: "**Workshops and lectures I have given include:**\n\n<ul type=\"disc\">\n<li>**What Therapists Should Know About Working with Bisexual Clients**\n<ul type=\"circle\"><li>How is being bisexual different from being gay or lesbian? What are some specific concerns that bisexuals face? How can a counselor take these issues into account so as to be supportive to their bisexual clients?</li></ul>\n</li>\n\n\n\n<li>**When Someone You Know Is Lesbian, Gay or Bisexual**\n<ul type=\"circle\"><li>It is estimated that one out of every ten people is lesbian, gay, or bisexual. Today more and more gay people are finding it possible to come out to their friends, families and co-workers. Come join an open discussion about perceptions of lesbians, gays and bisexuals in society. We will examine stereotypes, explore homophobia, and talk about what it feels like to be different from others. </li></ul>\n</li>\n\n\n\n<li>**What Psychology Professionals Should Know About Polyamory: The Lifestyles and Mental Health Concerns of Polyamorous Individuals.** \n<ul type=\"circle\">\n<li>Polyamory is a lifestyle in which romantic partners agree that they may each have romantic relationships with other people as well. It is distinguished from infidelity by the presence of honest, supportive communication between partners and lovers about the existence of each of these relationships in their lives. This workshop talks about some of the unique concerns that polyamorous people face, and the ways in which a therapist can be supportive of and helpful to their polyamorous clients.</li></ul>\n</li>\n\n\n\n<li>**Coming Out Issues Workshop**\n<ul type=\"circle\">\n<li>Lesbians, gays and bisexuals are frequently faced with the decision of whether to come out to their friends, families, and co-workers. Coming out can be associated with both benefits and risks. In this workshop, we will talk about how one might make the decision to come out and about ways of coming out to the people in one's life. We will also talk about community resources that can offer support as these choices are made.</li></ul> \n</li>\n\n\n\n<li>**Bi-Gay Dialogue: Are We Family?** \n<ul type=\"circle\">\n<li>There have historically been rifts between the bisexual and gay communities. This workshop will examine the sources of those rifts. We will discuss experiences that these two communities have in common, and what each experiences distinctly. It is hoped that the discussion will foster a sense of support and understanding between the two communities. All are welcome to attend.</li></ul>\n</li>\n\n\n<li>**Other workshops / lectures can be custom-created to fit the particular needs of your organization.**</li>\n</ul>\n\n\n\n**Workshop/Lecture Fees:**\n<ul type=\"disc\">(Sliding scale offered for non-profit organizations) I charge $100 per hour of presentation time and $40 per hour of travel time (up to a maximum of 8 hours in a given day), plus travel and lodging expenses as applicable. For instance, a two hour lecture in San Francisco would cost $240: 2 hours of lecture at $100 each, plus a half hour each way from my home in San Mateo county (2x20). A two hour lecture in New York would cost $840 plus travel/lodging expenses: 2 hours of lecture at $100 each, 8 hours of travel time each way (16x40 = $640), plus airfare and overnight lodging accomodations.\n</ul>\n\n\n\n**More about me:**\n<ul type=\"disc\">I am an openly bisexual psychologist, practicing in San Francisco (Noe Valley neighborhood). I have experience working within the Bisexual, Lesbian, Gay, Polyamory, Kink/BDSM, HIV+/POZ, and DD communities. My other specialties include relationship work, career counseling, managing depression, anxiety, anger, substance and internet addictions, codependency, and self-acceptance. I am the coordinator of the <a href=\"http://www.bizone.org/bap\">Bisexuality-Aware Professionals Directory</a>, and the author of <a href=\"http://www.polyamory.org/~joe/polypaper.htm\">What Psychology Professionals Should Know About Polyamory</a>.</ul>"
+        description: |-
+            **Workshops and lectures I have given include:**
+
+            <ul type="disc">
+            <li>**What Therapists Should Know About Working with Bisexual Clients**
+            <ul type="circle"><li>How is being bisexual different from being gay or lesbian? What are some specific concerns that bisexuals face? How can a counselor take these issues into account so as to be supportive to their bisexual clients?</li></ul>
+            </li>
+
+
+
+            <li>**When Someone You Know Is Lesbian, Gay or Bisexual**
+            <ul type="circle"><li>It is estimated that one out of every ten people is lesbian, gay, or bisexual. Today more and more gay people are finding it possible to come out to their friends, families and co-workers. Come join an open discussion about perceptions of lesbians, gays and bisexuals in society. We will examine stereotypes, explore homophobia, and talk about what it feels like to be different from others. </li></ul>
+            </li>
+
+
+
+            <li>**What Psychology Professionals Should Know About Polyamory: The Lifestyles and Mental Health Concerns of Polyamorous Individuals.**
+            <ul type="circle">
+            <li>Polyamory is a lifestyle in which romantic partners agree that they may each have romantic relationships with other people as well. It is distinguished from infidelity by the presence of honest, supportive communication between partners and lovers about the existence of each of these relationships in their lives. This workshop talks about some of the unique concerns that polyamorous people face, and the ways in which a therapist can be supportive of and helpful to their polyamorous clients.</li></ul>
+            </li>
+
+
+
+            <li>**Coming Out Issues Workshop**
+            <ul type="circle">
+            <li>Lesbians, gays and bisexuals are frequently faced with the decision of whether to come out to their friends, families, and co-workers. Coming out can be associated with both benefits and risks. In this workshop, we will talk about how one might make the decision to come out and about ways of coming out to the people in one's life. We will also talk about community resources that can offer support as these choices are made.</li></ul>
+            </li>
+
+
+
+            <li>**Bi-Gay Dialogue: Are We Family?**
+            <ul type="circle">
+            <li>There have historically been rifts between the bisexual and gay communities. This workshop will examine the sources of those rifts. We will discuss experiences that these two communities have in common, and what each experiences distinctly. It is hoped that the discussion will foster a sense of support and understanding between the two communities. All are welcome to attend.</li></ul>
+            </li>
+
+
+            <li>**Other workshops / lectures can be custom-created to fit the particular needs of your organization.**</li>
+            </ul>
+
+
+
+            **Workshop/Lecture Fees:**
+            <ul type="disc">(Sliding scale offered for non-profit organizations) I charge $100 per hour of presentation time and $40 per hour of travel time (up to a maximum of 8 hours in a given day), plus travel and lodging expenses as applicable. For instance, a two hour lecture in San Francisco would cost $240: 2 hours of lecture at $100 each, plus a half hour each way from my home in San Mateo county (2x20). A two hour lecture in New York would cost $840 plus travel/lodging expenses: 2 hours of lecture at $100 each, 8 hours of travel time each way (16x40 = $640), plus airfare and overnight lodging accomodations.
+            </ul>
+
+
+
+            **More about me:**
+            <ul type="disc">I am an openly bisexual psychologist, practicing in San Francisco (Noe Valley neighborhood). I have experience working within the Bisexual, Lesbian, Gay, Polyamory, Kink/BDSM, HIV+/POZ, and DD communities. My other specialties include relationship work, career counseling, managing depression, anxiety, anger, substance and internet addictions, codependency, and self-acceptance. I am the coordinator of the <a href="http://www.bizone.org/bap">Bisexuality-Aware Professionals Directory</a>, and the author of <a href="http://www.polyamory.org/~joe/polypaper.htm">What Psychology Professionals Should Know About Polyamory</a>.</ul>
         categories: Educators
         location: US-All (Nationwide)
         countries: US
@@ -2324,7 +2956,7 @@ entries:
         lastUpdate: 0000-00-00
     - path: 82_dr-joseph-chikelue-obi
       fields:
-        title: Dr Joseph Chikelue Obi MBBS, MPH, MD, DSc, FRIPH - Medical Professionals from International
+        title: Dr Joseph Chikelue Obi MBBS, MPH, MD, DSc, FRIPH - Medical Professionals from
         id: 82
         salutation: ""
         first_name: Dr  Joseph Chikelue
@@ -2348,8 +2980,8 @@ entries:
             I specialize in General Family Medicine and Public Health Promotion, and my language is English.
         categories: Medical Professionals
         location: International
-        countries: ZZ
-        regions: International
+        countries: International
+        regions: ""
         lastUpdate: 0000-00-00
     - path: 83_carol-morotti-meeker
       fields:
@@ -2370,7 +3002,22 @@ entries:
         website: ""
         website2: ""
         fees: Please contact me for more information.
-        description: "Spiritually focused therapist/coach for individuals, families and children living any type of\nnontraditional lifestyle (polyamorous, swinging, Leather, etc) to help to\nclear the obstacles for more love and less hurt in relationaships. Participants with any substance abuse issues welcome. \n\n\n\n\nAlso available is hands on massage and body work to enhace a greater openess and vitality. The work allows a person to open the stuck spots which\ncan lead to healing of emotional and sexual wounds for increased\nsatisfaction and comfort with the body.\n\n\n\n\nTravel possible. Contact Carol for more information."
+        description: |-
+            Spiritually focused therapist/coach for individuals, families and children living any type of
+            nontraditional lifestyle (polyamorous, swinging, Leather, etc) to help to
+            clear the obstacles for more love and less hurt in relationaships. Participants with any substance abuse issues welcome.
+
+
+
+
+            Also available is hands on massage and body work to enhace a greater openess and vitality. The work allows a person to open the stuck spots which
+            can lead to healing of emotional and sexual wounds for increased
+            satisfaction and comfort with the body.
+
+
+
+
+            Travel possible. Contact Carol for more information.
         categories: Psychotherapists - Licensed
         location: US-PA (Pennsylvania)
         countries: US
@@ -2395,7 +3042,18 @@ entries:
         website: ""
         website2: ""
         fees: Please contact me for more information
-        description: "Hands-on massage and body work to enhace a greater openess and vitality. The work allows a person to open the stuck spots which can lead to healing of emotional and sexual wounds for increased satisfaction and comfort with the body.\n\n\n\n\nAlso available is spiritually focused therapist/coach for individuals, families and children living any type of nontraditional lifestyle (polyamorous, swinging, Leather, etc) to help to clear the obstacles for more love and less hurt in relationaships. Participants with any substance abuse issues welcome.  \n\n\n\n\nTravel possible. Contact Carol for more information."
+        description: |-
+            Hands-on massage and body work to enhace a greater openess and vitality. The work allows a person to open the stuck spots which can lead to healing of emotional and sexual wounds for increased satisfaction and comfort with the body.
+
+
+
+
+            Also available is spiritually focused therapist/coach for individuals, families and children living any type of nontraditional lifestyle (polyamorous, swinging, Leather, etc) to help to clear the obstacles for more love and less hurt in relationaships. Participants with any substance abuse issues welcome.
+
+
+
+
+            Travel possible. Contact Carol for more information.
         categories: Body Workers
         location: US-PA (Pennsylvania)
         countries: US
@@ -2431,7 +3089,7 @@ entries:
         lastUpdate: 0000-00-00
     - path: 86_carrie-sandler
       fields:
-        title: Carrie Sandler - Travel Agents from International
+        title: Carrie Sandler - Travel Agents from
         id: 86
         salutation: ""
         first_name: Carrie
@@ -2454,8 +3112,8 @@ entries:
             Vacations.  Basically, if you dream of it, I can make it come true.
         categories: Travel Agents
         location: International
-        countries: ZZ
-        regions: International
+        countries: International
+        regions: ""
         lastUpdate: 0000-00-00
     - path: 88_eric-deriel
       fields:
@@ -2612,7 +3270,38 @@ entries:
         website: http://www.younginvestigations.com
         website2: ""
         fees: $20-125, depending on research involved.
-        description: "Young Investigations performs private investigations for businesses and\nindividuals with a emphasis to the bi-sexual, gay and lesbian\ncommunities.  Investigations performed are, infidelity, abuse, employee\ntheft, undercover operations, adoption research, information research,\nprocess services, child custody, parental suitability, teen problems,\nwrongful termination, pre-matrimonial, pre-employment, repossession\nlocate, surveillance, insurance defense, work related injuries, skip\ntracing, sexual harassment,  stalking, sexual preference harassment,\nneighborhood harassment, landlord abuse, landlord unfair treatment,\nemployer prejudice, This list is only a partial list of  investigative\nservices offered.\n\n\n\n\nYoung Investigations also reviews documentation from anywhere within the\nUnited States and offers suggestions of defense or recourse, reviews\ninclude police reports, traffic accident reports, domestic orders,\ncharges of abuse or neglect. Reviews are performed on research\ninformation gained from each individual State and City, again this list\nis only a partial list, please e-mail if your desired investigations or\nreviews are not listed. \n\n\n\n\n\nSpecial skills are in the field of Law Enforcement, i.e. Investigation\ntechniques, interviewing witnesses, surveillance, reports, researching\ninformation, working with people from all backgrounds in a fair and open\nminded manner."
+        description: |-
+            Young Investigations performs private investigations for businesses and
+            individuals with a emphasis to the bi-sexual, gay and lesbian
+            communities.  Investigations performed are, infidelity, abuse, employee
+            theft, undercover operations, adoption research, information research,
+            process services, child custody, parental suitability, teen problems,
+            wrongful termination, pre-matrimonial, pre-employment, repossession
+            locate, surveillance, insurance defense, work related injuries, skip
+            tracing, sexual harassment,  stalking, sexual preference harassment,
+            neighborhood harassment, landlord abuse, landlord unfair treatment,
+            employer prejudice, This list is only a partial list of  investigative
+            services offered.
+
+
+
+
+            Young Investigations also reviews documentation from anywhere within the
+            United States and offers suggestions of defense or recourse, reviews
+            include police reports, traffic accident reports, domestic orders,
+            charges of abuse or neglect. Reviews are performed on research
+            information gained from each individual State and City, again this list
+            is only a partial list, please e-mail if your desired investigations or
+            reviews are not listed.
+
+
+
+
+
+            Special skills are in the field of Law Enforcement, i.e. Investigation
+            techniques, interviewing witnesses, surveillance, reports, researching
+            information, working with people from all backgrounds in a fair and open
+            minded manner.
         categories: Legal Professionals
         location: US-MO (Missouri)
         countries: US
@@ -2738,7 +3427,32 @@ entries:
         website: http://www.ipgcounseling.com
         website2: ""
         fees: Please contact me for more information about fees.
-        description: "IPGs philosophy is rooted in a commitment to serve all people, especially those who are unable to get high quality care from \"mainstream\" psychology. We were founded with the express purpose of providing therapy to the gay and lesbian population. Many of our staff are gay, lesbian, bisexual, or transgendered, and all are gay affirmative. In the last few years we have expanded to include services for bisexuals, transgendered people, and those involved in the BDSM community. We are internationally recognized for our expertise in this area. All clients are seen in our private offices, where strict confidentiality is maintained. The majority of our\nreferrals are word of mouth, but our clients may be referred by their insurance companies, or by other professionals. We are convenient to most of south/central and northern Jersey and lower Manhattan, are on most managed care panels, and accept most insurance plans.\n\n\n\n \n\nAdditional credentials include:\n<ul type=\"disc\">\n<li>Created the Womens Center of Monmouth County, NJ, one of the first\nbattered womens shelters in New Jersey.</li>\n<li>Founded the Hyacinth\nFoundation, New Jerseys primary HIV social service agency.</li><li>\nInternationally published author and speaker.</li>\n<li>Participated in two\ninvited symposiums at the Kinsey Institute that resulted in books\npublished by Oxford University Press. </li>\n<li>Two chapters in the\ngroundbreaking book Lesbian Psychologies, and a chapter on sexual\nminorities in the leading text book in the sex therapy field,\nPrinciples and Practices of Sex Therapy, edited by Leiblum and Rosen.</li>\n<li>Member of the American Psychological Association, the American\nAssociation of Sex Educators, Counselors, and Therapists, and local\nchapters of a variety of professional groups.</li>\n</ul>"
+        description: |-
+            IPGs philosophy is rooted in a commitment to serve all people, especially those who are unable to get high quality care from "mainstream" psychology. We were founded with the express purpose of providing therapy to the gay and lesbian population. Many of our staff are gay, lesbian, bisexual, or transgendered, and all are gay affirmative. In the last few years we have expanded to include services for bisexuals, transgendered people, and those involved in the BDSM community. We are internationally recognized for our expertise in this area. All clients are seen in our private offices, where strict confidentiality is maintained. The majority of our
+            referrals are word of mouth, but our clients may be referred by their insurance companies, or by other professionals. We are convenient to most of south/central and northern Jersey and lower Manhattan, are on most managed care panels, and accept most insurance plans.
+
+
+
+
+
+            Additional credentials include:
+            <ul type="disc">
+            <li>Created the Womens Center of Monmouth County, NJ, one of the first
+            battered womens shelters in New Jersey.</li>
+            <li>Founded the Hyacinth
+            Foundation, New Jerseys primary HIV social service agency.</li><li>
+            Internationally published author and speaker.</li>
+            <li>Participated in two
+            invited symposiums at the Kinsey Institute that resulted in books
+            published by Oxford University Press. </li>
+            <li>Two chapters in the
+            groundbreaking book Lesbian Psychologies, and a chapter on sexual
+            minorities in the leading text book in the sex therapy field,
+            Principles and Practices of Sex Therapy, edited by Leiblum and Rosen.</li>
+            <li>Member of the American Psychological Association, the American
+            Association of Sex Educators, Counselors, and Therapists, and local
+            chapters of a variety of professional groups.</li>
+            </ul>
         categories: Psychotherapists - Licensed
         location: US-NJ (New Jersey)
         countries: US
@@ -2763,7 +3477,42 @@ entries:
         website: http://www.twp.freehold.nj.us/FCCS.htm
         website2: ""
         fees: See website.
-        description: "A community service for the residents of Freehold Township and Freehold\nBorough. <u>Freehold Community Counseling Service</u> is a community substance\nabuse prevention/intervention program dedicated to the control of alcohol\nand drug abuse in our communities. In addition to substance abuse we are\navailable to individuals and families for a variety of concerns. Our goal\nis to serve as an immediate resource to all residents. All counseling\nservices are strictly confidential and available to all residents of\nFreehold Township and Freehold Borough.\n\n\n\n\n<u>Alcohol and Drug Abuse</u> - The alcohol and drug abuse services include\nprevention programs, assessment, intervention, and referral assistance\nfor adults, adolescents, and their families seeking help in their\nstruggle with addictive substances. The Counseling Service provides a\nfour week evaluation and referral service, individual, group, and family\ncounseling, COA groups, and after care programs.\n\n\n\n\n<u>Preventative Education</u> - Our staff welcomes the opportunity to present\neducational programs on a variety of topics, such as communication,\nstress management, date/domestic violence, parenting skills, or alcohol\nand drug abuse, to schools, community organizations, and agencies. We\nalso assist individuals or community groups in planning and implementing \neducational programs and prevention activities.\n\n\n\n\nCounselors are available Monday through Wednesday 9 a.m. to 10 p.m.\nThursday and Friday 8:30 a.m. to 4:30 p.m. We are not available on weekends. Spanish speaking\ncounselors are available."
+        description: |-
+            A community service for the residents of Freehold Township and Freehold
+            Borough. <u>Freehold Community Counseling Service</u> is a community substance
+            abuse prevention/intervention program dedicated to the control of alcohol
+            and drug abuse in our communities. In addition to substance abuse we are
+            available to individuals and families for a variety of concerns. Our goal
+            is to serve as an immediate resource to all residents. All counseling
+            services are strictly confidential and available to all residents of
+            Freehold Township and Freehold Borough.
+
+
+
+
+            <u>Alcohol and Drug Abuse</u> - The alcohol and drug abuse services include
+            prevention programs, assessment, intervention, and referral assistance
+            for adults, adolescents, and their families seeking help in their
+            struggle with addictive substances. The Counseling Service provides a
+            four week evaluation and referral service, individual, group, and family
+            counseling, COA groups, and after care programs.
+
+
+
+
+            <u>Preventative Education</u> - Our staff welcomes the opportunity to present
+            educational programs on a variety of topics, such as communication,
+            stress management, date/domestic violence, parenting skills, or alcohol
+            and drug abuse, to schools, community organizations, and agencies. We
+            also assist individuals or community groups in planning and implementing
+            educational programs and prevention activities.
+
+
+
+
+            Counselors are available Monday through Wednesday 9 a.m. to 10 p.m.
+            Thursday and Friday 8:30 a.m. to 4:30 p.m. We are not available on weekends. Spanish speaking
+            counselors are available.
         categories: Psychotherapists - Licensed
         location: US-NJ (New Jersey)
         countries: US
@@ -2788,7 +3537,7 @@ entries:
         website: http://www.rickvassallo.com
         website2: http://www.ingenio.com/calls/PT_interimcall.asp?sid=5307388
         fees: Please inquire.
-        description: |-
+        description: |
             I am a wholistic therapist, certified  in reflexology and  massage therapy via the Intl. Instititute of Reflexology. I am currently entering my 4th year of an intensive Transpersonal Psychotherapy Training. (www.transpersonalcanada.com). I am also a trained intuitive energy healer, a published writer and workshop presenter, and the host producer of a radio program broadcast from the University of Toronto on Fridays at 9:00 am on 89.5 FM.(www.ciut.fm).
 
 
@@ -2819,7 +3568,28 @@ entries:
         website: http://www.FeministTherapyAssociates.com
         website2: ""
         fees: FREE half hour phone consultation.  Moderate fees, generous sliding scale.  I accept Interplan, Victim-Witness, and Medi-Cal (Alameda and Contra Costa Counties). Day and evening appointments.
-        description: "I am a bi-friendly lesbian therapist who believes societal oppression\naffects mental health. I have been counseling people since 1979, using empathy, humor and intuition to assist in the healing process.  My style is supportive and interactive.  I focus on\nsolving present-day problems, bringing in your past history as needed to shed light on patterns\nthat no longer work for you.  I see therapy as a mutual partnership, with you as the expert on\nyour own life.\n\n\n\n  \nMy specialties include:  abuse survivors, sexual concerns, recovery from\naddictions, relationship problems, disability/chronic illness, and sexual minorities (bisexual,\nlesbian, transgender, gay, polyamory, BDSM).  I see individuals who are at least 15 years old, and couples/families/polygroups.  I also offer EMDR, a very effective trauma\nreduction technique.\n\n\n\n  \nPhone sessions are possible for the homebound, or residents of California\noutside the San Francisco Bay Area.  My office is in a tranquil garden setting on the ground\nfloor, and is scent- free.  I am a member and former Board President of Gaylesta, the Gay,\nLesbian, Bisexual, Transgender Psychotherapist Association of the Bay Area."
+        description: |-
+            I am a bi-friendly lesbian therapist who believes societal oppression
+            affects mental health. I have been counseling people since 1979, using empathy, humor and intuition to assist in the healing process.  My style is supportive and interactive.  I focus on
+            solving present-day problems, bringing in your past history as needed to shed light on patterns
+            that no longer work for you.  I see therapy as a mutual partnership, with you as the expert on
+            your own life.
+
+
+
+
+            My specialties include:  abuse survivors, sexual concerns, recovery from
+            addictions, relationship problems, disability/chronic illness, and sexual minorities (bisexual,
+            lesbian, transgender, gay, polyamory, BDSM).  I see individuals who are at least 15 years old, and couples/families/polygroups.  I also offer EMDR, a very effective trauma
+            reduction technique.
+
+
+
+
+            Phone sessions are possible for the homebound, or residents of California
+            outside the San Francisco Bay Area.  My office is in a tranquil garden setting on the ground
+            floor, and is scent- free.  I am a member and former Board President of Gaylesta, the Gay,
+            Lesbian, Bisexual, Transgender Psychotherapist Association of the Bay Area.
         categories: Psychotherapists - Licensed
         location: US-CA (California)
         countries: US
@@ -2873,7 +3643,24 @@ entries:
         website: http://www.beautiful-births.com
         website2: ""
         fees: Services for classes or postpartum/lactation are $35 per hour for private consultation. Group classes are $235 for childbirth education and $40 for breastfeeding classes.
-        description: "I provide childbirth education classes, labor & postpartum doula\nservices, lacation education and sell products for the childbearing\nyear.  My service area is the Washington DC/ Baltimore metro region.  I\nspecialize in high-risk pregnancies, particularly gestational diabetes.\n\n\n\n\nI have been published in the following:\n<ul type=\"disc\">\n<li>-The Washington Post, Letter to the Editor, Saturday November 23, 2002</li>\n<li>-\"Pregnancy After 50\", BirthWorks National Newsletter : October 2002 --Issue 4, 2002</li>\n<li>-\"Working with Women in \"High Risk Pregnancies\"\", page 1, 8,  and \"What Birth Works Doulas say about their training:, page 5 - BirthWorks National Newsletter , Issue 3, 2002</li>\n<li>\"Letter from BirthWorks Trainee to her Reviewer\", page 7 - BirthWorks National Newsletter , Issue 3, 2002</li>\n<li>Birthing Circle News : Fall 2002, Issue 10- \"Take a Good Look at Gestational Diabetes\", pages 2 and 4.</li>\n<li>BirthWorks National Newsletter : Issue 3, 2001 - \"Thoughts to Share\", page 7</li> \n</ul>"
+        description: |-
+            I provide childbirth education classes, labor & postpartum doula
+            services, lacation education and sell products for the childbearing
+            year.  My service area is the Washington DC/ Baltimore metro region.  I
+            specialize in high-risk pregnancies, particularly gestational diabetes.
+
+
+
+
+            I have been published in the following:
+            <ul type="disc">
+            <li>-The Washington Post, Letter to the Editor, Saturday November 23, 2002</li>
+            <li>-"Pregnancy After 50", BirthWorks National Newsletter : October 2002 --Issue 4, 2002</li>
+            <li>-"Working with Women in "High Risk Pregnancies"", page 1, 8,  and "What Birth Works Doulas say about their training:, page 5 - BirthWorks National Newsletter , Issue 3, 2002</li>
+            <li>"Letter from BirthWorks Trainee to her Reviewer", page 7 - BirthWorks National Newsletter , Issue 3, 2002</li>
+            <li>Birthing Circle News : Fall 2002, Issue 10- "Take a Good Look at Gestational Diabetes", pages 2 and 4.</li>
+            <li>BirthWorks National Newsletter : Issue 3, 2001 - "Thoughts to Share", page 7</li>
+            </ul>
         categories: Body Workers
         location: US-MD (Maryland)
         countries: US
@@ -2898,7 +3685,51 @@ entries:
         website: http://www.bitherapy.com
         website2: ""
         fees: 'Standard fee: $125.  Sliding scale fee: $70 - $125. Evening and Saturday hours available.'
-        description: "I am San Francisco based psychotherapist, educator, researcher, and\nauthor. I have been in private practice for 17 years working with a wide\nrange of people and issues. I am experienced in working individuals,\ncouples, groups, and families with issues involved in traditional,\nalternative, bi, and poly lifestyles and relationships. I am openly\nbisexual and known in the community for my work with bisexual, gay,\nlesbian, queer, and questioning people.\n\n\n\n\nMy particular interests as a therapist include helping with: overcoming\ndepression and anxiety; enhancing self-expression and creativity; using\nself-reflection and meditation for personal growth and self-discovery;\nacknowledging and maintaining a self-affirming bisexual, gay, or lesbian\nidentity; understanding and healing from childhood physical, sexual and\nemotional abuse; facing and working with ACA/ co-dependency/substance and\nother recovery and family of origin related issues; understanding\nsexuality and intimacy in relationships; working with issues of monogamy,\nnon-monogamy, and polyamory in relationships; and enhancing communication\nskills for everyday situations and for negotiating the structure and\ndetails of consensual adult relationships.\n\n\n\n   \nI conducted the first large-scale study on bisexual identity and have\ncontributed several chapters on bisexuality to LGBT psychology books. I\nhave presented workshops on sexual diversity & bisexual issues at\nprofessional conferences, graduate schools, and community agencies, as\nwell as at U.S. and international conferences on bisexuality. I am a\nmember of the editorial board of the Journal of Bisexuality and the guest\neditor of special issues of the Journal on current research on\nbisexuality and on affirmative psychotherapy with bisexual women and\nbisexual men. I was a member of the Task Force that wrote the recently\nadopted American Psychological Associations Guidelines for Psychotherapy\nwith LGB Clients. I am Co-Chair of the Committee on Bisexual Issues in\nPsychology of the APAs Division 44 (Society for the Psychological Study\nof LGB Issues).\n\n\n\n\nMy bi resources website can be found at <a href=\"http://www.bisources.com\">http://www.bisources.com</a>."
+        description: |-
+            I am San Francisco based psychotherapist, educator, researcher, and
+            author. I have been in private practice for 17 years working with a wide
+            range of people and issues. I am experienced in working individuals,
+            couples, groups, and families with issues involved in traditional,
+            alternative, bi, and poly lifestyles and relationships. I am openly
+            bisexual and known in the community for my work with bisexual, gay,
+            lesbian, queer, and questioning people.
+
+
+
+
+            My particular interests as a therapist include helping with: overcoming
+            depression and anxiety; enhancing self-expression and creativity; using
+            self-reflection and meditation for personal growth and self-discovery;
+            acknowledging and maintaining a self-affirming bisexual, gay, or lesbian
+            identity; understanding and healing from childhood physical, sexual and
+            emotional abuse; facing and working with ACA/ co-dependency/substance and
+            other recovery and family of origin related issues; understanding
+            sexuality and intimacy in relationships; working with issues of monogamy,
+            non-monogamy, and polyamory in relationships; and enhancing communication
+            skills for everyday situations and for negotiating the structure and
+            details of consensual adult relationships.
+
+
+
+
+            I conducted the first large-scale study on bisexual identity and have
+            contributed several chapters on bisexuality to LGBT psychology books. I
+            have presented workshops on sexual diversity & bisexual issues at
+            professional conferences, graduate schools, and community agencies, as
+            well as at U.S. and international conferences on bisexuality. I am a
+            member of the editorial board of the Journal of Bisexuality and the guest
+            editor of special issues of the Journal on current research on
+            bisexuality and on affirmative psychotherapy with bisexual women and
+            bisexual men. I was a member of the Task Force that wrote the recently
+            adopted American Psychological Associations Guidelines for Psychotherapy
+            with LGB Clients. I am Co-Chair of the Committee on Bisexual Issues in
+            Psychology of the APAs Division 44 (Society for the Psychological Study
+            of LGB Issues).
+
+
+
+
+            My bi resources website can be found at <a href="http://www.bisources.com">http://www.bisources.com</a>.
         categories: Psychotherapists - Licensed
         location: US-CA (California)
         countries: US
@@ -2991,7 +3822,23 @@ entries:
         website: http://www.emilypage.com
         website2: ""
         fees: $100
-        description: "I am a bisexual psychologist and energy/journeywork practitioner.  I have 26 years of experience doing psychotherapy with English-speaking clients of all sexual and gender orientations in the Boston Area. I work with individuals, families and both monogamous and polyamorous relationships. In terms of age, I see folks in their teens all the way through some courageous women and men in their elder years.\n\n\n\n \nMy training includes expressive and creative versions of psychotherapy as well as traditional \"talk therapy\" and I enjoy doing both. In fact, I just enjoy and am grateful each client I see. After 26 years, I am still awed by my clients' wisdom, courage, and resiliency and honored to help with healing or personal growth. I have particular interest in LGBT issues, recovery from addictions, including co-dependency and eating disorders, and trauma. I also assist clients with depression, anxiety, grieving, life transitions, and career issues. I also work with those who want to include their religious or spiritual perspective in their psychotherapy.\n\n\n\n \nI did the first research on bisexual women's and men's experiences of mental health services and do presentations on this and other topics having to do with \"bi\" issues in the Boston Area and at National and International Conferences on Bisexuality.  An article presenting my research will be in the upcoming Journal of Bisexuality to be published early in 2004. I am Co-Chair of the Committee on Bisexual Issues in Psychology of the American Psychological Association's Division 44 (Society for the Psychological Study of LGB Issues).\n\n\n\n\nMy fee: $100. I can slide lower in some cases of need. I am not currently on insurance panels, but that should change during 2004. Some insurance plans will partially reimburse members for sessions with non-network providers and I am happy to work with clients to facilitate insurer co-payments when that is the case."
+        description: |-
+            I am a bisexual psychologist and energy/journeywork practitioner.  I have 26 years of experience doing psychotherapy with English-speaking clients of all sexual and gender orientations in the Boston Area. I work with individuals, families and both monogamous and polyamorous relationships. In terms of age, I see folks in their teens all the way through some courageous women and men in their elder years.
+
+
+
+
+            My training includes expressive and creative versions of psychotherapy as well as traditional "talk therapy" and I enjoy doing both. In fact, I just enjoy and am grateful each client I see. After 26 years, I am still awed by my clients' wisdom, courage, and resiliency and honored to help with healing or personal growth. I have particular interest in LGBT issues, recovery from addictions, including co-dependency and eating disorders, and trauma. I also assist clients with depression, anxiety, grieving, life transitions, and career issues. I also work with those who want to include their religious or spiritual perspective in their psychotherapy.
+
+
+
+
+            I did the first research on bisexual women's and men's experiences of mental health services and do presentations on this and other topics having to do with "bi" issues in the Boston Area and at National and International Conferences on Bisexuality.  An article presenting my research will be in the upcoming Journal of Bisexuality to be published early in 2004. I am Co-Chair of the Committee on Bisexual Issues in Psychology of the American Psychological Association's Division 44 (Society for the Psychological Study of LGB Issues).
+
+
+
+
+            My fee: $100. I can slide lower in some cases of need. I am not currently on insurance panels, but that should change during 2004. Some insurance plans will partially reimburse members for sessions with non-network providers and I am happy to work with clients to facilitate insurer co-payments when that is the case.
         categories: Psychotherapists - Licensed
         location: US-MA (Massachusetts)
         countries: US
@@ -3317,7 +4164,15 @@ entries:
         website: http://www.rethink-counselling.com
         website2: ""
         fees: $85/hr individual  $100/hr couple (some sliding scale hours available)
-        description: "I am an openly gay registered clinical counsellor, with office space in \ndowntown Vancouver and on Bowen Island. I offer caring and open-minded \ntherapy for individuals, couples, and polygroups. I have worked with \npeople from many communities including Bisexual, Lesbian, Gay, \nPolyamory, Kink/BDSM, and HIV+. My favourite areas include relationship \nwork, addiction recovery, sexual issues, anger management, coping with \ndepression & anxiety, and self-esteem. I have also coordinated a number \nof different mens discussion groups."
+        description: |-
+            I am an openly gay registered clinical counsellor, with office space in
+            downtown Vancouver and on Bowen Island. I offer caring and open-minded
+            therapy for individuals, couples, and polygroups. I have worked with
+            people from many communities including Bisexual, Lesbian, Gay,
+            Polyamory, Kink/BDSM, and HIV+. My favourite areas include relationship
+            work, addiction recovery, sexual issues, anger management, coping with
+            depression & anxiety, and self-esteem. I have also coordinated a number
+            of different mens discussion groups.
         categories: Psychotherapists - Licensed
         location: CA-BC (British Columbia)
         countries: CA
@@ -3372,7 +4227,50 @@ entries:
         website: http://www.caltherapy.org
         website2: ""
         fees: Free initial phone interview. Sliding scale fee of $60-$95 per session thereafter.
-        description: "My goal is to help each client cope with his or her unique life\nchallenges, and to thrive beyond any perceived limitations. My mindset is\ncompassionate and avoids pathologizing. Instead I focus on feelings,\noptions, honest reflection, perspectives, choices, and skill building. \nI work from a multicultural perspective, and try to help clients\nshed any social prejudices that may have become part of a negative\nself-image.\n\n\n\n    \n\nI have worked with couples, families, and individual adults,\nfrom children through adults, of many different races, ethnicities, and\norientations. Within the adult bisexual community I have worked with\nboth couples and individuals to address issues including intimacy\n(physical, emotional, sexual), sexuality & sexual identity,\ncommunication, and conflict.   I have also worked with clients\non parenting, cross-cultural concerns, gender, MTF & FTM transitions,\nleather, mid-life, body image, considering parenting,\nspirituality, HIV/AIDS, care-giving, and grief & loss.\n\n\n\n\n\nMy office is in San Francisco on 24th St, convenient to the Castro, Noe\nValley, Glen Park, and Outer Mission; it is near several bus lines (48,\n24, J, & 35) and a 10-minute walk from the 24th St. BART station.  I\nprovide services in English and French, and speak rudimentary Spanish.  I\nhave applied to various insurance panels,  so please call to check if\nthat is a consideration.\n\n\n\n\n\nI have worked at UCSF/AIDS Health Project and SF/CMHS Center for Special\nProblems; currently I am on the teaching faculty at the California\nPacific Medical Center. I have over 15 years experience working with\nindividuals and couples, in various capacities. If you would like more\ninformation, or to get a clearer sense of who I am and how I work, please\ncall for a free telephone interview."
+        description: |-
+            My goal is to help each client cope with his or her unique life
+            challenges, and to thrive beyond any perceived limitations. My mindset is
+            compassionate and avoids pathologizing. Instead I focus on feelings,
+            options, honest reflection, perspectives, choices, and skill building.
+            I work from a multicultural perspective, and try to help clients
+            shed any social prejudices that may have become part of a negative
+            self-image.
+
+
+
+
+
+            I have worked with couples, families, and individual adults,
+            from children through adults, of many different races, ethnicities, and
+            orientations. Within the adult bisexual community I have worked with
+            both couples and individuals to address issues including intimacy
+            (physical, emotional, sexual), sexuality & sexual identity,
+            communication, and conflict.   I have also worked with clients
+            on parenting, cross-cultural concerns, gender, MTF & FTM transitions,
+            leather, mid-life, body image, considering parenting,
+            spirituality, HIV/AIDS, care-giving, and grief & loss.
+
+
+
+
+
+            My office is in San Francisco on 24th St, convenient to the Castro, Noe
+            Valley, Glen Park, and Outer Mission; it is near several bus lines (48,
+            24, J, & 35) and a 10-minute walk from the 24th St. BART station.  I
+            provide services in English and French, and speak rudimentary Spanish.  I
+            have applied to various insurance panels,  so please call to check if
+            that is a consideration.
+
+
+
+
+
+            I have worked at UCSF/AIDS Health Project and SF/CMHS Center for Special
+            Problems; currently I am on the teaching faculty at the California
+            Pacific Medical Center. I have over 15 years experience working with
+            individuals and couples, in various capacities. If you would like more
+            information, or to get a clearer sense of who I am and how I work, please
+            call for a free telephone interview.
         categories: Psychotherapists - Licensed
         location: US-CA (California)
         countries: US
@@ -4090,7 +4988,27 @@ entries:
         website: ""
         website2: ""
         fees: My standard fee is $120 and $140 for intake sessions. I take most insurances.
-        description: "I am an \"out\" bisexual/transgendered therapist with 30 years experience. I\nserve GLBTQA and straight/undeclared clients using Ericksonian Utilization\n(Hypnotherapy), EMDR, Cognitive-Behavioral and Gestalt approaches; specialties\nare sexual orientation , gender identity, sexual dysfunction and sexual abuse.\n\n\n\n\nI am a member of HBIGDA and ISNA and have been a consultant to the Program in\nHuman Sexuality for many years. I am friendly to the polyamorous, kink, pagan\nand other minority communities. I have worked in many hospitals and clinics,\nfacilitated the Bisexual Forum and other support/discussion groups here and in\nCalifornia. I am also Coordinator for Training and Consultation at Walk-In\nCounseling Center (my complete curriculum vitae is available at their website listed above) where I provide supervision and consultation to other professionals and organizations.\n\n\n\n \nI was the recipient in 1999 of the AIB Globe Awared for Outstanding\nService to the BiWorld Community, presented by Fritz Klein MD."
+        description: |-
+            I am an "out" bisexual/transgendered therapist with 30 years experience. I
+            serve GLBTQA and straight/undeclared clients using Ericksonian Utilization
+            (Hypnotherapy), EMDR, Cognitive-Behavioral and Gestalt approaches; specialties
+            are sexual orientation , gender identity, sexual dysfunction and sexual abuse.
+
+
+
+
+            I am a member of HBIGDA and ISNA and have been a consultant to the Program in
+            Human Sexuality for many years. I am friendly to the polyamorous, kink, pagan
+            and other minority communities. I have worked in many hospitals and clinics,
+            facilitated the Bisexual Forum and other support/discussion groups here and in
+            California. I am also Coordinator for Training and Consultation at Walk-In
+            Counseling Center (my complete curriculum vitae is available at their website listed above) where I provide supervision and consultation to other professionals and organizations.
+
+
+
+
+            I was the recipient in 1999 of the AIB Globe Awared for Outstanding
+            Service to the BiWorld Community, presented by Fritz Klein MD.
         categories: Psychotherapists - Licensed
         location: US-MN (Minnesota)
         countries: US
@@ -4725,7 +5643,56 @@ entries:
         website: http://drliangdc.com/
         website2: ""
         fees: I accept most insurance plans including Aetna, Anthem, American Specialty Health, Cigna, United Healthcare and more.
-        description: "By employing a whole body approach and assessing neuromusculoskeletal components, Dr. Ben combines the very best hands-on-technique, state of the art physiotherapy procedures, and provides the most effective natural supplements on the market.  His ultimate goal is to assist you in accelerated healing and maintaining a journey toward optimal health.\n\n\n\n\n\nHe speaks Mandarin, Taiwanese, Spanish.\n\n\n\n \n\nAffiliations include:\n\n\n\n\n\n                -Align Chiropractic & Wellness Center: Cedars-Sinai Medical Towers\n\n\n                -Cal State University Los Angeles Health Center\n\n\n                -Greater Los Angeles Veterans Administration Physical Medicine and Rehabilitation Services\n\n\n                -Being Alive: People with HIV/AIDS Action Coalition\n\n\n                -Venice Family Clinic\n\n\n                -Back to Total Health Chiropractic Clinic\n\n\n                -2012 Long Beach Marathon Volunteer\n\n\n                -AIDS Lifecycle Volunteer\n\n\n                -Cedars Sinai Run for Her Volunteer\n\n\n                -Los Angeles City Help Dream Center\n\n\n                -Southern California University of Health Science Health Center"
+        description: |-
+            By employing a whole body approach and assessing neuromusculoskeletal components, Dr. Ben combines the very best hands-on-technique, state of the art physiotherapy procedures, and provides the most effective natural supplements on the market.  His ultimate goal is to assist you in accelerated healing and maintaining a journey toward optimal health.
+
+
+
+
+
+            He speaks Mandarin, Taiwanese, Spanish.
+
+
+
+
+
+            Affiliations include:
+
+
+
+
+
+                            -Align Chiropractic & Wellness Center: Cedars-Sinai Medical Towers
+
+
+                            -Cal State University Los Angeles Health Center
+
+
+                            -Greater Los Angeles Veterans Administration Physical Medicine and Rehabilitation Services
+
+
+                            -Being Alive: People with HIV/AIDS Action Coalition
+
+
+                            -Venice Family Clinic
+
+
+                            -Back to Total Health Chiropractic Clinic
+
+
+                            -2012 Long Beach Marathon Volunteer
+
+
+                            -AIDS Lifecycle Volunteer
+
+
+                            -Cedars Sinai Run for Her Volunteer
+
+
+                            -Los Angeles City Help Dream Center
+
+
+                            -Southern California University of Health Science Health Center
         categories: Body Workers
         location: US-CA (California)
         countries: US
@@ -4922,7 +5889,17 @@ entries:
         website: http://harriefarrow.wordpress.com/
         website2: ""
         fees: 50-minute Skype sessions are $45. Initial free consultation available (see below for more info)
-        description: "I offer life coaching for bisexuals and those who love them. I assist clients with bisexual related issues ranging from questioning ones sexual identity and coming out to ones self, to coping with biphobia from the gay community and reconciling a bisexual identity within a monogamous relationship. I help bisexuals go through the process of deciding if, when and how to come out to others including their parents, spouses, children and religious community. I help those who have had someone close to them come out as bisexual cope with this revelation and learn how best to respond. I work with bisexuals dealing with polyamorous issues as well.                  \n\n\n\n\nI help clients process and understand what is happening in their life. Information, guidance, and support are geared towards helping the client find a way to move towards a more workable, satisfying, and happy future. Through a process of questions, conversations, and education, I help clients discover within themselves an understanding of what they ultimately, realistically, want the outcome of their situation to be. Together we explore the clients options so they can come up with the best choices for achieving their vision for their future. Arming the client with coping and conversational skills, I will see them through the process. I also offer consulting services to other professionals and businesses who work with or do business with bisexuals.\n\n\n\n                                                               50-minute Skype sessions are $45, and also include: An initial free consultation to determine if we are a right fit for each other, an assessment questionnaire, personalized action plans, personalized activities and/or reading assignments geared toward helping the client further their goals, and materials and resources customized towards the clients particular issues/goals."
+        description: |-
+            I offer life coaching for bisexuals and those who love them. I assist clients with bisexual related issues ranging from questioning ones sexual identity and coming out to ones self, to coping with biphobia from the gay community and reconciling a bisexual identity within a monogamous relationship. I help bisexuals go through the process of deciding if, when and how to come out to others including their parents, spouses, children and religious community. I help those who have had someone close to them come out as bisexual cope with this revelation and learn how best to respond. I work with bisexuals dealing with polyamorous issues as well.
+
+
+
+
+            I help clients process and understand what is happening in their life. Information, guidance, and support are geared towards helping the client find a way to move towards a more workable, satisfying, and happy future. Through a process of questions, conversations, and education, I help clients discover within themselves an understanding of what they ultimately, realistically, want the outcome of their situation to be. Together we explore the clients options so they can come up with the best choices for achieving their vision for their future. Arming the client with coping and conversational skills, I will see them through the process. I also offer consulting services to other professionals and businesses who work with or do business with bisexuals.
+
+
+
+                                                                           50-minute Skype sessions are $45, and also include: An initial free consultation to determine if we are a right fit for each other, an assessment questionnaire, personalized action plans, personalized activities and/or reading assignments geared toward helping the client further their goals, and materials and resources customized towards the clients particular issues/goals.
         categories: Psychotherapists - Unlicensed
         location: US-All (Nationwide)
         countries: US
@@ -5045,7 +6022,14 @@ entries:
         website: ""
         website2: ""
         fees: Sliding Fee $20 to $100 per session. Accepting Missouri Medicaid.
-        description: "I am an Out member of the LGBT community. I am currently practicing in the  Kansas City Metropolitan area. I offer empowering, validating, positive counseling  services to individuals, couples, families, and children. I have experience working  with LGBT community in the clinical setting and homeless shelter. Other areas of  counseling services include DBT, CBT, Play Therapy, Theraplay techniques, TFCBT,  EMDR, Strategic Family Therapy and adolescent sexualized behavior treatment. I  specialize in stress management and reduction. \n\n\n\n\n\nCurrently writing a book on the the relationship between Therapists and Clients. Also working on personal memoir of becoming my true self. Created and sold a game for use in counseling children."
+        description: |-
+            I am an Out member of the LGBT community. I am currently practicing in the  Kansas City Metropolitan area. I offer empowering, validating, positive counseling  services to individuals, couples, families, and children. I have experience working  with LGBT community in the clinical setting and homeless shelter. Other areas of  counseling services include DBT, CBT, Play Therapy, Theraplay techniques, TFCBT,  EMDR, Strategic Family Therapy and adolescent sexualized behavior treatment. I  specialize in stress management and reduction.
+
+
+
+
+
+            Currently writing a book on the the relationship between Therapists and Clients. Also working on personal memoir of becoming my true self. Created and sold a game for use in counseling children.
         categories: Psychotherapists - Licensed
         location: US-MO (Missouri)
         countries: US
@@ -5468,7 +6452,36 @@ entries:
         website: http://www.karinwandrei.com
         website2: ""
         fees: $130  Can slide down to $100.  I also accept PHP/Beacon Medi-Cal in Sonoma,  Marin, and other northern California counties.
-        description: "I work with individuals 18 years and older, couples, and other family constellations including polyamorous families. I particularly enjoy working with women, LGBQ folks, and young adults. \n\n\n\n\n\n\nCommon issues people bring include child abuse, post-traumatic stress, relationships (including open, polyamorous and kinky relationships), depression, anxiety, LGBQ , mid-life, work, and alcohol and other drugs. I also am interested in working with children/ grandchildren of Holocaust survivors, introverts, first responders, rural residents, military brats, academics, highly intelligent people, classical musicians, human service managers, and social justice advocates. \n\n\n\n\n\n\nI use a combination of techniques that best meet your needs, including psychodynamic, cognitive behavioral, family systems, and solution-focused approaches. \n\n\n\n\n\n\nMy underlying orientation is looking at the person(s) in environment, which includes a strong social justice commitment. It is important to understand how issues such as lack of access to housing, a poor economy, homophobia, sexism, and racism impact upon what we perceive as our individual or family problems. \n\n\n\n\n\n\nI can do therapy over the Internet if you are in California or Florida.  If you are on PHP/Beacon Medi-Cal in Sonoma, Marin and some other northern California counties I can now do online therapy."
+        description: |-
+            I work with individuals 18 years and older, couples, and other family constellations including polyamorous families. I particularly enjoy working with women, LGBQ folks, and young adults.
+
+
+
+
+
+
+            Common issues people bring include child abuse, post-traumatic stress, relationships (including open, polyamorous and kinky relationships), depression, anxiety, LGBQ , mid-life, work, and alcohol and other drugs. I also am interested in working with children/ grandchildren of Holocaust survivors, introverts, first responders, rural residents, military brats, academics, highly intelligent people, classical musicians, human service managers, and social justice advocates.
+
+
+
+
+
+
+            I use a combination of techniques that best meet your needs, including psychodynamic, cognitive behavioral, family systems, and solution-focused approaches.
+
+
+
+
+
+
+            My underlying orientation is looking at the person(s) in environment, which includes a strong social justice commitment. It is important to understand how issues such as lack of access to housing, a poor economy, homophobia, sexism, and racism impact upon what we perceive as our individual or family problems.
+
+
+
+
+
+
+            I can do therapy over the Internet if you are in California or Florida.  If you are on PHP/Beacon Medi-Cal in Sonoma, Marin and some other northern California counties I can now do online therapy.
         categories: Psychotherapists - Licensed
         location: US-CA (California)
         countries: US
@@ -5874,7 +6887,21 @@ entries:
         website: http://www.RissoCounseling.com
         website2: ""
         fees: $120 individual & $150 couples for 50 minute session; sliding scale offered.
-        description: "I am a bisexuality aware professional that works on the San Francisco Bay Area Peninsula. As the voted San Francisco Bay Area American Association of Sexuality Educators, Counselors & Therapists (AASECT) leader, I am extremely active in promoting positive sexual health in various Bay Area communities. Within these communities there are members that identify as bisexual, gay, lesbian, transgendered, kink & BDSM friendly, swingers, cisgendered and polyamorous.\n\n\n\n\n\nIn my work, I constantly strive to grow and learn as a therapist in order to provide the best opportunities to my clients and the communities in which I serve. These include reading various articles in the field of sexual health and bisexuality, attending on-going trainings and workshops held by SSTAR, AASECT, Good Vibrations and other well-known sexual health organizations, and working with clients that identify as bisexual. Some of my areas of focus include kink, BDSM, polyamory, high-low desire, pornography, grief & loss, infidelity, self-esteem, career counseling, and overall relationship counseling. \nAdditionally, I have a podcast called Lets Do It With Melissa Risso which focuses on promoting healthy conversations around both mental and sexual health.\n\n\n\n\n\nWith patience and persistence, my clients cultivate greater confidence and self-esteem, richer relationships, and more emotional balance and health. I believe that we all need someone to talk with who will listen and accept us as we are, without judgment. Because of this, I provide my clients with a warm, nonjudgmental environment- a safe place to explore the issues that may be preventing people from living the life they want."
+        description: |-
+            I am a bisexuality aware professional that works on the San Francisco Bay Area Peninsula. As the voted San Francisco Bay Area American Association of Sexuality Educators, Counselors & Therapists (AASECT) leader, I am extremely active in promoting positive sexual health in various Bay Area communities. Within these communities there are members that identify as bisexual, gay, lesbian, transgendered, kink & BDSM friendly, swingers, cisgendered and polyamorous.
+
+
+
+
+
+            In my work, I constantly strive to grow and learn as a therapist in order to provide the best opportunities to my clients and the communities in which I serve. These include reading various articles in the field of sexual health and bisexuality, attending on-going trainings and workshops held by SSTAR, AASECT, Good Vibrations and other well-known sexual health organizations, and working with clients that identify as bisexual. Some of my areas of focus include kink, BDSM, polyamory, high-low desire, pornography, grief & loss, infidelity, self-esteem, career counseling, and overall relationship counseling.
+            Additionally, I have a podcast called Lets Do It With Melissa Risso which focuses on promoting healthy conversations around both mental and sexual health.
+
+
+
+
+
+            With patience and persistence, my clients cultivate greater confidence and self-esteem, richer relationships, and more emotional balance and health. I believe that we all need someone to talk with who will listen and accept us as we are, without judgment. Because of this, I provide my clients with a warm, nonjudgmental environment- a safe place to explore the issues that may be preventing people from living the life they want.
         categories: Psychotherapists - Licensed
         location: US-CA (California)
         countries: US
@@ -5903,7 +6930,14 @@ entries:
         website: http://www.jeremyortman.com
         website2: ""
         fees: Sliding scale, Empire BCBS
-        description: "Jeremy Ortman has nearly a decade of experience working with the bi community.  In addition to his private practice, he has overseen the Mental Health and Substance Abuse Counseling program at the HIV/AIDS organization, Gay Mens Health Crisis.  His approach is interactive, practical, and infused with sensitivity and a sense of humor. Overcome emotional challenges, understand what is driving your choices and habits, and learn the flexibility to adapt to change.\n\n\n\n\n \nSpecialties include: Depression, Anxiety, Relationship Issues, Trauma, Bereavement, substance abuse, living with chronic illness."
+        description: |-
+            Jeremy Ortman has nearly a decade of experience working with the bi community.  In addition to his private practice, he has overseen the Mental Health and Substance Abuse Counseling program at the HIV/AIDS organization, Gay Mens Health Crisis.  His approach is interactive, practical, and infused with sensitivity and a sense of humor. Overcome emotional challenges, understand what is driving your choices and habits, and learn the flexibility to adapt to change.
+
+
+
+
+
+            Specialties include: Depression, Anxiety, Relationship Issues, Trauma, Bereavement, substance abuse, living with chronic illness.
         categories: Psychotherapists - Licensed
         location: US-NY (New York)
         countries: US
@@ -5976,7 +7010,32 @@ entries:
         website: http://www.stevenlanzet.com
         website2: ""
         fees: Please contact me to discuss fees - thanks!
-        description: "Steven I. Lanzet is a Counselor and Consultant with over 30 years experience working in the counseling, consulting, and addiction treatment field. He is a Licensed Clinical Professional Counselor, Licensed Marriage & Family Counselor, Certified Sex Addiction Therapist and Supervisor, and Level 2 EMDR Practitioner. He has worked in the private, corporate, government, non-profit, and small business worlds in both the United States and overseas. He was an Assistant Professor of Counselor Education and held various positions in counseling, teaching, and administration with The College of Idaho, Boise State University, and the State of Idaho.\n\n\n\n\n\nHe is the Founder of Boise Counseling Center where there are counselors who are all sex-positive and counsel with GLBTQA individuals. He developed innovative and successful treatment and consultation programs for impaired professionals including C-suite business executives, attorneys, pilots, physicians, dentists, and allied health care providers. He also worked and consulted with hospitals, non-profit organizations, government agencies, and corporations throughout the Western United States and overseas assisting with organizational and human resource challenges.\n\n\n\n\n\nSteven works with a wide range of sexual issues including problem sex behaviors, GLBTQA issues, polyamory, kink, second life sexuality, and more in a sex-positive, non-judgemental way.\n\n\n\n \n\nSteven was the Director of the Aftercare Program for Impaired Physicians and other health care professionals in association with the Idaho Medical Association. He was the Clinical Director of two Addiction and Mental Health treatment centers which he helped open in England.\n\n\n\n\n\nSteven believes that counseling is first and foremost a relationship and he strives to create a helpful and healing dialogue from the beginning."
+        description: |-
+            Steven I. Lanzet is a Counselor and Consultant with over 30 years experience working in the counseling, consulting, and addiction treatment field. He is a Licensed Clinical Professional Counselor, Licensed Marriage & Family Counselor, Certified Sex Addiction Therapist and Supervisor, and Level 2 EMDR Practitioner. He has worked in the private, corporate, government, non-profit, and small business worlds in both the United States and overseas. He was an Assistant Professor of Counselor Education and held various positions in counseling, teaching, and administration with The College of Idaho, Boise State University, and the State of Idaho.
+
+
+
+
+
+            He is the Founder of Boise Counseling Center where there are counselors who are all sex-positive and counsel with GLBTQA individuals. He developed innovative and successful treatment and consultation programs for impaired professionals including C-suite business executives, attorneys, pilots, physicians, dentists, and allied health care providers. He also worked and consulted with hospitals, non-profit organizations, government agencies, and corporations throughout the Western United States and overseas assisting with organizational and human resource challenges.
+
+
+
+
+
+            Steven works with a wide range of sexual issues including problem sex behaviors, GLBTQA issues, polyamory, kink, second life sexuality, and more in a sex-positive, non-judgemental way.
+
+
+
+
+
+            Steven was the Director of the Aftercare Program for Impaired Physicians and other health care professionals in association with the Idaho Medical Association. He was the Clinical Director of two Addiction and Mental Health treatment centers which he helped open in England.
+
+
+
+
+
+            Steven believes that counseling is first and foremost a relationship and he strives to create a helpful and healing dialogue from the beginning.
         categories: Psychotherapists - Licensed
         location: US-ID (Idaho)
         countries: US
@@ -6712,7 +7771,64 @@ entries:
         website: http://www.numenor.org/~gdw/psychologist
         website2: ""
         fees: See below
-        description: "Workshops and lectures I have given include:\n\n\n\n\n\n**What Therapists Should Know About Working with Bisexual Clients**\n\n\n\n\nHow is being bisexual different from being gay or lesbian? What are some specific concerns that bisexuals face? How can a counselor take these issues into account so as to be supportive to their bisexual clients?\n\n\n\n\n\n**What Psychology Professionals Should Know About Polyamory: The Lifestyles and Mental Health Concerns of Polyamorous Individuals.**\n\n\n\n\nPolyamory is a lifestyle in which romantic partners agree that they may each have romantic relationships with other people as well. It is distinguished from infidelity by the presence of honest, supportive communication between partners and lovers about the existence of each of these relationships in their lives. This workshop talks about some of the unique concerns that polyamorous people face, and the ways in which a therapist can be supportive of and helpful to their polyamorous clients.\n\n\n\n\n\n**What Therapists Should Know About Working with Clients Who Are Members of the BDSM Community**\n\n\n\n\nAbout 5-10 percent of the US population practices some variety of bdsm play, but most therapists do not have an understanding of what this means in their clients lives, nor how to distinguish between BDSM and abuse. This lecture aims to address some of the common misperceptions about BDSM, and suggest ways in which a therapist can be supportive of and helpful to their BDSM community clients.\n\n\n\n\n\n**Workshop/Lecture Fees:**\n\n\n\n\n\nI charge $200 per hour of presentation time, plus travel and lodging expenses if the lecture is outside of the San Francisco Bay Area.\n\n\n\n \n\n**More about me:**\n\n\n\n\nI am an openly bisexual psychologist, practicing in Los Altos, CA. I have experience working within the Bisexual, Lesbian, Gay, Polyamory, Kink/BDSM, HIV+/POZ, and DD communities. My other specialties include relationship work, career counseling, managing depression, anxiety, anger, substance and internet addictions, codependency, and self-acceptance. I am the coordinator of the Bisexuality-Aware Professionals Directory, and the author of What Psychology Professionals Should Know About Polyamory."
+        description: |-
+            Workshops and lectures I have given include:
+
+
+
+
+
+            **What Therapists Should Know About Working with Bisexual Clients**
+
+
+
+
+            How is being bisexual different from being gay or lesbian? What are some specific concerns that bisexuals face? How can a counselor take these issues into account so as to be supportive to their bisexual clients?
+
+
+
+
+
+            **What Psychology Professionals Should Know About Polyamory: The Lifestyles and Mental Health Concerns of Polyamorous Individuals.**
+
+
+
+
+            Polyamory is a lifestyle in which romantic partners agree that they may each have romantic relationships with other people as well. It is distinguished from infidelity by the presence of honest, supportive communication between partners and lovers about the existence of each of these relationships in their lives. This workshop talks about some of the unique concerns that polyamorous people face, and the ways in which a therapist can be supportive of and helpful to their polyamorous clients.
+
+
+
+
+
+            **What Therapists Should Know About Working with Clients Who Are Members of the BDSM Community**
+
+
+
+
+            About 5-10 percent of the US population practices some variety of bdsm play, but most therapists do not have an understanding of what this means in their clients lives, nor how to distinguish between BDSM and abuse. This lecture aims to address some of the common misperceptions about BDSM, and suggest ways in which a therapist can be supportive of and helpful to their BDSM community clients.
+
+
+
+
+
+            **Workshop/Lecture Fees:**
+
+
+
+
+
+            I charge $200 per hour of presentation time, plus travel and lodging expenses if the lecture is outside of the San Francisco Bay Area.
+
+
+
+
+
+            **More about me:**
+
+
+
+
+            I am an openly bisexual psychologist, practicing in Los Altos, CA. I have experience working within the Bisexual, Lesbian, Gay, Polyamory, Kink/BDSM, HIV+/POZ, and DD communities. My other specialties include relationship work, career counseling, managing depression, anxiety, anger, substance and internet addictions, codependency, and self-acceptance. I am the coordinator of the Bisexuality-Aware Professionals Directory, and the author of What Psychology Professionals Should Know About Polyamory.
         categories: Educators
         location: US-AZ (Arizona)
         countries: US
@@ -7172,7 +8288,26 @@ entries:
         website: http://www.journeybacktoself.com/
         website2: ""
         fees: Please contact me for fee information
-        description: "I am a body-centered psychotherapist specializing in Grief & Loss, Life Transitions, Bisexuality & Fluidity, LGBTQ issues, Self-esteem, Social Anxiety, Trauma, Shame & Resiliency, Identity & Empowerment.\n\n\n\n\n \nMy greatest passion as a therapist is helping people feel more alive and empowered with who they uniquely are. I believe the more intimately connected we are to our own feelings, needs, desires and strengths; the better able we are to experience this in all areas of life.\n\n\n\n\n\nNo matter how we may \"label\" ourselves sexually, ethnically, by gender, age, or current life challenges, we all basically desire a life filled with love, purpose, meaning and increased connection with others.  I am dedicated in helping you gain this for yourself.\n\n\n\n\n\nVisit my website for further information."
+        description: |-
+            I am a body-centered psychotherapist specializing in Grief & Loss, Life Transitions, Bisexuality & Fluidity, LGBTQ issues, Self-esteem, Social Anxiety, Trauma, Shame & Resiliency, Identity & Empowerment.
+
+
+
+
+
+            My greatest passion as a therapist is helping people feel more alive and empowered with who they uniquely are. I believe the more intimately connected we are to our own feelings, needs, desires and strengths; the better able we are to experience this in all areas of life.
+
+
+
+
+
+            No matter how we may "label" ourselves sexually, ethnically, by gender, age, or current life challenges, we all basically desire a life filled with love, purpose, meaning and increased connection with others.  I am dedicated in helping you gain this for yourself.
+
+
+
+
+
+            Visit my website for further information.
         categories: Psychotherapists - Licensed
         location: US-CA (California)
         countries: US
@@ -7517,7 +8652,7 @@ entries:
         countries: US
         regions: TX
         lastUpdate: 0000-00-00
-    - path: 334_penelope-nel-mercer
+    - path: 334_penelope-nel-mercer_mercer-therapy
       fields:
         title: Penelope (Nel) Mercer - Psychotherapists - Licensed from US-CA
         id: 334
@@ -7525,22 +8660,26 @@ entries:
         first_name: Penelope (Nel)
         last_name: Mercer
         credentials: ""
-        job_title: Assoc. Marriage and Family Th.
-        company: ""
+        job_title: Licensed Marriage and Family Therapist
+        company: Mercer Therapy
         short_desc: |-
-            Affirming Therapy Center
+            License: MFT 131474
 
-
-            License: AMFT 109742, Supervised by Jennifer Rehor, LMFT 94564; Degrees: MS in Counseling/MFT from SDSU, MA in Developmental Psychology from SDSU, MA in Socio-Legal Studies from Sheffield University, UK
-        phone: 619-493-5249
+            Degrees: MS in Counseling/MFT from SDSU, MA in Developmental Psychology from SDSU, MA in Socio-Legal Studies from Sheffield University, UK
+        phone: (619) 678-2424
         fax: ""
-        address: 3443 Camino Del Rio South, Suite 208, San Diego, CA 92108
-        email: Penelope@AffirmingTherapyCenter.com
+        address: 2525 Camino del Rio S, Suite 313, San Diego, CA 92108
+        email: nel@mercertherapy.com
         email2: ""
-        website: http://affirmingtherapycenter.com/
+        website: https://www.mercertherapy.com/
         website2: ""
         fees: Please contact me for fee information
-        description: "I work with adolescents (aged 12 and above), adults, families, couples, and other relationship constellations to improve relationships and facilitate personal growth. I have experience working with gender, sexual, and relational diversity and am open-minded and non-judgmental.  As your therapist, I will strive to create a warm, collaborative relationship with you. My goal is to create a meaningful therapeutic context in which each client feels safe, seen, and heard. Whether your concerns relate to life transitions, depression, anxiety, relationships, external stressors, or personal growth, our work will be in a caring environment. My therapeutic approach is grounded in the most current, culturally-aware, trauma-informed, and evidence-based practices, including Emotionally Focused Therapy (EFT), Mindfulness, Narrative Therapy, and Motivational Interviewing. \n\n\n\n\n\nMy own experiences of personal transition have shown me that life affords us many opportunities for growth and change - as individuals, and in our relationships with family members, partners, and friends. In my practice I focus on thinking and attachment patterns, and on the many personal, social, and cultural factors that contribute to resilience. Whatever your goals for therapy, I'm here to help. \n\n\n\n\n\n\nPlease note: Since I'm active in the local community and attend local events, it's possible that we may know some of the same people, and this is something we should discuss at the outset. If it's a concern, I'll provide you with appropriate referrals."
+        description: |-
+            I work with adolescents (aged 12 and above), adults, families, couples, and other relationship constellations to improve relationships and facilitate personal growth. I have experience working with gender, sexual, and relational diversity and am open-minded and non-judgmental. As your therapist, I will strive to create a warm, collaborative relationship with you. My goal is to create a meaningful therapeutic context in which each client feels safe, seen, and heard. Whether your concerns relate to life transitions, depression, anxiety, relationships, external stressors, or personal growth, our work will be in a caring environment. My therapeutic approach is grounded in the most current, culturally-aware, trauma-informed, and evidence-based practices, including Emotionally Focused Therapy (EFT), Mindfulness, Narrative Therapy, and Motivational Interviewing.
+
+            My own experiences of personal transition have shown me that life affords us many opportunities for growth and change - as individuals, and in our relationships with family members, partners, and friends. In my practice I focus on thinking and attachment patterns, and on the many personal, social, and cultural factors that contribute to resilience. Whatever your goals for therapy, I’m here to help.
+
+            Please note: Since I’m active in the local community and attend local events, it’s possible that we may know some of the same people, and this is something we should discuss at the outset. If it’s a concern, I’ll provide you with appropriate referrals.
         categories: Psychotherapists - Licensed
         location: US-CA (California)
         countries: US
@@ -7684,7 +8823,14 @@ entries:
         website: http://www.counselingwithcolleen.com/
         website2: ""
         fees: Free initial consultation.  $150; sliding scale available
-        description: "I am a bisexual-, pansexual-, poly- and open relationship-affirming therapist. I provide therapy to teens, adults, and couples who want to connect with their personal values, live more authentically, and find deeper connection in relationships. I understand the unique cultural challenges of being bisexual, without making assumptions about your personal experience. My style of therapy is genuine, energetic, down-to-earth, skill-based, and filled with humor. Therapy is a transformational experience that can help move you from feeling stuck and hopeless to realizing (or remembering!) what your strengths are and using them to create meaningful change to live the life you prefer. \n\n\n\n\n\nI have experience working with people who struggle with substance abuse and other addictions, suicidal thoughts, and mental illness, although I do not believe that you have to have a diagnosis in order to benefit from therapy. I also enjoy being an expert ear for someone who has a family member or loved one dealing with mental illness or addiction. If you are dealing with any of these issues, or simply want an affirming and non- judgemental therapist, give me a call!"
+        description: |-
+            I am a bisexual-, pansexual-, poly- and open relationship-affirming therapist. I provide therapy to teens, adults, and couples who want to connect with their personal values, live more authentically, and find deeper connection in relationships. I understand the unique cultural challenges of being bisexual, without making assumptions about your personal experience. My style of therapy is genuine, energetic, down-to-earth, skill-based, and filled with humor. Therapy is a transformational experience that can help move you from feeling stuck and hopeless to realizing (or remembering!) what your strengths are and using them to create meaningful change to live the life you prefer.
+
+
+
+
+
+            I have experience working with people who struggle with substance abuse and other addictions, suicidal thoughts, and mental illness, although I do not believe that you have to have a diagnosis in order to benefit from therapy. I also enjoy being an expert ear for someone who has a family member or loved one dealing with mental illness or addiction. If you are dealing with any of these issues, or simply want an affirming and non- judgemental therapist, give me a call!
         categories: Psychotherapists - Licensed
         location: US-CA (California)
         countries: US
@@ -7761,7 +8907,7 @@ entries:
         short_desc: 'Licensed Marriage and Family Therapist (CA LMFT #119496)'
         phone: 310-907-6848
         fax: ""
-        address: 1849 Sawtelle Blvd., Suite 610, Los Angeles, CA 90025, USA
+        address: 5478 Wilshire Blvd., Los Angeles, CA 90036 USA
         email: racheljoneslmft@gmail.com
         email2: ""
         website: http://racheljoneslmft.com/
@@ -7824,7 +8970,68 @@ entries:
         website: http://www.rainbowcounselingtampabay.com/
         website2: ""
         fees: Please contact me for fee information
-        description: "Specialties:\n\n\n\n\n\n-Couples Counseling for same sex/same gender couples\n\n\n\n\n\n-Individual Counseling for LGBTQIAP+ clients \n\n\n\n\n\n-Couples/Relationship Counseling for clients with diverse sexual orientations and/or gender identities, including mixed orientation relationships (partners having differing sexual orientations, for example: lesbian/gay & bi, or straight & bi)\n\n\n\n\n\n-Counseling for those in cis/trans relationships and those in a relationship in which one or more partners are transgender, gender diverse, genderqueer, and/or nonbinary (and who may need help navigating one or both partners' transitions and potential impacts on the relationship)\n\n\n\n\n\n-Counseling for those in poly/open/CNM (consensually non-monogamous) relationships or those who are considering opening up their relationship and need a safe, confidential space to explore this\n\n\n\n\n\n-Individual and couples/relationship counseling for clients who are transgender, gender diverse, genderqueer, gender nonconforming, and/or non-binary\n\n\n\n\n\n-Gender Affirming Therapy for transgender/gender nonconforming clients, including providing gender identity exploration support and assessments/referrals for gender affirming hormone therapy and surgeries (including for those who are nonbinary/gender nonconforming/genderqueer)\n\n\n\n\n\n-I am also kink/BDSM affirming!\n\n\n\n\n\nServing clients age 18+\n\n\n\n\n\nPrivate pay only but can submit superbill if client wishes to seek reimbursement"
+        description: |-
+            Specialties:
+
+
+
+
+
+            -Couples Counseling for same sex/same gender couples
+
+
+
+
+
+            -Individual Counseling for LGBTQIAP+ clients
+
+
+
+
+
+            -Couples/Relationship Counseling for clients with diverse sexual orientations and/or gender identities, including mixed orientation relationships (partners having differing sexual orientations, for example: lesbian/gay & bi, or straight & bi)
+
+
+
+
+
+            -Counseling for those in cis/trans relationships and those in a relationship in which one or more partners are transgender, gender diverse, genderqueer, and/or nonbinary (and who may need help navigating one or both partners' transitions and potential impacts on the relationship)
+
+
+
+
+
+            -Counseling for those in poly/open/CNM (consensually non-monogamous) relationships or those who are considering opening up their relationship and need a safe, confidential space to explore this
+
+
+
+
+
+            -Individual and couples/relationship counseling for clients who are transgender, gender diverse, genderqueer, gender nonconforming, and/or non-binary
+
+
+
+
+
+            -Gender Affirming Therapy for transgender/gender nonconforming clients, including providing gender identity exploration support and assessments/referrals for gender affirming hormone therapy and surgeries (including for those who are nonbinary/gender nonconforming/genderqueer)
+
+
+
+
+
+            -I am also kink/BDSM affirming!
+
+
+
+
+
+            Serving clients age 18+
+
+
+
+
+
+            Private pay only but can submit superbill if client wishes to seek reimbursement
         categories: Psychotherapists - Licensed
         location: US-FL (Florida)
         countries: US
@@ -8031,15 +9238,15 @@ entries:
         credentials: MS, LAMFT, LAC
         job_title: ""
         company: ""
-        short_desc: LAMFT-6742T, LAC-6830T
-        phone: 602-755-3068
+        short_desc: LAC-20493 and LAMFT-10816
+        phone: (602) 787-0600
         fax: ""
-        address: 6424 E. Greenway Parkway, Scottsdale AZ 85254 (Serving the State of Arizona through Telehealth)
+        address: 16421 N Tatum Blvd, Suite 122, Phoenix, AZ 85032 (and throughout Arizona for Telehealth)
         email: hmb@neurodiversecounseling.com
         email2: ""
         website: http://www.recoursecounseling.com/
         website2: ""
-        fees: $140 - $170 per hour, with limited sliding scale available.
+        fees: $170/hr for therapy with lower fees for group therapy and workshops.
         description: I offer support to teens and adults who are overcoming difficult therapy and healthcare experiences, navigating relationship challenges and looking for support in career and life planning decisions/direction.  I also provide relational therapies to families of any presentation, couples, and other relationship formations.  I am emphatically LGBTQ-affirming, and have specific lived experiences and education that allow me to offer safe, validating and empowering services to bi clients.  I believe that you, the client, bring a tremendous expertise and wisdom to the therapy process and you are not broken.  In our work together, I hope to offer the space for you to tune into yourself, trust yourself, and grow in ways that feel meaningful and important to you.
         categories: Psychotherapists - Licensed
         location: US-AZ (Arizona)
@@ -8221,7 +9428,86 @@ entries:
         website: http://bit.ly/bipanqueerzone
         website2: ""
         fees: $100 per session, sliding scale.
-        description: "I focus on bi, pan, queer and poly clients of diverse and underserved backgrounds. For 15 years, bisexuality and consensual non-monogamy have been the structure, identity and study of my own relationships.  The intersections of our marginalized identities are valid and crucial to connecting more authentically with others. Let me empower you to gain a more intuitive understanding of yourself and your desires so that you can stand alone with confidence in your identity while also feeling the support of communities in which you belong. With practical interventions I can help move you towards creating more authentic connections. \n\n\n\n\n\nFree 20 min phone consultation.\n\n\n\n\n\nEnglish, American Sign Language (ASL)\n\n\n\n\n\nApproach: Motivational Interviewing, Solution Focused and Non-Violent Communication\n\n\n\n\n\nOffering services to individuals who are:\n\n\n* Bisexual, Pansexual, Queer, LGBTQIA\n\n\n\n\n\n* Consensual Non-Monogamy (CNM), Polyamory\n\n\n\n\n\n* Deaf & Hard of Hearing\n\n\n\n\n\n* In Transitions\n\n\n\n\n\nSpecializations:\n\n\n* Gender expansive language\n\n\n\n\n\n* Coming Out\n\n\n\n\n\n* Kink-positive\n\n\n\n\n\n* Disability\n\n\n\n\n\n* Parenting"
+        description: |-
+            I focus on bi, pan, queer and poly clients of diverse and underserved backgrounds. For 15 years, bisexuality and consensual non-monogamy have been the structure, identity and study of my own relationships.  The intersections of our marginalized identities are valid and crucial to connecting more authentically with others. Let me empower you to gain a more intuitive understanding of yourself and your desires so that you can stand alone with confidence in your identity while also feeling the support of communities in which you belong. With practical interventions I can help move you towards creating more authentic connections.
+
+
+
+
+
+            Free 20 min phone consultation.
+
+
+
+
+
+            English, American Sign Language (ASL)
+
+
+
+
+
+            Approach: Motivational Interviewing, Solution Focused and Non-Violent Communication
+
+
+
+
+
+            Offering services to individuals who are:
+
+
+            * Bisexual, Pansexual, Queer, LGBTQIA
+
+
+
+
+
+            * Consensual Non-Monogamy (CNM), Polyamory
+
+
+
+
+
+            * Deaf & Hard of Hearing
+
+
+
+
+
+            * In Transitions
+
+
+
+
+
+            Specializations:
+
+
+            * Gender expansive language
+
+
+
+
+
+            * Coming Out
+
+
+
+
+
+            * Kink-positive
+
+
+
+
+
+            * Disability
+
+
+
+
+
+            * Parenting
         categories: Psychotherapists - Unlicensed
         location: US-CA (California)
         countries: US
@@ -8413,4 +9699,208 @@ entries:
         countries: US
         regions: CO
         lastUpdate: 0000-00-00
+    - path: 704_marussia-role-they-them
+      fields:
+        title: Marussia Role (they/them) - Psychotherapists - Licensed from US-MA
+        id: 704
+        salutation: ""
+        first_name: Marussia
+        last_name: Role (they/them)
+        credentials: ""
+        job_title: Psychologist
+        company: ""
+        short_desc: 'PsyD, lic # 11137 in MA '
+        phone: (617) 418-1286
+        fax: ""
+        address: '411 A highland Ave, Somerville MA, USA '
+        email: info@drrole.sprucecare.com
+        email2: ""
+        website: https://marussia-role-psyd.clientsecure.me/
+        website2: ""
+        fees: Please contact me for fee information
+        description: |-
+            Dr. Role (they/them) is a psychologist devoted to building genuine, nourishing connections with their clients. Their graduate training focused on providing multiculturally affirming therapy to people of a variety of backgrounds and intersecting identities. Dr. Role also trained in evidence-based approaches such as Cognitive Behavioral Therapy (CBT) to aid clients in achieving their therapeutic goals. They have specialized training in working with members of the LGBTQIA2S+ community and the young adult population, both in university and community health settings.
+
+            Dr. Role provides individual therapy. They bring both a variety of experience and a passion for working with members of the LGBTQIA2S+, kink/BDSM, and polyamorous/ethical non-monogamy communities. They are also dedicated to working with individuals facing life and identity-related challenges, such as navigating chronic illness, gender roles, emerging adulthood, and work/life balance. Dr. Role collaborates with clients on a variety of concerns, such as anxiety, relationships/dating, self-esteem, and imposter syndrome.
+        categories: Psychotherapists - Licensed
+        location: US-MA (Massachusetts)
+        countries: US
+        regions: MA
+        lastUpdate: ""
+    - path: 705_sarah-helman_embracing-balance-counseling-solutions-llc
+      fields:
+        title: Sarah Helman LMHC, NCC - Psychotherapists - Licensed from US-FL
+        id: 705
+        salutation: ""
+        first_name: Sarah
+        last_name: Helman
+        credentials: LMHC, NCC
+        job_title: Licensed Mental Health Counselor
+        company: Embracing Balance Counseling Solutions, LLC
+        short_desc: |-
+            * MA in Counselor Education/Mental Health Counseling
+            * Certificate in Marriage, Family and Couples Therapy
+            * National Board Certified Counselor
+            * Licensed Mental Health Counselor in Florida MH 14406
+        phone: (407) 496-8263
+        fax: (407) 329-9202
+        address: '5840 Red Bug Lake Road #2096, Winter Springs, FL 32708'
+        email: sarah.helman.lmhc@gmail.com
+        email2: ""
+        website: https://embracingbalance.org/
+        website2: https://www.embracingbalance.org/price-list/latest-posts#pricelist_details
+        fees: Self-Pay $125/50-minute session; Sliding Scale of $75-$100/50-minute session
+        description: |-
+            Professional specialties and skills:
+            * Mental Health Counseling for the LGBTQ+ community
+            * Letters for HRT/gender affirming surgery
+            * Relationship counseling
+
+            Populations served:
+            * LGBTQ+
+            * Transgender
+            * Adult (18+)
+            * Polyamory
+            * Kink/BDSM
+
+            I accept the following insurances:
+            * Aetna
+            * Oxford
+            * Oscar
+            * United Healthcare
+            * Cigna
+        categories: Psychotherapists - Licensed
+        location: US-FL (Florida)
+        countries: US
+        regions: FL
+        lastUpdate: ""
+    - path: 706_rachel-rennie
+      fields:
+        title: Rachel Rennie LCSW - Psychotherapists - Licensed from US-NY
+        id: 706
+        salutation: ""
+        first_name: Rachel
+        last_name: 'Rennie '
+        credentials: LCSW
+        job_title: Psychotherapist, social worker
+        company: ""
+        short_desc: |-
+            LCSW in the state of NY license #091395
+            Certificate in LGBTQ psychotherapy from the Psychotherapy Center for Gender and Sexuality
+        phone: (267) 714-6014
+        fax: ""
+        address: PO Box 200159, Brooklyn Ny, 11220
+        email: rachel@rachelrennielcsw.com
+        email2: ""
+        website: http://www.rachelrennielcsw.com/
+        website2: ""
+        fees: I do not take insurance, but I am an out of network provider. My fee for individual therapy is flexible and negotiated over the initial consultation depending on each person's situation, with a standard fee of $150. My fee for couples counseling is $200.
+        description: "Affirming and empathic psychotherapy and sex therapy for those who wish to enjoy life's pleasures and face its challenges. I am LGBTQIA+/GNC/Kink/Polyamory/Sex Worker affirming, I hold a certificate in LGBTQ psychotherapy from the Psychotherapy Center for Gender and Sexuality with a background in sex education. \nMy services are provided in english to adults over the age of 18 in NY state of any gender or sexuality."
+        categories: Psychotherapists - Licensed
+        location: US-NY (New York)
+        countries: US
+        regions: NY
+        lastUpdate: ""
+    - path: 707_indigo-stray-conger_mile-high-psychotherapy-llc
+      fields:
+        title: Indigo Stray Conger LMFT, AASCT CST - Psychotherapists - Licensed from US-CO
+        id: 707
+        salutation: ""
+        first_name: Indigo Stray
+        last_name: Conger
+        credentials: LMFT, AASCT CST
+        job_title: 'Individual and Relationship/Sex Therapist, CO Licensed Marriage & Family Therapist '
+        company: Mile High Psychotherapy LLC
+        short_desc: 'License #1275, AASECT Certified Sex Therapist, MA in Somatic Counseling Psychology '
+        phone: (646) 263-3683
+        fax: ""
+        address: '8700 E. Jefferson Ave #372305, Denver, CO 80237, USA'
+        email: indigo@milehighpsychotherapy.com
+        email2: ""
+        website: http://www.milehighpsychotherapy.com
+        website2: ""
+        fees: Current fees are $185/50 min individual sessions and $255/80 min relational sessions. I am not in-network with any insurance provider and will provide superbills on request.
+        description: I provide online therapy services to individuals and relationships of all kinds. I specialize in working with LGBTQIA clients and alternative models of sexuality, including BDSM and the ethical non-monogamy spectrum. I have been a counselor since 2008 and I am one of the few AASECT certified sex therapists in Colorado. I served as a staff writer for ChoosingTherapy.com for two years and I am frequently consulted as a sexuality and open relationship expert in publications such as Insider, MindBodyGreen and The New York Times.
+        categories: Psychotherapists - Licensed
+        location: US-CO (Colorado)
+        countries: US
+        regions: CO
+        lastUpdate: ""
+    - path: 708_christine-henry_dr-henry-and-associates
+      fields:
+        title: Christine Henry - Psychotherapists - Licensed from US-TX
+        id: 708
+        salutation: ""
+        first_name: Christine
+        last_name: Henry
+        credentials: ""
+        job_title: 'Psychologist '
+        company: Dr. Henry and Associates
+        short_desc: 'Licensed Psychologist (Texas #35103) PsyPact Certified'
+        phone: (832) 380-4850
+        fax: ""
+        address: Houston, Texas 77094
+        email: therapy@drchristinehenry.com
+        email2: ""
+        website: http://drchristinehenry.com/
+        website2: ""
+        fees: 175.00 per session. Will provide documentation to submit to insurance for you to be reimbursed.
+        description: "Psychologist providing exclusively online psychotherapy to \"highly sensitive\" adults (25+) who have experienced trauma and or grief. I provide individual counseling as well as group therapy.\n\nMy clients often feel that they are better able to connect with animals rather than to people. In therapy we can determine what goes wrong in your relationships as well as help you find \"your tribe\" to connect with people who appreciate and accept you for you. "
+        categories: Psychotherapists - Licensed
+        location: US-TX (Texas)
+        countries: US
+        regions: TX
+        lastUpdate: ""
+    - path: 709_arthur-sullivan_transcendent-self-pllc
+      fields:
+        title: Arthur Sullivan - Psychotherapists - Licensed from US-NY
+        id: 709
+        salutation: ""
+        first_name: Arthur
+        last_name: Sullivan
+        credentials: ""
+        job_title: Psychotherapist / Social Worker
+        company: Transcendent Self PLLC
+        short_desc: LMSW, NY, 106691
+        phone: (929) 265-0175
+        fax: ""
+        address: 109 N 12 Street, Brooklyn, NY 11249 USA
+        email: arthur@transcendentself.com
+        email2: ""
+        website: https://www.transcendentself.com/?gclid=CjwKCAjwv-GUBhAzEiwASUMm4hhFvGUt6SK3tVNlkB0F0T3G8MyoN2-rUmsCH6rqoztpuBUSc8JuYxoCHbMQAvD_BwE
+        website2: ""
+        fees: 'I am currently OON with insurance and provide all paperwork necessary for compensation. Individuals: $125 -$150/session. Couples: $150 - $200/session'
+        description: "My practice is humanistic, person-centered, and relational. Trauma thrives in isolation and denial, and deep healing happens in relationships. Autonomy and agency are central in our therapeutic relationship. Through sessions, my goal is to help you reconnect with the most authentic version of yourself and free yourself from limiting beliefs that systemic and interpersonal trauma may have placed on you. We will also reconnect with and define your values and inner sense of intuition. There can be a lot of pain and deep contemplation in therapy. There is also profound relief and joy in being seen. Many of us grow up believing that we are unacceptable in some way which can lead to shame and repression. I'm certain that together, we will create greater confidence and joy in your ability to just be. I'm looking forward to speaking with you.\n\nI work with emotional dysregulation, (C)PTSD, insecure attachment styles, perfectionism, guilt/shame, grief, spiritual crises, identity integration, depression, anxiety, and relationship stress. I service individuals with practice kink, ENM/polyamory. I service individuals engaged in sex work. I practice from a feminist, anti-oppressive, and disability justice philosophy.\n\nI offer a DBT Skills Group and a Collage Processing Group in person.  Please reach out if you are interested in hearing more about intake.\n\nI'm fluent in English. I do individual, couples, and group sessions with adults. "
+        categories: Psychotherapists - Licensed
+        location: US-NY (New York)
+        countries: US
+        regions: NY
+        lastUpdate: ""
+    - path: 710_matthew-willner_matthew-willner-psychotherapy
+      fields:
+        title: Matthew Willner LMSW - Psychotherapists - Licensed from US-NY
+        id: 710
+        salutation: ""
+        first_name: Matthew
+        last_name: Willner
+        credentials: LMSW
+        job_title: Psychotherapist
+        company: Matthew Willner Psychotherapy
+        short_desc: |-
+            Columbia University School of Social Work, LMSW (New York). License Number 116462.
+            Supervisor: Dr Dulcinea Pitagora, PhD, LCSW
+        phone: (646) 470-4495‬
+        fax: ""
+        address: 110 Lafayette Street, Suite 501, New York, NY 10013
+        email: matthewwillner.therapy@gmail.com
+        email2: ""
+        website: https://www.manhattanalternative.com/team/matthew-willner/
+        website2: ""
+        fees: Please contact me for fee information
+        description: I provide affirming and knowledgeable psychotherapy to individuals and romantic partners, with a focus on the LGBTQIA+, non-monogamous, and BDSM/kink communities. I work with clients from diverse backgrounds and careers who are navigating a variety of challenges, including anxiety, depression, trauma, and identity development. To me, therapy is both an avenue for processing our personal struggles, and also part of combating the oppressive systems that undermine well-being. In that vain, as a queer cis white man, I strive to cultivate an antiracist and anti-oppressive practice. My work is informed by internal family systems (IFS), cognitive behavioral therapy (CBT), and psychodynamic theory, but I will work with you collaboratively as we walk down this path together.
+        categories: Psychotherapists - Licensed
+        location: US-NY (New York)
+        countries: US
+        regions: NY
+        lastUpdate: ""
 
