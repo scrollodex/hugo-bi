@@ -1,244 +1,501 @@
 ---
 categories:
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
+    - id: 0
+      category_name: ""
+      description: ""
+      priority: 0
+      icon: ""
     - id: 1
-      category_name: Psychotherapists - Licensed
-      description: Psychologists, Clinical Social Workers, Marriage and Family Counselors, and Psychiatrists
-      priority: 1
-      icon: user-md-solid.svg
-    - id: 2
-      category_name: Medical Professionals
-      description: Medical Doctors
-      priority: 2
-      icon: user-md-solid.svg
-    - id: 11
-      category_name: Psychotherapists - Unlicensed
-      description: Life and Personal Coaching, Interns, Therapists-in-training
-      priority: 3
-      icon: user-md-solid.svg
-    - id: 3
       category_name: Body Workers
-      description: Chiropractors, Massage Therapists, Childbirth Educators, Sex Educators, Herbalists, Nutritionists, and more
-      priority: 4
-      icon: hammer-solid.svg
-    - id: 6
+      description: Description Missing
+      priority: 1
+      icon: ""
+    - id: 2
       category_name: Business Professionals
-      description: Planners, Consultants and Organizers
-      priority: 5
-      icon: briefcase-solid.svg
-    - id: 4
-      category_name: Legal Professionals
-      description: Lawyers / Attorneys, Private Investigators
-      priority: 6
-      icon: balance-scale-solid.svg
-    - id: 5
-      category_name: Financial Advisors
-      description: Includes Stockbrokers, Accountants and other Financial Advisors
-      priority: 7
-      icon: coins-solid.svg
-    - id: 10
+      description: Description Missing
+      priority: 2
+      icon: ""
+    - id: 3
       category_name: Computer Professionals
-      description: Web developers, network admins, DBs, graphic artists, and more!
-      priority: 8
-      icon: desktop-solid.svg
-    - id: 7
+      description: Description Missing
+      priority: 3
+      icon: ""
+    - id: 4
       category_name: Educators
-      description: Speakers, Lecturers, Researchers, and Writers on Bisexuality
-      priority: 9
-      icon: user-graduate-solid.svg
-    - id: 12
-      category_name: Pastoral and Religious
-      description: Reverends, Rabbis, Priestesses, Pastoral Counselors...
-      priority: 10
-      icon: place-of-worship-solid.svg
-    - id: 8
-      category_name: Performers
-      description: Singers and more
-      priority: 11
-      icon: theater-masks-solid.svg
-    - id: 14
-      category_name: Photographers
-      description: People who take really cool pics! :D
-      priority: 12
-      icon: camera-solid.svg
-    - id: 13
-      category_name: Travel Agents
-      description: Book that flight, resort, or cruise!
-      priority: 13
-      icon: suitcase-rolling-solid.svg
-    - id: 15
+      description: Description Missing
+      priority: 4
+      icon: ""
+    - id: 5
       category_name: Event Spaces
-      description: Places that are welcoming for bisexual people to host and attend events
+      description: Description Missing
+      priority: 5
+      icon: ""
+    - id: 6
+      category_name: Financial Advisors
+      description: Description Missing
+      priority: 6
+      icon: ""
+    - id: 7
+      category_name: Legal Professionals
+      description: Description Missing
+      priority: 7
+      icon: ""
+    - id: 8
+      category_name: Medical Professionals
+      description: Description Missing
+      priority: 8
+      icon: ""
+    - id: 9
+      category_name: Pastoral and Religious
+      description: Description Missing
+      priority: 9
+      icon: ""
+    - id: 10
+      category_name: Performers
+      description: Description Missing
+      priority: 10
+      icon: ""
+    - id: 11
+      category_name: Photographers
+      description: Description Missing
+      priority: 11
+      icon: ""
+    - id: 12
+      category_name: Psychotherapists - Licensed
+      description: Description Missing
+      priority: 12
+      icon: ""
+    - id: 13
+      category_name: Psychotherapists - Unlicensed
+      description: Description Missing
+      priority: 13
+      icon: ""
+    - id: 14
+      category_name: Travel Agents
+      description: Description Missing
       priority: 14
-      icon: ticket-alt-solid.svg
+      icon: ""
 locations:
-    - id: 35
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 0
+      display: ""
+      country_code: ""
+      region: ""
+    - id: 1
       display: CA-BC (British Columbia)
       country_code: CA
       region: BC
-    - id: 43
+    - id: 2
       display: CA-Manitoba
       country_code: CA
       region: Manitoba
-    - id: 32
+    - id: 3
       display: CA-Ontario
       country_code: CA
       region: Ontario
-    - id: 23
-      display: CA-Toronto
-      country_code: CA
-      region: Toronto
-    - id: 33
+    - id: 4
+      display: International
+      country_code: International
+      region: ""
+    - id: 5
       display: NL-All (The Netherlands)
       country_code: NL
       region: All
-    - id: 36
+    - id: 6
       display: UK-All (United Kingdom)
       country_code: UK
       region: All
-    - id: 17
+    - id: 7
       display: US-AL (Alabama)
       country_code: US
       region: AL
-    - id: 29
+    - id: 9
       display: US-All (Nationwide)
       country_code: US
       region: All
-    - id: 22
+    - id: 8
       display: US-AZ (Arizona)
       country_code: US
       region: AZ
-    - id: 4
+    - id: 10
       display: US-CA (California)
       country_code: US
       region: CA
-    - id: 6
+    - id: 11
       display: US-CO (Colorado)
       country_code: US
       region: CO
-    - id: 41
+    - id: 12
       display: US-CT (Connecticut)
       country_code: US
       region: CT
-    - id: 40
+    - id: 13
       display: US-DC (District of Columbia)
       country_code: US
       region: DC
-    - id: 5
+    - id: 14
       display: US-FL (Florida)
       country_code: US
       region: FL
-    - id: 7
+    - id: 15
       display: US-GA (Georgia)
       country_code: US
       region: GA
-    - id: 8
+    - id: 16
       display: US-HI (Hawaii)
       country_code: US
       region: HI
-    - id: 42
+    - id: 17
       display: US-ID (Idaho)
       country_code: US
       region: ID
-    - id: 27
+    - id: 18
       display: US-IL (Illinois)
       country_code: US
       region: IL
-    - id: 25
+    - id: 19
       display: US-IN (Indiana)
       country_code: US
       region: IN
-    - id: 45
+    - id: 20
       display: US-KS (Kansas)
       country_code: US
       region: KS
-    - id: 9
+    - id: 21
       display: US-MA (Massachusetts)
       country_code: US
       region: MA
-    - id: 16
+    - id: 22
       display: US-MD (Maryland)
       country_code: US
       region: MD
-    - id: 34
+    - id: 23
       display: US-MN (Minnesota)
       country_code: US
       region: MN
-    - id: 10
+    - id: 24
       display: US-MO (Missouri)
       country_code: US
       region: MO
-    - id: 24
+    - id: 25
       display: US-NC (North Carolina)
       country_code: US
       region: NC
-    - id: 21
+    - id: 26
       display: US-NE (Nebraska)
       country_code: US
       region: NE
-    - id: 11
+    - id: 27
       display: US-NH (New Hampshire)
       country_code: US
       region: NH
-    - id: 19
+    - id: 28
       display: US-NJ (New Jersey)
       country_code: US
       region: NJ
-    - id: 26
+    - id: 29
       display: US-NM (New Mexico)
       country_code: US
       region: NM
-    - id: 12
+    - id: 30
       display: US-NY (New York)
       country_code: US
       region: NY
-    - id: 20
+    - id: 31
       display: US-OH (Ohio)
       country_code: US
       region: OH
-    - id: 44
+    - id: 32
       display: US-OK (Oklahoma)
       country_code: US
       region: OK
-    - id: 28
+    - id: 33
       display: US-OR (Oregon)
       country_code: US
       region: OR
-    - id: 13
+    - id: 34
       display: US-PA (Pennsylvania)
       country_code: US
       region: PA
-    - id: 31
+    - id: 35
       display: US-SC (South Carolina)
       country_code: US
       region: SC
-    - id: 18
-      display: US-TN (Tennessee)
-      country_code: US
-      region: TN
-    - id: 15
+    - id: 36
       display: US-TX (Texas)
       country_code: US
       region: TX
-    - id: 39
+    - id: 37
       display: US-VA (Virginia)
       country_code: US
       region: VA
-    - id: 37
+    - id: 38
       display: US-VT (Vermont)
       country_code: US
       region: VT
-    - id: 14
+    - id: 39
       display: US-WA (Washington)
       country_code: US
       region: WA
-    - id: 38
+    - id: 40
       display: US-WI (Wisconsin)
       country_code: US
       region: WI
-    - id: 30
-      display: International
-      country_code: ZZ
-      region: International
 entries:
     - path: 2_susan-s-hardy
       fields:
@@ -2699,7 +2956,7 @@ entries:
         lastUpdate: 0000-00-00
     - path: 82_dr-joseph-chikelue-obi
       fields:
-        title: Dr Joseph Chikelue Obi MBBS, MPH, MD, DSc, FRIPH - Medical Professionals from International
+        title: Dr Joseph Chikelue Obi MBBS, MPH, MD, DSc, FRIPH - Medical Professionals from
         id: 82
         salutation: ""
         first_name: Dr  Joseph Chikelue
@@ -2723,8 +2980,8 @@ entries:
             I specialize in General Family Medicine and Public Health Promotion, and my language is English.
         categories: Medical Professionals
         location: International
-        countries: ZZ
-        regions: International
+        countries: International
+        regions: ""
         lastUpdate: 0000-00-00
     - path: 83_carol-morotti-meeker
       fields:
@@ -2832,7 +3089,7 @@ entries:
         lastUpdate: 0000-00-00
     - path: 86_carrie-sandler
       fields:
-        title: Carrie Sandler - Travel Agents from International
+        title: Carrie Sandler - Travel Agents from
         id: 86
         salutation: ""
         first_name: Carrie
@@ -2855,8 +3112,8 @@ entries:
             Vacations.  Basically, if you dream of it, I can make it come true.
         categories: Travel Agents
         location: International
-        countries: ZZ
-        regions: International
+        countries: International
+        regions: ""
         lastUpdate: 0000-00-00
     - path: 88_eric-deriel
       fields:
@@ -3280,7 +3537,7 @@ entries:
         website: http://www.rickvassallo.com
         website2: http://www.ingenio.com/calls/PT_interimcall.asp?sid=5307388
         fees: Please inquire.
-        description: |-
+        description: |
             I am a wholistic therapist, certified  in reflexology and  massage therapy via the Intl. Instititute of Reflexology. I am currently entering my 4th year of an intensive Transpersonal Psychotherapy Training. (www.transpersonalcanada.com). I am also a trained intuitive energy healer, a published writer and workshop presenter, and the host producer of a radio program broadcast from the University of Toronto on Fridays at 9:00 am on 89.5 FM.(www.ciut.fm).
 
 
@@ -8395,7 +8652,7 @@ entries:
         countries: US
         regions: TX
         lastUpdate: 0000-00-00
-    - path: 334_penelope-nel-mercer
+    - path: 334_penelope-nel-mercer_mercer-therapy
       fields:
         title: Penelope (Nel) Mercer - Psychotherapists - Licensed from US-CA
         id: 334
@@ -8403,36 +8660,26 @@ entries:
         first_name: Penelope (Nel)
         last_name: Mercer
         credentials: ""
-        job_title: Assoc. Marriage and Family Th.
-        company: ""
+        job_title: Licensed Marriage and Family Therapist
+        company: Mercer Therapy
         short_desc: |-
-            Affirming Therapy Center
+            License: MFT 131474
 
-
-            License: AMFT 109742, Supervised by Jennifer Rehor, LMFT 94564; Degrees: MS in Counseling/MFT from SDSU, MA in Developmental Psychology from SDSU, MA in Socio-Legal Studies from Sheffield University, UK
-        phone: 619-493-5249
+            Degrees: MS in Counseling/MFT from SDSU, MA in Developmental Psychology from SDSU, MA in Socio-Legal Studies from Sheffield University, UK
+        phone: (619) 678-2424
         fax: ""
-        address: 3443 Camino Del Rio South, Suite 208, San Diego, CA 92108
-        email: Penelope@AffirmingTherapyCenter.com
+        address: 2525 Camino del Rio S, Suite 313, San Diego, CA 92108
+        email: nel@mercertherapy.com
         email2: ""
-        website: http://affirmingtherapycenter.com/
+        website: https://www.mercertherapy.com/
         website2: ""
         fees: Please contact me for fee information
         description: |-
-            I work with adolescents (aged 12 and above), adults, families, couples, and other relationship constellations to improve relationships and facilitate personal growth. I have experience working with gender, sexual, and relational diversity and am open-minded and non-judgmental.  As your therapist, I will strive to create a warm, collaborative relationship with you. My goal is to create a meaningful therapeutic context in which each client feels safe, seen, and heard. Whether your concerns relate to life transitions, depression, anxiety, relationships, external stressors, or personal growth, our work will be in a caring environment. My therapeutic approach is grounded in the most current, culturally-aware, trauma-informed, and evidence-based practices, including Emotionally Focused Therapy (EFT), Mindfulness, Narrative Therapy, and Motivational Interviewing.
+            I work with adolescents (aged 12 and above), adults, families, couples, and other relationship constellations to improve relationships and facilitate personal growth. I have experience working with gender, sexual, and relational diversity and am open-minded and non-judgmental. As your therapist, I will strive to create a warm, collaborative relationship with you. My goal is to create a meaningful therapeutic context in which each client feels safe, seen, and heard. Whether your concerns relate to life transitions, depression, anxiety, relationships, external stressors, or personal growth, our work will be in a caring environment. My therapeutic approach is grounded in the most current, culturally-aware, trauma-informed, and evidence-based practices, including Emotionally Focused Therapy (EFT), Mindfulness, Narrative Therapy, and Motivational Interviewing.
 
+            My own experiences of personal transition have shown me that life affords us many opportunities for growth and change - as individuals, and in our relationships with family members, partners, and friends. In my practice I focus on thinking and attachment patterns, and on the many personal, social, and cultural factors that contribute to resilience. Whatever your goals for therapy, I’m here to help.
 
-
-
-
-            My own experiences of personal transition have shown me that life affords us many opportunities for growth and change - as individuals, and in our relationships with family members, partners, and friends. In my practice I focus on thinking and attachment patterns, and on the many personal, social, and cultural factors that contribute to resilience. Whatever your goals for therapy, I'm here to help.
-
-
-
-
-
-
-            Please note: Since I'm active in the local community and attend local events, it's possible that we may know some of the same people, and this is something we should discuss at the outset. If it's a concern, I'll provide you with appropriate referrals.
+            Please note: Since I’m active in the local community and attend local events, it’s possible that we may know some of the same people, and this is something we should discuss at the outset. If it’s a concern, I’ll provide you with appropriate referrals.
         categories: Psychotherapists - Licensed
         location: US-CA (California)
         countries: US
@@ -8660,7 +8907,7 @@ entries:
         short_desc: 'Licensed Marriage and Family Therapist (CA LMFT #119496)'
         phone: 310-907-6848
         fax: ""
-        address: 1849 Sawtelle Blvd., Suite 610, Los Angeles, CA 90025, USA
+        address: 5478 Wilshire Blvd., Los Angeles, CA 90036 USA
         email: racheljoneslmft@gmail.com
         email2: ""
         website: http://racheljoneslmft.com/
@@ -8991,15 +9238,15 @@ entries:
         credentials: MS, LAMFT, LAC
         job_title: ""
         company: ""
-        short_desc: LAMFT-6742T, LAC-6830T
-        phone: 602-755-3068
+        short_desc: LAC-20493 and LAMFT-10816
+        phone: (602) 787-0600
         fax: ""
-        address: 6424 E. Greenway Parkway, Scottsdale AZ 85254 (Serving the State of Arizona through Telehealth)
+        address: 16421 N Tatum Blvd, Suite 122, Phoenix, AZ 85032 (and throughout Arizona for Telehealth)
         email: hmb@neurodiversecounseling.com
         email2: ""
         website: http://www.recoursecounseling.com/
         website2: ""
-        fees: $140 - $170 per hour, with limited sliding scale available.
+        fees: $170/hr for therapy with lower fees for group therapy and workshops.
         description: I offer support to teens and adults who are overcoming difficult therapy and healthcare experiences, navigating relationship challenges and looking for support in career and life planning decisions/direction.  I also provide relational therapies to families of any presentation, couples, and other relationship formations.  I am emphatically LGBTQ-affirming, and have specific lived experiences and education that allow me to offer safe, validating and empowering services to bi clients.  I believe that you, the client, bring a tremendous expertise and wisdom to the therapy process and you are not broken.  In our work together, I hope to offer the space for you to tune into yourself, trust yourself, and grow in ways that feel meaningful and important to you.
         categories: Psychotherapists - Licensed
         location: US-AZ (Arizona)
@@ -9402,4 +9649,258 @@ entries:
         countries: US
         regions: GA
         lastUpdate: 0000-00-00
+    - path: 360_jeffrey-lee-helms
+      fields:
+        title: Jeffrey Lee Helms PsyD - Psychotherapists - Licensed from US-HI
+        id: 360
+        salutation: ""
+        first_name: Jeffrey Lee
+        last_name: Helms
+        credentials: PsyD
+        job_title: Licensed Psychologist
+        company: ""
+        short_desc: 'Licensed as a psychologist in Georgia (PSY2719) and Hawaii (PSY 1246) and am authorized to practice interjurisdictional telepsychology by PSYPACT (APIT Mobility Number: 4820). APIT allows me to see patients virtually in over half of the states/jurisdictions in the U.S. See my webpage for more information.'
+        phone: 678-523-9301
+        fax: ""
+        address: My practice is completely virtual. I do not see patients in-person.
+        email: drjeffhelms@gmail.com
+        email2: ""
+        website: https://www.drjeffhelms.com/
+        website2: ""
+        fees: Please contact me for fee information
+        description: I am an openly bisexual, licensed psychologist. I have a virtual practice where I provide individual therapy for adults. Please see my website for jurisdictions where I am licensed/authorized to practice. The website also includes information about my areas of practice (e.g., LGB folkx, work with other healthcare and mental healthcare professionals) and professional publications. My office accepts some insurances and self-pay. Please contact for more information.
+        categories: Psychotherapists - Licensed
+        location: US-HI (Hawaii)
+        countries: US
+        regions: HI
+        lastUpdate: 0000-00-00
+    - path: 361_amanda-earle
+      fields:
+        title: Amanda Earle MA, LAC, LPC - Psychotherapists - Licensed from US-CO
+        id: 361
+        salutation: ""
+        first_name: Amanda
+        last_name: Earle
+        credentials: MA, LAC, LPC
+        job_title: Mental Health and Addictions
+        company: ""
+        short_desc: Master of Arts in Clinical Mental Health Counseling (University of Colorado Denver),  Licensed Professional Counselor (LPC.0015465, Colorado), Licensed Addictions Counselor (ACD.0001239, Colorado); Nationally Certified Counselor (NCC)
+        phone: 720-987-0897
+        fax: ""
+        address: 827 Grant St., Denver, CO 80203, United States
+        email: amanda@livingstorytherapy.com
+        email2: ""
+        website: http://www.livingstorytherapy.com/
+        website2: ""
+        fees: My fee is $145 per session. I can provide superbills for out-of-network insurance reimbursement.
+        description: 'Trauma-informed Narrative therapist in downtown Denver and online via video telehealth. I consider myself an active and collaborative clinician. My counseling approach is creative and engaging, and will often incorporate metaphor, storytelling, experiential exercises, skill-building, and an emphasis on Harm Reduction for addressing concerns with substances and sexual health. I routinely seek out consultation and training to improve the awareness, knowledge, and skills needed to effectively serve the communities I am passionate about: the LGBTQ+ community; individuals who are Polyamorous or practice non-monogamy; members of the Kink and BDSM communities; and people who use substances. At this time, I am providing individual therapy to adults only (age 18+).'
+        categories: Psychotherapists - Licensed
+        location: US-CO (Colorado)
+        countries: US
+        regions: CO
+        lastUpdate: 0000-00-00
+    - path: 704_marussia-role-they-them
+      fields:
+        title: Marussia Role (they/them) - Psychotherapists - Licensed from US-MA
+        id: 704
+        salutation: ""
+        first_name: Marussia
+        last_name: Role (they/them)
+        credentials: ""
+        job_title: Psychologist
+        company: ""
+        short_desc: 'PsyD, lic # 11137 in MA '
+        phone: (617) 418-1286
+        fax: ""
+        address: '411 A highland Ave, Somerville MA, USA '
+        email: info@drrole.sprucecare.com
+        email2: ""
+        website: https://marussia-role-psyd.clientsecure.me/
+        website2: ""
+        fees: Please contact me for fee information
+        description: |-
+            Dr. Role (they/them) is a psychologist devoted to building genuine, nourishing connections with their clients. Their graduate training focused on providing multiculturally affirming therapy to people of a variety of backgrounds and intersecting identities. Dr. Role also trained in evidence-based approaches such as Cognitive Behavioral Therapy (CBT) to aid clients in achieving their therapeutic goals. They have specialized training in working with members of the LGBTQIA2S+ community and the young adult population, both in university and community health settings.
+
+            Dr. Role provides individual therapy. They bring both a variety of experience and a passion for working with members of the LGBTQIA2S+, kink/BDSM, and polyamorous/ethical non-monogamy communities. They are also dedicated to working with individuals facing life and identity-related challenges, such as navigating chronic illness, gender roles, emerging adulthood, and work/life balance. Dr. Role collaborates with clients on a variety of concerns, such as anxiety, relationships/dating, self-esteem, and imposter syndrome.
+        categories: Psychotherapists - Licensed
+        location: US-MA (Massachusetts)
+        countries: US
+        regions: MA
+        lastUpdate: ""
+    - path: 705_sarah-helman_embracing-balance-counseling-solutions-llc
+      fields:
+        title: Sarah Helman LMHC, NCC - Psychotherapists - Licensed from US-FL
+        id: 705
+        salutation: ""
+        first_name: Sarah
+        last_name: Helman
+        credentials: LMHC, NCC
+        job_title: Licensed Mental Health Counselor
+        company: Embracing Balance Counseling Solutions, LLC
+        short_desc: |-
+            * MA in Counselor Education/Mental Health Counseling
+            * Certificate in Marriage, Family and Couples Therapy
+            * National Board Certified Counselor
+            * Licensed Mental Health Counselor in Florida MH 14406
+        phone: (407) 496-8263
+        fax: (407) 329-9202
+        address: '5840 Red Bug Lake Road #2096, Winter Springs, FL 32708'
+        email: sarah.helman.lmhc@gmail.com
+        email2: ""
+        website: https://embracingbalance.org/
+        website2: https://www.embracingbalance.org/price-list/latest-posts#pricelist_details
+        fees: Self-Pay $125/50-minute session; Sliding Scale of $75-$100/50-minute session
+        description: |-
+            Professional specialties and skills:
+            * Mental Health Counseling for the LGBTQ+ community
+            * Letters for HRT/gender affirming surgery
+            * Relationship counseling
+
+            Populations served:
+            * LGBTQ+
+            * Transgender
+            * Adult (18+)
+            * Polyamory
+            * Kink/BDSM
+
+            I accept the following insurances:
+            * Aetna
+            * Oxford
+            * Oscar
+            * United Healthcare
+            * Cigna
+        categories: Psychotherapists - Licensed
+        location: US-FL (Florida)
+        countries: US
+        regions: FL
+        lastUpdate: ""
+    - path: 706_rachel-rennie
+      fields:
+        title: Rachel Rennie LCSW - Psychotherapists - Licensed from US-NY
+        id: 706
+        salutation: ""
+        first_name: Rachel
+        last_name: 'Rennie '
+        credentials: LCSW
+        job_title: Psychotherapist, social worker
+        company: ""
+        short_desc: |-
+            LCSW in the state of NY license #091395
+            Certificate in LGBTQ psychotherapy from the Psychotherapy Center for Gender and Sexuality
+        phone: (267) 714-6014
+        fax: ""
+        address: PO Box 200159, Brooklyn Ny, 11220
+        email: rachel@rachelrennielcsw.com
+        email2: ""
+        website: http://www.rachelrennielcsw.com/
+        website2: ""
+        fees: I do not take insurance, but I am an out of network provider. My fee for individual therapy is flexible and negotiated over the initial consultation depending on each person's situation, with a standard fee of $150. My fee for couples counseling is $200.
+        description: "Affirming and empathic psychotherapy and sex therapy for those who wish to enjoy life's pleasures and face its challenges. I am LGBTQIA+/GNC/Kink/Polyamory/Sex Worker affirming, I hold a certificate in LGBTQ psychotherapy from the Psychotherapy Center for Gender and Sexuality with a background in sex education. \nMy services are provided in english to adults over the age of 18 in NY state of any gender or sexuality."
+        categories: Psychotherapists - Licensed
+        location: US-NY (New York)
+        countries: US
+        regions: NY
+        lastUpdate: ""
+    - path: 707_indigo-stray-conger_mile-high-psychotherapy-llc
+      fields:
+        title: Indigo Stray Conger LMFT, AASCT CST - Psychotherapists - Licensed from US-CO
+        id: 707
+        salutation: ""
+        first_name: Indigo Stray
+        last_name: Conger
+        credentials: LMFT, AASCT CST
+        job_title: 'Individual and Relationship/Sex Therapist, CO Licensed Marriage & Family Therapist '
+        company: Mile High Psychotherapy LLC
+        short_desc: 'License #1275, AASECT Certified Sex Therapist, MA in Somatic Counseling Psychology '
+        phone: (646) 263-3683
+        fax: ""
+        address: '8700 E. Jefferson Ave #372305, Denver, CO 80237, USA'
+        email: indigo@milehighpsychotherapy.com
+        email2: ""
+        website: http://www.milehighpsychotherapy.com
+        website2: ""
+        fees: Current fees are $185/50 min individual sessions and $255/80 min relational sessions. I am not in-network with any insurance provider and will provide superbills on request.
+        description: I provide online therapy services to individuals and relationships of all kinds. I specialize in working with LGBTQIA clients and alternative models of sexuality, including BDSM and the ethical non-monogamy spectrum. I have been a counselor since 2008 and I am one of the few AASECT certified sex therapists in Colorado. I served as a staff writer for ChoosingTherapy.com for two years and I am frequently consulted as a sexuality and open relationship expert in publications such as Insider, MindBodyGreen and The New York Times.
+        categories: Psychotherapists - Licensed
+        location: US-CO (Colorado)
+        countries: US
+        regions: CO
+        lastUpdate: ""
+    - path: 708_christine-henry_dr-henry-and-associates
+      fields:
+        title: Christine Henry - Psychotherapists - Licensed from US-TX
+        id: 708
+        salutation: ""
+        first_name: Christine
+        last_name: Henry
+        credentials: ""
+        job_title: 'Psychologist '
+        company: Dr. Henry and Associates
+        short_desc: 'Licensed Psychologist (Texas #35103) PsyPact Certified'
+        phone: (832) 380-4850
+        fax: ""
+        address: Houston, Texas 77094
+        email: therapy@drchristinehenry.com
+        email2: ""
+        website: http://drchristinehenry.com/
+        website2: ""
+        fees: 175.00 per session. Will provide documentation to submit to insurance for you to be reimbursed.
+        description: "Psychologist providing exclusively online psychotherapy to \"highly sensitive\" adults (25+) who have experienced trauma and or grief. I provide individual counseling as well as group therapy.\n\nMy clients often feel that they are better able to connect with animals rather than to people. In therapy we can determine what goes wrong in your relationships as well as help you find \"your tribe\" to connect with people who appreciate and accept you for you. "
+        categories: Psychotherapists - Licensed
+        location: US-TX (Texas)
+        countries: US
+        regions: TX
+        lastUpdate: ""
+    - path: 709_arthur-sullivan_transcendent-self-pllc
+      fields:
+        title: Arthur Sullivan - Psychotherapists - Licensed from US-NY
+        id: 709
+        salutation: ""
+        first_name: Arthur
+        last_name: Sullivan
+        credentials: ""
+        job_title: Psychotherapist / Social Worker
+        company: Transcendent Self PLLC
+        short_desc: LMSW, NY, 106691
+        phone: (929) 265-0175
+        fax: ""
+        address: 109 N 12 Street, Brooklyn, NY 11249 USA
+        email: arthur@transcendentself.com
+        email2: ""
+        website: https://www.transcendentself.com/?gclid=CjwKCAjwv-GUBhAzEiwASUMm4hhFvGUt6SK3tVNlkB0F0T3G8MyoN2-rUmsCH6rqoztpuBUSc8JuYxoCHbMQAvD_BwE
+        website2: ""
+        fees: 'I am currently OON with insurance and provide all paperwork necessary for compensation. Individuals: $125 -$150/session. Couples: $150 - $200/session'
+        description: "My practice is humanistic, person-centered, and relational. Trauma thrives in isolation and denial, and deep healing happens in relationships. Autonomy and agency are central in our therapeutic relationship. Through sessions, my goal is to help you reconnect with the most authentic version of yourself and free yourself from limiting beliefs that systemic and interpersonal trauma may have placed on you. We will also reconnect with and define your values and inner sense of intuition. There can be a lot of pain and deep contemplation in therapy. There is also profound relief and joy in being seen. Many of us grow up believing that we are unacceptable in some way which can lead to shame and repression. I'm certain that together, we will create greater confidence and joy in your ability to just be. I'm looking forward to speaking with you.\n\nI work with emotional dysregulation, (C)PTSD, insecure attachment styles, perfectionism, guilt/shame, grief, spiritual crises, identity integration, depression, anxiety, and relationship stress. I service individuals with practice kink, ENM/polyamory. I service individuals engaged in sex work. I practice from a feminist, anti-oppressive, and disability justice philosophy.\n\nI offer a DBT Skills Group and a Collage Processing Group in person.  Please reach out if you are interested in hearing more about intake.\n\nI'm fluent in English. I do individual, couples, and group sessions with adults. "
+        categories: Psychotherapists - Licensed
+        location: US-NY (New York)
+        countries: US
+        regions: NY
+        lastUpdate: ""
+    - path: 710_matthew-willner_matthew-willner-psychotherapy
+      fields:
+        title: Matthew Willner LMSW - Psychotherapists - Licensed from US-NY
+        id: 710
+        salutation: ""
+        first_name: Matthew
+        last_name: Willner
+        credentials: LMSW
+        job_title: Psychotherapist
+        company: Matthew Willner Psychotherapy
+        short_desc: |-
+            Columbia University School of Social Work, LMSW (New York). License Number 116462.
+            Supervisor: Dr Dulcinea Pitagora, PhD, LCSW
+        phone: (646) 470-4495‬
+        fax: ""
+        address: 110 Lafayette Street, Suite 501, New York, NY 10013
+        email: matthewwillner.therapy@gmail.com
+        email2: ""
+        website: https://www.manhattanalternative.com/team/matthew-willner/
+        website2: ""
+        fees: Please contact me for fee information
+        description: I provide affirming and knowledgeable psychotherapy to individuals and romantic partners, with a focus on the LGBTQIA+, non-monogamous, and BDSM/kink communities. I work with clients from diverse backgrounds and careers who are navigating a variety of challenges, including anxiety, depression, trauma, and identity development. To me, therapy is both an avenue for processing our personal struggles, and also part of combating the oppressive systems that undermine well-being. In that vain, as a queer cis white man, I strive to cultivate an antiracist and anti-oppressive practice. My work is informed by internal family systems (IFS), cognitive behavioral therapy (CBT), and psychodynamic theory, but I will work with you collaboratively as we walk down this path together.
+        categories: Psychotherapists - Licensed
+        location: US-NY (New York)
+        countries: US
+        regions: NY
+        lastUpdate: ""
 

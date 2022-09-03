@@ -46,7 +46,7 @@ const build = async (add, force) => {
       if (add) {
         fse.ensureDirSync(pagePath);
         fs.writeFileSync(pagePath + '/index.md', JSON.stringify(pages[j].fields) + '\n');
-        console.log('Created file: ' + pagePath + '/index.md');
+        //console.log('Created file: ' + pagePath + '/index.md');
       } else if (fs.existsSync(pagePath)) {
         let response;
         if (!force) {
@@ -59,7 +59,7 @@ const build = async (add, force) => {
  
         if (force || response.value) {
           fse.removeSync(pagePath);
-          console.log('Removed folder: ' + pagePath);
+          //console.log('Removed folder: ' + pagePath);
         }
       }
     }
