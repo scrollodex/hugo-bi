@@ -99,6 +99,21 @@ Flags:
 - `-c FILE.json` or `--configFile FILE.json` flag to override default config (check hugoConfig-example.json)
 - `-f` or `--force` flag to skip folder removal prompts (be careful with this one!)
 
+### Dockerized build (extremely beta quality)
+
+Grab a copy of `ResourceUtils` and copy it into your checkout here. Create a
+`public/` directory to be the output of the build. Then:
+
+* `docker build -t hugo-bi .`
+* `docker run --rm -v $(pwd)/public:/hugo-bi/public/ -e AIRTABLE_APIKEY=(the key) -e AIRTABLE_BASE_ID=(the base ID) -it hugo-bi`
+
+And that's it! The default command it runs is `node ./hugo.js -f`, but you can
+run anything else on the command line.
+
+This was tested with Docker `20.10.5+dfsg1, build 55c4c88` (from the Debian package).
+
+ ## Author
+
 ## Author
 
 [kidsil](https://github.com/kidsil)
