@@ -3,7 +3,7 @@
 [BI deploy here](https://hugo-bi.pages.dev/)
 [POLY deploy here](https://hugo-poly.pages.dev/)
 
-## ho to build
+## how to build
 
 1. run "npm i"
 2. run "node hugo.js"
@@ -22,7 +22,7 @@ My workflow:
 3. Copy the folder locally in order to optimize css with "@fullhuman/postcss-purgecss":
 
 
-## Use icons from Font Awsome 
+## Use icons from Font Awsome
 
 you can brouse the icons and use the one that are [free](https://fontawesome.com/)
 
@@ -53,7 +53,6 @@ else:
 
   Long description  (First 10 words then [expand])
 
-  
 
 # Sites
 
@@ -112,19 +111,17 @@ run anything else on the command line.
 
 This was tested with Docker `20.10.5+dfsg1, build 55c4c88` (from the Debian package).
 
- ## Author
-
-### Dockerized build using air2hugo
+# Dockerized build using air2hugo
 
 This ignores the npm code and uses the go-based "air2hugo" system.
 
-Create the container image:
+## Create the container image
 
 ```
 make build
 ```
 
-Use the container image:
+## Do ONE UPDATE using the container
 
 In the same place as the Makefile:
 
@@ -133,6 +130,7 @@ AIRTABLE_APIKEY=FILLIN AIRTABLE_BASE_ID=FILLIN make run
 ```
 
 In any directory you want:
+
 ```
 export AIRTABLE_APIKEY=FILLIN AIRTABLE_BASE_ID=FILLIN
 mkdir -p public/entry content/entry
@@ -143,6 +141,14 @@ docker run --rm \
   -v $(pwd)/public:/hugo-bi/public/ \
   -it hugo-bi
 ```
+
+## Run a server that runs updates on demand
+
+This will run "hugo" once and then wait for the /.build route to be hit.
+
+AIRTABLE_APIKEY=FILLIN AIRTABLE_BASE_ID=FILLIN make dyngo
+
+open http://localhost:8080/
 
 ## Author
 
