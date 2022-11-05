@@ -114,6 +114,36 @@ This was tested with Docker `20.10.5+dfsg1, build 55c4c88` (from the Debian pack
 
  ## Author
 
+### Dockerized build using air2hugo
+
+This ignores the npm code and uses the go-based "air2hugo" system.
+
+Create the container image:
+
+```
+make build
+```
+
+Use the container image:
+
+In the same place as the Makefile:
+
+```
+AIRTABLE_APIKEY=FILLIN AIRTABLE_BASE_ID=FILLIN make run
+```
+
+In any directory you want:
+```
+export AIRTABLE_APIKEY=FILLIN AIRTABLE_BASE_ID=FILLIN
+mkdir -p public/entry content/entry
+docker run --rm \
+  -e AIRTABLE_APIKEY=${AIRTABLE_APIKEY} \
+  -e AIRTABLE_BASE_ID=${AIRTABLE_BASE_ID} \
+  -v $(pwd)/content:/hugo-bi/content/ \
+  -v $(pwd)/public:/hugo-bi/public/ \
+  -it hugo-bi
+```
+
 ## Author
 
 [kidsil](https://github.com/kidsil)
