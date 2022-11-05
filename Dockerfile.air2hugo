@@ -1,13 +1,9 @@
 ## get airtable2publicyaml built
-#FROM golang:1.17-alpine AS gobuild
-#COPY ResourceUtils /ResourceUtils
-#WORKDIR /ResourceUtils/cmd/airtable2publicyaml
-#
-#RUN go build
+FROM golang:1.17-alpine AS gobuild
+COPY scrolloserver /scrolloserver
+WORKDIR /scrolloserver/cmd/air2hugo
 
-FROM klakegg/hugo:0.101.0
-FROM 
-:q
+RUN go build
 
 ## get running our build
 FROM node:17-alpine3.14
@@ -23,12 +19,12 @@ ENV AIRTABLE_APIKEY "SETME"
 ENV AIRTABLE_BASE_ID "SETME"
 
 COPY --chown=1000 . /hugo-bi
-COPY --from=gobuild /ResourceUtils/cmd/airtable2publicyaml/airtable2publicyaml /usr/local/bin/
+COPY --from=gobuild /scrolloserver/cmd/air2hugo/air2hugo /usr/local/bin/
 COPY --from=gobuild /usr/local/go /usr/local/go
 ENV PATH "/usr/local/go/bin:${PATH}"
 
 WORKDIR /hugo-bi
 
-RUN npm i
+#RUN npm i
 
-CMD ["/bin/sh", "-c", "airtable2publicyaml data/entries.yaml && node ./hugo.js -f"]
+CMD ["/bin/sh", "-c", "air2hugo && hugo"]
