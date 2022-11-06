@@ -36,4 +36,5 @@ WORKDIR /hugo-bi
 #RUN hugo mod get -u &&  hugo mod vendor -v --log --verboseLog
 
 #CMD ["/bin/sh", "-c", "air2hugo && hugo"]
-CMD ["/bin/sh", "-c", "mkdir -p public && dyngo >> public/buildlog.txt"]
+#CMD ["/bin/sh", "-c", "mkdir -p public && /usr/local/bin/dyngo >> public/buildlog.txt"]
+CMD /usr/local/bin/bin/docker-entrypoint.sh
