@@ -1,8 +1,9 @@
-## get airtable2publicyaml built
+## Build air2hugo and dyngo
 FROM golang:1.17-alpine AS gobuild
-COPY ResourceUtils /ResourceUtils
-WORKDIR /ResourceUtils/cmd/airtable2publicyaml
-
+COPY scrolloserver /scrolloserver
+WORKDIR /scrolloserver/cmd/air2hugo
+RUN go build
+WORKDIR /scrolloserver/cmd/dyngo
 RUN go build
 
 ## get running our build
@@ -19,12 +20,20 @@ ENV AIRTABLE_APIKEY "SETME"
 ENV AIRTABLE_BASE_ID "SETME"
 
 COPY --chown=1000 . /hugo-bi
-COPY --from=gobuild /ResourceUtils/cmd/airtable2publicyaml/airtable2publicyaml /usr/local/bin/
+COPY bin/docker-entrypoint.sh /usr/local/bin/
+COPY --from=gobuild /scrolloserver/cmd/air2hugo/air2hugo /usr/local/bin/
+COPY --from=gobuild /scrolloserver/cmd/dyngo/dyngo /usr/local/bin/
 COPY --from=gobuild /usr/local/go /usr/local/go
 ENV PATH "/usr/local/go/bin:${PATH}"
 
 WORKDIR /hugo-bi
 
-RUN npm i
+#RUN npm i
 
-CMD ["/bin/sh", "-c", "airtable2publicyaml data/entries.yaml && node ./hugo.js -f"]
+# TODO(tlim): Figure out how to vendor all dependencies to speed up
+# build.
+#RUN rm -rf _vendor
+#RUN hugo mod get -u &&  hugo mod vendor -v --log --verboseLog
+
+#CMD ["/bin/sh", "-c", "air2hugo && hugo"]
+CMD ["/bin/sh", "-c", "mkdir -p public && dyngo >> public/buildlog.txt"]

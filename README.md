@@ -139,16 +139,39 @@ docker run --rm \
   -e AIRTABLE_BASE_ID=${AIRTABLE_BASE_ID} \
   -v $(pwd)/content:/hugo-bi/content/ \
   -v $(pwd)/public:/hugo-bi/public/ \
-  -it hugo-bi
+  -it hugo-bi hugo-bi sh -c 'air2hugo && hugo'
 ```
 
 ## Run a server that runs updates on demand
 
 This will run "hugo" once and then wait for the /.build route to be hit.
 
-AIRTABLE_APIKEY=FILLIN AIRTABLE_BASE_ID=FILLIN make dyngo
-
+```
 open http://localhost:8080/
+open http://localhost:8080/.build
+```
+
+```
+AIRTABLE_APIKEY=FILLIN AIRTABLE_BASE_ID=FILLIN make dyngo
+```
+
+In any directory you want:
+
+```
+export AIRTABLE_APIKEY=FILLIN AIRTABLE_BASE_ID=FILLIN
+mkdir -p public/entry content/entry
+docker run --rm   -e AIRTABLE_APIKEY=${AIRTABLE_APIKEY}   -e AIRTABLE_BASE_ID=${AIRTABLE_BASE_ID}   -v $(pwd)/content:/hugo-bi/content/ -v $(pwd)/public:/hugo-bi/public/   -it hugo-bi dyngo
+```
+
+## Digital Ocean
+
+Install `doctl`: https://docs.digitalocean.com/reference/doctl/how-to/install/
+
+https://docs.digitalocean.com/products/container-registry/quickstart/
+docker tag hugo-bi registry.digitalocean.com/resourceguide/hugo-bi
+docker push registry.digitalocean.com/resourceguide/hugo-bi
+
+
 
 ## Author
 
