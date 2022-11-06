@@ -1,12 +1,13 @@
 
 all: build
 
+APPNAME=hugo-bi
 
 .PHONY: build
 build:
 	mkdir -p scrolloserver
 	rsync -avP --exclude=.git --inplace --delete ../scrolloserver/. scrolloserver/.
-	docker build -f Dockerfile -t hugo-bi .
+	docker buildx build --platform linux/amd64 -f Dockerfile -t $(APPNAME) .
 
 .PHONY: run
 run:
@@ -15,9 +16,9 @@ run:
 	docker run --rm \
 		-e AIRTABLE_APIKEY=${AIRTABLE_APIKEY} \
 		-e AIRTABLE_BASE_ID=${AIRTABLE_BASE_ID} \
-		-v $$(pwd)/content:/hugo-bi/content/ \
-		-v $$(pwd)/public:/hugo-bi/public/ \
-		-it hugo-bi hugo-bi 
+		-v $$(pwd)/content:/$(APPNAME)/content/ \
+		-v $$(pwd)/public:/$(APPNAME)/public/ \
+		-it $(APPNAME) $(APPNAME)
 
 # The default is to run the server.
 
@@ -28,14 +29,14 @@ dyngo:
 	docker run --rm \
 		-e AIRTABLE_APIKEY=${AIRTABLE_APIKEY} \
 		-e AIRTABLE_BASE_ID=${AIRTABLE_BASE_ID} \
-		-v $$(pwd)/content:/hugo-bi/content/ \
-		-v $$(pwd)/public:/hugo-bi/public/ \
+		-v $$(pwd)/content:/$(APPNAME)/content/ \
+		-v $$(pwd)/public:/$(APPNAME)/public/ \
 		-p 8080:8080 \
-		-it hugo-bi
+		-it $(APPNAME)
 
 # To log in run: docker login registry.digitalocean.com
 
 .PHONY: push
 push:
-	docker tag hugo-bi registry.digitalocean.com/resourceguide/hugo-bi
-	docker push registry.digitalocean.com/resourceguide/hugo-bi
+	docker tag $(APPNAME) registry.digitalocean.com/resourceguide/$(APPNAME)
+	docker push registry.digitalocean.com/resourceguide/$(APPNAME)

@@ -1,5 +1,10 @@
 ## Build air2hugo and dyngo
-FROM golang:1.17-alpine AS gobuild
+
+# AppleSilicon:
+#FROM --platform=linux/amd64 golang:1.17-alpine AS gobuild
+# DigitalOcean:
+FROM --platform=linux/amd64 golang:1.17-alpine AS gobuild
+
 COPY scrolloserver /scrolloserver
 WORKDIR /scrolloserver/cmd/air2hugo
 RUN go build
