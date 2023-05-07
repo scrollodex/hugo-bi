@@ -25,28 +25,19 @@ title = "Submit"
 
 ## FAQ
 
-{{< faq_container title="faq" >}}
-
-{{< faq_item title="faq" open=true id="q1" q="What if I meet only 1 or 2 of the above criteria, but am really very bi-friendly? Can I still sign up to be listed in the directory?" >}}
+**What if I meet only 1 or 2 of the above criteria, but am really very bi-friendly? Can I still sign up to be listed in the directory?"**
 
 Not yet. What you should do first is to **educate yourself further** about the specific issues and concerns of the bisexual community, so that you are more qualified to meet its needs. Read some **books or articles** on bisexuality, go to some **events or workshops** on bisexuality - and then come back and sign up! If you aren't sure where to find such resources, contact Geri at geriweitzman@gmail.com and she'll be happy to make some suggestions.
 
-{{</ faq_item >}}
-
-{{< faq_item title="faq" open=true id="q2" q="Do I need to be bisexual to be listed in this directory?" >}}
+**Do I need to be bisexual to be listed in this directory?**
 
 No. It is not necessary to identify as bisexual to possess an awareness of the concerns and needs of the bisexual community.
 
-{{</ faq_item >}}
-
-
-{{< faq_item title="faq" open=true id="q3" q="Does it cost anything to be listed in this directory?" >}}
+**Does it cost anything to be listed in this directory?**
 
 No.
 
-{{</ faq_item >}}
-
-{{< faq_item title="faq" open=true id="q4" q="What do I need to do in order to be listed in the directory?" >}}
+**What do I need to do in order to be listed in the directory?**
 
 Send an email to `geriweitzman@gmail.com` with the following information:
 
@@ -68,9 +59,7 @@ The remaining items should be answered exactly as you would like them to appear 
     - Populations served - ages, concerns, etc.
 1. Your fees - amount, sliding scales, membership in insurance panels
 
-{{</ faq_item >}}
-
-{{< faq_item title="faq" open=true id="q5" q="I know of someone else who is a really cool bisexuality-aware professional! Can I submit their info?" >}}
+**I know of someone else who is a really cool bisexuality-aware professional! Can I submit their info?**
 
 Please do **NOT** submit another person's name. If you know of someone else who it would be neat to have listed here, please send them the info about this website and let them choose whether to submit a listing themselves. This is for three reasons:
 
@@ -78,45 +67,9 @@ Please do **NOT** submit another person's name. If you know of someone else who 
 - Professionals are liable for the accuracy of information which is published about themselves.
 - In order to be listed in this directory, professionals need to make a statement to the directory coordinator about which 3 or more criteria they meet for bisexuality-awareness.
 
-{{</ faq_item >}}
-
-{{< faq_item title="faq" id="q6" q="What will a sample ad look like in the directory?" >}}
-
-**Geri D. Weitzman, PhD**
-
-Licensed Psychologist (CA License # PSY17963).
-
-- **Address**: 1100 Sanchez Street (corner of 24th)   San Francisco, CA 94114.
-- **Phone**: 415-517-7965.
-- **Fax**: none at this time
-- **Website**: www.numenor.org/~gdw/psychologist
-- **Email**: gdw@numenor.org
-
-Fees: Free initial consultation. Sliding scale fee of $60-$120 per session thereafter.
-
-**About my business:**
-
-I am an openly bisexual licensed psychologist, practicing in San Francisco's Noe Valley neighborhood.
-
-I offer empathic and open-minded psychotherapy for individuals, couples, and polygroups.
-
-I have experience working with members of the Bisexual, Lesbian, Gay, Polyamory, Kink/BDSM, HIV+, and DD communities.
-
-**Other specialties** include relationship work, career counseling, managing depression, anxiety, anger, substance and internet addictions, codependency, and self-acceptance.
-
-I am the coordinator of the **Bisexuality-Aware Professionals Directory**, and the author of **What Psychology Professionals Should Know About Polyamory**.
-
-I am available for consultation with other therapists.
-
-{{</ faq_item >}}
-
-{{< faq_item title="faq" id="q7" q="How long will it take for my listing to appear in the directory?" >}}
+**How long will it take for my listing to appear in the directory?**
 
 A few days to a few weeks is typical, depending on how busy Geri is when she receives it.
-
-{{</ faq_item >}}
-
-{{</ faq_container >}}
 
 ## Please note:
 
