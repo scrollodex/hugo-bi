@@ -41,7 +41,7 @@ No.
 
 Send an email to `geriweitzman@gmail.com` with the following information:
 
-1. A statement of which 3 of the criteria for bisexuality-awareness (listed above) you meet
+1. A statement of which 3 of the criteria for bisexuality-awareness (listed above) you meet. (This will not be included in your listing.)
 
 The remaining items should be answered exactly as you would like them to appear in your listing:
 
