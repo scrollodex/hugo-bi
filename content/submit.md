@@ -33,42 +33,44 @@ Not yet. What you should do first is to **educate yourself further** about the s
 
 {{</ faq_item >}}
 
-{{< faq_item title="faq" id="q2" q="Do I need to be bisexual to be listed in this directory?" >}}
+{{< faq_item title="faq" open=true id="q2" q="Do I need to be bisexual to be listed in this directory?" >}}
 
 No. It is not necessary to identify as bisexual to possess an awareness of the concerns and needs of the bisexual community.
 
 {{</ faq_item >}}
 
 
-{{< faq_item title="faq" id="q3" q="Does it cost anything to be listed in this directory?" >}}
+{{< faq_item title="faq" open=true id="q3" q="Does it cost anything to be listed in this directory?" >}}
 
 No.
 
 {{</ faq_item >}}
 
-{{< faq_item title="faq" id="q4" q="What do I need to do in order to be listed in the directory?" >}}
+{{< faq_item title="faq" open=true id="q4" q="What do I need to do in order to be listed in the directory?" >}}
 
-Send an email to **Geri Weitzman** at geriweitzman@gmail.com with the following information:
+Send an email to `geriweitzman@gmail.com` with the following information:
 
 1. A statement of which 3 of the criteria for bisexuality-awareness (listed above) you meet
+
+The remaining items should be answered exactly as you would like them to appear in your listing:
+
 1. Your name
-1. The name of your business (as applicable)
 1. Your profession
-1. (As applicable) Your degree/s, certification/s, states/provinces of professional licensure, the number/ID of your professional license/s, and (if an intern) the name and license info of your primary supervisor.
+1. The name of your business (as applicable)
+1. (As applicable) Your degree/s, certification/s, states/provinces of professional licensure, the number/ID of your professional license/s, and (if an intern) the name and license info of your primary supervisor. Note: to be listed in the Psychotherapists-Licensed or Registered section, you MUST provide your license number for inclusion in the listing.
+1. Your business phone number
 1. Your business address (including country)
-1. Your business phone number (fax # too if available)
-1. Your email address, if available
-1. Your website URL, if available
-1. A brief description of your services (limit this to approximately 300 words please), which might include the following info:
-    - Your professional specialties and skills
-    - What languages you know
-    - The populations you serve - ages, concerns, etc (as applicable)
-    - Fees - amount, sliding scales, membership in insurance panels
-    - List of publications authored or other indications of experience
+1. Your email address
+1. Your website URL
+1. A brief description of your services, which might include:
+    - Professional specialties and skills
+    - Language(s) spoken
+    - Populations served - ages, concerns, etc.
+1. Your fees - amount, sliding scales, membership in insurance panels
 
 {{</ faq_item >}}
 
-{{< faq_item title="faq" id="q5" q="I know of someone else who is a really cool bisexuality-aware professional! Can I submit their info?" >}}
+{{< faq_item title="faq" open=true id="q5" q="I know of someone else who is a really cool bisexuality-aware professional! Can I submit their info?" >}}
 
 Please do **NOT** submit another person's name. If you know of someone else who it would be neat to have listed here, please send them the info about this website and let them choose whether to submit a listing themselves. This is for three reasons:
 
