@@ -27,7 +27,7 @@ title = "Submit"
 
 **What if I meet only 1 or 2 of the above criteria, but am really very bi-friendly? Can I still sign up to be listed in the directory?"**
 
-Not yet. What you should do first is to **educate yourself further** about the specific issues and concerns of the bisexual community, so that you are more qualified to meet its needs. Read some **books or articles** on bisexuality, go to some **events or workshops** on bisexuality - and then come back and sign up! If you aren't sure where to find such resources, contact Geri at geriweitzman@gmail.com and she'll be happy to make some suggestions.
+Not yet. What you should do first is to **educate yourself further** about the specific issues and concerns of the bisexual community, so that you are more qualified to meet its needs. Read some **books or articles** on bisexuality, go to some **events or workshops** on bisexuality - and then come back and sign up! If you aren't sure where to find such resources, contact bifriendlyprofessionals@gmail.com and we'll be happy to make some suggestions.
 
 **Do I need to be bisexual to be listed in this directory?**
 
@@ -39,7 +39,7 @@ No.
 
 **What do I need to do in order to be listed in the directory?**
 
-Send an email to `geriweitzman@gmail.com` with the following information:
+Send an email to [bifriendlyprofessionals@gmail.com](mailto:                  bifriendlyprofessionals@gmail.com) with the following information:
 
 1. A statement of which 3 of the criteria for bisexuality-awareness (listed above) you meet. (This will not be included in your listing.)
 
