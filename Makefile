@@ -3,12 +3,14 @@ all: build
 
 APPNAME=hugo-bi
 
+# Build the image with all utilities, etc.
 .PHONY: build
 build:
 	mkdir -p scrolloserver
 	rsync -avP --exclude=.git --inplace --delete ../scrolloserver/. scrolloserver/.
 	docker buildx build --platform linux/amd64 -f Dockerfile -t $(APPNAME) .
 
+# Run the "foo" command (currently doesn't exist)
 .PHONY: run
 run:
 	@[ "${AIRTABLE_APIKEY}" ] || ( echo ">> var AIRTABLE_APIKEY is not set"; exit 1 )
@@ -18,10 +20,9 @@ run:
 		-e AIRTABLE_BASE_ID=${AIRTABLE_BASE_ID} \
 		-v $$(pwd)/content:/$(APPNAME)/content/ \
 		-v $$(pwd)/public:/$(APPNAME)/public/ \
-		-it $(APPNAME) $(APPNAME)
+		-it $(APPNAME) $(APPNAME) foo
 
-# The default is to run the server.
-
+# Run the dynamic hugo (dyngo) server.  open http://localhost:8080/
 .PHONY: dyngo
 dyngo:
 	@[ "${AIRTABLE_APIKEY}" ] || ( echo ">> var AIRTABLE_APIKEY is not set"; exit 1 )
@@ -36,6 +37,7 @@ dyngo:
 
 # To log in run: docker login registry.digitalocean.com
 
+# Push the latest image:
 .PHONY: push
 push:
 	docker tag $(APPNAME) registry.digitalocean.com/resourceguide/$(APPNAME)
