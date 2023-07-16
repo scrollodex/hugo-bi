@@ -75,8 +75,8 @@
                             {{ if $job_title }}
                                 <i class="entry-card--jobTitle">{{ $job_title }}
                                     {{ if and $noName $company }}
-                                    - ( at {{ $company }})
-                                    {{ end }}
+                                    - (at {{ $company }})
+                                    {{- end }}
                                 </i>
                                 {{ else }}
                                 <i>{{ if and $noName $company }}{{ $company }}{{ end }}</i>
