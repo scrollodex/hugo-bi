@@ -9,3 +9,5 @@ node_modules/
 ### Things we copy in for the Docker build process ###
 /ResourceUtils/
 /scrolloserver/
+
+.env

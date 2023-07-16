@@ -43,4 +43,5 @@ WORKDIR /hugo-bi
 
 #CMD ["/bin/sh", "-c", "air2hugo && hugo"]
 #CMD ["/bin/sh", "-c", "mkdir -p public && /usr/local/bin/dyngo >> public/buildlog.txt"]
-CMD /usr/local/bin/bin/docker-entrypoint.sh
+#CMD /usr/local/bin/bin/docker-entrypoint.sh
+ENTRYPOINT [ "/usr/local/bin/docker-entrypoint.sh" ]
