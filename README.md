@@ -78,16 +78,13 @@ hugo-modules is the master for some assets. This repo can be read by anyone, thu
 Before "make push" will work:
 
 1. Install Digital Ocean cli tool:
-
-brew install doctl
+    brew install doctl
 
 2. Digital Ocean login:
-
-doctl auth init
+    doctl auth init
 
 3. Digital Ocean registry login:
-
-doctl registry login
+    doctl registry login
 
 4. Install and run docker:
 
@@ -95,11 +92,24 @@ Download from https://docker.com
 Run the app.
 
 5. Docker login:
+    docker login
 
-docker login
+### Directory setup
+
+The utilities assume that the following repos are checked out from the same parent.
+(That is... if you are in hugo-bi, the code assume that ../FOO will get to repository FOO)
+
+    cd ~/git
+	git checkout git@github.com:scrollodex/scrolloserver.git
+	git checkout git@github.com:scrollodex/hugo-modules.git
+	git checkout git@github.com:scrollodex/hugo-bi.git
+	git checkout git@github.com:scrollodex/hugo-poly.git
 
 ---
 
+# Stuff from the old README.md
+# Stuff from the old README.md
+# Stuff from the old README.md
 # Stuff from the old README.md
 
 
