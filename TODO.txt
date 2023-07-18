@@ -2,7 +2,7 @@
 CI/CD:
 
 * Update NPM dependencies
-
+* "Click reload to regenerate MyName" should say "BI" or "POLY".
 
 website:
 

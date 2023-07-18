@@ -10,4 +10,11 @@ node_modules/
 /ResourceUtils/
 /scrolloserver/
 
+# Where we keep the secrets
 .env
+
+# Debug files
+/final-categories.json
+/final-entries.json
+/final-locations.json
+/output-entries.yaml

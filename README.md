@@ -61,9 +61,42 @@ content and handles "/.build" processing.
 
 Run "npm i" occationally to update the npm software.
 
-### Update the seach index
+### Update the search index
 
-FILL IN
+## Developer Information
+
+### General Info
+
+hugo-bi is the master for assets and layouts plus Dockerfile, Makefile and
+README.md. If you change any of those, you must copy them to hugo-poly.  (`make
+pull_to_poly` will do the work for you.)
+
+hugo-modules is the master for some assets. This repo can be read by anyone, thus we use the Hugo Modules system to import those files.
+
+### Tool setup
+
+Before "make push" will work:
+
+1. Install Digital Ocean cli tool:
+
+brew install doctl
+
+2. Digital Ocean login:
+
+doctl auth init
+
+3. Digital Ocean registry login:
+
+doctl registry login
+
+4. Install and run docker:
+
+Download from https://docker.com
+Run the app.
+
+5. Docker login:
+
+docker login
 
 ---
 
