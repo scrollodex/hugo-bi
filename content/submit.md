@@ -41,23 +41,23 @@ No.
 
 Send an email to [bifriendlyprofessionals@gmail.com](mailto:                  bifriendlyprofessionals@gmail.com) with the following information:
 
-1. A statement of which 3 of the criteria for bisexuality-awareness (listed above) you meet. (This will not be included in your listing.)
+* 1. A statement of which 3 of the criteria for bisexuality-awareness (listed above) you meet. (This will not be included in your listing.)
 
 The remaining items should be answered exactly as you would like them to appear in your listing:
 
-1. Your name
-1. Your profession
-1. The name of your business (as applicable)
-1. (As applicable) Your degree/s, certification/s, states/provinces of professional licensure, the number/ID of your professional license/s, and (if an intern) the name and license info of your primary supervisor. Note: to be listed in the Psychotherapists-Licensed or Registered section, you MUST provide your license number for inclusion in the listing.
-1. Your business phone number
-1. Your business address (including country)
-1. Your email address
-1. Your website URL
-1. A brief description of your services, which might include:
+* 2. Your name
+* 3. Your profession
+* 4. The name of your business (as applicable)
+* 5. (As applicable) Your degree/s, certification/s, states/provinces of professional licensure, the number/ID of your professional license/s, and (if an intern) the name and license info of your primary supervisor. Note: to be listed in the Psychotherapists-Licensed or Registered section, you MUST provide your license number for inclusion in the listing.
+* 6. Your business phone number
+* 7. Your business address (including country)
+* 8. Your email address
+* 9. Your website URL
+* 10. A brief description of your services, which might include:
     - Professional specialties and skills
     - Language(s) spoken
     - Populations served - ages, concerns, etc.
-1. Your fees - amount, sliding scales, membership in insurance panels
+* 11. Your fees - amount, sliding scales, membership in insurance panels
 
 **I know of someone else who is a really cool bisexuality-aware professional! Can I submit their info?**
 

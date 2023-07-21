@@ -6,5 +6,6 @@ CI/CD:
 
 website:
 
-* Remove space before parens
+* DONE 7/2023:  Remove space before parens
 * Change "Location" field to "multiple select"
+* Pages shouldn't require "reload" as much.
