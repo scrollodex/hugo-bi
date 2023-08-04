@@ -9,4 +9,4 @@ intro ="Click on the type of professional that you are seeking."
 
 [Submit a directory listing](/contact/)
 
-To contact the directory coordinator, email Geri Weitzman, PhD at: geriweitzman@gmail.com
+To contact the directory coordinator, email bifriendlyprofessionals@gmail.com

@@ -12,4 +12,4 @@ As with most directories, the listing of a professional in this directory is not
 
 This directory does not accept listings which involve sexual services, given the current illegal status of such   services in the jurisdiction in which the directory is hosted.
 
-To contact the directory coordinator, email Geri Weitzman, PhD at: geriweitzman@gmail.com
+To contact the directory coordinator, email bifriendlyprofessionals@gmail.com

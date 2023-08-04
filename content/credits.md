@@ -17,4 +17,4 @@ I would like to thank the following people and organizations who helped tremendo
 * Emmett Pickerel, partner extraordinaire, who set up the initial database for the site.
 * The many bisexuality-aware professionals who provide services to our community and who agreed to be listed in this directory.
 
-To contact the directory coordinator, email Geri Weitzman, PhD at: geriweitzman@gmail.com
+To contact the directory coordinator, email Geri Weitzman, PhD at bifriendlyprofessionals@gmail.com

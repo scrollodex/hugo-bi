@@ -42,4 +42,4 @@ This directory does not accept listings which involve sexual services, given the
 
 ## Contact Us
 
-To contact the directory coordinator, email Geri Weitzman, PhD at: geriweitzman@gmail.com
+To contact the directory coordinator, email bifriendlyprofessionals@gmail.com

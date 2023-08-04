@@ -19,4 +19,4 @@ I would like to thank the following people and organizations who helped tremendo
  
 Thanks very much to all of these folks!
 
-Directory coordinator,<br>Geri Weitzman, PhD<br>geriweitzman@gmail.com
+Directory coordinator,<br>Geri Weitzman, PhD<br>bifriendlyprofessionals@gmail.com

@@ -83,5 +83,4 @@ The maintainers of this directory reserve the right to remove or refuse any dire
 
 To use the Bisexuality-Aware Professionals Directory, go to [www.bizone.org](https://www.bizone.org)
 
-To contact the directory coordinator, email Geri Weitzman, PhD at: geriweitzman@gmail.com
-
+To contact the directory coordinator, email bifriendlyprofessionals@gmail.com
