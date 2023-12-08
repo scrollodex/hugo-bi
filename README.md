@@ -105,6 +105,34 @@ The utilities assume that the following repos are checked out from the same pare
 	git checkout git@github.com:scrollodex/hugo-bi.git
 	git checkout git@github.com:scrollodex/hugo-poly.git
 
+# Sample development cycle
+
+Suppose you want to make a change to the code.
+
+First, set your ENV variables:
+
+    $ source ../env/.env-bi-main 
+
+Let's download the database from Airtable.com:
+
+    $ make populate
+
+Now let's generate the files locally:
+
+    $ make gen
+
+View the files
+
+    $ open public/categories/psychotherapists-licensed
+
+We can also run the server locally:
+
+    $ make local
+    $ open http://localhost:8080/
+
+
+
+
 ---
 
 # Stuff from the old README.md
