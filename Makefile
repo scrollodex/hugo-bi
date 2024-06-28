@@ -79,7 +79,7 @@ push:
 	docker push registry.digitalocean.com/resourceguide/$(APPNAME)
 
 update_from_master:
-# hugo-bi contains the master for many files. Sync them to hugo-poly.
+# hugo-bi contains the master for many files. Sync from hugo-bi to hugo-poly.
 # NOTE: hugo-modules is imported by hugo's modules facility. Those are
 # not synced here.
 	# Verify we are on the correct repo:
@@ -98,3 +98,8 @@ update_from_master:
 	# Fix Dockerfile to be about hugo-poly:
 	sed -i.bak 's/hugo-bi/hugo-poly/g'  Dockerfile
 	rm -f Dockerfile.bak
+
+# Typical usage: make build populate collect_ignored_files
+collect_ignored_files:
+	cd .. && tar zcvf /tmp/$(APPNAME).ignored.tar.gz $(APPNAME)/content/entry $(APPNAME)/node_modules $(APPNAME)/public $(APPNAME)/scrolloserver
+

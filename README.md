@@ -6,6 +6,10 @@ Rebuild: https://www.bizone.org/.build
 Site:    https://www.polyfriendly.org
 Rebuild: https://www.polyfriendly.org/.build
 
+## Credits
+
+Web design and coding by Razvan - Gabriel Nicu <cromozooom@gmail.com>
+
 ## Architecture Overview
 
 This is the README for bizone.org and polyfriendly.org.
