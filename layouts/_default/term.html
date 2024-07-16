@@ -1,25 +1,21 @@
 {{ define "main" }}
-	{{ $scratch := newScratch }}
-	{{ if eq .Type "countries" }}
-		{{ $scratch.Set "link" .Page.Title }}
-	{{ else if eq .Type "categories" }}
-		{{ $scratch.Set "link" .Page.Permalink }}
-	{{ end }}
-	{{ $link := $scratch.Get "link" }}	
+
+
+<!-- <template x-for="location in locationCounts" :key="location.value">
+		<div  x-text="location.label + ' x ' + location.count + ' y ' + location.value"></div>
+</template> -->
+
+
+
+	{{ partial "partials/term.html" . }}
 	
 
-	{{ if .Site.Params.debug }}
-	<span class="badge rounded-pill bg-dark">term.html</span>
-	{{ . }}
-	{{ end }}
+	
+	
+	
 
-	{{ $navVersion := 2 }}
 
-	{{/*
-		{{ $data := getYAML "data/entries.yaml" }}
-		
-		{{ $location := index $data "locations" }}
-	*/}}
+	
 	
 	{{ if .Site.Params.vue }}
 		<main id="app" class="content">
@@ -85,247 +81,7 @@
 		</main>
 	{{ end }}
 
-	{{ partial "svg-term.html" . }}
-	{{ if eq $navVersion 2 }}
-		<div class="container-fluid term-nav">
-			<div class="term-nav--block px-3 py-3">
-				<div class="row">
-					<div class="col-12 col-md-3">
-						<h1>{{ .Title }}</h1>
-						<p>Click on your state / province / country below. If your state / province / country isn't listed, then we don't yet
-							have any bisexuality-aware professionals listed there in this category.</p>
-					</div>
-					<div class="col-12 col-md-9">
-						<ul class="list-inline">
-							{{ range .Pages.GroupByParam "countries" }}
-								{{/*
-									*/}}
-								{{ $series_name := .Key }}
-								{{ $series_path := (printf "/countries/%s" (urlize .Key)) }}
-								{{ $series_page := $.Site.GetPage $series_path }}
-			
-
-								{{ range .Pages.GroupByParam "regions" }}
-									{{ if .Key }}
-										{{ $scratch := newScratch }}
-										{{ $region := .Key }}
-										{{ $country := $series_name }}
-										{{ range $.Site.Data.entries.locations }}
-											{{ if and (eq $country .country_code) (eq $region .region) }}
-												{{ $display := .display }}
-												{{ $scratch.Set "display" .display }}
-											{{ end }}
-										{{ end }}
-
-										{{ $display := $scratch.Get "display" }}
-										
-										<li class="list-inline-item p-1">
-											<a href="#{{ urlize $display }}" class="term-nav--link xbtn xbtn-outline-primary xp-1 mb-2">
-												{{ $display }}
-											</a>
-										</li>
-									{{ end }}
-								{{ end }}
-							{{ end }}
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="container">
-			{{ range .Pages.GroupByParam "countries" }}
-				{{ $series_name := .Key }}
-				{{ $series_path := (printf "/countries/%s" (urlize .Key)) }}
-				{{ $series_page := $.Site.GetPage $series_path }}
-
-				{{ range .Pages.GroupByParam "regions" }}
-					{{ if .Key }}
-						{{ $scratch := newScratch }}
-						{{ $region := .Key }}
-						{{ $country := $series_name }}
-						{{ range $.Site.Data.entries.locations }}
-							{{ if and (eq $country .country_code) (eq $region .region) }}
-								{{ $display := .display }}
-								{{ $scratch.Set "display" .display }}
-							{{ end }}
-						{{ end }}
-
-						{{ $display := $scratch.Get "display" }}
-						<div class="text-center">
-							<h3 id="{{ urlize $display }}">
-								{{ $display }}
-							</h3>
-						</div>
-						<ul class="list-unstyled">
-							{{ range .Pages }}
-								{{ partial "entry-card.html" . }}
-							{{ end }}
-						</ul>
-					{{ end }}
-				{{ end }}
-			{{ end }}
-		</div>
-	{{ else if eq $navVersion 1 }}
-		<div class="container">
-			<div class="row">
-				<div class="col text-start">
-					<h1>
-						{{ .Title }}
-					</h1>
-					<div class="wysiwyg">
-						{{ .Content }}
-					</div>
-
-					{{/*
-						<hr>
-						<h3>Paginator</h3>
-						{{ $paginator := .Paginate .Pages }}
-						{{ template "_internal/pagination.html" . }}
-						<ul>
-							{{ range $paginator.Pages }}
-								{{ partial "entry-card.html" . }}
-							{{ end }}
-						</ul>
-					*/}}
-
-					{{ if eq .Type "countries" }}
-						<!-- navigation -->
-						<ul class="list-inline">
-							{{ range .Pages.GroupByParam "categories" }}
-								<li class="list-inline-item">
-									<a
-										href="#{{ urlize .Key }}"
-										class="btn btn-outline-primary">
-										{{ .Key }}
-									</a>
-								</li>
-							{{ end }}
-						</ul>
-						<!-- Groups content according to the "param_key" field in front matter -->
-						{{ range .Pages.GroupByParam "categories" }}
-							<hr>
-							<h3 id="{{ urlize .Key }}">{{ .Key }}</h3>
-							{{ range .Pages.GroupByParam "regions" }}
-								{{ if .Key }}
-									<h4>{{ .Key }}</h4>
-								{{ end }}
-								<ul class="list-unstyled">
-									{{ range .Pages }}
-										{{ partial "entry-card.html" . }}
-									{{ end }}
-								</ul>
-							{{ end }}
-						{{ end }}
-					{{ else if eq .Type "categories" }}
-						
-						<!-- navigation -->
-						<ul class="list-unstyled">
-							{{ range .Pages.GroupByParam "countries" }}
-								{{ $series_name := .Key }}
-								{{ $series_path := (printf "/countries/%s" (urlize .Key)) }}
-								{{ $series_page := $.Site.GetPage $series_path }}
-								
-								{{/*
-									*/}}
-									<li>
-										{{ $series_name := .Key }}
-										{{ $series_path := (printf "/countries/%s" (urlize .Key)) }}
-										{{ $series_page := $.Site.GetPage $series_path }}
-					
-										{{ $countryVisible := 1 }}
-										
-										<ul class="list-inline">
-											{{ if $countryVisible }}
-												{{ if $series_name }}
-													<li class="list-inline-item">
-														<a href="#{{ urlize $series_name }}" class="btn btn-outline-primary mb-2">
-															{{ partial "country-name-ISO-3166-ALPHA-2" $series_name }}
-														</a>
-													</li>
-												{{ end }}
-											{{ end }}
-											{{ range .Pages.GroupByParam "regions" }}
-												{{ if .Key }}
-													<li class="list-inline-item p-2">
-														<a href="#{{ urlize .Key }}" class="xbtn xbtn-outline-primary p-2 mb-2">
-															{{ $region := .Key }}
-															{{ $country := $series_name }}
-
-															{{ range $.Site.Data.entries.locations }}
-																{{ if and (eq $country .country_code) (eq $region .region) }}
-																	{{ .display }}
-																{{ end }}
-															{{ end }}
-													
-														</a>
-													</li>
-												{{ end }}
-											{{ end }}
-										</ul>
-									</li>
-							{{ end }}
-						</ul>
-						
-
-						<!-- Groups content according to the "param_key" field in front matter -->
-						{{ range .Pages.GroupByParam "countries" }}
-						{{/*
-							<h2 id="{{ urlize .Key }}">{{ partial "country-name-ISO-3166-ALPHA-2" .Key}} </h2>
-						*/}}
-						{{ $country := .Key }}					
-						{{ range .Pages.GroupByParam "regions" }}
-							<div class="text-center">
-								{{ if .Key }}
-									<h3 id="{{ urlize .Key }}">
-										{{ partial "country-name-ISO-3166-ALPHA-2" $country }} - {{ .Key }}
-									</h3>
-								{{ else }}
-									<h3 id="{{ urlize .Key }}">
-										{{ partial "country-name-ISO-3166-ALPHA-2" $country }}
-									</h3>
-								{{ end }}
-							</div>
-							<ul class="list-unstyled">
-								{{ range .Pages }}
-									{{ partial "entry-card.html" . }}
-								{{ end }}
-							</ul>
-						{{ end }}
-						{{ end }}
-			
-					{{ end }}
-			
-					{{/*
-						<hr>
-						<h3>Taxonomies</h3>
-						<ul>
-							{{ range $key, $taxonomy := .Site.Taxonomies.countries }}
-								<li>
-									<a href="/countries/{{ $key }}">
-										<h2>
-											{{ $key }}
-										</h2>
-									</a>
-									<ul>
-										{{ range $taxonomy.Pages }}
-											{{ partial "entry-card.html" . }}
-										{{ end }}
-									</ul>
-								</li>
-							{{ end }}
-						</ul>
-					*/}}
-				</div>
-			</div>
-			<div class="row">
-				<div class="col">
-					{{ .Content }}
-				</div>
-			</div>
-		</div>
-	{{ end }}
-
+	{{ partial "svg-term.html" . }}	
 	
 {{ end }}
 

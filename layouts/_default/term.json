@@ -1,35 +1,54 @@
-[
-    {{- range $index, $e := .Pages -}}
-    {{- $short_desc := jsonify ( markdownify .Params.short_desc ) -}}
-    {{- $description := jsonify ( markdownify .Params.description ) -}}
-    {{- if $index -}}, {{- end -}}
-    {
-        "id": "{{ .Params.id }}",
-        "name": "{{ .Title }}",
-        "salutation": "{{ .Params.salutation }}",
-        "first_name": "{{ .Params.first_name }}",
-        "last_name": "{{ .Params.last_name }}",
-        "credentials": "{{ .Params.credentials }}",
-        "job_title": "{{ .Params.job_title }}",
-        "company": "{{ .Params.company | default ( printf "%s%s" .Params.first_name "'s company" ) }}",
-        "rating": 5.5,
-        "short_desc": {{ $short_desc }},
-        {{/*
-        */}}
-        "phone" : "{{ .Params.phone }}",
-        "fax" : "{{ .Params.fax }}",
-        "address" : "{{ .Params.address }}",
-        "email" : "{{ .Params.email }}",
-        "email2" : "{{ .Params.email2 }}",
-        "website" : "{{ .Params.website }}",
-        "website2" : "{{ .Params.website2 }}",
-        "fees" : "{{ .Params.fees }}",
-        {{/*
-        */}}
-        "description" : {{ $description }},
-        "keywords": ["{{ .Params.categories }}"],
-        "location": "{{ .Params.location }}",
-        "country": "{{ .Params.countries }}",
-        "regions": "{{ .Params.regions }}"
-    }{{ end }}
-]
+{{- $category := .Title -}}
+{{- $entries := where .Site.RegularPages "Params.categories" $category -}}
+{{- $uniqueLocations := dict -}}
+{{- $locationArray := slice -}}
+
+{{- range $entry := $entries -}}
+    {{- $location := $entry.Params.location -}}
+    {{- if not (isset $uniqueLocations $location) -}}
+        {{- $uniqueLocations = $uniqueLocations | merge (dict $location (dict "value" (len $uniqueLocations) "label" $location "count" 0)) -}}
+    {{- end -}}
+    {{- $currentLoc := index $uniqueLocations $location -}}
+    {{- $currentCount := $currentLoc.count | int -}}
+    {{- $uniqueLocations = $uniqueLocations | merge (dict $location (dict "value" $currentLoc.value "label" $location "count" (add $currentCount 1))) -}}
+{{- end -}}
+
+{{- range $key, $value := $uniqueLocations -}}
+    {{- $locationArray = $locationArray | append $value -}}
+{{- end -}}
+
+{
+  "category": {{ $category | jsonify }},
+  "locations": {{ $uniqueLocations | jsonify }},
+  "entries": [
+    {{- range $index, $entry := $entries -}}
+        {{- if $index }},{{ end -}}
+        {
+            "title": {{ $entry.Title | jsonify }},
+            "id": {{ $entry.Params.id | jsonify }},
+            "salutation": {{ $entry.Params.salutation | jsonify }},
+            "first_name": {{ $entry.Params.first_name | jsonify }},
+            "last_name": {{ $entry.Params.last_name | jsonify }},
+            "credentials": {{ $entry.Params.credentials | jsonify }},
+            "job_title": {{ $entry.Params.job_title | jsonify }},
+            "company": {{ $entry.Params.company | jsonify }},
+            "short_desc": {{ $entry.Params.short_desc | jsonify }},
+            "phone": {{ $entry.Params.phone | jsonify }},
+            "fax": {{ $entry.Params.fax | jsonify }},
+            "address": {{ $entry.Params.address | jsonify }},
+            "email": {{ $entry.Params.email | jsonify }},
+            "email2": {{ $entry.Params.email2 | jsonify }},
+            "website": {{ $entry.Params.website | jsonify }},
+            "website2": {{ $entry.Params.website2 | jsonify }},
+            "fees": {{ $entry.Params.fees | jsonify }},
+            "description": {{ $entry.Params.description | jsonify }},
+            "categories": {{ $entry.Params.categories | jsonify }},
+            "location": {{ $entry.Params.location | jsonify }},
+            "countries": {{ $entry.Params.countries | jsonify }},
+            "regions": {{ $entry.Params.regions | jsonify }},
+            "status": {{ $entry.Params.status | jsonify }},
+            "last_update": {{ $entry.Params.last_update | jsonify }}
+        }
+    {{- end -}}
+  ]
+}

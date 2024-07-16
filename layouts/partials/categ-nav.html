@@ -1,34 +1,37 @@
-
 <div class="xrow categ-nav--grid mt-4">
-    {{ $taxo := "categories" }}
-    {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+{{ $taxo := "categories" }}
+{{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
     {{ range $index, $key := .Data.Terms.ByCount }}
         <div class="xcol-6 xcol-md-3 categ-nav py-2 text-center">
             <div class="categ-nav--card d-flex justify-content-center flex-column">
-                {{ with ($.Site.GetPage (printf "/%s" (.Term))) }}
-                    {{ $scratch := newScratch }}
-                    {{ $title  := .Title }}
-                    {{ range $.Site.Data.entries.categories }}
-                        {{ if eq $title .category_name }}
-                            {{ $scratch.Set "icon" .icon }}
-                        {{ end }}
-                    {{ end }}
-                    {{ $icon := $scratch.Get "icon" }}
-                    {{/*
-                        {{ $icon }}
-                    */}}
-                    {{ $path := printf "%s/%s" "svg/icons" ($icon | default "bookmark-regular.svg") }}    
-                    {{ partial $path . }}
-                    <a href="{{ .RelPermalink }}" class="d-flex justify-content-center">
-                        {{ .Title }}
-                    </a>
-                    <span class="categ-nav--counter">
-                        {{ len .Pages }}
-                        <span class="visually-hidden">items</span>
-                    </span>
+                
+                {{ $scratch := newScratch }}
+                {{ $term := .Term }}
+                {{ $termPage := $.Site.GetPage (printf "/%s/%s" $taxo ($term | urlize)) }}
+                {{ with $termPage }}
+                    {{ $title := .Title }}
+                    {{ $icon := .Params.icon }}
+                    {{ $scratch.Set "icon" $icon }}
+                    {{ $scratch.Set "title" $title }}
                 {{ end }}
-                </div>
+
+                {{ $icon := $scratch.Get "icon" }}
+                {{ $path := printf "svg/icons/%s" ($icon | default "bookmark-regular.svg") }}
+                
+                {{ partial $path . }}
+
+                <a href="{{ printf "/%s/%s" $taxo ($term | urlize) }}" class="d-flex justify-content-center">
+                    {{ $scratch.Get "title" }}
+                </a>
+                <span class="categ-nav--counter">
+                    {{ len .Pages }}
+                    <span class="visually-hidden">items</span>
+                </span>
             </div>
-        {{ end }}
+        </div>
     {{ end }}
+{{ end }}
 </div>
+  
+
+
