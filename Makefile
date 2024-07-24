@@ -1,5 +1,7 @@
 all: build
 
+HUGO=~/bin/hugo_extended_0.128.2_darwin-universal
+
 # Delete any airtable data:
 clean: cleanairtable
 
@@ -105,3 +107,5 @@ update_from_master:
 collect_ignored_files:
 	cd .. && tar zcvf /tmp/$(APPNAME).ignored.tar.gz $(APPNAME)/content/entry $(APPNAME)/node_modules $(APPNAME)/public $(APPNAME)/scrolloserver
 
+server:
+	$(HUGO) server -D
