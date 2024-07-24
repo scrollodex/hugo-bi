@@ -1,5 +1,7 @@
 all: build
 
+HUGO=~/bin/hugo_extended_0.128.2_darwin-universal
+
 # Delete any airtable data:
 clean: cleanairtable
 
@@ -48,6 +50,11 @@ generate:
 dyngo:
 	@[ "${AIRTABLE_APIKEY}" ] || ( echo ">> var AIRTABLE_APIKEY is not set"; exit 1 )
 	@[ "${AIRTABLE_BASE_ID}" ] || ( echo ">> var AIRTABLE_BASE_ID is not set"; exit 1 )
+	@echo 'OPEN YOUR BROWSER AS: open http://localhost:8080/'
+	@echo 'OPEN YOUR BROWSER AS: open http://localhost:8080/'
+	@echo 'OPEN YOUR BROWSER AS: open http://localhost:8080/'
+	@echo 'OPEN YOUR BROWSER AS: open http://localhost:8080/'
+	@echo '(IGNORE THE  [::]:8080 below!)'
 	docker run --rm \
 		-e AIRTABLE_APIKEY=${AIRTABLE_APIKEY} \
 		-e AIRTABLE_BASE_ID=${AIRTABLE_BASE_ID} \
@@ -89,17 +96,16 @@ update_from_master:
 	rsync --delete -avP --exclude=_variables_.scss --exclude=theme.scss ../hugo-bi/assets/. assets/.
 	rsync --delete -avP ../hugo-bi/layouts/. layouts/.
 	# Change term.html to be about Poly:
-	sed -i.bak 's/bisexuality-aware professionals/polyamory-friendly professionals/'  layouts/_default/term.html
-	rm -f layouts/_default/term.html.bak
 	# Copy the files from hugo-bi (Dockerfile Makefile README.md):
 	( cd ../hugo-bi && cp Dockerfile Makefile README.md ../hugo-poly/. )
 	cp ../hugo-bi/bin/docker-entrypoint.sh bin/docker-entrypoint.sh
 	chmod a+rx bin/docker-entrypoint.sh
-	# Fix Dockerfile to be about hugo-poly:
-	sed -i.bak 's/hugo-bi/hugo-poly/g'  Dockerfile
-	rm -f Dockerfile.bak
+	# Change any files from BI to POLY:
+	bin/sed-files.sh
 
 # Typical usage: make build populate collect_ignored_files
 collect_ignored_files:
 	cd .. && tar zcvf /tmp/$(APPNAME).ignored.tar.gz $(APPNAME)/content/entry $(APPNAME)/node_modules $(APPNAME)/public $(APPNAME)/scrolloserver
 
+server:
+	$(HUGO) server -D

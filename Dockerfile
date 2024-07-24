@@ -4,7 +4,7 @@
 #FROM --platform=linux/amd64 golang:1.17-alpine AS gobuild
 # DigitalOcean:
 #FROM --platform=linux/amd64 golang:1.17-alpine AS gobuild
-FROM --platform=linux/amd64 golang:1.20-alpine AS gobuild
+FROM --platform=linux/amd64 golang:1.22-alpine AS gobuild
 
 COPY scrolloserver /scrolloserver
 WORKDIR /scrolloserver/cmd/air2hugo
@@ -13,9 +13,12 @@ WORKDIR /scrolloserver/cmd/dyngo
 RUN go build
 
 ## get running our build
-FROM node:17-alpine3.14
+#FROM node:17-alpine3.14
+FROM node:22-alpine3.19
 
-RUN apk add --no-cache hugo git
+#RUN apk add --no-cache hugo git
+RUN apk add --no-cache git
+run apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/community hugo
 
 # This user is built into the node image
 USER 1000
