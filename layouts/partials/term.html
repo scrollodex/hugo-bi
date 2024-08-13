@@ -16,10 +16,7 @@
           <p>Click on your state / province / country below. If your state / province / country isn't listed, then we don't yet
             have any bisexuality-aware professionals listed there in this category.</p>
 
-            <button @click="dataReady = !dataReady">Switch view
-
-              <span x-text="dataReady"></span>
-            </button>
+            <button @click="dataReady = !dataReady">Switch view </button>
         </div>
       </div>
     </div>
@@ -37,7 +34,7 @@
     {{ range $paginator.Pages.GroupByParam "categories" }}
     <ul class="list-unstyled">
       {{ range .Pages }}
-      {{ partial "entry-card.html" . }}
+        {{ partial "entry-card.html" . }}
       {{ end }}
     </ul>
     {{ end }}
@@ -113,7 +110,81 @@
                 </div>
 
               </div>
-              <span x-text="entry.title"></span>
+              <div class="py-3">
+                <div x-html="entry.short_desc">
+                </div>
+              </div>
+              <div class="py-3">
+                <div x-html="entry.description"></div>
+
+                <template x-if="entry.fees">
+                  <div class="alert alert-primary d-flex align-items-center mt-2" role="alert">
+                    <svg class="me-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="24" height="24" fill="currentColor">
+                        <use xlink:href="#fee"></use>
+                    </svg>
+                    <div x-text="entry.fees"></div>
+                  </div>
+                </template>
+
+                <p class="mt-2 mb-0">
+                  <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="24" height="24" fill="currentColor">
+                      <use xlink:href="#address"></use>
+                  </svg>
+                  <span x-text="entry.address"></span>
+                </p>
+              </div>
+
+              <ul class="list-inline mt-2">
+            
+                
+                <template x-if="entry.website">
+                  <li class="list-inline-item me-2">
+                      <a :href="entry.website" target="_blank">
+                        <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
+                            <use xlink:href="#globe"></use>
+                        </svg>
+                        <span>website</span>
+                      </a>
+                  </li>
+                </template>
+            
+            
+                <template x-if="entry.email">
+                  <li class="list-inline-item me-2">
+                    <a :href="'mailto:' + entry.email" >
+                      <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
+                          <use xlink:href="#mail"></use>
+                      </svg>
+                      <span>email</span>                          
+                    </a>
+                  </li>
+                </template>
+            
+            
+                <template x-if="entry.phone">
+                  <li class="list-inline-item me-2">
+                    <a :href="entry.phone">  
+                      <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
+                          <use xlink:href="#phone"></use>
+                      </svg>
+                      <span x-text="entry.phone"></span>
+                    </a>
+                  </li>
+                </template>
+                        
+            
+                
+                <template x-if="entry.fax">
+                  <li class="list-inline-item me-2">
+                      
+                    <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
+                        <use xlink:href="#fax"></use>
+                    </svg>
+                    <span x-text="entry.fax">Fax</span>
+                  </li>
+                </template>
+              </ul>
+
             </div>
           </div>
         </li>

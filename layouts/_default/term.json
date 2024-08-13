@@ -24,30 +24,30 @@
     {{- range $index, $entry := $entries -}}
         {{- if $index }},{{ end -}}
         {
-            "title": {{ $entry.Title | jsonify }},
-            "id": {{ $entry.Params.id | jsonify }},
-            "salutation": {{ $entry.Params.salutation | jsonify }},
-            "first_name": {{ $entry.Params.first_name | jsonify }},
-            "last_name": {{ $entry.Params.last_name | jsonify }},
-            "credentials": {{ $entry.Params.credentials | jsonify }},
-            "job_title": {{ $entry.Params.job_title | jsonify }},
-            "company": {{ $entry.Params.company | jsonify }},
-            "short_desc": {{ $entry.Params.short_desc | jsonify }},
-            "phone": {{ $entry.Params.phone | jsonify }},
-            "fax": {{ $entry.Params.fax | jsonify }},
             "address": {{ $entry.Params.address | jsonify }},
+            "categories": {{ $entry.Params.categories | jsonify }},
+            "company": {{ $entry.Params.company | jsonify }},
+            "countries": {{ $entry.Params.countries | jsonify }},
+            "credentials": {{ $entry.Params.credentials | jsonify }},
+            "description": {{ $entry.Params.description | markdownify | jsonify }},
             "email": {{ $entry.Params.email | jsonify }},
             "email2": {{ $entry.Params.email2 | jsonify }},
-            "website": {{ $entry.Params.website | jsonify }},
-            "website2": {{ $entry.Params.website2 | jsonify }},
-            "fees": {{ $entry.Params.fees | jsonify }},
-            "description": {{ $entry.Params.description | jsonify }},
-            "categories": {{ $entry.Params.categories | jsonify }},
+            "fax": {{ $entry.Params.fax | jsonify }},
+            "fees": {{ $entry.Params.fees | markdownify | jsonify }},
+            "first_name": {{ $entry.Params.first_name | jsonify }},
+            "id": {{ $entry.Params.id | jsonify }},
+            "job_title": {{ $entry.Params.job_title | jsonify }},
+            "last_name": {{ $entry.Params.last_name | jsonify }},
+            "last_update": {{ $entry.Params.last_update | jsonify }},
             "location": {{ $entry.Params.location | jsonify }},
-            "countries": {{ $entry.Params.countries | jsonify }},
+            "phone": {{ $entry.Params.phone | jsonify }},
             "regions": {{ $entry.Params.regions | jsonify }},
+            "salutation": {{ $entry.Params.salutation | jsonify }},
+            "short_desc": {{ $entry.Params.short_desc | markdownify | jsonify }},
             "status": {{ $entry.Params.status | jsonify }},
-            "last_update": {{ $entry.Params.last_update | jsonify }}
+            "title": {{ $entry.Title | jsonify }},
+            "website": {{ $entry.Params.website | jsonify }},
+            "website2": {{ $entry.Params.website2 | jsonify }}
         }
     {{- end -}}
   ]
