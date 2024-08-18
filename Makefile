@@ -55,7 +55,7 @@ dyngo:
 	@echo 'OPEN YOUR BROWSER AS: open http://localhost:8080/'
 	@echo 'OPEN YOUR BROWSER AS: open http://localhost:8080/'
 	@echo '(IGNORE THE  [::]:8080 below!)'
-	docker run --rm \
+	docker --debug run --rm \
 		-e AIRTABLE_APIKEY=${AIRTABLE_APIKEY} \
 		-e AIRTABLE_BASE_ID=${AIRTABLE_BASE_ID} \
 		-v $$(pwd)/content:/$(APPNAME)/content/ \

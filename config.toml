@@ -1,4 +1,9 @@
-baseURL = "https://www.bizone.org"
+
+#baseURL = "https://www.bizone.org/"
+#relativeURLs = true
+
+baseURL = ""
+
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "Bisexuality-Aware Professionals Directory"
