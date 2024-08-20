@@ -1,44 +1,42 @@
-
-
-
-
-
-
-
-
-
 <div x-data="categoryFilter()" x-init="initCategFilter()">
+  <div>
+    {{/*
+    <button
+      class="sticky-top top-0 right-0 btn btn-primary"
+      @click="dataReady = !dataReady"
+    >
+      Switch view
+    </button>
+    */}}
+  </div>
   <div class="container-fluid term-nav" id="">
     <div class="term-nav--block px-3 py-3">
       <div class="row">
         <div class="col-12">
           <h1>{{ .Title }}</h1>
-          <p>Click on your state / province / country below. If your state / province / country isn't listed, then we don't yet
-            have any bisexuality-aware professionals listed there in this category.</p>
-
-            <button @click="dataReady = !dataReady">Switch view </button>
+          <p>
+            Click on your state / province / country below. If your state /
+            province / country isn't listed, then we don't yet have any
+            bisexuality-aware professionals listed there in this category.
+          </p>
         </div>
       </div>
     </div>
   </div>
 
-
   <!-- HUOGO CONTENT -->
-  {{ $term := .Title }}
-  {{ $pages := where .Site.RegularPages "Params.categories" $term }}
-  
+  {{ $term := .Title }} {{ $pages := where .Site.RegularPages
+  "Params.categories" $term }}
+
   <!-- Ensure there are pages to paginate -->
   <div class="container" id="inlineEntryies" x-show="!dataReady">
-    {{ if gt (len $pages) 0 }}
-    {{ $paginator := .Paginate $pages }}
-    {{ range $paginator.Pages.GroupByParam "categories" }}
+    {{ if gt (len $pages) 0 }} {{ $paginator := .Paginate $pages }} {{ range
+    $paginator.Pages.GroupByParam "categories" }}
     <ul class="list-unstyled">
-      {{ range .Pages }}
-        {{ partial "entry-card.html" . }}
-      {{ end }}
+      {{ range .Pages }} {{ partial "entry-card.html" . }} {{ end }}
     </ul>
     {{ end }}
-    
+
     <div class="max-w-64rem mx-auto">
       {{ template "_internal/pagination.html" . }}
     </div>
@@ -46,13 +44,12 @@
     <p>No pages found.</p>
     {{ end }}
   </div>
-  
-  
+
   <!-- FILTERED CONTENT -->
   <div class="container" x-show="dataReady">
-
-    <div class="max-w-64rem mx-auto d-flex w-100 justify-content-between gap-2 pb-2">
-      
+    <div
+      class="max-w-64rem mx-auto d-flex w-100 justify-content-between gap-2 pb-2"
+    >
       <div class="flex-grow-1">
         <label for="location">Location:</label>
         <select id="location" x-ref="locationSelect" x-model="selectedLocation">
@@ -67,7 +64,13 @@
       </div>
       <div class="d-flex flex-column">
         <label for="limit">Entries to Load:</label>
-        <select id="limit" x-model="limit" @change="filterEntries" class="form-select form-select-lg" aria-label="30">
+        <select
+          id="limit"
+          x-model="limit"
+          @change="filterEntries"
+          class="form-select form-select-lg"
+          aria-label="30"
+        >
           <option value="30">30</option>
           <option value="50">50</option>
           <option value="100">100</option>
@@ -78,7 +81,11 @@
   <div class="container" x-show="dataReady">
     <ul class="list-unstyled">
       <template x-for="entry in paginatedEntries" :key="entry.id">
-        <li class="entry-card" :id="'entry-' + entry.id">
+        <li
+          class="entry-card"
+          :id="'entry-' + entry.id"
+          x-data="{ toggle: false}"
+        >
           <div class="card mb-3 px-3 py-3">
             <div class="card--head">
               <div class="d-flex justify-content-between">
@@ -91,100 +98,141 @@
 
                 <div class="flex-grow-1">
                   <h4 class="h5 entry-card--title mb-0">
-                    <a href="" x-text="entry.title"> </a>
+                    <a href="" x-text="entry.titleClard"> </a>
                   </h4>
 
-                  <template x-if="entry.job_title">
-
-                    <i class="entry-card--jobTitle"
-                      x-text="entry.job_title + ' ' + entry.company + ' - (at ' + entry.company + ')'"
-                      >
-                      
-                    </i>
-                  </template>
-                  <template x-if="!entry.job_title">
-                    <i class="entry-card--jobTitle"
-                      x-text="entry.job_title + ' ' + entry.company + ' - (at ' + entry.company + ')'"
-                      >
-                  </template>
+                  <i class="entry-card--jobTitle" x-text="entry.subtitle"> </i>
                 </div>
-
-              </div>
-              <div class="py-3">
-                <div x-html="entry.short_desc">
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    @click="toggle = !toggle"
+                    type="checkbox"
+                    id="flexSwitchCheckDefault"
+                    role="button"
+                    data-bs-toggle="collapse"
+                    :aria-expanded="toggle"
+                    :aria-controls="'collapse_' + entry.id"
+                  />
+                  <label class="form-check-label" for="flexSwitchCheckDefault"
+                    >Details
+                  </label>
                 </div>
               </div>
               <div class="py-3">
-                <div x-html="entry.description"></div>
+                <div x-html="entry.short_desc"></div>
+              </div>
+              <template x-if="toggle">
+                <div class="py-3">
+                  <div x-html="entry.description"></div>
 
-                <template x-if="entry.fees">
-                  <div class="alert alert-primary d-flex align-items-center mt-2" role="alert">
-                    <svg class="me-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="24" height="24" fill="currentColor">
-                        <use xlink:href="#fee"></use>
-                    </svg>
-                    <div x-text="entry.fees"></div>
-                  </div>
-                </template>
-
-                <p class="mt-2 mb-0">
-                  <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="24" height="24" fill="currentColor">
+                  <template x-if="entry.fees">
+                    <div
+                      class="alert alert-primary d-flex align-items-start mt-2 gap-2"
+                      role="alert"
+                    >
+                      <div>
+                        <svg
+                          class="icon_square"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 16 20"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#fee"></use>
+                        </svg>
+                      </div>
+                      <div class="pt-1">
+                        <small x-text="entry.fees"></small>
+                      </div>
+                    </div>
+                  </template>
+                  <p class="mt-2 mb-0">
+                    <svg
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                    >
                       <use xlink:href="#address"></use>
-                  </svg>
-                  <span x-text="entry.address"></span>
-                </p>
-              </div>
+                    </svg>
+                    <span x-text="entry.address"></span>
+                  </p>
+                </div>
+              </template>
 
               <ul class="list-inline mt-2">
-            
-                
                 <template x-if="entry.website">
                   <li class="list-inline-item me-2">
-                      <a :href="entry.website" target="_blank">
-                        <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
-                            <use xlink:href="#globe"></use>
-                        </svg>
-                        <span>website</span>
-                      </a>
-                  </li>
-                </template>
-            
-            
-                <template x-if="entry.email">
-                  <li class="list-inline-item me-2">
-                    <a :href="'mailto:' + entry.email" >
-                      <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
-                          <use xlink:href="#mail"></use>
+                    <a :href="entry.website" target="_blank">
+                      <svg
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 16 16"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                      >
+                        <use xlink:href="#globe"></use>
                       </svg>
-                      <span>email</span>                          
+                      <span>website</span>
                     </a>
                   </li>
                 </template>
-            
-            
+
+                <template x-if="entry.email">
+                  <li class="list-inline-item me-2">
+                    <a :href="'mailto:' + entry.email">
+                      <svg
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 16 16"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                      >
+                        <use xlink:href="#mail"></use>
+                      </svg>
+                      <span>email</span>
+                    </a>
+                  </li>
+                </template>
+
                 <template x-if="entry.phone">
                   <li class="list-inline-item me-2">
-                    <a :href="entry.phone">  
-                      <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
-                          <use xlink:href="#phone"></use>
+                    <a :href="entry.phone">
+                      <svg
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 16 16"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                      >
+                        <use xlink:href="#phone"></use>
                       </svg>
                       <span x-text="entry.phone"></span>
                     </a>
                   </li>
                 </template>
-                        
-            
-                
+
                 <template x-if="entry.fax">
                   <li class="list-inline-item me-2">
-                      
-                    <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
-                        <use xlink:href="#fax"></use>
+                    <svg
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                    >
+                      <use xlink:href="#fax"></use>
                     </svg>
                     <span x-text="entry.fax">Fax</span>
                   </li>
                 </template>
               </ul>
-
             </div>
           </div>
         </li>
@@ -193,8 +241,9 @@
   </div>
   <div class="container">
     <div class="max-w-64rem mx-auto">
-
-      <button class="btn btn-link" @click="loadMore" x-show="canLoadMore">Load More</button>
+      <button class="btn btn-link" @click="loadMore" x-show="canLoadMore">
+        Load More
+      </button>
     </div>
   </div>
 </div>

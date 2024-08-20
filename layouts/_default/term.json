@@ -23,7 +23,64 @@
   "entries": [
     {{- range $index, $entry := $entries -}}
         {{- if $index }},{{ end -}}
+
+        {{ $id := $entry.Params.id }}
+        {{ $salutation := $entry.Params.salutation | default "" }}
+        {{ $categories := $entry.Params.categories }}
+        {{ $location := $entry.Params.location }}
+        {{ $countries := $entry.Params.countries }}
+        {{ $regions := $entry.Params.regions }}
+        {{ $firstname := $entry.Params.first_name }}
+        {{ $lastname := $entry.Params.last_name }}
+        {{ $credentials := $entry.Params.credentials }}
+        {{ $job_title := $entry.Params.job_title }}
+        {{ $short_desc := markdownify $entry.Params.short_desc }}
+        {{ $phone := $entry.Params.phone }}
+        {{ $fax := $entry.Params.fax }}
+        {{ $address := $entry.Params.address }}
+        {{ $email := $entry.Params.email }}
+        {{ $email2 := $entry.Params.email2 }}
+        {{ $email_note := $entry.Params.email_note }}
+        {{ $website := $entry.Params.website }}
+        {{ $website2 := $entry.Params.website2 }}
+        {{ $website_Note := markdownify $entry.Params.website_Note }}
+        {{ $fees := markdownify $entry.Params.fees }}
+        {{ $description := markdownify $entry.Params.description }}
+        {{ $company := $entry.Params.company }}
+        {{ $lastUpdate := $entry.Params.lastUpdate }}
+
+        {{ $scratch := newScratch }}
+        {{ if ne $salutation "" }}
+            {{ $scratch.Set "salutation" (printf "%s " $salutation) }}
+        {{ else }}
+            {{ $scratch.Set "salutation" "" }}
+        {{ end }}
+        {{ $salutation := $scratch.Get "salutation" }}
+        {{ $titleCard := printf "%s%s%s%s%s%s" $salutation $firstname " " $lastname " " $credentials }}
+        
+        {{ $noName := true }}
+        {{ if and ( eq $firstname "") ( eq $lastname "") ( eq $credentials "") }}
+            {{ $titleCard := printf "%s" "company" $company }}
+            {{ $noName := false }}
+        {{ end }}
+
+        {{ $subtitle := "" }}
+        {{ if $job_title }}
+            {{ $subtitle = printf "%s" $job_title }}
+            {{ if and $noName $company }}
+                {{ $subtitle = printf "%s - at %s" $subtitle $company }}
+            {{ end }}
+        {{ else }}
+            {{ if and $noName $company }}
+                {{ $subtitle = $company }}
+            {{ end }}
+        {{ end }}
+        
+        
+
         {
+            "titleClard": {{ $titleCard | jsonify }},
+            "subtitle": {{ $subtitle | jsonify }},
             "address": {{ $entry.Params.address | jsonify }},
             "categories": {{ $entry.Params.categories | jsonify }},
             "company": {{ $entry.Params.company | jsonify }},
@@ -42,7 +99,7 @@
             "location": {{ $entry.Params.location | jsonify }},
             "phone": {{ $entry.Params.phone | jsonify }},
             "regions": {{ $entry.Params.regions | jsonify }},
-            "salutation": {{ $entry.Params.salutation | jsonify }},
+            "salutation": {{ $salutation | markdownify | jsonify }},
             "short_desc": {{ $entry.Params.short_desc | markdownify | jsonify }},
             "status": {{ $entry.Params.status | jsonify }},
             "title": {{ $entry.Title | jsonify }},
