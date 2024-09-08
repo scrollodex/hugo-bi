@@ -1,25 +1,30 @@
-baseURL = "https://www.bizone.org"
+
+#baseURL = "https://www.bizone.org/"
+#relativeURLs = true
+
+baseURL = ""
+
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "Bisexuality-Aware Professionals Directory"
 #theme = "bizone"
-paginate = 10
+paginate = 30
 timeout = 200000
 
 [outputFormats.JSON]
-	MediaType              = "application/json"
-	BaseName               = "index"
-	IsHTML                 = false
-	IsPlainText            = true
-	noUgly                 = false
-	Rel                    = "alternate"
+MediaType = "application/json"
+BaseName = "index"
+IsHTML = false
+IsPlainText = true
+noUgly = false
+Rel = "alternate"
 
 [outputs]
-page = [ "HTML" ]
-home = [ "HTML" ]
-section = [ "HTML" ]
-taxonomy = [ "HTML", "RSS", "JSON" ]
-term = [ "HTML" ]
+page = ["HTML"]
+home = ["HTML"]
+section = ["HTML"]
+taxonomy = ["HTML", "RSS", "JSON"]
+term = ["HTML", "JSON"]
 
 
 [params]
@@ -31,17 +36,19 @@ vue = 0
 
 
 [taxonomies]
-	category = "categories"
-	country = "countries"
-	region = "regions"
+category = "categories"
+country = "countries"
+region = "regions"
+location = "location"
+
 
 [markup]
-	[markup.tableOfContents]
-		endLevel = 3
-		ordered = false
-		startLevel = 2
-	[markup.goldmark.renderer]
-		unsafe= true
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 2
+[markup.goldmark.renderer]
+unsafe = true
 
 [module]
 [[module.imports]]

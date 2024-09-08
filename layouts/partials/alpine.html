@@ -1,0 +1,111 @@
+<script>
+  function categoryFilter() {
+    return {
+      entries: [],
+      locationCounts: [],
+      selectedLocation: "",
+      limit: 30,
+      displayedEntries: 0,
+      paginatedEntries: [],
+      filteredEntries: [],
+      choicesInstance: null,
+      dataReady: false, // Track data readiness
+
+      initCategFilter() {
+        fetch("{{ .Permalink }}index.json")
+          .then((response) => response.json())
+          .then((data) => {
+            this.entries = data.entries;
+            this.updateLocationCounts();
+            this.filteredEntries = this.entries;
+            this.paginateEntries();
+            this.initChoices();
+            this.dataReady = true; // Set data ready to true
+          })
+          .catch((error) => console.error("Error fetching data:", error));
+      },
+
+      updateLocationCounts() {
+        const counts = this.entries.reduce((acc, entry) => {
+          const location = entry.location;
+          acc[location] = (acc[location] || 0) + 1;
+          return acc;
+        }, {});
+        this.locationCounts = Object.keys(counts).map((location, index) => ({
+          value: location,
+          label: location,
+          count: counts[location],
+        }));
+      },
+
+      initChoices() {
+        this.$nextTick(() => {
+          if (this.choicesInstance) {
+            this.choicesInstance.destroy();
+          }
+          this.choicesInstance = new Choices(this.$refs.locationSelect, {
+            searchEnabled: true,
+            allowHTML: true, // Set allowHTML to true to suppress the warning and render HTML
+          });
+          this.updateChoices();
+
+          this.$refs.locationSelect.addEventListener("change", () => {
+            const selectedValue = this.choicesInstance.getValue(true);
+            this.selectedLocation = selectedValue === "" ? "" : selectedValue;
+            this.filterEntries();
+          });
+        });
+      },
+
+      updateChoices() {
+        const options = [{ value: "", label: "All (0)" }].concat(
+          this.locationCounts.map((location) => ({
+            value: location.label,
+            label: `${location.label} (${location.count})`,
+          }))
+        );
+        this.choicesInstance.setChoices(options, "value", "label", true);
+      },
+
+      filterEntries() {
+        const selectedLocationValue = this.selectedLocation
+          ? this.selectedLocation.toString()
+          : "";
+
+        if (selectedLocationValue) {
+          this.filteredEntries = this.entries.filter((entry) => {
+            return entry.location === selectedLocationValue;
+          });
+        } else {
+          this.filteredEntries = this.entries;
+        }
+        this.displayedEntries = 0;
+        this.paginateEntries();
+      },
+
+      paginateEntries() {
+        this.displayedEntries += this.limit;
+        this.paginatedEntries = this.filteredEntries.slice(
+          0,
+          this.displayedEntries
+        );
+      },
+
+      loadMore() {
+        this.paginateEntries();
+      },
+
+      get canLoadMore() {
+        return this.displayedEntries < this.filteredEntries.length;
+      },
+
+      generateTitleCard(entry) {
+        let titleCard = `${entry.salutation}${entry.first_name} ${entry.last_name} ${entry.credentials}`;
+        if (!entry.first_name && !entry.last_name && !entry.credentials) {
+          titleCard = `company ${entry.company}`;
+        }
+        return titleCard;
+      },
+    };
+  }
+</script>
