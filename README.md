@@ -119,7 +119,7 @@ First, set your ENV variables:
 
 Let's download the database from Airtable.com:
 
-    $ make populate
+    $ make build populate
 
 Now let's generate the files locally:
 
@@ -134,6 +134,17 @@ We can also run the server locally:
     $ make local
     $ open http://localhost:8080/
 
+
+### Notes
+
+# 401 Unauthorized
+
+```
+failed to authorize: failed to fetch oauth token: unexpected status from GET request to https://api.digitalocean.com/v2/registry/auth?scope=repository%3Aresourceguide%2Fhugo-poly%3Apull&scope=repository%3Aresourceguide%2Fhugo-poly%3Apull%2Cpush&service=registry.digitalocean.com: 401 Unauthorized
+```
+
+Typically means Digital Ocean container registry is running
+garbage collection.  See https://cloud.digitalocean.com/registry/history
 
 
 
