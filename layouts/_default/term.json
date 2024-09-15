@@ -104,7 +104,8 @@
             "status": {{ $entry.Params.status | jsonify }},
             "title": {{ $entry.Title | jsonify }},
             "website": {{ $entry.Params.website | jsonify }},
-            "website2": {{ $entry.Params.website2 | jsonify }}
+            "website2": {{ $entry.Params.website2 | jsonify }},
+            "relPermalink": {{ $entry.RelPermalink | jsonify }}
         }
     {{- end -}}
   ]
