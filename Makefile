@@ -45,6 +45,14 @@ generate:
 		-v $$(pwd)/public:/$(APPNAME)/public/ \
 		-it $(APPNAME) generate
 
+# Show the hugo version in the container.
+.PHONY: version
+version:
+	docker run --rm \
+		-v $$(pwd)/content:/$(APPNAME)/content/ \
+		-v $$(pwd)/public:/$(APPNAME)/public/ \
+		-it $(APPNAME) version
+
 # Run the dynamic hugo (dyngo) server.  open http://localhost:8080/
 .PHONY: dyngo
 dyngo:

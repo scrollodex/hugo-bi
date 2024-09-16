@@ -12,7 +12,7 @@ function prep() {
 }
 
 function run_dyngo() {
-    prep
+    run_generate
     dyngo "$@"
     # dyngo >> public/buildlog.txt
 }
@@ -20,6 +20,10 @@ function run_dyngo() {
 function run_populate() {
     prep
     air2hugo "$@"
+}
+
+function run_version() {
+    hugo version "$@"
 }
 
 function run_generate() {
@@ -43,9 +47,8 @@ case "$APPNAME" in
 esac
 
 # Print debugging info
-echo APPNAME="$APPNAME"
-echo COUNT="$#" ARGV="$@"
-echo ARGV0="$0" ARGV1="$1" ARGV2="$2" ARGV3="$3" ARGV4="$4"
+echo APPNAME="$APPNAME" COUNT="$#" ARGV="$@"
+#echo ARGV0="$0" ARGV1="$1" ARGV2="$2" ARGV3="$3" ARGV4="$4"
 
 # Run the appropriate commands.
 
@@ -65,6 +68,10 @@ case "$CMD" in
   populate)
     echo "STARTING: POPULATING REPO"
     run_populate "$@"
+    ;;
+  version)
+    echo "STARTING: VERSION"
+    run_version "$@"
     ;;
   generate)
     echo "STARTING: GENERATING PAGES"

@@ -14,11 +14,13 @@ WORKDIR /scrolloserver/cmd/dyngo
 RUN go build
 
 ## get running our build
-#FROM node:17-alpine3.14
 FROM node:22-alpine3.19
 
-#RUN apk add --no-cache hugo git
-RUN apk add --no-cache git && apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/community hugo
+RUN \
+        apk update \
+     && apk add --no-cache git \
+     && apk update --repository=https://dl-cdn.alpinelinux.org/alpine/edge/community \
+     && apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/community hugo
 
 # This user is built into the node image
 USER 1000
@@ -46,5 +48,4 @@ WORKDIR /hugo-bi
 
 #CMD ["/bin/sh", "-c", "air2hugo && hugo"]
 #CMD ["/bin/sh", "-c", "mkdir -p public && /usr/local/bin/dyngo >> public/buildlog.txt"]
-#CMD /usr/local/bin/bin/docker-entrypoint.sh
 ENTRYPOINT [ "/usr/local/bin/docker-entrypoint.sh" ]
