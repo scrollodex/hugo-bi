@@ -2,6 +2,7 @@
 /content/entry/
 /public/
 /resources/_gen/
+/data/entries.yaml
 
 ### Dependency directories ###
 node_modules/

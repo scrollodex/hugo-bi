@@ -1,6 +1,7 @@
 all: build
 
-HUGO=~/bin/hugo_extended_0.128.2_darwin-universal
+#HUGO=~/bin/hugo_extended_0.128.2_darwin-universal
+HUGO=~/bin/hugo_extended_0.134.1_darwin-universal
 
 # Delete any airtable data:
 clean: cleanairtable
@@ -35,7 +36,8 @@ populate:
 		-e AIRTABLE_BASE_ID=${AIRTABLE_BASE_ID} \
 		-v $$(pwd)/content:/$(APPNAME)/content/ \
 		-v $$(pwd)/public:/$(APPNAME)/public/ \
-		-it $(APPNAME) populate
+		-v $$(pwd)/data:/$(APPNAME)/data/ \
+		-it $(APPNAME) populate -debug
 
 # Generate pages using the local files.
 .PHONY: generate
@@ -43,6 +45,7 @@ generate:
 	docker run --rm \
 		-v $$(pwd)/content:/$(APPNAME)/content/ \
 		-v $$(pwd)/public:/$(APPNAME)/public/ \
+		-v $$(pwd)/data:/$(APPNAME)/data/ \
 		-it $(APPNAME) generate
 
 # Show the hugo version in the container.
@@ -51,6 +54,7 @@ version:
 	docker run --rm \
 		-v $$(pwd)/content:/$(APPNAME)/content/ \
 		-v $$(pwd)/public:/$(APPNAME)/public/ \
+		-v $$(pwd)/data:/$(APPNAME)/data/ \
 		-it $(APPNAME) version
 
 # Run the dynamic hugo (dyngo) server.  open http://localhost:8080/
@@ -68,6 +72,7 @@ dyngo:
 		-e AIRTABLE_BASE_ID=${AIRTABLE_BASE_ID} \
 		-v $$(pwd)/content:/$(APPNAME)/content/ \
 		-v $$(pwd)/public:/$(APPNAME)/public/ \
+		-v $$(pwd)/data:/$(APPNAME)/data/ \
 		-p 8080:8080 \
 		-it $(APPNAME) dyngo
 
