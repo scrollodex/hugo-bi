@@ -56,16 +56,18 @@ esac
 echo APPNAME="$APPNAME" COUNT="$#" ARGV="$@"
 #echo ARGV0="$0" ARGV1="$1" ARGV2="$2" ARGV3="$3" ARGV4="$4"
 
-echo ========== DEBUG START
-set -x
-pwd
-cd /data
-pwd
-ls
-ls /data/public
-echo ========== DEBUG END
+#echo ========== DEBUG START
+#set -x
+#pwd
+#cd /data
+#pwd
+#ls
+#ls /data/public
+#echo ========== DEBUG END
 
 # Run the appropriate commands.
+
+cd /data
 
 # No args?  Default to running the server.
 if [[ $# -lt 1 ]]; then
