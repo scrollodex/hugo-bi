@@ -6,15 +6,6 @@ set -e
 
 function prep() {
   export PATH=/usr/local/bin:/usr/local/go/bin:"$PATH"
-  #mkdir -p public
-  #mkdir -p /"$APPNAME"/public/entry
-  #mkdir -p /"$APPNAME"/content/entry
-  #echo 'MAKING DIRS'
-  #pwd
-  #mkdir public/entry
-  #mkdir content/entry
-  #ls -lad public public/entry
-  #ls -lad content content/entry
 }
 
 function run_dyngo() {
@@ -54,20 +45,21 @@ esac
 
 # Print debugging info
 echo APPNAME="$APPNAME" COUNT="$#" ARGV="$@"
-#echo ARGV0="$0" ARGV1="$1" ARGV2="$2" ARGV3="$3" ARGV4="$4"
 
-#echo ========== DEBUG START
-#set -x
-#pwd
-#cd /data
-#pwd
-#ls
-#ls /data/public
-#echo ========== DEBUG END
+# If /data exists, we run from there. (because we are running from a
+# container on someone's desktop)
+# ELSE, run from the current directory. The entire hugo-{bi,poly}
+# repo was copied into this container without any entries. The
+# "populate" command will download the entries from Airtable.
+
+if [ -d /data ]; then
+  echo 'RUNNING OUT OF: /data'
+  cd /data
+else
+  echo 'RUNNING OUT OF: WORKDIR' "($pwd)"
+fi
 
 # Run the appropriate commands.
-
-cd /data
 
 # No args?  Default to running the server.
 if [[ $# -lt 1 ]]; then
