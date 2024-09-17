@@ -9,7 +9,6 @@ function prep() {
 }
 
 function run_dyngo() {
-    run_generate
     dyngo "$@"
     # dyngo >> public/buildlog.txt
 }

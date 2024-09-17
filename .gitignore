@@ -19,3 +19,6 @@ node_modules/
 /final-entries.json
 /final-locations.json
 /output-entries.yaml
+
+# macOS cruft
+.DS_Store
