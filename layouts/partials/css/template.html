@@ -1,12 +1,13 @@
 {{/*
-{{ $css := resources.Get .scss | resources.ExecuteAsTemplate .scss . | resources.ToCSS (dict "targetPath" .targetPath) | resources.PostCSS (dict "config" .conf "noMap" false) }}
-*/}}
-{{ $css := resources.Get .scss | resources.ExecuteAsTemplate .scss . | resources.ToCSS (dict "targetPath" .targetPath) | resources.PostCSS (dict "config" .conf "noMap" false) | resources.Minify }}
-
-{{ $customCSS := $css.Content | resources.FromString .targetPath }}
-
-<link rel="stylesheet" href="{{ $customCSS.Permalink }}">
-
-
-
-
+  {{ $css := resources.Get .scss | resources.ExecuteAsTemplate .scss . | css.Sass (dict "targetPath" .targetPath) | css.PostCSS (dict "config" .conf "noMap" false) }}
+  */}}
+  {{ $css := resources.Get .scss | resources.ExecuteAsTemplate .scss . | css.Sass (dict "targetPath" .targetPath) | css.PostCSS (dict "config" .conf "noMap" false) | resources.Minify }}
+  
+  {{ $customCSS := $css.Content | resources.FromString .targetPath }}
+  
+  <link rel="stylesheet" href="{{ $customCSS.Permalink }}">
+  
+  
+  
+  
+  

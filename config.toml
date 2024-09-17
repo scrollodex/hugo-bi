@@ -8,7 +8,7 @@ languageCode = "en"
 defaultContentLanguage = "en"
 title = "Bisexuality-Aware Professionals Directory"
 #theme = "bizone"
-paginate = 30
+pagination.pagerSize = 30
 timeout = 200000
 
 [outputFormats.JSON]
@@ -23,7 +23,7 @@ Rel = "alternate"
 page = ["HTML"]
 home = ["HTML"]
 section = ["HTML"]
-taxonomy = ["HTML", "RSS", "JSON"]
+taxonomy = ["HTML", "RSS"]
 term = ["HTML", "JSON"]
 
 
