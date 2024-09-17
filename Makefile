@@ -34,27 +34,21 @@ populate:
 	docker run --rm \
 		-e AIRTABLE_APIKEY=${AIRTABLE_APIKEY} \
 		-e AIRTABLE_BASE_ID=${AIRTABLE_BASE_ID} \
-		-v $$(pwd)/content:/$(APPNAME)/content/ \
-		-v $$(pwd)/public:/$(APPNAME)/public/ \
-		-v $$(pwd)/data:/$(APPNAME)/data/ \
+		-v $$(pwd):/data \
 		-it $(APPNAME) populate -debug
 
 # Generate pages using the local files.
 .PHONY: generate
 generate:
 	docker run --rm \
-		-v $$(pwd)/content:/$(APPNAME)/content/ \
-		-v $$(pwd)/public:/$(APPNAME)/public/ \
-		-v $$(pwd)/data:/$(APPNAME)/data/ \
+		-v $$(pwd):/data \
 		-it $(APPNAME) generate
 
 # Show the hugo version in the container.
 .PHONY: version
 version:
 	docker run --rm \
-		-v $$(pwd)/content:/$(APPNAME)/content/ \
-		-v $$(pwd)/public:/$(APPNAME)/public/ \
-		-v $$(pwd)/data:/$(APPNAME)/data/ \
+		-v $$(pwd):/data \
 		-it $(APPNAME) version
 
 # Run the dynamic hugo (dyngo) server.  open http://localhost:8080/
@@ -70,9 +64,7 @@ dyngo:
 	docker --debug run --rm \
 		-e AIRTABLE_APIKEY=${AIRTABLE_APIKEY} \
 		-e AIRTABLE_BASE_ID=${AIRTABLE_BASE_ID} \
-		-v $$(pwd)/content:/$(APPNAME)/content/ \
-		-v $$(pwd)/public:/$(APPNAME)/public/ \
-		-v $$(pwd)/data:/$(APPNAME)/data/ \
+		-v $$(pwd):/data \
 		-p 8080:8080 \
 		-it $(APPNAME) dyngo
 
