@@ -9,12 +9,12 @@ function prep() {
   #mkdir -p public
   #mkdir -p /"$APPNAME"/public/entry
   #mkdir -p /"$APPNAME"/content/entry
-  echo 'MAKING DIRS'
-  pwd
+  #echo 'MAKING DIRS'
+  #pwd
   #mkdir public/entry
   #mkdir content/entry
-  ls -lad public public/entry
-  ls -lad content content/entry
+  #ls -lad public public/entry
+  #ls -lad content content/entry
 }
 
 function run_dyngo() {
