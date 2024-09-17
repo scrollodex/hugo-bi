@@ -28,7 +28,7 @@ build:
 
 # Populate the JSON files from Airtable data.
 .PHONY: populate
-populate:
+populate: build
 	@[ "${AIRTABLE_APIKEY}" ] || ( echo ">> var AIRTABLE_APIKEY is not set"; exit 1 )
 	@[ "${AIRTABLE_BASE_ID}" ] || ( echo ">> var AIRTABLE_BASE_ID is not set"; exit 1 )
 	docker run --rm \
@@ -36,6 +36,7 @@ populate:
 		-e AIRTABLE_BASE_ID=${AIRTABLE_BASE_ID} \
 		-v $$(pwd):/data \
 		-it $(APPNAME) populate -debug
+	@echo 'STATUS: REPO POPULATED (/data)'
 
 # Generate pages using the local files.
 .PHONY: generate
