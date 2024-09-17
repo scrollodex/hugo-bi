@@ -1,0 +1,2 @@
+# github.com/scrollodex/hugo-modules v0.0.0-20210916173401-35e8b4550400
+# github.com/twbs/bootstrap v5.1.1+incompatible
