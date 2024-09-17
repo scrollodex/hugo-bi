@@ -6,6 +6,8 @@ set -e
 
 function prep() {
   export PATH=/usr/local/bin:/usr/local/go/bin:"$PATH"
+  mkdir -p public/entry
+  mkdir -p content/entry
 }
 
 function run_dyngo() {
@@ -55,7 +57,7 @@ if [ -d /data ]; then
   echo 'RUNNING OUT OF: /data'
   cd /data
 else
-  echo 'RUNNING OUT OF: WORKDIR' "($pwd)"
+  echo 'RUNNING OUT OF: WORKDIR' "$(pwd)"
 fi
 
 # Run the appropriate commands.
