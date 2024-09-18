@@ -84,8 +84,8 @@ case "$CMD" in
     echo "STARTING: DYNGO SERVER"
     containerdata
     prep
-    run_populate
-    run_generate
+    #run_populate
+    #run_generate
     run_dyngo "$@"
     ;;
   populate)
