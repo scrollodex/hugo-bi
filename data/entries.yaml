@@ -2906,7 +2906,7 @@ entries:
         location: US-NM (New Mexico)
         countries: US
         regions: NM
-        last_update: 0000-00-00
+        last_update: "2025-03-22"
     - path: 86_carrie-sandler
       fields:
         title: Carrie Sandler - Travel Agents from

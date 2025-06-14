@@ -32,6 +32,10 @@ server can be put behind a load balancer for general-purpose use.
 
 ## Commands
 
+First, set your ENV variables:
+    $ source ../env/.env-bi-main 
+         --or--
+    $ source ../env/.env-poly-main 
 
 $ make populate
     Download the data from Airtable.com and create JSON files for Hugo.
