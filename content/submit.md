@@ -69,7 +69,7 @@ Please do **NOT** submit another person's name. If you know of someone else who 
 
 **How long will it take for my listing to appear in the directory?**
 
-A few days to a few weeks is typical, depending on how busy Geri is when she receives it.
+A few days to a few weeks is typical, depending on how busy we are when we receive it.
 
 ## Please note:
 
