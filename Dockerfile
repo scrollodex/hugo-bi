@@ -5,7 +5,7 @@
 # DigitalOcean:
 #FROM --platform=linux/amd64 golang:1.17-alpine AS gobuild
 #FROM --platform=linux/amd64 golang:1.22-alpine AS gobuild
-FROM golang:1.22-alpine AS gobuild
+FROM golang:1.25-alpine AS gobuild
 
 COPY scrolloserver /scrolloserver
 WORKDIR /scrolloserver/cmd/air2hugo
