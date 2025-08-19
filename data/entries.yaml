@@ -8214,12 +8214,12 @@ entries:
         countries: CA
         regions: BC
         last_update: "2025-08-17"
-    - path: 321_h-sharif-quot-herukhuti-quot-williams
+    - path: 321_h-sharif-herukhuti-williams
       fields:
-        title: H. Sharif &quot;Herukhuti&quot; Williams PhD, MEd - Body Workers from US-NY
+        title: H. Sharif "Herukhuti" Williams PhD, MEd - Body Workers from US-NY
         id: 321
         salutation: ""
-        first_name: H. Sharif &quot;Herukhuti&quot;
+        first_name: H. Sharif "Herukhuti"
         last_name: Williams
         credentials: PhD, MEd
         job_title: ""
@@ -8243,7 +8243,7 @@ entries:
             - US-NY (New York)
         countries: US
         regions: NY
-        last_update: "2025-08-17"
+        last_update: "2025-08-19"
     - path: 323_h-sharif-herukhuti-williams
       fields:
         title: H. Sharif "Herukhuti" Williams - Business Professionals from US-NY
@@ -9303,7 +9303,7 @@ entries:
             - US-All (Nationwide)
         countries: US
         regions: All
-        last_update: "2025-08-17"
+        last_update: "2025-08-19"
     - path: 354_marisa-musso
       fields:
         title: Marisa Musso - Psychotherapists - Unlicensed from US-CA
