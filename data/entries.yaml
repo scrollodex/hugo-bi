@@ -558,9 +558,39 @@ entries:
         location: US-MA (Massachusetts)
         locations:
             - US-MA (Massachusetts)
+            - US-NH (New Hampshire)
         countries: US
         regions: MA
-        last_update: "2025-08-17"
+        last_update: "2025-08-27"
+    - path: 9_alan-turin_-1
+      fields:
+        title: Alan Turin - Psychotherapists - Licensed from US-NH
+        id: 9
+        salutation: ""
+        first_name: Alan
+        last_name: Turin
+        credentials: ""
+        job_title: PhD
+        company: ""
+        short_desc: 'Licensed Psychologist - MA License # 1975'
+        phone: 978-258-3474
+        address: (North of Boston) &nbsp; 145 Maple St. &nbsp; Methuen, MA 01844
+        email: aturin@aol.com
+        email2: ""
+        website: http://www.dralanturin.com
+        website2: ""
+        fees: $100.00
+        description: |-
+            Caring, compassionate, skilled, professional, kink-aware help for individuals (adult) and
+            couples. Licensed in Massachusetts for 20+ years. I'm non-judgmental, respectful and supportive. I succeed when you feel good about our work and the self-growth and comfortable options that emerge from it. I am listed in the Kink Aware and Poly Friendly Professionals directories, and I am the Past president of the New England Society of Clinical Hypnosis as well as the Past president and cofounder of the Biofeedback Society of Massachusetts.
+        categories: Psychotherapists - Licensed
+        location: US-NH (New Hampshire)
+        locations:
+            - US-MA (Massachusetts)
+            - US-NH (New Hampshire)
+        countries: US
+        regions: NH
+        last_update: "2025-08-27"
     - path: 10_roger-l-worthington
       fields:
         title: Roger L. Worthington - Psychotherapists - Licensed from US-MO
@@ -602,34 +632,6 @@ entries:
             - US-MO (Missouri)
         countries: US
         regions: MO
-        last_update: "2025-08-17"
-    - path: 11_alan-turin
-      fields:
-        title: Alan Turin - Psychotherapists - Licensed from US-NH
-        id: 11
-        salutation: ""
-        first_name: Alan
-        last_name: Turin
-        credentials: ""
-        job_title: PhD
-        company: ""
-        short_desc: 'Licensed Psychologist - MA License # 1975'
-        phone: 978-258-3474
-        address: (At Salem, NH border) &nbsp; 145 Maple St. &nbsp; Methuen, MA 01844
-        email: aturin@aol.com
-        email2: ""
-        website: http://www.dralanturin.com
-        website2: ""
-        fees: $100.00
-        description: |-
-            Caring, compassionate, skilled, professional, kink-aware help for individuals (adult) and
-            couples. Licensed in Massachusetts for 20+ years. I'm non-judgmental, respectful and supportive. I succeed when you feel good about our work and the self-growth and comfortable options that emerge from it. I am listed in the Kink Aware and Poly Friendly Professionals directories, and I am the Past president of the New England Society of Clinical Hypnosis as well as the Past president and cofounder of the Biofeedback Society of Massachusetts.
-        categories: Psychotherapists - Licensed
-        location: US-NH (New Hampshire)
-        locations:
-            - US-NH (New Hampshire)
-        countries: US
-        regions: NH
         last_update: "2025-08-17"
     - path: 13_joseph-s-auria
       fields:
@@ -2251,9 +2253,54 @@ entries:
         location: US-MD (Maryland)
         locations:
             - US-MD (Maryland)
+            - US-All (Nationwide)
         countries: US
         regions: MD
-        last_update: "2025-08-17"
+        last_update: "2025-08-27"
+    - path: 65_loraine-hutchins_-1
+      fields:
+        title: Loraine Hutchins - Educators from US-All
+        id: 65
+        salutation: ""
+        first_name: Loraine
+        last_name: Hutchins
+        credentials: ""
+        job_title: Author/Lecturer
+        company: ""
+        short_desc: Also Sex Educator/ Sex Coach. Erotic Spirits Institute, Director. Ph.D. in Cultural Studies. Also studied with Betty Dodson, Joseph Kramer, Jack Painter, Annie Sprinkle, Carol Queen, Deborah Anapol and others.
+        phone: 301/650-9058
+        address: 805 Maplewood Ave., Takoma Park, MD  20912
+        email: wonderwoman@igc.org
+        email2: rain@lorainehutchins.com
+        website: http://www.lorainehutchins.com
+        website2: ""
+        fees: contact me for more info on fees
+        description: |-
+            I offer a variety of speechs and workshops (see website) and am available for guest teaching
+            and guest lecturing.  My self-published doctoral dissertation on contempoary U.S. sacred sexualities is available through my website, which also includes other samples of my writings, including the much-beloved 1991 anthology, Bi Any Other Name: Bisexual People Speak
+            Out, named one of the top 100 queer books of the last century, which I
+            co-edited with Lani Ka-ahumanu.
+
+
+
+
+
+            I also work as a sex coach and sex educator, particularly with women,
+            older people, fat people, lesbian/gay/bisexual/transgender and intersex
+            people, and those living with disabilities.  I work with a wide range of
+            communities including those in intentional spiritual communities or
+            practices, those identifying as polyamorous (loving more than one, openly
+            & honestly) and those with BDSM/leather affinities.  My sex coaching
+            services -- patterned after Dodson (<a href="http://www.bettydodson.com">www.bettydodson.com</a>) and Kramer (<a href="http://www.erospirit.org">www.erospirit.org</a>) -- help you improve your self-pleasuring capacity and
+            use that capacity to empower your whole life.
+        categories: Educators
+        location: US-All (Nationwide)
+        locations:
+            - US-MD (Maryland)
+            - US-All (Nationwide)
+        countries: US
+        regions: All
+        last_update: "2025-08-27"
     - path: 66_arlene-istar-lev
       fields:
         title: Arlene Istar Lev - Psychotherapists - Licensed from US-NY
@@ -2717,49 +2764,6 @@ entries:
             - US-MA (Massachusetts)
         countries: US
         regions: MA
-        last_update: "2025-08-17"
-    - path: 76_loraine-hutchins
-      fields:
-        title: Loraine Hutchins - Educators from US-All
-        id: 76
-        salutation: ""
-        first_name: Loraine
-        last_name: Hutchins
-        credentials: ""
-        job_title: Author/Lecturer
-        company: ""
-        short_desc: Also Sex Educator/ Sex Coach. Erotic Spirits Institute, Director. Ph.D. in Cultural Studies. Also studied with Betty Dodson, Joseph Kramer, Jack Painter, Annie Sprinkle, Carol Queen, Deborah Anapol and others.
-        phone: 301/650-9058
-        address: 805 Maplewood Ave., Takoma Park, MD  20912
-        email: wonderwoman@igc.org
-        email2: rain@lorainehutchins.com
-        website: http://www.lorainehutchins.com
-        website2: ""
-        fees: contact me for more info on fees
-        description: |-
-            I offer a variety of speechs and workshops (see website) and am available for guest teaching
-            and guest lecturing.  My self-published doctoral dissertation on contempoary U.S. sacred sexualities is available through my website, which also includes other samples of my writings, including the much-beloved 1991 anthology, Bi Any Other Name: Bisexual People Speak
-            Out, named one of the top 100 queer books of the last century, which I
-            co-edited with Lani Ka-ahumanu.
-
-
-
-
-
-            I also work as a sex coach and sex educator, particularly with women,
-            older people, fat people, lesbian/gay/bisexual/transgender and intersex
-            people, and those living with disabilities.  I work with a wide range of
-            communities including those in intentional spiritual communities or
-            practices, those identifying as polyamorous (loving more than one, openly
-            & honestly) and those with BDSM/leather affinities.  My sex coaching
-            services -- patterned after Dodson (<a href="http://www.bettydodson.com">www.bettydodson.com</a>) and Kramer (<a href="http://www.erospirit.org">www.erospirit.org</a>) -- help you improve your self-pleasuring capacity and
-            use that capacity to empower your whole life.
-        categories: Educators
-        location: US-All (Nationwide)
-        locations:
-            - US-All (Nationwide)
-        countries: US
-        regions: All
         last_update: "2025-08-17"
     - path: 78_geri-d-weitzman
       fields:
