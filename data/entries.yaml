@@ -1765,61 +1765,9 @@ entries:
         countries: US
         regions: CA
         last_update: "2025-08-17"
-    - path: 53_robin-taylor
-      fields:
-        title: Robin Taylor - Psychotherapists - Licensed from US-NM
-        id: 53
-        salutation: ""
-        first_name: Robin
-        last_name: Taylor
-        credentials: ""
-        job_title: Ph.D.,  LPC
-        company: ""
-        short_desc: 'Psychotherapist and sex counselor. Certified by the American College of Sexologists. Licensed Professional Counselor, # 903 New Mexico.'
-        phone: 505.438.2533
-        address: 1302 Declovina, Santa Fe, New Mexico, 87505. Also have offices in Palo Alto and Burlingame, California
-        email: robint@cnsp.com
-        email2: ""
-        website: http://www.robintaylor.net
-        website2: ""
-        fees: 50-80 per hour
-        description: |-
-            I am licensed as a psychotherapist and certified as a sex
-            therapist, and my approach to counseling is more spiritual than
-            traditional. I approach every client with the belief that who they are
-            sexually is a part of their core, and that the issues they may have are
-            usually a result of life circumstances.  In the process of working
-            together, I strive to assist in the natural unfolding of who they are
-            sexually. Often, sexual issues are complicated by other general issues,
-            such as  relationships, communication, addictions, transitions, and
-            professional concerns.
-
-
-
-
-                  Over the years I have worked with many gay and bisexual people. I
-            have worked too with people who have concerns about gender identity,
-            transvestism,  fetish interests, sexual health and performance, aging,
-            and lifestyle issues as they are related to parenting. Often, several of
-            these concerns are compounded. I also coach people about Tantra, and how
-            this approach to sexuality can be meaningful as a spiritual philosophy,
-            as well as a performance enhancement.
-
-
-
-
-                  I work with any age client and my fees range from $50 to $80
-            hourly.
-        categories: Psychotherapists - Licensed
-        location: US-NM (New Mexico)
-        locations:
-            - US-NM (New Mexico)
-        countries: US
-        regions: NM
-        last_update: "2025-08-17"
     - path: 54_robin-taylor
       fields:
-        title: Robin Taylor - Psychotherapists - Licensed from US-CA
+        title: Robin Taylor - Psychotherapists - Licensed from CA-BC
         id: 54
         salutation: ""
         first_name: Robin
@@ -1863,12 +1811,21 @@ entries:
                   I work with any age client and my fees range from $50 to $80
             hourly.
         categories: Psychotherapists - Licensed
-        location: US-CA (California)
+        location: CA-BC (British Columbia)
         locations:
+            - CA-BC (British Columbia)
+            - UK-All (United Kingdom)
             - US-CA (California)
-        countries: US
-        regions: CA
-        last_update: "2025-08-17"
+            - US-GA (Georgia)
+            - US-KS (Kansas)
+            - US-ME (Maine)
+            - US-NH (New Hampshire)
+            - US-OH (Ohio)
+            - US-VA (Virginia)
+            - US-VT (Vermont)
+        countries: CA
+        regions: BC
+        last_update: "2025-09-21"
     - path: 55_jacob-gershoni
       fields:
         title: Jacob Gershoni - Psychotherapists - Licensed from US-NY
@@ -2883,9 +2840,10 @@ entries:
         location: US-MA (Massachusetts)
         locations:
             - US-MA (Massachusetts)
+            - US-NY (New York)
         countries: US
         regions: MA
-        last_update: "2025-08-17"
+        last_update: "2025-09-21"
     - path: 89_l-dale-richesin
       fields:
         title: L. Dale Richesin - Psychotherapists - Licensed from US-IL
@@ -2995,9 +2953,10 @@ entries:
         location: US-IL (Illinois)
         locations:
             - US-IL (Illinois)
+            - US-IN (Indiana)
         countries: US
         regions: IL
-        last_update: "2025-08-17"
+        last_update: "2025-09-21"
     - path: 93_ivan-young
       fields:
         title: Ivan Young - Legal Professionals from US-MO
@@ -6949,7 +6908,7 @@ entries:
         last_update: "2025-08-17"
     - path: 282_robert-odell
       fields:
-        title: Robert Odell - Psychotherapists - Licensed from US-WA
+        title: Robert Odell - Psychotherapists - Licensed from
         id: 282
         salutation: ""
         first_name: Robert
@@ -6988,12 +6947,13 @@ entries:
 
             My website contains an updated, comprehensive list of my professional education. I have not published a book or professional articles.
         categories: Psychotherapists - Licensed
-        location: US-WA (Washington)
+        location: International
         locations:
+            - International
             - US-WA (Washington)
-        countries: US
-        regions: WA
-        last_update: "2025-08-17"
+        countries: International
+        regions: ""
+        last_update: "2025-09-21"
     - path: 283_alicia-patterson
       fields:
         title: Alicia Patterson - Psychotherapists - Licensed from US-CO
@@ -10388,37 +10348,6 @@ entries:
         countries: US
         regions: NY
         last_update: "2025-08-17"
-    - path: 734_madison-mccullough_madison-mccullough-lcsw-pllc
-      fields:
-        title: Madison McCullough LCSW, CST - Psychotherapists - Licensed from US-NY
-        id: 734
-        salutation: ""
-        first_name: 'Madison '
-        last_name: McCullough
-        credentials: LCSW, CST
-        job_title: Psychotherapist, AASECT Certified Sex Therapist, & Clinical Consultant
-        company: Madison McCullough LCSW, PLLC
-        short_desc: "- Master's of Social Work, Columbia University\n- CO: Licensed Clinical Social Worker (#CSW.09926748)  \n- NJ: Licensed Clinical Social Worker (#44SC06078300)\n- NY: Licensed Clinical Social Worker (#086932)\n- WA: Independent Clinical Social Worker (#LW61662232)\n- AASECT Certified Sex Therapist\n- LGBT Clinical Certificate, Institute for Contemporary Psychotherapy"
-        phone: (929) 224-4737
-        address: '5 Union Square West, FRNT 1 #1166, New York, NY 10003, USA'
-        email: madison@madisonmccullough.com
-        email2: ""
-        website: http://www.madisonmccullough.com/
-        website2: ""
-        fees: My fee is $200 for individual therapy and $250 for relationship therapy. I am not in-network with any insurance companies, but can provide clients with any paperwork they need to claim on out-of-network mental health benefits.
-        description: |-
-            My goal as a therapist is to create a supportive environment for folks to explore their gender and sexuality. Maybe you identify as queer, bi, lesbian, gay, pan, ace, trans, nonbinary, agender, poly, kinky, something else, all of the above, or nothing at all. You deserve to have a space where you can learn more about the different parts of yourself without judgment or pressure. As a queer person who has sought out therapy myself, I know how challenging it can be to find an affirming therapist. Even if your identity isn’t central to your therapy goals, I will always aim to honor and validate every part of your identity in our work.
-
-            My therapeutic style is collaborative and anti-oppressive. My approach is integrative, using tools across a variety of therapeutic modalities—relational, CBT, narrative, sex therapy—that are best suited to each unique client. In addition to specializing in identity, I support clients experiencing depression, anxiety, OCD, trauma, and relationship issues.
-
-            My goal is to co-create a space with you that facilitates growth, emotional awareness, and authentic self-expression. Please reach out if you have any questions about my work or about therapy more generally. I'm glad that you're looking into getting the care you need right now, and I hope that we have the opportunity to connect more soon.
-        categories: Psychotherapists - Licensed
-        location: US-NY (New York)
-        locations:
-            - US-NY (New York)
-        countries: US
-        regions: NY
-        last_update: "2025-08-17"
     - path: 735_rachel-rennie
       fields:
         title: Rachel Rennie LCSW - Psychotherapists - Licensed from US-NC
@@ -11940,9 +11869,11 @@ entries:
         location: US-LA (Louisiana)
         locations:
             - US-LA (Louisiana)
+            - US-MA (Massachusetts)
+            - US-TN (Tennassee)
         countries: US
         regions: LA
-        last_update: "2025-08-17"
+        last_update: "2025-09-21"
     - path: 795_elise-robinson_mindful-care-therapy-and-consultation
       fields:
         title: Elise Robinson LCSW, LICSW - Psychotherapists - Licensed from US-NJ
@@ -12014,68 +11945,6 @@ entries:
             - US-NY (New York)
         countries: US
         regions: NY
-        last_update: "2025-08-17"
-    - path: 797_rye-webber
-      fields:
-        title: Rye Webber MMT, MT-BC - Psychotherapists - Licensed from US-MA
-        id: 797
-        salutation: ""
-        first_name: 'Rye '
-        last_name: Webber
-        credentials: MMT, MT-BC
-        job_title: ""
-        company: ""
-        short_desc: |-
-            Master of Music Therapy, Temple University 2021
-
-            Music Therapist Board Certified (MT-BC); License #: 18922
-
-            I provide telehealth music therapy sessions for clients in Louisiana, Massachusetts, and Tennessee.  However, as a nationally board certified music therapist, I am currently licensed to provide telehealth music therapy sessions for clients in many U.S. states (with exception of those that require a separate state license).
-        phone: (862) 346-7772
-        address: Virtual sessions only.
-        email: rye@radicalcreativehealing.com
-        email2: ""
-        website: https://www.radicalcreativehealing.com/
-        website2: ""
-        fees: $165, sliding scale $100 - $160.  No insurance taken, but I can provide superbills for OON reimbursement.
-        description: "Professional specialties and skills\n\nAs a music psychotherapist, I use music-based interventions and creative techniques to help clients access the deepest parts of their psyches, so that they may better understand themselves. By knowing ourselves, we may move through challenges and discomfort with groundedness, empowerment, and a sense of freedom.  \n\nMy therapy practice aligns with my personal values of anti-capitalism, anti-racism, anti-zionism, living “unconventionally,” and the power of queerness, creativity, and neurodiversity. I aim to support clients with a radically accepting, holistic perspective so that they may find the relief they need with their specific emotional, psychological and spiritual challenges, including: relationship issues, family-of-origin conflicts, addiction, life transitions, meaning and purpose distress, and connection to self. \n\nTherapy sessions with me often include inner-child communication, inner-family parts work, challenging stubborn self-beliefs with compassion, and encouragement to trust your highest self. Together, we will use music and creative interventions to navigate present-day challenges by connecting the dots to your past and exploring your highest truths, values, and dreams.\n\nLanguage(s) spoken- English\n\nPopulations served - ages, concerns, etc.\n\nAdults, queer and neurodivergent people, and radically minded individuals, experiencing challenges with relationship issues, family-of-origin conflicts, addiction, life transitions, meaning and purpose distress, and connection to self."
-        categories: Psychotherapists - Licensed
-        location: US-MA (Massachusetts)
-        locations:
-            - US-MA (Massachusetts)
-        countries: US
-        regions: MA
-        last_update: "2025-08-17"
-    - path: 798_rye-webber
-      fields:
-        title: Rye Webber MMT, MT-BC - Psychotherapists - Licensed from US-TN
-        id: 798
-        salutation: ""
-        first_name: 'Rye '
-        last_name: Webber
-        credentials: MMT, MT-BC
-        job_title: ""
-        company: ""
-        short_desc: |-
-            Master of Music Therapy, Temple University 2021
-
-            Music Therapist Board Certified (MT-BC); License #: 18922
-
-            I provide telehealth music therapy sessions for clients in Louisiana, Massachusetts, and Tennessee.  However, as a nationally board certified music therapist, I am currently licensed to provide telehealth music therapy sessions for clients in many U.S. states (with exception of those that require a separate state license).
-        phone: (862) 346-7772
-        address: Virtual sessions only.
-        email: rye@radicalcreativehealing.com
-        email2: ""
-        website: https://www.radicalcreativehealing.com/
-        website2: ""
-        fees: $165, sliding scale $100 - $160.  No insurance taken, but I can provide superbills for OON reimbursement.
-        description: "Professional specialties and skills\n\nAs a music psychotherapist, I use music-based interventions and creative techniques to help clients access the deepest parts of their psyches, so that they may better understand themselves. By knowing ourselves, we may move through challenges and discomfort with groundedness, empowerment, and a sense of freedom.  \n\nMy therapy practice aligns with my personal values of anti-capitalism, anti-racism, anti-zionism, living “unconventionally,” and the power of queerness, creativity, and neurodiversity. I aim to support clients with a radically accepting, holistic perspective so that they may find the relief they need with their specific emotional, psychological and spiritual challenges, including: relationship issues, family-of-origin conflicts, addiction, life transitions, meaning and purpose distress, and connection to self. \n\nTherapy sessions with me often include inner-child communication, inner-family parts work, challenging stubborn self-beliefs with compassion, and encouragement to trust your highest self. Together, we will use music and creative interventions to navigate present-day challenges by connecting the dots to your past and exploring your highest truths, values, and dreams.\n\nLanguage(s) spoken- English\n\nPopulations served - ages, concerns, etc.\n\nAdults, queer and neurodivergent people, and radically minded individuals, experiencing challenges with relationship issues, family-of-origin conflicts, addiction, life transitions, meaning and purpose distress, and connection to self."
-        categories: Psychotherapists - Licensed
-        location: US-TN (Tennassee)
-        locations:
-            - US-TN (Tennassee)
-        countries: US
-        regions: TN
         last_update: "2025-08-17"
     - path: 799_elise-robinson_mindful-care-therapy-and-consultation
       fields:
@@ -12731,71 +12600,12 @@ entries:
         location: US-CO (Colorado)
         locations:
             - US-CO (Colorado)
-        countries: US
-        regions: CO
-        last_update: "2025-08-17"
-    - path: 823_madison-mccullough_madison-mccullough-lcsw-pllc
-      fields:
-        title: Madison McCullough LCSW, CST - Psychotherapists - Licensed from US-NJ
-        id: 823
-        salutation: ""
-        first_name: 'Madison '
-        last_name: McCullough
-        credentials: LCSW, CST
-        job_title: Psychotherapist, AASECT Certified Sex Therapist, & Clinical Consultant
-        company: Madison McCullough LCSW, PLLC
-        short_desc: "- Master's of Social Work, Columbia University\n- CO: Licensed Clinical Social Worker (#CSW.09926748)  \n- NJ: Licensed Clinical Social Worker (#44SC06078300)\n- NY: Licensed Clinical Social Worker (#086932)\n- WA: Independent Clinical Social Worker (#LW61662232)\n- AASECT Certified Sex Therapist\n- LGBT Clinical Certificate, Institute for Contemporary Psychotherapy"
-        phone: (929) 224-4737
-        address: '5 Union Square West, FRNT 1 #1166, New York, NY 10003, USA'
-        email: madison@madisonmccullough.com
-        email2: ""
-        website: http://www.madisonmccullough.com/
-        website2: ""
-        fees: My fee is $200 for individual therapy and $250 for relationship therapy. I am not in-network with any insurance companies, but can provide clients with any paperwork they need to claim on out-of-network mental health benefits.
-        description: |-
-            My goal as a therapist is to create a supportive environment for folks to explore their gender and sexuality. Maybe you identify as queer, bi, lesbian, gay, pan, ace, trans, nonbinary, agender, poly, kinky, something else, all of the above, or nothing at all. You deserve to have a space where you can learn more about the different parts of yourself without judgment or pressure. As a queer person who has sought out therapy myself, I know how challenging it can be to find an affirming therapist. Even if your identity isn’t central to your therapy goals, I will always aim to honor and validate every part of your identity in our work.
-
-            My therapeutic style is collaborative and anti-oppressive. My approach is integrative, using tools across a variety of therapeutic modalities—relational, CBT, narrative, sex therapy—that are best suited to each unique client. In addition to specializing in identity, I support clients experiencing depression, anxiety, OCD, trauma, and relationship issues.
-
-            My goal is to co-create a space with you that facilitates growth, emotional awareness, and authentic self-expression. Please reach out if you have any questions about my work or about therapy more generally. I'm glad that you're looking into getting the care you need right now, and I hope that we have the opportunity to connect more soon.
-        categories: Psychotherapists - Licensed
-        location: US-NJ (New Jersey)
-        locations:
             - US-NJ (New Jersey)
-        countries: US
-        regions: NJ
-        last_update: "2025-08-17"
-    - path: 824_madison-mccullough_madison-mccullough-lcsw-pllc
-      fields:
-        title: Madison McCullough LCSW, CST - Psychotherapists - Licensed from US-WA
-        id: 824
-        salutation: ""
-        first_name: 'Madison '
-        last_name: McCullough
-        credentials: LCSW, CST
-        job_title: Psychotherapist, AASECT Certified Sex Therapist, & Clinical Consultant
-        company: Madison McCullough LCSW, PLLC
-        short_desc: "- Master's of Social Work, Columbia University\n- CO: Licensed Clinical Social Worker (#CSW.09926748)  \n- NJ: Licensed Clinical Social Worker (#44SC06078300)\n- NY: Licensed Clinical Social Worker (#086932)\n- WA: Independent Clinical Social Worker (#LW61662232)\n- AASECT Certified Sex Therapist\n- LGBT Clinical Certificate, Institute for Contemporary Psychotherapy"
-        phone: (929) 224-4737
-        address: '5 Union Square West, FRNT 1 #1166, New York, NY 10003, USA'
-        email: madison@madisonmccullough.com
-        email2: ""
-        website: http://www.madisonmccullough.com/
-        website2: ""
-        fees: My fee is $200 for individual therapy and $250 for relationship therapy. I am not in-network with any insurance companies, but can provide clients with any paperwork they need to claim on out-of-network mental health benefits.
-        description: |-
-            My goal as a therapist is to create a supportive environment for folks to explore their gender and sexuality. Maybe you identify as queer, bi, lesbian, gay, pan, ace, trans, nonbinary, agender, poly, kinky, something else, all of the above, or nothing at all. You deserve to have a space where you can learn more about the different parts of yourself without judgment or pressure. As a queer person who has sought out therapy myself, I know how challenging it can be to find an affirming therapist. Even if your identity isn’t central to your therapy goals, I will always aim to honor and validate every part of your identity in our work.
-
-            My therapeutic style is collaborative and anti-oppressive. My approach is integrative, using tools across a variety of therapeutic modalities—relational, CBT, narrative, sex therapy—that are best suited to each unique client. In addition to specializing in identity, I support clients experiencing depression, anxiety, OCD, trauma, and relationship issues.
-
-            My goal is to co-create a space with you that facilitates growth, emotional awareness, and authentic self-expression. Please reach out if you have any questions about my work or about therapy more generally. I'm glad that you're looking into getting the care you need right now, and I hope that we have the opportunity to connect more soon.
-        categories: Psychotherapists - Licensed
-        location: US-WA (Washington)
-        locations:
+            - US-NY (New York)
             - US-WA (Washington)
         countries: US
-        regions: WA
-        last_update: "2025-08-17"
+        regions: CO
+        last_update: "2025-09-21"
     - path: 825_lindsey-hennawi
       fields:
         title: Lindsey Hennawi - Psychotherapists - Licensed from US-NY
