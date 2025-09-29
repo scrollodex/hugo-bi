@@ -17,7 +17,7 @@
           <p>
             Click on your state / province / country below. If your state /
             province / country isn't listed, then we don't yet have any
-            bisexuality-aware professionals listed there in this category.
+            polyamory-friendly professionals listed there in this category.
           </p>
         </div>
       </div>
@@ -50,17 +50,22 @@
     <div
       class="max-w-64rem mx-auto d-flex w-100 justify-content-between gap-2 pb-2"
     >
-      <div class="flex-grow-1">
-        <label for="location">Location:</label>
-        <select id="location" x-ref="locationSelect" x-model="selectedLocation">
-          <option value="">All</option>
-          <template x-for="location in locationCounts" :key="location.value">
-            <option
-              :value="location.value"
-              x-text="`${location.label} (${location.count})`"
-            ></option>
-          </template>
-        </select>
+      <div class="flex-grow-1 d-flex align-items-center gap-2">
+        <!-- <button @click="switchMode()">
+          <span x-text="live ? 'Live' : 'Zoom'"></span>
+        </button> -->
+
+        <div class="flex-grow-1">
+          <!-- <label for="location" x-text="live ? 'Live:' : 'Zoom:'"></label> -->
+          <label for="location" x-text="'Locations'"></label>
+          <select
+            id="location"
+            x-ref="locationSelect"
+            x-model="selectedLocation"
+          >
+            <option value="">All</option>
+          </select>
+        </div>
       </div>
       <div class="d-flex flex-column">
         <label for="limit">Entries to Load:</label>
@@ -98,7 +103,8 @@
 
                 <div class="flex-grow-1">
                   <h4 class="h5 entry-card--title mb-0">
-                    <a :href="entry.relPermalink" x-text="entry.titleClard"> </a>
+                    <a :href="entry.relPermalink" x-text="entry.titleClard">
+                    </a>
                   </h4>
 
                   <i class="entry-card--jobTitle" x-text="entry.subtitle"> </i>
@@ -146,19 +152,34 @@
                       </div>
                     </div>
                   </template>
-                  <p class="mt-2 mb-0">
-                    <svg
-                      role="img"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 16 16"
-                      width="24"
-                      height="24"
-                      fill="currentColor"
+
+                  <div class="d-flex flex-column gap-2">
+                    <div class="py-2 border-bottom">
+                      <svg
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 16 16"
+                        width="24"
+                        height="24"
+                        fill="currentColor"
+                      >
+                        <use xlink:href="#address"></use>
+                      </svg>
+                      <span x-text="entry.address"></span>
+                    </div>
+                    <template
+                      x-if="entry.locations && entry.locations.length >= 1"
                     >
-                      <use xlink:href="#address"></use>
-                    </svg>
-                    <span x-text="entry.address"></span>
-                  </p>
+                      <div class="w-100 d-flex flex-column">
+                        <h6>Locations:</h6>
+                        <ul class="list-unstyled mb-0">
+                          <template x-for="loc in entry.locations" :key="loc">
+                            <li class="py-1" x-text="loc"></li>
+                          </template>
+                        </ul>
+                      </div>
+                    </template>
+                  </div>
                 </div>
               </template>
 

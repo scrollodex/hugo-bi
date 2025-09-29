@@ -213,7 +213,21 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                {{ .Content }}
+                {{ .Content }}                
+                {{ if eq .Type "entry" }}
+                    {{ .Params.locations }}
+                    {{ $locations := .Params.locations }}
+                    {{ if gt (len $locations) 0 }}
+                        <div class="w-100 d-flex flex-column">
+                            <h6>Locations:</h6>
+                            <ul class="list-unstyled mb-0">
+                                {{ range $locations }}
+                                    <li class="py-1">{{ . }}</li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    {{ end }}
+                {{ end }}
             </div>
         </div>
     </div>

@@ -1,8 +1,10 @@
 <script>
   function categoryFilter() {
     return {
+      live: false,
       entries: [],
       locationCounts: [],
+      locationsCounts: [], // Add this for the locations array
       selectedLocation: "",
       limit: 30,
       displayedEntries: 0,
@@ -17,12 +19,25 @@
           .then((data) => {
             this.entries = data.entries;
             this.updateLocationCounts();
+            this.updateLocationsCounts(); // Add this
             this.filteredEntries = this.entries;
             this.paginateEntries();
             this.initChoices();
             this.dataReady = true; // Set data ready to true
           })
           .catch((error) => console.error("Error fetching data:", error));
+      },
+
+      // Add method to handle mode switching
+      switchMode() {
+        this.live = !this.live;
+        this.selectedLocation = "";
+
+        // Update the dropdown with new data based on mode
+        this.updateChoices();
+
+        // Filter entries immediately
+        this.filterEntries();
       },
 
       updateLocationCounts() {
@@ -32,6 +47,22 @@
           return acc;
         }, {});
         this.locationCounts = Object.keys(counts).map((location, index) => ({
+          value: location,
+          label: location,
+          count: counts[location],
+        }));
+      },
+
+      updateLocationsCounts() {
+        const counts = this.entries.reduce((acc, entry) => {
+          if (entry.locations && Array.isArray(entry.locations)) {
+            entry.locations.forEach((location) => {
+              acc[location] = (acc[location] || 0) + 1;
+            });
+          }
+          return acc;
+        }, {});
+        this.locationsCounts = Object.keys(counts).map((location) => ({
           value: location,
           label: location,
           count: counts[location],
@@ -58,8 +89,10 @@
       },
 
       updateChoices() {
+        // Use different data source based on live mode
+        const counts = this.live ? this.locationCounts : this.locationsCounts;
         const options = [{ value: "", label: "All (0)" }].concat(
-          this.locationCounts.map((location) => ({
+          counts.map((location) => ({
             value: location.label,
             label: `${location.label} (${location.count})`,
           }))
@@ -72,12 +105,35 @@
           ? this.selectedLocation.toString()
           : "";
 
-        if (selectedLocationValue) {
-          this.filteredEntries = this.entries.filter((entry) => {
-            return entry.location === selectedLocationValue;
-          });
+        if (this.live) {
+          // Live mode: Filter by single location field
+          if (selectedLocationValue) {
+            this.filteredEntries = this.entries.filter((entry) => {
+              return entry.location === selectedLocationValue;
+            });
+          } else {
+            this.filteredEntries = this.entries;
+          }
         } else {
-          this.filteredEntries = this.entries;
+          // Zoom mode: Filter by locations array
+          if (selectedLocationValue) {
+            this.filteredEntries = this.entries.filter((entry) => {
+              return (
+                entry.locations &&
+                Array.isArray(entry.locations) &&
+                entry.locations.includes(selectedLocationValue)
+              );
+            });
+          } else {
+            // Show only entries that have locations array when in zoom mode
+            this.filteredEntries = this.entries.filter((entry) => {
+              return (
+                entry.locations &&
+                Array.isArray(entry.locations) &&
+                entry.locations.length > 0
+              );
+            });
+          }
         }
         this.displayedEntries = 0;
         this.paginateEntries();
