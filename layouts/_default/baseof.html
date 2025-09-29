@@ -58,13 +58,13 @@
       </ul>
     </div>
 
-    {{ end }} {{ end }} {{ block "nav" . }} {{ partial "partials/_nav.html" . }}
+    {{ end }} {{ end }} {{ block "nav" . }} {{ partial "_nav.html" . }}
     {{ end }} {{ block "hero" . }}{{ end }} {{ if .Site.Params.debug }}
     <span class="badge rounded-pill bg-dark ms-2"
       >{{ .Kind }} - {{ .Type }}</span
     >
     {{ end }} {{ block "main" . }} {{ .Content }} {{ end }} {{ partial
-    "partials/_footer.html" . }} {{ block "scripts" . }} {{ partial
-    "partials/_js.html" . }} {{ end }} {{ partial "partials/alpine.html" . }}
+    "_footer.html" . }} {{ block "scripts" . }} {{ partial
+    "_js.html" . }} {{ end }} {{ partial "alpine.html" . }}
   </body>
 </html>

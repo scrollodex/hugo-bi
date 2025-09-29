@@ -44,21 +44,29 @@
 							<a class="nav-link dropdown-toggle" href="#" id="categOffcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 								Categories
 							</a>
-							<ul class="dropdown-menu" aria-labelledby="categOffcanvasNavbarDropdown">
-								{{ $taxo := "categories" }}
-								{{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
-								{{ range .Pages.ByWeight }}
-									<li>
-										<a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ .Permalink }}">
-											{{ .Title }} <span class="badge rounded-pill bg-secondary ms-3">{{ len .Pages }}</span>
-										</a>
-									</li>	
-								{{ end }}
+							<ul
+              class="dropdown-menu"
+              aria-labelledby="categOffcanvasNavbarDropdown"
+            >
+								{{ range $key, $value := .Site.Taxonomies.categories }}
+								<li>
+									<a
+										class="dropdown-item d-flex justify-content-between align-items-center"
+										href="/categories/{{ $key | urlize }}/"
+									>
+										{{ $key }}
+										<span class="badge rounded-pill bg-secondary ms-3"
+											>{{ len $value }}</span
+										>
+									</a>
+								</li>
 								{{ end }}
 								<li>
-								<hr class="dropdown-divider">
+									<hr class="dropdown-divider" />
 								</li>
-								<li><a class="dropdown-item" href="/categories/">All categories</a></li>
+								<li>
+									<a class="dropdown-item" href="/categories/">All categories</a>
+								</li>
 							</ul>
 						</li>
 					{{ end }}

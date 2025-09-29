@@ -28,6 +28,7 @@
         {{ $salutation := $entry.Params.salutation | default "" }}
         {{ $categories := $entry.Params.categories }}
         {{ $location := $entry.Params.location }}
+        {{ $locations := $entry.Params.locations }}
         {{ $countries := $entry.Params.countries }}
         {{ $regions := $entry.Params.regions }}
         {{ $firstname := $entry.Params.first_name }}
@@ -97,6 +98,7 @@
             "last_name": {{ $entry.Params.last_name | jsonify }},
             "last_update": {{ $entry.Params.last_update | jsonify }},
             "location": {{ $entry.Params.location | jsonify }},
+            "locations": {{ $entry.Params.locations | jsonify }},
             "phone": {{ $entry.Params.phone | jsonify }},
             "regions": {{ $entry.Params.regions | jsonify }},
             "salutation": {{ $salutation | markdownify | jsonify }},
