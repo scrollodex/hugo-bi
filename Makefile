@@ -1,7 +1,8 @@
 all: build
 
 #HUGO=~/bin/hugo_extended_0.128.2_darwin-universal
-HUGO=~/bin/hugo_extended_0.134.1_darwin-universal
+#HUGO=~/bin/hugo_extended_0.134.1_darwin-universal
+HUGO=~/bin/hugo_extended_0.150.0_darwin-universal
 
 # Delete any airtable data:
 clean: cleanairtable

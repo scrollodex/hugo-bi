@@ -14,7 +14,7 @@ WORKDIR /scrolloserver/cmd/dyngo
 RUN go build
 
 ## get running our build
-FROM node:22-alpine3.19
+FROM node:22-alpine3.22
 
 RUN \
         apk update \
