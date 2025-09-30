@@ -150,6 +150,13 @@ failed to authorize: failed to fetch oauth token: unexpected status from GET req
 Typically means Digital Ocean container registry is running
 garbage collection.  See https://cloud.digitalocean.com/registry/history
 
+# Finding multiple locations:
+
+```
+yq -o=json '.' file.yaml | jq '.entries[] | select(.fields.locations | length > 1)'
+yq -o=json '.' file.yaml | jq -r '.entries[] | select(.fields.locations | length > 1) | .path'
+```
+
 
 
 ---
