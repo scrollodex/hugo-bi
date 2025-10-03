@@ -33,6 +33,7 @@ debug = 0
 wysiwyg = 0
 branding = 3
 vue = 0
+termCopy = "bisexuality-aware"
 
 
 [taxonomies]
