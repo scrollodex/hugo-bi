@@ -1,605 +1,81 @@
-{{ define "main" }}
-
-
-<!-- <template x-for="location in locationCounts" :key="location.value">
-		<div  x-text="location.label + ' x ' + location.count + ' y ' + location.value"></div>
-</template> -->
-
-
-
-	{{ partial "term.html" . }}
-	
-
-	
-	
-	
-
-
-	
-	
-	{{ if .Site.Params.vue }}
-		<main id="app" class="content">
-			
-			{{/* nav */}}
-			<nav class="nav">
-				<menu class="nav__controls">
-			
-				<li v-for="(active, menu) in menus" class="nav__label"
-					:class="{
+{{ define "main" }} {{ partial "term.html" . }} {{ if .Site.Params.vue }}
+<main id="app" class="content">
+  {{/* nav */}}
+  <nav class="nav">
+    <menu class="nav__controls">
+      <li
+        v-for="(active, menu) in menus"
+        class="nav__label"
+        :class="{
 					'nav__label--active' : active,
 					'nav__label--filter': activeFilters[menu].length
-					}" @click="setMenu(menu, active)">
-					[[ menu ]]
-				</li>
-			
-				<li class="nav__label nav__label--clear" @click="clearAllFilters">Clear all</li>
-				</menu>
-			
-				<label class="nav__label" @click="modal = !modal">About this pen</label>
-			</nav>
-			
-			<transition-group name="dropdown" tag="section" class="dropdown" :style="dropdown">
-				<menu v-for="(options, filter) in filters" class="filters" v-show="menus[filter]" ref="menu" :key="filter">
-			
-					<template v-else>
-						<li v-for="(active, option) in options" class="filters__item"
-							:class="{ 'filters__item--active': active }"
-							@click="setFilter(filter, option)">
-							[[ option ]]
-						</li>
-					</template>
-				</menu>
-			</transition-group>
+					}"
+        @click="setMenu(menu, active)"
+      >
+        [[ menu ]]
+      </li>
 
-			<transition-group name="company" tag="ul" class="content__list">
-				<li class="company" v-for="company in list" :key="company.id">
-					[[ company.company ]] - [[ company.first_name ]]
-				</li>	
-				{{/*
-				*/}}
-			</transition-group>
-			
-			{{/*
-				<transition-group name="company" tag="ul" class="content__list">
-					<li class="company" v-for="company in list" :key="company.id">
-						<div class="company__info">
-							<h2 class="company__name">[[ company.name ]]</h2>
-							<blockquote class="company__slogan">[[ company.slogan ]]</blockquote>
-						</div>
-						<ul class="company__details">
-							<li class="company__data">
-								<label class="company__label">Country</label>
-								<p class="company__country"
-										@click="clearFilter('countries', company.country)">
-										[[ company.country ]]
-								</p>
-							</li>
-						</ul>
-					</li>
-				</transition-group>
-			*/}}
-		</main>
-	{{ end }}
+      <li class="nav__label nav__label--clear" @click="clearAllFilters">
+        Clear all
+      </li>
+    </menu>
 
-	{{ partial "svg-term.html" . }}	
-	
-{{ end }}
+    <label class="nav__label" @click="modal = !modal">About this pen</label>
+  </nav>
 
-{{ define "country-name-ISO-3166-ALPHA-2" }}
-	{{ $scratch := newScratch }}
+  <transition-group
+    name="dropdown"
+    tag="section"
+    class="dropdown"
+    :style="dropdown"
+  >
+    <menu
+      v-for="(options, filter) in filters"
+      class="filters"
+      v-show="menus[filter]"
+      ref="menu"
+      :key="filter"
+    >
+      <template v-else>
+        <li
+          v-for="(active, option) in options"
+          class="filters__item"
+          :class="{ 'filters__item--active': active }"
+          @click="setFilter(filter, option)"
+        >
+          [[ option ]]
+        </li>
+      </template>
+    </menu>
+  </transition-group>
 
-	{{ if eq . "AF"}}
-		{{ $scratch.Set "country" "Afghanistan" }}
-	{{ else if eq . "AX"}}
-		{{ $scratch.Set "country" "Aland Islands" }}
-	{{ else if eq . "AL"}}
-		{{ $scratch.Set "country" "Albania" }}
-	{{ else if eq . "DZ"}}
-		{{ $scratch.Set "country" "Algeria" }}
-	{{ else if eq . "AS"}}
-		{{ $scratch.Set "country" "American Samoa" }}
-	{{ else if eq . "AD"}}
-		{{ $scratch.Set "country" "Andorra" }}
-	{{ else if eq . "AO"}}
-		{{ $scratch.Set "country" "Angola" }}
-	{{ else if eq . "AI"}}
-		{{ $scratch.Set "country" "Anguilla" }}
-	{{ else if eq . "AQ"}}
-		{{ $scratch.Set "country" "Antarctica" }}
-	{{ else if eq . "AG"}}
-		{{ $scratch.Set "country" "Antigua and Barbuda" }}
-	{{ else if eq . "AR"}}
-		{{ $scratch.Set "country" "Argentina" }}
-	{{ else if eq . "AM"}}
-		{{ $scratch.Set "country" "Armenia" }}
-	{{ else if eq . "AW"}}
-		{{ $scratch.Set "country" "Aruba" }}
-	{{ else if eq . "AU"}}
-		{{ $scratch.Set "country" "Australia" }}
-	{{ else if eq . "AT"}}
-		{{ $scratch.Set "country" "Austria" }}
-	{{ else if eq . "AZ"}}
-		{{ $scratch.Set "country" "Azerbaijan" }}
-	{{ else if eq . "BS"}}
-		{{ $scratch.Set "country" "Bahamas" }}
-	{{ else if eq . "BH"}}
-		{{ $scratch.Set "country" "Bahrain" }}
-	{{ else if eq . "BD"}}
-		{{ $scratch.Set "country" "Bangladesh" }}
-	{{ else if eq . "BB"}}
-		{{ $scratch.Set "country" "Barbados" }}
-	{{ else if eq . "BY"}}
-		{{ $scratch.Set "country" "Belarus" }}
-	{{ else if eq . "BE"}}
-		{{ $scratch.Set "country" "Belgium" }}
-	{{ else if eq . "BZ"}}
-		{{ $scratch.Set "country" "Belize" }}
-	{{ else if eq . "BJ"}}
-		{{ $scratch.Set "country" "Benin" }}
-	{{ else if eq . "BM"}}
-		{{ $scratch.Set "country" "Bermuda" }}
-	{{ else if eq . "BT"}}
-		{{ $scratch.Set "country" "Bhutan" }}
-	{{ else if eq . "BO"}}
-		{{ $scratch.Set "country" "Bolivia" }}
-	{{ else if eq . "BQ"}}
-		{{ $scratch.Set "country" "Bonaire, Saint Eustatius and Saba " }}
-	{{ else if eq . "BA"}}
-		{{ $scratch.Set "country" "Bosnia and Herzegovina" }}
-	{{ else if eq . "BW"}}
-		{{ $scratch.Set "country" "Botswana" }}
-	{{ else if eq . "BV"}}
-		{{ $scratch.Set "country" "Bouvet Island" }}
-	{{ else if eq . "BR"}}
-		{{ $scratch.Set "country" "Brazil" }}
-	{{ else if eq . "IO"}}
-		{{ $scratch.Set "country" "British Indian Ocean Territory" }}
-	{{ else if eq . "VG"}}
-		{{ $scratch.Set "country" "British Virgin Islands" }}
-	{{ else if eq . "BN"}}
-		{{ $scratch.Set "country" "Brunei" }}
-	{{ else if eq . "BG"}}
-		{{ $scratch.Set "country" "Bulgaria" }}
-	{{ else if eq . "BF"}}
-		{{ $scratch.Set "country" "Burkina Faso" }}
-	{{ else if eq . "BI"}}
-		{{ $scratch.Set "country" "Burundi" }}
-	{{ else if eq . "KH"}}
-		{{ $scratch.Set "country" "Cambodia" }}
-	{{ else if eq . "CM"}}
-		{{ $scratch.Set "country" "Cameroon" }}
-	{{ else if eq . "CA"}}
-		{{ $scratch.Set "country" "Canada" }}
-	{{ else if eq . "CV"}}
-		{{ $scratch.Set "country" "Cape Verde" }}
-	{{ else if eq . "KY"}}
-		{{ $scratch.Set "country" "Cayman Islands" }}
-	{{ else if eq . "CF"}}
-		{{ $scratch.Set "country" "Central African Republic" }}
-	{{ else if eq . "TD"}}
-		{{ $scratch.Set "country" "Chad" }}
-	{{ else if eq . "CL"}}
-		{{ $scratch.Set "country" "Chile" }}
-	{{ else if eq . "CN"}}
-		{{ $scratch.Set "country" "China" }}
-	{{ else if eq . "CX"}}
-		{{ $scratch.Set "country" "Christmas Island" }}
-	{{ else if eq . "CC"}}
-		{{ $scratch.Set "country" "Cocos Islands" }}
-	{{ else if eq . "CO"}}
-		{{ $scratch.Set "country" "Colombia" }}
-	{{ else if eq . "KM"}}
-		{{ $scratch.Set "country" "Comoros" }}
-	{{ else if eq . "CK"}}
-		{{ $scratch.Set "country" "Cook Islands" }}
-	{{ else if eq . "CR"}}
-		{{ $scratch.Set "country" "Costa Rica" }}
-	{{ else if eq . "HR"}}
-		{{ $scratch.Set "country" "Croatia" }}
-	{{ else if eq . "CU"}}
-		{{ $scratch.Set "country" "Cuba" }}
-	{{ else if eq . "CW"}}
-		{{ $scratch.Set "country" "Curacao" }}
-	{{ else if eq . "CY"}}
-		{{ $scratch.Set "country" "Cyprus" }}
-	{{ else if eq . "CZ"}}
-		{{ $scratch.Set "country" "Czech Republic" }}
-	{{ else if eq . "CD"}}
-		{{ $scratch.Set "country" "Democratic Republic of the Congo" }}
-	{{ else if eq . "DK"}}
-		{{ $scratch.Set "country" "Denmark" }}
-	{{ else if eq . "DJ"}}
-		{{ $scratch.Set "country" "Djibouti" }}
-	{{ else if eq . "DM"}}
-		{{ $scratch.Set "country" "Dominica" }}
-	{{ else if eq . "DO"}}
-		{{ $scratch.Set "country" "Dominican Republic" }}
-	{{ else if eq . "TL"}}
-		{{ $scratch.Set "country" "East Timor" }}
-	{{ else if eq . "EC"}}
-		{{ $scratch.Set "country" "Ecuador" }}
-	{{ else if eq . "EG"}}
-		{{ $scratch.Set "country" "Egypt" }}
-	{{ else if eq . "SV"}}
-		{{ $scratch.Set "country" "El Salvador" }}
-	{{ else if eq . "GQ"}}
-		{{ $scratch.Set "country" "Equatorial Guinea" }}
-	{{ else if eq . "ER"}}
-		{{ $scratch.Set "country" "Eritrea" }}
-	{{ else if eq . "EE"}}
-		{{ $scratch.Set "country" "Estonia" }}
-	{{ else if eq . "ET"}}
-		{{ $scratch.Set "country" "Ethiopia" }}
-	{{ else if eq . "FK"}}
-		{{ $scratch.Set "country" "Falkland Islands" }}
-	{{ else if eq . "FO"}}
-		{{ $scratch.Set "country" "Faroe Islands" }}
-	{{ else if eq . "FJ"}}
-		{{ $scratch.Set "country" "Fiji" }}
-	{{ else if eq . "FI"}}
-		{{ $scratch.Set "country" "Finland" }}
-	{{ else if eq . "FR"}}
-		{{ $scratch.Set "country" "France" }}
-	{{ else if eq . "GF"}}
-		{{ $scratch.Set "country" "French Guiana" }}
-	{{ else if eq . "PF"}}
-		{{ $scratch.Set "country" "French Polynesia" }}
-	{{ else if eq . "TF"}}
-		{{ $scratch.Set "country" "French Southern Territories" }}
-	{{ else if eq . "GA"}}
-		{{ $scratch.Set "country" "Gabon" }}
-	{{ else if eq . "GM"}}
-		{{ $scratch.Set "country" "Gambia" }}
-	{{ else if eq . "GE"}}
-		{{ $scratch.Set "country" "Georgia" }}
-	{{ else if eq . "DE"}}
-		{{ $scratch.Set "country" "Germany" }}
-	{{ else if eq . "GH"}}
-		{{ $scratch.Set "country" "Ghana" }}
-	{{ else if eq . "GI"}}
-		{{ $scratch.Set "country" "Gibraltar" }}
-	{{ else if eq . "GR"}}
-		{{ $scratch.Set "country" "Greece" }}
-	{{ else if eq . "GL"}}
-		{{ $scratch.Set "country" "Greenland" }}
-	{{ else if eq . "GD"}}
-		{{ $scratch.Set "country" "Grenada" }}
-	{{ else if eq . "GP"}}
-		{{ $scratch.Set "country" "Guadeloupe" }}
-	{{ else if eq . "GU"}}
-		{{ $scratch.Set "country" "Guam" }}
-	{{ else if eq . "GT"}}
-		{{ $scratch.Set "country" "Guatemala" }}
-	{{ else if eq . "GG"}}
-		{{ $scratch.Set "country" "Guernsey" }}
-	{{ else if eq . "GN"}}
-		{{ $scratch.Set "country" "Guinea" }}
-	{{ else if eq . "GW"}}
-		{{ $scratch.Set "country" "Guinea-Bissau" }}
-	{{ else if eq . "GY"}}
-		{{ $scratch.Set "country" "Guyana" }}
-	{{ else if eq . "HT"}}
-		{{ $scratch.Set "country" "Haiti" }}
-	{{ else if eq . "HM"}}
-		{{ $scratch.Set "country" "Heard Island and McDonald Islands" }}
-	{{ else if eq . "HN"}}
-		{{ $scratch.Set "country" "Honduras" }}
-	{{ else if eq . "HK"}}
-		{{ $scratch.Set "country" "Hong Kong" }}
-	{{ else if eq . "HU"}}
-		{{ $scratch.Set "country" "Hungary" }}
-	{{ else if eq . "IS"}}
-		{{ $scratch.Set "country" "Iceland" }}
-	{{ else if eq . "IN"}}
-		{{ $scratch.Set "country" "India" }}
-	{{ else if eq . "ID"}}
-		{{ $scratch.Set "country" "Indonesia" }}
-	{{ else if eq . "IR"}}
-		{{ $scratch.Set "country" "Iran" }}
-	{{ else if eq . "IQ"}}
-		{{ $scratch.Set "country" "Iraq" }}
-	{{ else if eq . "IE"}}
-		{{ $scratch.Set "country" "Ireland" }}
-	{{ else if eq . "IM"}}
-		{{ $scratch.Set "country" "Isle of Man" }}
-	{{ else if eq . "IL"}}
-		{{ $scratch.Set "country" "Israel" }}
-	{{ else if eq . "IT"}}
-		{{ $scratch.Set "country" "Italy" }}
-	{{ else if eq . "CI"}}
-		{{ $scratch.Set "country" "Ivory Coast" }}
-	{{ else if eq . "JM"}}
-		{{ $scratch.Set "country" "Jamaica" }}
-	{{ else if eq . "JP"}}
-		{{ $scratch.Set "country" "Japan" }}
-	{{ else if eq . "JE"}}
-		{{ $scratch.Set "country" "Jersey" }}
-	{{ else if eq . "JO"}}
-		{{ $scratch.Set "country" "Jordan" }}
-	{{ else if eq . "KZ"}}
-		{{ $scratch.Set "country" "Kazakhstan" }}
-	{{ else if eq . "KE"}}
-		{{ $scratch.Set "country" "Kenya" }}
-	{{ else if eq . "KI"}}
-		{{ $scratch.Set "country" "Kiribati" }}
-	{{ else if eq . "XK"}}
-		{{ $scratch.Set "country" "Kosovo" }}
-	{{ else if eq . "KW"}}
-		{{ $scratch.Set "country" "Kuwait" }}
-	{{ else if eq . "KG"}}
-		{{ $scratch.Set "country" "Kyrgyzstan" }}
-	{{ else if eq . "LA"}}
-		{{ $scratch.Set "country" "Laos" }}
-	{{ else if eq . "LV"}}
-		{{ $scratch.Set "country" "Latvia" }}
-	{{ else if eq . "LB"}}
-		{{ $scratch.Set "country" "Lebanon" }}
-	{{ else if eq . "LS"}}
-		{{ $scratch.Set "country" "Lesotho" }}
-	{{ else if eq . "LR"}}
-		{{ $scratch.Set "country" "Liberia" }}
-	{{ else if eq . "LY"}}
-		{{ $scratch.Set "country" "Libya" }}
-	{{ else if eq . "LI"}}
-		{{ $scratch.Set "country" "Liechtenstein" }}
-	{{ else if eq . "LT"}}
-		{{ $scratch.Set "country" "Lithuania" }}
-	{{ else if eq . "LU"}}
-		{{ $scratch.Set "country" "Luxembourg" }}
-	{{ else if eq . "MO"}}
-		{{ $scratch.Set "country" "Macao" }}
-	{{ else if eq . "MK"}}
-		{{ $scratch.Set "country" "Macedonia" }}
-	{{ else if eq . "MG"}}
-		{{ $scratch.Set "country" "Madagascar" }}
-	{{ else if eq . "MW"}}
-		{{ $scratch.Set "country" "Malawi" }}
-	{{ else if eq . "MY"}}
-		{{ $scratch.Set "country" "Malaysia" }}
-	{{ else if eq . "MV"}}
-		{{ $scratch.Set "country" "Maldives" }}
-	{{ else if eq . "ML"}}
-		{{ $scratch.Set "country" "Mali" }}
-	{{ else if eq . "MT"}}
-		{{ $scratch.Set "country" "Malta" }}
-	{{ else if eq . "MH"}}
-		{{ $scratch.Set "country" "Marshall Islands" }}
-	{{ else if eq . "MQ"}}
-		{{ $scratch.Set "country" "Martinique" }}
-	{{ else if eq . "MR"}}
-		{{ $scratch.Set "country" "Mauritania" }}
-	{{ else if eq . "MU"}}
-		{{ $scratch.Set "country" "Mauritius" }}
-	{{ else if eq . "YT"}}
-		{{ $scratch.Set "country" "Mayotte" }}
-	{{ else if eq . "MX"}}
-		{{ $scratch.Set "country" "Mexico" }}
-	{{ else if eq . "FM"}}
-		{{ $scratch.Set "country" "Micronesia" }}
-	{{ else if eq . "MD"}}
-		{{ $scratch.Set "country" "Moldova" }}
-	{{ else if eq . "MC"}}
-		{{ $scratch.Set "country" "Monaco" }}
-	{{ else if eq . "MN"}}
-		{{ $scratch.Set "country" "Mongolia" }}
-	{{ else if eq . "ME"}}
-		{{ $scratch.Set "country" "Montenegro" }}
-	{{ else if eq . "MS"}}
-		{{ $scratch.Set "country" "Montserrat" }}
-	{{ else if eq . "MA"}}
-		{{ $scratch.Set "country" "Morocco" }}
-	{{ else if eq . "MZ"}}
-		{{ $scratch.Set "country" "Mozambique" }}
-	{{ else if eq . "MM"}}
-		{{ $scratch.Set "country" "Myanmar" }}
-	{{ else if eq . "NA"}}
-		{{ $scratch.Set "country" "Namibia" }}
-	{{ else if eq . "NR"}}
-		{{ $scratch.Set "country" "Nauru" }}
-	{{ else if eq . "NP"}}
-		{{ $scratch.Set "country" "Nepal" }}
-	{{ else if eq . "NL"}}
-		{{ $scratch.Set "country" "Netherlands" }}
-	{{ else if eq . "AN"}}
-		{{ $scratch.Set "country" "Netherlands Antilles" }}
-	{{ else if eq . "NC"}}
-		{{ $scratch.Set "country" "New Caledonia" }}
-	{{ else if eq . "NZ"}}
-		{{ $scratch.Set "country" "New Zealand" }}
-	{{ else if eq . "NI"}}
-		{{ $scratch.Set "country" "Nicaragua" }}
-	{{ else if eq . "NE"}}
-		{{ $scratch.Set "country" "Niger" }}
-	{{ else if eq . "NG"}}
-		{{ $scratch.Set "country" "Nigeria" }}
-	{{ else if eq . "NU"}}
-		{{ $scratch.Set "country" "Niue" }}
-	{{ else if eq . "NF"}}
-		{{ $scratch.Set "country" "Norfolk Island" }}
-	{{ else if eq . "KP"}}
-		{{ $scratch.Set "country" "North Korea" }}
-	{{ else if eq . "MP"}}
-		{{ $scratch.Set "country" "Northern Mariana Islands" }}
-	{{ else if eq . "NO"}}
-		{{ $scratch.Set "country" "Norway" }}
-	{{ else if eq . "OM"}}
-		{{ $scratch.Set "country" "Oman" }}
-	{{ else if eq . "PK"}}
-		{{ $scratch.Set "country" "Pakistan" }}
-	{{ else if eq . "PW"}}
-		{{ $scratch.Set "country" "Palau" }}
-	{{ else if eq . "PS"}}
-		{{ $scratch.Set "country" "Palestinian Territory" }}
-	{{ else if eq . "PA"}}
-		{{ $scratch.Set "country" "Panama" }}
-	{{ else if eq . "PG"}}
-		{{ $scratch.Set "country" "Papua New Guinea" }}
-	{{ else if eq . "PY"}}
-		{{ $scratch.Set "country" "Paraguay" }}
-	{{ else if eq . "PE"}}
-		{{ $scratch.Set "country" "Peru" }}
-	{{ else if eq . "PH"}}
-		{{ $scratch.Set "country" "Philippines" }}
-	{{ else if eq . "PN"}}
-		{{ $scratch.Set "country" "Pitcairn" }}
-	{{ else if eq . "PL"}}
-		{{ $scratch.Set "country" "Poland" }}
-	{{ else if eq . "PT"}}
-		{{ $scratch.Set "country" "Portugal" }}
-	{{ else if eq . "PR"}}
-		{{ $scratch.Set "country" "Puerto Rico" }}
-	{{ else if eq . "QA"}}
-		{{ $scratch.Set "country" "Qatar" }}
-	{{ else if eq . "CG"}}
-		{{ $scratch.Set "country" "Republic of the Congo" }}
-	{{ else if eq . "RE"}}
-		{{ $scratch.Set "country" "Reunion" }}
-	{{ else if eq . "RO"}}
-		{{ $scratch.Set "country" "Romania" }}
-	{{ else if eq . "RU"}}
-		{{ $scratch.Set "country" "Russia" }}
-	{{ else if eq . "RW"}}
-		{{ $scratch.Set "country" "Rwanda" }}
-	{{ else if eq . "BL"}}
-		{{ $scratch.Set "country" "Saint Barthelemy" }}
-	{{ else if eq . "SH"}}
-		{{ $scratch.Set "country" "Saint Helena" }}
-	{{ else if eq . "KN"}}
-		{{ $scratch.Set "country" "Saint Kitts and Nevis" }}
-	{{ else if eq . "LC"}}
-		{{ $scratch.Set "country" "Saint Lucia" }}
-	{{ else if eq . "MF"}}
-		{{ $scratch.Set "country" "Saint Martin" }}
-	{{ else if eq . "PM"}}
-		{{ $scratch.Set "country" "Saint Pierre and Miquelon" }}
-	{{ else if eq . "VC"}}
-		{{ $scratch.Set "country" "Saint Vincent and the Grenadines" }}
-	{{ else if eq . "WS"}}
-		{{ $scratch.Set "country" "Samoa" }}
-	{{ else if eq . "SM"}}
-		{{ $scratch.Set "country" "San Marino" }}
-	{{ else if eq . "ST"}}
-		{{ $scratch.Set "country" "Sao Tome and Principe" }}
-	{{ else if eq . "SA"}}
-		{{ $scratch.Set "country" "Saudi Arabia" }}
-	{{ else if eq . "SN"}}
-		{{ $scratch.Set "country" "Senegal" }}
-	{{ else if eq . "RS"}}
-		{{ $scratch.Set "country" "Serbia" }}
-	{{ else if eq . "CS"}}
-		{{ $scratch.Set "country" "Serbia and Montenegro" }}
-	{{ else if eq . "SC"}}
-		{{ $scratch.Set "country" "Seychelles" }}
-	{{ else if eq . "SL"}}
-		{{ $scratch.Set "country" "Sierra Leone" }}
-	{{ else if eq . "SG"}}
-		{{ $scratch.Set "country" "Singapore" }}
-	{{ else if eq . "SX"}}
-		{{ $scratch.Set "country" "Sint Maarten" }}
-	{{ else if eq . "SK"}}
-		{{ $scratch.Set "country" "Slovakia" }}
-	{{ else if eq . "SI"}}
-		{{ $scratch.Set "country" "Slovenia" }}
-	{{ else if eq . "SB"}}
-		{{ $scratch.Set "country" "Solomon Islands" }}
-	{{ else if eq . "SO"}}
-		{{ $scratch.Set "country" "Somalia" }}
-	{{ else if eq . "ZA"}}
-		{{ $scratch.Set "country" "South Africa" }}
-	{{ else if eq . "GS"}}
-		{{ $scratch.Set "country" "South Georgia and the South Sandwich Islands" }}
-	{{ else if eq . "KR"}}
-		{{ $scratch.Set "country" "South Korea" }}
-	{{ else if eq . "SS"}}
-		{{ $scratch.Set "country" "South Sudan" }}
-	{{ else if eq . "ES"}}
-		{{ $scratch.Set "country" "Spain" }}
-	{{ else if eq . "LK"}}
-		{{ $scratch.Set "country" "Sri Lanka" }}
-	{{ else if eq . "SD"}}
-		{{ $scratch.Set "country" "Sudan" }}
-	{{ else if eq . "SR"}}
-		{{ $scratch.Set "country" "Suriname" }}
-	{{ else if eq . "SJ"}}
-		{{ $scratch.Set "country" "Svalbard and Jan Mayen" }}
-	{{ else if eq . "SZ"}}
-		{{ $scratch.Set "country" "Swaziland" }}
-	{{ else if eq . "SE"}}
-		{{ $scratch.Set "country" "Sweden" }}
-	{{ else if eq . "CH"}}
-		{{ $scratch.Set "country" "Switzerland" }}
-	{{ else if eq . "SY"}}
-		{{ $scratch.Set "country" "Syria" }}
-	{{ else if eq . "TW"}}
-		{{ $scratch.Set "country" "Taiwan" }}
-	{{ else if eq . "TJ"}}
-		{{ $scratch.Set "country" "Tajikistan" }}
-	{{ else if eq . "TZ"}}
-		{{ $scratch.Set "country" "Tanzania" }}
-	{{ else if eq . "TH"}}
-		{{ $scratch.Set "country" "Thailand" }}
-	{{ else if eq . "TG"}}
-		{{ $scratch.Set "country" "Togo" }}
-	{{ else if eq . "TK"}}
-		{{ $scratch.Set "country" "Tokelau" }}
-	{{ else if eq . "TO"}}
-		{{ $scratch.Set "country" "Tonga" }}
-	{{ else if eq . "TT"}}
-		{{ $scratch.Set "country" "Trinidad and Tobago" }}
-	{{ else if eq . "TN"}}
-		{{ $scratch.Set "country" "Tunisia" }}
-	{{ else if eq . "TR"}}
-		{{ $scratch.Set "country" "Turkey" }}
-	{{ else if eq . "TM"}}
-		{{ $scratch.Set "country" "Turkmenistan" }}
-	{{ else if eq . "TC"}}
-		{{ $scratch.Set "country" "Turks and Caicos Islands" }}
-	{{ else if eq . "TV"}}
-		{{ $scratch.Set "country" "Tuvalu" }}
-	{{ else if eq . "VI"}}
-		{{ $scratch.Set "country" "U.S. Virgin Islands" }}
-	{{ else if eq . "UG"}}
-		{{ $scratch.Set "country" "Uganda" }}
-	{{ else if eq . "UA"}}
-		{{ $scratch.Set "country" "Ukraine" }}
-	{{ else if eq . "AE"}}
-		{{ $scratch.Set "country" "United Arab Emirates" }}
-	{{ else if eq . "GB"}}
-		{{ $scratch.Set "country" "United Kingdom" }}
-	{{ else if eq . "UK"}}
-		{{ $scratch.Set "country" "United Kingdom" }}
-	{{ else if or (eq . "US")  (eq . "USA") }}
-		{{ $scratch.Set "country" "United States" }}
-	{{ else if eq . "UM"}}
-		{{ $scratch.Set "country" "United States Minor Outlying Islands" }}
-	{{ else if eq . "UY"}}
-		{{ $scratch.Set "country" "Uruguay" }}
-	{{ else if eq . "UZ"}}
-		{{ $scratch.Set "country" "Uzbekistan" }}
-	{{ else if eq . "VU"}}
-		{{ $scratch.Set "country" "Vanuatu" }}
-	{{ else if eq . "VA"}}
-		{{ $scratch.Set "country" "Vatican" }}
-	{{ else if eq . "VE"}}
-		{{ $scratch.Set "country" "Venezuela" }}
-	{{ else if eq . "VN"}}
-		{{ $scratch.Set "country" "Vietnam" }}
-	{{ else if eq . "WF"}}
-		{{ $scratch.Set "country" "Wallis and Futuna" }}
-	{{ else if eq . "EH"}}
-		{{ $scratch.Set "country" "Western Sahara" }}
-	{{ else if eq . "YE"}}
-		{{ $scratch.Set "country" "Yemen" }}
-	{{ else if eq . "ZM"}}
-		{{ $scratch.Set "country" "Zambia" }}
-	{{ else if eq . "ZW"}}
-		{{ $scratch.Set "country" "Zimbabwe" }}
-	{{ else if or (eq . "ZZ") (eq . "International")}}
-		{{ $scratch.Set "country" "International" }}
-	{{ end }}
+  <transition-group name="company" tag="ul" class="content__list">
+    <li class="company" v-for="company in list" :key="company.id">
+      [[ company.company ]] - [[ company.first_name ]]
+    </li>
+    {{/* */}}
+  </transition-group>
 
-	{{ $tara := $scratch.Get "country" }}
-
-	{{ $value := $tara }}
-	{{ return $value }}
-{{ end }}
+  {{/*
+  <transition-group name="company" tag="ul" class="content__list">
+    <li class="company" v-for="company in list" :key="company.id">
+      <div class="company__info">
+        <h2 class="company__name">[[ company.name ]]</h2>
+        <blockquote class="company__slogan">[[ company.slogan ]]</blockquote>
+      </div>
+      <ul class="company__details">
+        <li class="company__data">
+          <label class="company__label">Country</label>
+          <p
+            class="company__country"
+            @click="clearFilter('countries', company.country)"
+          >
+            [[ company.country ]]
+          </p>
+        </li>
+      </ul>
+    </li>
+  </transition-group>
+  */}}
+</main>
+{{ end }} {{ partial "svg-term.html" . }} {{ end }}
