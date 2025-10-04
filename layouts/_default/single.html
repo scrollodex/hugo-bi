@@ -33,7 +33,7 @@ $lastname " " $credentials }} {{ $noName := true }} {{ if and ( eq $firstname
           <span> {{ upper (substr $titleCard 0 1) }} </span>
         </div>
         <div class="flex-grow-1">
-          <h1>{{ $titleCard }}</h1>
+          <h1 class="h5">{{ $titleCard }}</h1>
           {{ if $job_title }}
           <i class="entry-card--jobTitle"
             >{{ $job_title }} {{ if and $noName $company }} - (at {{ $company
@@ -107,7 +107,17 @@ $lastname " " $credentials }} {{ $noName := true }} {{ if and ( eq $firstname
           </svg>
           {{ end }} {{ upper $address }}
         </p>
-        {{ end }}
+        {{ end }} {{ if eq .Type "entry" }} {{ $locations := .Params.locations
+        }} {{ if gt (len $locations) 0 }}
+        <div class="w-100 d-flex flex-column">
+          <h6>Locations:</h6>
+          <ul class="list-unstyled mb-0">
+            {{ range $locations }}
+            <li class="py-1">{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }} {{ end }}
       </div>
       <ul class="list-inline mt-4">
         {{ if $website }}
@@ -265,19 +275,7 @@ $lastname " " $credentials }} {{ $noName := true }} {{ if and ( eq $firstname
 {{ end }}
 <div class="container">
   <div class="row">
-    <div class="col">
-      {{ .Content }} {{ if eq .Type "entry" }} {{ .Params.locations }} {{
-      $locations := .Params.locations }} {{ if gt (len $locations) 0 }}
-      <div class="w-100 d-flex flex-column">
-        <h6>Locations:</h6>
-        <ul class="list-unstyled mb-0">
-          {{ range $locations }}
-          <li class="py-1">{{ . }}</li>
-          {{ end }}
-        </ul>
-      </div>
-      {{ end }} {{ end }}
-    </div>
+    <div class="col">{{ .Content }}</div>
   </div>
 </div>
 {{ end }}
