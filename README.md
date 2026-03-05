@@ -92,7 +92,7 @@ Before "make push" will work:
     doctl auth init
 
 3. Digital Ocean registry login:
-    doctl registry login
+    doctl registry login --never-expire
 
 4. Install and run docker:
 
