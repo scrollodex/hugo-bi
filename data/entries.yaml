@@ -281,11 +281,6 @@ locations:
       country_code: US
       region: TN
       comment: Tennessee
-    - id: 103
-      display: US-TN (Tennassee)
-      country_code: US
-      region: TN
-      comment: (Tennassee)
     - id: 15
       display: US-TX (Texas)
       country_code: US
@@ -296,7 +291,7 @@ locations:
       country_code: US
       region: VA
       comment: Virginia
-    - id: 104
+    - id: 103
       display: US-VT (Vermont)
       country_code: US
       region: VT
@@ -11014,7 +11009,7 @@ entries:
         email2: ""
         website: https://www.centeredperspectives.com/
         website2: ""
-        fees: 'Free 15-minute initial video consultation with all new clients. I am currently in-network with the following commercial insurance plans: Aetna, Optum, Mass. General Brigham (MGB), United Healthcare (UHC), UMR, Oscar, Oxford, Health Plans Inc., GEHA, and some college/university student plans. Clients can also pay by credit card, Health Savings Account (HSA) card, or Flexible Spending Account (FSA) card. My rate is $200 per individual therapy session. If I do not accept your insurance and you have out-of-network benefits (usually with PPO plans), you can choose to pay out of pocket and then submit invoices I provide to seek reimbursement toward costs paid (often up to 80%) by your insurance plan. Additionally, I accept Massachusetts Victim Compensation for direct payment.'
+        fees: 'Free 15-minute initial video consultation with all new clients. I am currently in-network with the following commercial insurance plans: Aetna, Optum, Mass. General Brigham (MGB), United Healthcare (UHC), UMR, Oscar, Oxford, Health Plans Inc., GEHA, and some college/university student plans. Clients can also pay by credit card, Health Savings Account (HSA) card, or Flexible Spending Account (FSA) card. My rate is $215 per individual therapy session. If I do not accept your insurance and you have out-of-network benefits (usually with PPO plans), you can choose to pay out of pocket and then submit invoices I provide to seek reimbursement toward costs paid (often up to 80%) by your insurance plan. Additionally, I accept Massachusetts Victim Compensation for direct payment.'
         description: |-
             Whether you are simply looking for an LGBTQ+ affirming therapist, or you are specifically seeking support on topics related to gender identity or sexual orientation, I’m here for you!
 
@@ -11029,7 +11024,7 @@ entries:
             - US-MA (Massachusetts)
         countries: US
         regions: MA
-        last_update: "2025-08-17"
+        last_update: "2025-12-06"
     - path: 759_christina-melillo_heartspace-therapy
       fields:
         title: Christina Melillo - Psychotherapists - Licensed from US-NY
@@ -11154,7 +11149,7 @@ entries:
         countries: US
         regions: OR
         last_update: "2025-08-17"
-    - path: 765_chris-paliszewski_octavian-natural-health
+    - path: 765_chris-paliszewski_catalyst-naturopathics
       fields:
         title: Chris Paliszewski ND, LMT - Body Workers from US-CO
         id: 765
@@ -11163,26 +11158,26 @@ entries:
         last_name: Paliszewski
         credentials: ND, LMT
         job_title: Naturopathic Doctor & Licensed Massage Therapist
-        company: Octavian Natural Health
+        company: Catalyst Naturopathics
         short_desc: |-
             License Numbers:
             - ND.0000232
             - MT.0024235
         phone: (720) 213-6776
-        address: 4155 Darley Ave, Suite F1, Boulder CO 80305
+        address: 2995 Baseline Road, Suite 204, Boulder, CO 80303
         email: ""
         email2: ""
-        website: http://octaviannaturalhealth.com/
+        website: http://catalystnaturopathics.com/
         website2: ""
         fees: Private pay only.  Eligible for HSA/FSA coverage.  Detailed fee breakdown on booking website.
-        description: Natural Health for the Everyday Boulder Athlete
+        description: Bodywork for Impatient People
         categories: Body Workers
         location: US-CO (Colorado)
         locations:
             - US-CO (Colorado)
         countries: US
         regions: CO
-        last_update: "2025-08-17"
+        last_update: "2025-10-31"
     - path: 767_s-l-mcintyre_s-l-mcintyre-psychotherapy
       fields:
         title: S.L. McIntyre LMFT - Psychotherapists - Licensed from US-ME
@@ -11896,14 +11891,15 @@ entries:
         credentials: LMSW
         job_title: Psychotherapist, Sex Therapist, Relationship Therapist
         company: ""
-        short_desc: LMSW, Field of Practice Certification in Gender and Sexuality, New York State License 124182
+        short_desc: |
+            LMSW, Field of Practice Certification in Gender and Sexuality, New York State License 124182.  LSW license in New Jersey, license number is 44SL07415200.
         phone: ""
         address: 110 Lafayette St, Suite 501, New York, NY 10013
-        email: lizawitmer.therapy@gmail.com
+        email: Therapy@LizaWitmer.com
         email2: ""
         website: http://www.lizawitmer.com/
         website2: ""
-        fees: $160 per session with an individual, $220 per session with two clients and increased by $50 with each additional relationship member.  Sliding scale available both above and below standard rates in order to expand access to care.  I am out-of-network with insurance and I am able to provide a superbill for reimbursement if a client has out-of-network benefits.
+        fees: $170-$210 per session with an individual, $230-$260 per session with two clients and increased by $50 with each additional relationship member.  Sliding scale available both above and below standard rates in order to expand access to care.  I am out-of-network with insurance and I am able to provide a superbill for reimbursement if a client has out-of-network benefits.
         description: "I am an insight-oriented, person-centered, and sex-positive therapist who leads with curiosity. I see clients of all identities, and I specialize in the care and unique needs of queer, kinky, and nonmonogamous people, as well as those with a background in sex work. I am skilled in helping clients navigate issues related to gender identity, sexuality, and alternative relationship structures, life transitions, grief, anxiety, depression, and attachment ruptures. My work in general psychotherapy and sex therapy is trauma-informed and driven by principles of consent. I will meet you where you are on your journey in a non-judgmental and compassionate way. My practice is guided by values of anti-oppression, and I actively consider the impact of positionality and power dynamics throughout my life.\n \nI am a graduate of the Silberman School of Social Work at Hunter College, with a specialized field of practice certificate in Gender and Sexuality. Before becoming a therapist, I spent 12 years working in theatre; as such, I integrate my experience working in artist care into my practice as a holistic-thinking clinician.\n \nI see adult clients on an individual basis, and in relationship structures of two or more. Our work together focuses on utilizing our mutual insight to discover and give voice to patterns and connections. I firmly believe that you are the expert of your own experiences, and that my role as a therapist is to use my clinical presence to help us both understand you better. I offer remote sessions as well as in-person sessions in lower Manhattan. I am looking forward to hearing from you!"
         categories: Psychotherapists - Licensed
         location: US-NY (New York)
@@ -11911,7 +11907,7 @@ entries:
             - US-NY (New York)
         countries: US
         regions: NY
-        last_update: "2025-08-17"
+        last_update: "2026-02-21"
     - path: 794_rye-webber
       fields:
         title: Rye Webber MMT, MT-BC - Psychotherapists - Licensed from US-LA
@@ -11982,7 +11978,7 @@ entries:
         credentials: (they/he)
         job_title: Psychotherapist
         company: Express Yourself Therapy
-        short_desc: LMSW- NY State, 116987-01
+        short_desc: LCSW- NY State, 116987-01
         phone: (929) 244-3295
         address: '286 5th Ave #7J, New York, NY 10001, USA (I only do virtual/telehealth sessions)'
         email: lowell@expressyourselftherapynyc.com
@@ -12014,7 +12010,7 @@ entries:
             - US-NY (New York)
         countries: US
         regions: NY
-        last_update: "2025-08-17"
+        last_update: "2026-01-23"
     - path: 797_rye-webber
       fields:
         title: Rye Webber MMT, MT-BC - Psychotherapists - Licensed from US-MA
@@ -12071,9 +12067,9 @@ entries:
         fees: $165, sliding scale $100 - $160.  No insurance taken, but I can provide superbills for OON reimbursement.
         description: "Professional specialties and skills\n\nAs a music psychotherapist, I use music-based interventions and creative techniques to help clients access the deepest parts of their psyches, so that they may better understand themselves. By knowing ourselves, we may move through challenges and discomfort with groundedness, empowerment, and a sense of freedom.  \n\nMy therapy practice aligns with my personal values of anti-capitalism, anti-racism, anti-zionism, living “unconventionally,” and the power of queerness, creativity, and neurodiversity. I aim to support clients with a radically accepting, holistic perspective so that they may find the relief they need with their specific emotional, psychological and spiritual challenges, including: relationship issues, family-of-origin conflicts, addiction, life transitions, meaning and purpose distress, and connection to self. \n\nTherapy sessions with me often include inner-child communication, inner-family parts work, challenging stubborn self-beliefs with compassion, and encouragement to trust your highest self. Together, we will use music and creative interventions to navigate present-day challenges by connecting the dots to your past and exploring your highest truths, values, and dreams.\n\nLanguage(s) spoken- English\n\nPopulations served - ages, concerns, etc.\n\nAdults, queer and neurodivergent people, and radically minded individuals, experiencing challenges with relationship issues, family-of-origin conflicts, addiction, life transitions, meaning and purpose distress, and connection to self."
         categories: Psychotherapists - Licensed
-        location: US-TN (Tennassee)
+        location: US-TN (Tennessee)
         locations:
-            - US-TN (Tennassee)
+            - US-TN (Tennessee)
         countries: US
         regions: TN
         last_update: "2025-08-17"
@@ -12282,36 +12278,40 @@ entries:
         job_title: Licensed Therapist / Social Worker (LMSW), Spiritual Healer, Consultant, and Coach
         company: 'Triska Psychotherapy '
         short_desc: |-
-            Master of Social Work, Silver School of Social Work, New York University, 2023
+            master of social work, silver school of social work, new york university, 2023
+            bachelor of arts, english literature with an emphasis in creative writing and minor in sexuality studies, san francisco state university, 2017
 
-            Licensed Master Social Worker (LMSW), New York State [License Number: 121004]
-        phone: (646) 450-5704‬
-        address: Remote, living in San Diego and working with therapy clients in New York.
+            licensed master social worker #121004 new york state
+        phone: (619) 247-7290
+        address: 'telehealth only. i am based in san diego (pst) and provide therapy to clients in new york (est), with wellness and spiritual coaching available internationally. triska psychotherapy''s physical address: triska psychotherapy basement office new york , NY, USA 10016'
         email: lalonahuibecerra@gmail.com
         email2: ""
         website: https://triskapsychotherapy.com/schedule-with-1
         website2: ""
-        fees: 'Full Therapy Fees: 45-minute individual session: $250; 60-minute individual session: $300; 45-minute couples/family session: $300; 60-minute couples/family session: $350.  Lalo offers sliding scale rates on a case-by-case basis and may be able to flex rates for clients whose out-of-network benefits do not adequately cover therapy. They may also be able to offer single-case agreements for clients without out-of-network benefits depending on the details of your plan.  My sliding scale rates within therapy are $70 and up.  For coaching, consulting, and spiritual advising, Lalo offers a sliding scale starting at $40 and up.'
+        fees: |-
+            i currently offer out-of-network therapy and private pay services. if you have out-of-network benefits, i can provide superbills for potential reimbursement.
+            if you do not have out-of-network benefits, i can support you in coordinating with your insurance to request a pre-authorization and apply for a single case agreement or network gap exception. when approved, this can allow you to pay your in-network copay while your insurance covers the remaining cost.  i also coordinate with therapy funds such as the loveland foundation and am open to working with grants, sponsorships, or other approved funding sources that help cover the cost of care.  outside of these options, i offer a sliding scale based on your financial situation and am always open to discussing accessibility and affordability.  psychotherapy (new york state only), wellness and spiritual coaching sliding scale rates vary on whether services are individual, relationship, or family-based.
         description: |-
-            Lalo Nahui (they/he) offers radical relational therapy with a queer and trans-focused, collaborative, and affirming approach. Specializing in supporting bisexual clients navigating biphobia, identity exploration, and relationship dynamics, Lalo’s work is rooted in a deep commitment to validating the bisexual experience and offering compassionate support.
+            lalo nahui (they/he) offers radical relational therapy, coaching, and spiritual guidance with a queer, trans, and bisexual-affirming lens. they specialize in supporting bisexual clients navigating biphobia, stigma, identity exploration, and relationship dynamics, providing a safe, non-judgmental, and empowering space to honor your desires, boundaries, and lived experiences.
 
-            Lalo works with individuals, couples, and families, providing therapy and coaching that integrates queer and trans liberation, relational healing, and anti-oppressive frameworks. Emphasizing the importance of authenticity and self-expression, Lalo offers a safe and non-judgmental space for clients to explore their identities, heal from past trauma, and engage in meaningful personal growth.
+            working with individuals, couples, and polycules, lalo integrates kink-aware, somatic, and spiritually-informed approaches with clinical frameworks such as cbt, dbt, and motivational interviewing, alongside inner child and inner elder work, narrative and creative expression, and polyvagal-informed care. their work emphasizes authenticity, pleasure, consent, relational healing, and anti-oppressive practice, helping clients explore identity, sexual expression, non-monogamy, and polyamory without shame.
 
-            Specialties include:
+            specialties include:
 
-            - Validating the bisexual experience and addressing biphobia
-            - Working with individuals navigating gender and sexual identity
-            - Relational dynamics for queer, trans, and non-binary clients
-            - Navigating the complexities of non-monogamy and polyamory
+            validating the bisexual experience and addressing biphobia and stigma
 
-            Languages Spoken: English
+            supporting queer, trans, and gender-expansive identity exploration
+
+            relational dynamics, communication, and healing in polyamory and non-monogamy
+
+            kink, BDSM, and alternative sexual expression
         categories: Psychotherapists - Licensed
         location: US-NY (New York)
         locations:
             - US-NY (New York)
         countries: US
         regions: NY
-        last_update: "2025-08-17"
+        last_update: "2026-01-03"
     - path: 808_leanne-m-bazzetta
       fields:
         title: Leanne M. Bazzetta LCSW, SIFI - Psychotherapists - Licensed from US-NY
@@ -12882,4 +12882,255 @@ entries:
         countries: US
         regions: NY
         last_update: "2025-09-16"
+    - path: 828_brittany-kirk_mosaic-minds-therapy-pllc
+      fields:
+        title: Brittany Kirk - Psychotherapists - Licensed from US-NC
+        id: 828
+        salutation: ""
+        first_name: 'Brittany '
+        last_name: Kirk
+        credentials: ""
+        job_title: Licensed Clinical Social Worker/LCSW/Therapist
+        company: Mosaic Minds Therapy PLLC
+        short_desc: BSW, MSW, LCSW in NC (C017897) and TN (9159)
+        phone: (984) 295-8452
+        address: exclusively telehealth
+        email: therapywithasmile@gmail.com
+        email2: ""
+        website: https://www.psychologytoday.com/profile/1511109
+        website2: ""
+        fees: '$150 per session if private pay; sliding scale available based on income. Insurances accepted include the following: Aetna, BCBS, Cigna, Optum/UHC, Carelon, Quest, and Lyra EAP. Only available to accept insurance for individuals residing in TN and NC at this time.'
+        description: |-
+            I offer individual and occasional group therapy services.
+
+            Professional specialties and skills: I have a wide range of interests and specializations including, but not limited to, the following: LGBTQ+, faith and questions/doubts/fears around religion/religious trauma, ENM/polyamory, neurodivergent folks, kink-allied/sex-positive/sexual dysfunction, self-esteem/body positivity/healthy at any size, teenagers, college students, young adults, and more.
+
+            Language(s) spoken: English
+
+            Populations served - ages, concerns, etc.: Adolescents, Teenagers, Adults, Geriatrics
+        categories: Psychotherapists - Licensed
+        location: US-NC (North Carolina)
+        locations:
+            - US-NC (North Carolina)
+            - US-TN (Tennessee)
+        countries: US
+        regions: NC
+        last_update: "2025-11-05"
+    - path: 829_e-mouse-lowrey_unbound-sex-therapy-and-transformative-counseling
+      fields:
+        title: E. Mouse Lowrey LPC - Psychotherapists - Licensed from US-CO
+        id: 829
+        salutation: ""
+        first_name: E. Mouse
+        last_name: Lowrey
+        credentials: LPC
+        job_title: Licensed Professional Counselor
+        company: Unbound Sex Therapy and Transformative Counseling
+        short_desc: MA–Counseling Psychology, University of Denver 2020; Colorado LPC.0021707
+        phone: (720) 260-4606
+        address: Joy Movement Collective (by appointment only) 3563 Walnut Street, Unit C, Denver CO, 80205 USA
+        email: e.mouse@unboundandtransformed.com
+        email2: ""
+        website: https://www.unboundandtransformed.com/
+        website2: ""
+        fees: My rates are $185/session.  I also offer a sliding scale from $90-$140.  Contact me for details.
+        description: |-
+            Professional specialties and skills:
+            - Sensory Neurodivergence
+            - Gender Expression Care
+            - Consensual Non-Monogamy
+
+            Language(s) spoken: English
+
+            Transgender populations, queer populations, neurodivergent populations, consensually non-monogamous folks
+        categories: Psychotherapists - Licensed
+        location: US-CO (Colorado)
+        locations:
+            - US-CO (Colorado)
+        countries: US
+        regions: CO
+        last_update: "2025-11-22"
+    - path: 830_colleen-quigley_the-northwest-institute-for-psychotherapy-and-sexuality
+      fields:
+        title: Colleen Quigley - Psychotherapists - Licensed from US-NY
+        id: 830
+        salutation: ""
+        first_name: 'Colleen '
+        last_name: Quigley
+        credentials: ""
+        job_title: 'LCSW psychotherapist '
+        company: the Northwest Institute for Psychotherapy and Sexuality
+        short_desc: 'LCSW licensed states and numbers: Oregon (12814), Washington (LW61284965), New York (89487). '
+        phone: (971) 229-4649
+        address: ""
+        email: Info@nwips.com
+        email2: ""
+        website: http://www.nwips.com/
+        website2: ""
+        fees: $190, sliding scale available, In network with Regence BCBS and Aetna
+        description: |-
+            Services provided: Telehealth psychotherapy and sex therapy for individuals and relationships
+
+            Language(s) spoken: English
+
+            Populations served: Adults
+        categories: Psychotherapists - Licensed
+        location: US-NY (New York)
+        locations:
+            - US-NY (New York)
+            - US-OR (Oregon)
+            - US-WA (Washington)
+        countries: US
+        regions: NY
+        last_update: "2025-12-06"
+    - path: 831_sarah-ngo_the-gender-sexuality-therapy-center
+      fields:
+        title: Sarah Ngo - Psychotherapists - Licensed from US-NY
+        id: 831
+        salutation: ""
+        first_name: 'Sarah '
+        last_name: Ngo
+        credentials: ""
+        job_title: Psychotherapist
+        company: The Gender & Sexuality Therapy Center
+        short_desc: 'Masters of Arts in Clinical Mental Health Counseling - Expressive Arts Therapy; MHC-LP in the state of New York, License #P139989'
+        phone: (646) 797-4340
+        address: 850 7th Avenue, New York, NY 10019
+        email: sarah@gstherapycenter.com
+        email2: ""
+        website: https://www.gstherapycenter.com/sarah-ngo
+        website2: ""
+        fees: '$200 per session. At the G&STC, we accept Healthfirst and Aetna insurance. '
+        description: As an expressive arts therapist, I wield creativity in the service of healing. I combine my knowledge of the arts with a trauma-informed, person-centered therapeutic approach to meet clients where they're at. I specialize in areas related to PTSD, trauma, minority and acculturative stress, immigration, domestic violence, partner abuse, relationships, depression, and anxiety. In addition, I have experience working with individuals who identify as BIPOC, LGBTQ+, women, femme, and/or neurodivergent. I speak both English and Vietnamese.
+        categories: Psychotherapists - Licensed
+        location: US-NY (New York)
+        locations:
+            - US-NY (New York)
+        countries: US
+        regions: NY
+        last_update: "2025-12-12"
+    - path: 832_paul-villaescusa
+      fields:
+        title: Paul Villaescusa - Psychotherapists - Licensed from US-OR
+        id: 832
+        salutation: ""
+        first_name: 'Paul '
+        last_name: Villaescusa
+        credentials: ""
+        job_title: Clinical Social Worker Associate
+        company: ""
+        short_desc: Prelicense by State of Oregon, A16656, Supervised by Colleen Quigley (Oregon/12814). Master of Social Work from Portland State University, Certified Alcohol and Drug Counselor (Oregon 22-09-10521 MHACBO).
+        phone: (971) 458-4437
+        address: I offer online sessions only.
+        email: paulv@nwips.com
+        email2: ""
+        website: http://www.nwips.com/
+        website2: ""
+        fees: $145 per session. American Express, Discover, Visa, Zelle. Aetna, Blue Cross, Blue Shield, Regence.  I offer a free 15 minute consultation.
+        description: "I am here to support you in your journey of resilience, empowerment, and self-discovery. I provide a space where you can feel safe exploring gender and sexual identities, overcoming the stigma of addiction, understanding the impact of discrimination, overcoming depression, anxiety, and trauma and other intersecting issues. \n\nProfessional specialties and skills: LGBTQIA+, Addiction, Mood Disorders, Relationship Issues, Sex-Positive, Kink Allied, Trauma and PTSD. Men's Issues, Racial Identity, Depression, Alcohol Use, Anxiety, Coping Skills, Self Esteem, Stress, Transgender, Life Transitions, Behavioral Issues, Dual Diagnosis, Bisexual Allied, Gay Allied, HIV/AIDS Allied, Lesbian Allied, Non-Binary Allied.\n\nLanguage(s) spoken: English, Spanish \n\nPopulations served - ages, concerns, etc.: Adults 18+, individual and couple. "
+        categories: Psychotherapists - Licensed
+        location: US-OR (Oregon)
+        locations:
+            - US-OR (Oregon)
+        countries: US
+        regions: OR
+        last_update: "2026-01-30"
+    - path: 833_nadav-antebi-gruszka_nadav-antebi-gruszka-mental-health-counseling-pllc
+      fields:
+        title: Nadav Antebi-Gruszka - Psychotherapists - Licensed from US-NJ
+        id: 833
+        salutation: ""
+        first_name: 'Nadav '
+        last_name: Antebi-Gruszka
+        credentials: ""
+        job_title: Licensed mental health counselor (LMHC), aka therapist
+        company: Nadav Antebi-Gruszka Mental Health Counseling PLLC
+        short_desc: PhD, LMHC (NY 010792), LPC (NJ 37PC01016400).
+        phone: (646) 818-9673
+        address: 138 W 25th Street, 8th Floor, Suite 802, Office A10, New York, NY 10001, USA
+        email: nadav.therapy@gmail.com
+        email2: ""
+        website: https://nadav-therapy.com/
+        website2: ""
+        fees: $350 for individual therapy/$400 for poly/couples/family/relationship therapy. Out of network with insurance. Sliding scale available.
+        description: |-
+            I offer work with bi+ adults on identity, shame, desire, internalized biphobia, body image, loneliness, self-worth, and figuring out who you get to be beyond others' assumptions. Always bi+ celebrating.
+
+            I also provide couples/poly/family therapy. Together, we'll make sense of the messy stuff—communication breakdowns, jealousy spirals, trust ruptures, mismatched needs, sex and money landmines, opening up (or renegotiating), infidelity, addiction, and intercultural friction. My job is to slow the chaos, name what’s unsaid, and help everyone feel more seen, safe, and connected. Therapy available in English and Hebrew.
+        categories: Psychotherapists - Licensed
+        location: US-NJ (New Jersey)
+        locations:
+            - US-NJ (New Jersey)
+            - US-NY (New York)
+        countries: US
+        regions: NJ
+        last_update: "2026-01-12"
+    - path: 834_-byrd_inclusive-intimacy-with-byrd
+      fields:
+        title: Byrd - Psychotherapists - Unlicensed from US-Online/Other/Unknown
+        id: 834
+        salutation: ""
+        first_name: ""
+        last_name: Byrd
+        credentials: ""
+        job_title: Certified sexuality educator & sex and relationship coach
+        company: Inclusive Intimacy with Byrd
+        short_desc: Institute of Sexuality Education and Enlightenment Certified Holistic Sexuality Educator, completed Levels 1-2 Gottman training, Sexual Health Alliance Sex and Relationship Coach
+        phone: (541) 206-2720
+        address: Virtual
+        email: inclusiveintimacywithbyrd@gmail.com
+        email2: ""
+        website: http://inclusiveintimacywithbyrd.com/
+        website2: ""
+        fees: 'For individuals: $105. For relationships (up to 3): $145. For more than 3 participants, contact me for pricing!  Sliding Scale Pricing Tiers: Tier 1 – $75 individual, $115 relationship.  Tier 2 – $55 individual, $90 relationship.  Tier 3 – $40 individual, $50 relationship.  Tier 3 is available to those experiencing significant financial hardship because $40 is the lowest rate I can sustainably accept. If this is still out of reach, please let me know so we can explore our options together.'
+        description: I serve individuals and relationships 18+ in co-creating fluid, personalized paths toward their intimacy and relationship goals, whether that means cultivating a more pleasurable sex life, improving communication, reducing conflict, or something similar! I have specialities in troubleshooting pleasure, libido, LGBTQIA+, women's sexuality, communication, conflict, disability, neurodivergence, chronic illness and more!
+        categories: Psychotherapists - Unlicensed
+        location: US-Online/Other/Unknown
+        locations:
+            - US-Online/Other/Unknown
+        countries: US
+        regions: Online/Other/Unknown
+        last_update: "2026-02-02"
+    - path: 835_catherine-foley_help-your-self
+      fields:
+        title: Catherine Foley LMFT - Psychotherapists - Licensed from US-CT
+        id: 835
+        salutation: ""
+        first_name: 'Catherine '
+        last_name: Foley
+        credentials: LMFT
+        job_title: ""
+        company: Help Your Self
+        short_desc: |-
+            Education
+            - M.S., Marriage and Family Therapy, University of Wisconsin-Stout, Menomonie, WI
+            - Sex Therapy Graduate Certificate, University of Wisconsin-Stout, Menomonie, WI
+            - Ecotherapy Graduate Certificate, Lewis & Clark College, Portland, OR
+            - B.A., Smith College, Northampton, MA
+
+            Licensure
+            - NY LMFT License #002662
+            - NJ LMFT License #37FI00251800
+            - CT LMFT License #3791
+            - MA LMFT License #10000748
+            - VT LMFT Telehealth Registration #100.0134510TELE
+        phone: (718) 576-3010
+        address: New York, USA
+        email: info@helpyourself.com
+        email2: ""
+        website: https://www.helpyourself.com/
+        website2: ""
+        fees: $200 for individual therapy, and $250 for couple and family therapy.  In-network with Aetna, superbills provided for out-of-network reimbursement
+        description: "Couple, family, and sex therapist providing person-centered, strengths-based, trauma-informed, culturally sensitive therapy for the queer, poly/ENM, kink/BDSM, and neurodivergent communities. \n\nI welcome you to schedule a free 15-minute consultation so we can see if it's a good fit: https://helpyourself.sessionshealth.com/"
+        categories: Psychotherapists - Licensed
+        location: US-CT (Connecticut)
+        locations:
+            - US-CT (Connecticut)
+            - US-MA (Massachusetts)
+            - US-NJ (New Jersey)
+            - US-NY (New York)
+            - US-VT (Vermont)
+        countries: US
+        regions: CT
+        last_update: "2026-02-06"
 
