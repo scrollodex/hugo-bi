@@ -104,7 +104,7 @@ update_from_master:
 	rsync --delete -avP ../hugo-bi/layouts/. layouts/.
 	# Change term.html to be about Poly:
 	# Copy the files from hugo-bi (Dockerfile Makefile README.md):
-	( cd ../hugo-bi && cp Dockerfile Makefile README.md ../hugo-poly/. )
+	-( cd ../hugo-bi && cp Dockerfile Makefile README.md ../hugo-poly/. )
 	-cp ../hugo-bi/bin/docker-entrypoint.sh bin/docker-entrypoint.sh
 	-chmod a+rx bin/docker-entrypoint.sh
 	# Change any files from BI to POLY:
