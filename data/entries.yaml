@@ -6960,7 +6960,7 @@ entries:
         short_desc: Washington State License Number 00005045
         phone: 206-282-3137
         address: 3214 W. McGraw St. Seattle WA 98199
-        email: roblicsw@comcast.net
+        email: roblicsw@gmail.com
         email2: ""
         website: http://seattle-counseling.com/
         website2: ""
@@ -6993,7 +6993,7 @@ entries:
             - US-WA (Washington State)
         countries: US
         regions: WA
-        last_update: "2025-08-17"
+        last_update: "2026-06-08"
     - path: 283_alicia-patterson
       fields:
         title: Alicia Patterson - Psychotherapists - Licensed from US-CO
@@ -9639,32 +9639,44 @@ entries:
         last_update: "2025-08-17"
     - path: 710_matthew-willner_matthew-willner-psychotherapy
       fields:
-        title: Matthew Willner LMSW - Psychotherapists - Licensed from US-NY
+        title: Matthew Willner LCSW, SIFI, IFS Certified - Psychotherapists - Licensed from US-CO
         id: 710
         salutation: ""
         first_name: Matthew
         last_name: Willner
-        credentials: LMSW
+        credentials: LCSW, SIFI, IFS Certified
         job_title: Psychotherapist
         company: Matthew Willner Psychotherapy
         short_desc: |-
-            Columbia University School of Social Work, LMSW (New York). License Number 116462.
-            Supervisor: Dr Dulcinea Pitagora, PhD, LCSW
-        phone: (646) 470-4495‬
-        address: 110 Lafayette Street, Suite 501, New York, NY 10013
-        email: matthewwillner.therapy@gmail.com
+            Master of Social Work from Columbia University
+
+            NY LCSW #102742, NJ LCSW #44SC06674300, CO LCSW #CSW.09933219
+        phone: (917) 382-0595
+        address: Sessions are virtual. I am licensed in New York, New Jersey and Colorado.
+        email: Matthew@matthewwillnertherapy.com
         email2: ""
         website: https://www.matthewwillnertherapy.com/
         website2: ""
         fees: Please contact me for fee information
-        description: I provide affirming and knowledgeable psychotherapy to individuals and romantic partners, with a focus on the LGBTQIA+, non-monogamous, and BDSM/kink communities. I work with clients from diverse backgrounds and careers who are navigating a variety of challenges, including anxiety, depression, trauma, and identity development. To me, therapy is both an avenue for processing our personal struggles, and also part of combating the oppressive systems that undermine well-being. In that vain, as a queer cis white man, I strive to cultivate an antiracist and anti-oppressive practice. My work is informed by internal family systems (IFS), cognitive behavioral therapy (CBT), and psychodynamic theory, but I will work with you collaboratively as we walk down this path together.
+        description: |-
+            I offer affirming individual and couples therapy for LGBTQ individuals, with specialized expertise in the unique needs and challenges that bisexual/pansexual people experience. I’m a Certified IFS therapist practicing virtually with clients in New York, New Jersey, and Colorado.
+
+            I work with individuals and couples who want a therapist who actually understands their identities and relationship structures. My clinical approach is Internal Family Systems (IFS), a non-pathologizing model that works well for the kinds of things that come up in these communities: invisibility, ostracization, and identity exploration. I am a Certified IFS Therapist through the IFS Institute.
+
+            I work with adults navigating anxiety, depression, identity development, relationship challenges, coming out (including kink and ENM identity), and sexual shame. I also work with LGBTQ+ individuals and with men specifically on the ways socialization shapes how they show up in relationships.
+
+            Sessions are virtual. I am licensed in New York, New Jersey and Colorado.
+
+            Language(s) spoken: English
         categories: Psychotherapists - Licensed
-        location: US-NY (New York)
+        location: US-CO (Colorado)
         locations:
+            - US-CO (Colorado)
+            - US-NJ (New Jersey)
             - US-NY (New York)
         countries: US
-        regions: NY
-        last_update: "2025-08-17"
+        regions: CO
+        last_update: "2026-07-12"
     - path: 711_rebecca-emma-kaplan_manhattan-alternative-wellness-collective
       fields:
         title: Rebecca-Emma Kaplan - Psychotherapists - Licensed from US-NY
@@ -11082,52 +11094,35 @@ entries:
         countries: US
         regions: CA
         last_update: "2025-08-17"
-    - path: 763_kristina-fronrath_silver-linings-counseling
+    - path: 763_kristina-fronrath_tree-of-life-counseling-services
       fields:
-        title: Kristina Fronrath LMSW, CAADC, CTMH - Psychotherapists - Licensed from US-MI
+        title: Kristina Fronrath LMSW, CAADC, CCTP-II, CTMH - Psychotherapists - Licensed from US-MI
         id: 763
         salutation: ""
         first_name: 'Kristina '
         last_name: Fronrath
-        credentials: LMSW, CAADC, CTMH
-        job_title: Mental Health Therapist and Certified Advanced Drug and Alcohol Counselor
-        company: Silver Linings Counseling
-        short_desc: |-
-            - Mental Health Role: Clinical Social Work/Therapist
-            - Credential Type: License
-            - License State: Michigan
-            - License Number: 6801106471
-            - Degree: Masters of Social work in Interpersonal Practice and Mental Health
-            - Certified Advanced Drug and Alcohol Counselor (CAADC). Certificate number: C-03832
-            - Certification Name:  Certified Clinical Telemental Health Provider (CTMH) Certification
-            - Group Number:  312392
-            - Certification Status:  Active
-            - Payment Status:  Current
-            - Member Since: 2022
-            - Current End Date:  Jun 14, 2024
-            - Certification Period: Jun 15, 2022 - Jun 14, 2024
-        phone: (586) 580-2975
-        address: 39150 Dequindre Rd., Suite 100 Sterling Heights, MI 48310
-        email: kfronrath@silverliningspllc.com
+        credentials: LMSW, CAADC, CCTP-II, CTMH
+        job_title: Mental Health Therapist
+        company: Tree of Life Counseling Services
+        short_desc: Masters of Social Work from the University of Michigan. Licensed Clinical Social Worker in Michigan, LMSW 6801106471. CAADC Certified Advanced Alcohol and Drug Counselor, C-03832. Certified Clinical Trauma Professional Level 2 (CCTP-II), Certified Telemental Health Professional (CTMH).
+        phone: (248) 608-4514
+        address: 1460 Walton Blvd., Suite 60, Rochester, Michigan 48309, United States
+        email: kristina@treeoflifecounselingservices.com
         email2: ""
-        website: https://www.silverliningspllc.com/
+        website: https://www.psychologytoday.com/profile/810026
         website2: ""
-        fees: 'In-Network Plans: Aetna, Blue Care Network, BlueCross and BlueShield, HAP | Health Alliance Plan of Michigan, Priority Health, UnitedHealthcare UHC | UBH.  I also take Medicaid but only HMO plans. My private-pay rate is $100 for the intake and $75 for the rest of the sessions. '
+        fees: I accept most major insurance, Medicaid/Medicare HMOs, and private pay options are also available.
         description: |-
-            I graduated from the University of Michigan with my MSW in Interpersonal Practice and Mental Health in 2016. I am a Certified Advanced Alcohol and Drug Counselor. As a person in recovery from SUD and as a queer woman, I have a passion for working with addiction and with LGBTQ+ people. I create a safe space for even the most taboo topics. I am knowledgeable and affirming of people who identify as polyamorous, kinky, or are in other alternative lifestyles. I am a therapist who values honesty, integrity, and respect in every counseling experience. I am flexible and work hard to create an individualized counselling experience for you.
+            I graduated from the University of Michigan with my MSW in Interpersonal Practice and Mental Health in 2016. I am also a Certified Advanced Alcohol and Drug Counselor. I have a passion for working with the LGBTQ+ community. I create a safe space for even the most taboo topics. I am knowledgeable and affirming of people who identify as poly, kinky, or are in other alternative lifestyles. I am a therapist who values honesty, integrity, and respect in every counseling experience. I am flexible and will work hard to create an individualized counselling experience for you. I help LGBTQ+ clients explore who they are and what they value. They will learn positive coping skills to manage stress, mental illness, and addiction. My clients learn about their thinking and how to change it to be more positive. They learn what makes them happy and how to get it. My clients learn how to manage conflict and to make boundaries with others. I see clients who are 18 years of age or older. I am operating virtually via HIPAA-compliant psychology today video software, so I can see anyone in Michigan.
 
-            I help LGBTQ+ clients explore who they are and what they value. They will learn positive coping skills to manage stress, mental illness, and addiction. My clients learn about their thinking and how to change it to be more positive. They learn what makes them happy and how to get it. My clients learn how to manage conflict and to make boundaries with others.
-
-            I have felt alone. I know what it feels like to be judged. If you are looking for someone who will care about you unconditionally, look no further. Flexible and patient, I welcome feedback from my clients. I do the right thing no matter what. I go above and beyond to create a personalized experience for my clients. I will bring out the best version of you!
-
-            I only see clients (18 and up) virtually with HIPPA-compliant Google Meet software so I can see anyone in Michigan.
+            I can provide a free 15-minute video consultation to answer any questions or concerns you may have. Help me, help you! Looking forward to hearing from you. Sincerely, Kristina
         categories: Psychotherapists - Licensed
         location: US-MI (Michigan)
         locations:
             - US-MI (Michigan)
         countries: US
         regions: MI
-        last_update: "2025-08-17"
+        last_update: "2026-04-17"
     - path: 764_steve-ratcliff_liberated-counseling
       fields:
         title: Steve Ratcliff MA, LPCC, LPC, NCC, CST - Psychotherapists - Licensed from US-OR
@@ -11768,7 +11763,7 @@ entries:
         email2: ""
         website: https://kristenhornung.com/
         website2: ""
-        fees: 'I offer a free approximately 15 minute consultation. My fees are $200 per approximately 50 minute psychotherapy session. I do not offer a sliding scale. I am an out-of-network provider and can provide superbills if someone lets me know ahead of time that they will need one. I accept payment by FSA and HSA cards. '
+        fees: 'I offer a free approximately 15 minute consultation. My fees are $235 per approximately 50 minute psychotherapy session. I do not offer a sliding scale. I am an out-of-network provider and can provide superbills if someone lets me know ahead of time that they will need one. I accept payment by FSA and HSA cards. '
         description: "I strive to create a safe, supportive space where you can explore your thoughts and feelings while also practicing new coping or communication skills (including how to set boundaries). I specialize in trauma, stress, relationship problems, attachment, dissociation, and anxiety. I am dedicated to helping adults, adolescents, and families work towards healing and growth.  \n\nLanguage spoken: English\n"
         categories: Psychotherapists - Licensed
         location: US-CA (California)
@@ -11776,7 +11771,7 @@ entries:
             - US-CA (California)
         countries: US
         regions: CA
-        last_update: "2025-08-17"
+        last_update: "2026-05-28"
     - path: 789_kyle-brown_it-s-a-vibe-psychotherapy-lcsw-pllc
       fields:
         title: Kyle Brown - Psychotherapists - Licensed from US-NY
@@ -13174,4 +13169,118 @@ entries:
         countries: US
         regions: NY
         last_update: "2026-03-09"
+    - path: 838_sula-malina_sula-malina-lcsw-pllc
+      fields:
+        title: Sula Malina LCSW, LCSW (they/them) - Psychotherapists - Licensed from US-MA
+        id: 838
+        salutation: ""
+        first_name: Sula
+        last_name: Malina
+        credentials: LCSW, LCSW (they/them)
+        job_title: Psychotherapist/Licensed Clinical Social Worker
+        company: Sula Malina LCSW, PLLC
+        short_desc: |-
+            Degrees: Masters of Science in Social Work (Columbia University, 2021), Bachelor of Arts in Gender & Sexuality Studies (Bryn Mawr College, 2017)
+
+            Certifications: EFT/TFT Tapping & Motivational Interviewing
+
+            Professional Licenses: New York LCSW #098612; PA LCSW #CW025533; MA LICSW #LICSW1144406
+        phone: (760) 614-2101
+        address: ""
+        email: sulamalinatherapy@gmail.com
+        email2: ""
+        website: https://www.manhattanalternative.com/team/sula-malina/
+        website2: ""
+        fees: Out-of-pocket sliding scale from $50 - $300/session. In-network with Aetna (NY & PA), Cigna (NY & PA), Carelon Behavioral Health (NY & PA), Anthem Blue Cross and Blue Shield (NY), Highmark BlueShield of Northeastern/Western New York (NY), and The Health Plan (PA).
+        description: 'I am a queer & trans psychotherapist offering individual psychotherapy to adults, with specialized training and expertise in working with: trans and non-binary identities, gender, sexuality, consensual non-monogamy and polyamory, kink, BDSM, eating disorders, body image, HIV/AIDS, navigating gender transition in the medical industrial complex, depression, anxiety, relationship conflict, infidelity, and trauma.'
+        categories: Psychotherapists - Licensed
+        location: US-MA (Massachusetts)
+        locations:
+            - US-MA (Massachusetts)
+            - US-NY (New York)
+            - US-PA (Pennsylvania)
+        countries: US
+        regions: MA
+        last_update: "2026-06-07"
+    - path: 839_meredith-wilde_the-institute-for-human-identity
+      fields:
+        title: Meredith Wilde - Psychotherapists - Licensed from US-NY
+        id: 839
+        salutation: ""
+        first_name: 'Meredith '
+        last_name: Wilde
+        credentials: ""
+        job_title: Psychotherapist
+        company: The Institute for Human Identity
+        short_desc: 'I have my MSW degree from Hunter College. I have a limited permit (permit ID: 72-P144658-01) and my supervisor is Tara Corso (License ID: 096265)'
+        phone: (212) 243-2830
+        address: 322 8th Ave, New York, NY 10001, United States
+        email: meredithwildetherapy@proton.me
+        email2: ""
+        website: http://meredithwildetherapy.com/
+        website2: ""
+        fees: $150 for Adults, $200 for Couples, but IHI offers sliding scale pricing. My group rate is $25. IHI accepts Aetna, Oxford, and United Healthcare, and we accept most out-of-network insurance benefits once clients have reached their yearly deductibles.
+        description: |-
+            - Professional specialties and skills: Clinical Social Work with a Specialization in Mental Health. I provide Narrative Therapy, utilize third-wave cognitive behavioral therapy skills, somatic therapy, and psychodynamic therapy.
+            - Language(s) spoken: American Sign Language, English
+            - Populations served - Grief and Loss, Trauma, Substance Use, LGBTQIA+ individuals. I also co-facilitate a Harm-Reduction processing group for LGBTQ+ individuals.
+        categories: Psychotherapists - Licensed
+        location: US-NY (New York)
+        locations:
+            - US-NY (New York)
+        countries: US
+        regions: NY
+        last_update: "2026-07-29"
+    - path: 840_jessica-jess-elkins-_thoughtful-counseling-group
+      fields:
+        title: Jessica (Jess) Elkins (she/her) - Psychotherapists - Licensed from US-WA
+        id: 840
+        salutation: ""
+        first_name: Jessica (Jess)
+        last_name: 'Elkins '
+        credentials: (she/her)
+        job_title: Associate Licensed Mental Health Counselor (LMHCA)
+        company: Thoughtful Counseling Group
+        short_desc: "- Degree: BS in Psychology, BS in Social Science, MA in Counseling Psychology\n- Mental Health Counselor Associate Licensure Pending: MHCA.MC.70106878\n- The DOH has all of my required documents, I am just waiting for them to process it all and make my credentials active (I have 120 days to practice with pending licensure in the state of Washington) \n- I am currently practicing under my supervisor Andrea Tuliao, License # SWI.LW.60996419, expiration 5/28/2027."
+        phone: (425) 954-3096
+        address: 102 23rd Ave SE Unit A, Puyallup, WA 98372, USA
+        email: Jessica.E@ThoughtfulGP.com
+        email2: ""
+        website: https://www.thoughtfulgp.com/therapists/jessica-elkins
+        website2: ""
+        fees: 'Jess is in network with: Aetna, Cigna, First Choice Health, HMA, Kaiser, Lifewise, Medicaid, Molina, Premera Blue Cross, Regence, Tricare, & United Healthcare. No insurance? Cash-pay is $180 per session after the initial visit.'
+        description: "As a Licensed Mental Health Counseling Associate, Jess Elkins (she/her) enjoys helping people heal from past trauma, learn to understand themselves at a deeper level, navigate life changes, and curiously explore shifting senses of identity. She utilizes an integrative, person-centered approach, getting to know her clients and their values before bringing in bits and pieces of Internal Family Systems (IFS), Acceptance and Commitment Therapy (ACT), psychodynamic psychotherapy, and somatic/mindfulness therapy (among others) to assist in healing. \n\nJess believes that there is no “one-size-fits-all” in therapy, so she tailors her approach to every client she sees to ensure they get the support they need. As part of the LGBTQIA+ community, Jessica is passionate about helping other people in the community, and also really enjoys working with older adults and helping them thrive in their golden years. \n\nJess' primary language is English and she works with ages 12+. "
+        categories: Psychotherapists - Licensed
+        location: US-WA (Washington State)
+        locations:
+            - US-WA (Washington State)
+        countries: US
+        regions: WA
+        last_update: "2026-07-29"
+    - path: 841_kate-deegan_dulcinea-pitagora-llc
+      fields:
+        title: Kate Deegan - Psychotherapists - Licensed from US-NY
+        id: 841
+        salutation: ""
+        first_name: 'Kate '
+        last_name: Deegan
+        credentials: ""
+        job_title: Psychotherapist
+        company: Dulcinea Pitagora, LLC
+        short_desc: 'LMSW (New York State, License #127521)'
+        phone: (929) 263-2606
+        address: 110 Lafayette Street, Suite 501, New York, NY 10013, USA
+        email: KateDeegan.Therapy@pm.me
+        email2: ""
+        website: https://www.psychologytoday.com/us/therapists/kate-deegan-new-york-ny/1805760
+        website2: ""
+        fees: 'Individuals: $180; Couples: $230. I provide superbills for those with out-of-network benefits, and I offer a fixed number of sliding scale spots.'
+        description: I offer individual and couples therapy in-person and virtually. I bring depth, curiosity, and humor to therapy to nurture your exploration. As a queer and non-binary therapist, I work with people across diverse identities and experiences who are seeking a space to show up fully as themselves. I bring experience working with individuals impacted by incarceration, complex trauma, disability and chronic illness, substance use, death/loss, violence, suicidal/homicidal ideation, and more. I am particularly interested in guiding those navigating the complexities of identity, desire, sexuality, shame, relationship dynamics, grief, trauma, and life transitions. I am kink/BDSM- and poly/ENM-affirming, and sex worker-allied.
+        categories: Psychotherapists - Licensed
+        location: US-NY (New York)
+        locations:
+            - US-NY (New York)
+        countries: US
+        regions: NY
+        last_update: "2026-08-11"
 
