@@ -2,7 +2,9 @@ all: build
 
 #HUGO=~/bin/hugo_extended_0.128.2_darwin-universal
 #HUGO=~/bin/hugo_extended_0.134.1_darwin-universal
-HUGO=~/bin/hugo_extended_0.150.0_darwin-universal
+#HUGO=~/bin/hugo_extended_0.150.0_darwin-universal
+# hugo v0.165.0+extended+withdeploy darwin/arm64 BuildDate=2026-08-12T14:26:28Z VendorInfo=Homebrew
+HUGO=/opt/homebrew/bin/hugo
 
 # Delete any airtable data:
 clean: cleanairtable

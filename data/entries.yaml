@@ -10870,32 +10870,6 @@ entries:
         countries: US
         regions: NY
         last_update: "2025-08-17"
-    - path: 752_engy-aly_heartspace-therapy
-      fields:
-        title: Engy Aly - Psychotherapists - Licensed from US-NY
-        id: 752
-        salutation: ""
-        first_name: Engy
-        last_name: Aly
-        credentials: ""
-        job_title: 'MHC-I '
-        company: 'Heartspace Therapy '
-        short_desc: 'LMHC-LP License #P127109'
-        phone: (646) 818-9673
-        address: '138 West 25th St, suite 802, New York, NY 10001 '
-        email: engy@heartspace-therapy.com
-        email2: ""
-        website: https://www.heartspace-therapy.com/engy/
-        website2: ""
-        fees: 'Sliding scale available, OON with all insurances, please reach out for my fees. '
-        description: "I focus on sources of inner conflict that may be tied to different labels society puts on you and work on alleviating any shame you may experience from this. This includes sexual orientation, gender identity, religion, race and ethnicity, body shape/size, among others. I also have ample experience working with those who experienced emotional/physical abuse, and different trauma-bonding attachment styles (“why do I keep going back to my ex?”). \n\nI have experience working with BIPOC individuals, Muslim people, sexually and gender diverse people, poly/CNM, BDSM/kink, and people with minor attraction. I have successfully supported people in their healing from trauma (especially religious and cultural), abuse/neglect, shame, internal conflicts, and toxic relationships. "
-        categories: Psychotherapists - Licensed
-        location: US-NY (New York)
-        locations:
-            - US-NY (New York)
-        countries: US
-        regions: NY
-        last_update: "2025-08-17"
     - path: 753_richard-collie
       fields:
         title: Richard Collie LCSW-R - Psychotherapists - Licensed from US-NY
