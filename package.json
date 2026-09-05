@@ -1,19 +1,23 @@
 {
 	"name": "bizone",
 	"version": "1.0.0",
+	"browserslist": [
+		"last 2 versions",
+		"not dead"
+	],
 	"directories": {
 		"example": "example"
 	},
 	"dependencies": {
-		"@fullhuman/postcss-purgecss": "^8.0.0",
-		"@popperjs/core": "^2.9.2",
-		"autoprefixer": "^10.4.27",
-		"fs-extra": "^8.1.0",
-		"js-yaml": "^3.15.1",
-		"postcss": "^8.5.26",
-		"postcss-cli": "^10.0.0",
+		"@fullhuman/postcss-purgecss": "^7.0.2",
+		"@popperjs/core": "^2.11.8",
+		"autoprefixer": "^10.4.21",
+		"fs-extra": "^11.3.2",
+		"js-yaml": "^4.1.0",
+		"postcss": "^8.5.6",
+		"postcss-cli": "^11.0.1",
 		"prompts": "^2.4.1",
-		"toml": "^3.0.0",
-		"yargs": "^13.3.2"
+		"toml": "^5.0.0",
+		"yargs": "^18.0.0"
 	}
 }
