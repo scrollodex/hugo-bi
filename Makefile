@@ -105,12 +105,14 @@ update_from_master:
 	rsync --delete -avP --exclude=_variables_.scss --exclude=theme.scss ../hugo-bi/assets/. assets/.
 	rsync --delete -avP ../hugo-bi/layouts/. layouts/.
 	# Change term.html to be about Poly:
-	# Copy the files from hugo-bi (Dockerfile Makefile README.md):
-	-( cd ../hugo-bi && cp Dockerfile Makefile README.md ../hugo-poly/. )
+	# Copy the files from hugo-bi (Dockerfile Makefile README.md package.json package-lock.json):
+	-( cd ../hugo-bi && cp Dockerfile Makefile README.md package.json package-lock.json ../hugo-poly/. )
 	-cp ../hugo-bi/bin/docker-entrypoint.sh bin/docker-entrypoint.sh
 	-chmod a+rx bin/docker-entrypoint.sh
 	# Change any files from BI to POLY:
 	bin/sed-files.sh
+	# Reinstall node_modules to match the synced lockfile:
+	npm ci
 
 # Typical usage: make build populate collect_ignored_files
 collect_ignored_files:

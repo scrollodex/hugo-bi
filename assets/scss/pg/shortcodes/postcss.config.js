@@ -1,4 +1,5 @@
-const purgecss = require("@fullhuman/postcss-purgecss");
+const purgecssModule = require("@fullhuman/postcss-purgecss");
+const purgecss = typeof purgecssModule === "function" ? purgecssModule : purgecssModule.default;
 const autoprefixer = require("autoprefixer");
 
 module.exports = {
