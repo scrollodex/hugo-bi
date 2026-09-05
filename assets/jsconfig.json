@@ -2,7 +2,7 @@
  "compilerOptions": {
   "paths": {
    "*": [
-    "..\\_vendor\\github.com\\twbs\\bootstrap\\js\\*"
+    "../_vendor/github.com/twbs/bootstrap/js/*"
    ]
   }
  }
